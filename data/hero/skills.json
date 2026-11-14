@@ -1,0 +1,6933 @@
+{
+ "class": "Hero",
+ "classLine": "Warrior \u2014 Explorer",
+ "game": "MapleStory",
+ "version": "GMS 270",
+ "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; Burning Soul Blade stills from Maple Editors (2019)",
+ "generated": "2026-11-14",
+ "counts": {
+  "skills": 57,
+  "withFrames": 29,
+  "effectFrames": 411,
+  "hitFrames": 192,
+  "effectFramesUnique": 393,
+  "hitFramesUnique": 176,
+  "note": "effectFrames/hitFrames count HEXA Raging Blow once more because it shares Raging Blow (1121008) frames; the Unique counts deduplicate."
+ },
+ "notes": [
+  "Frames listed with placeholder=true are 1x1 timing placeholders in the source WZ data; the player skips them.",
+  "Sword Illusion effect0 (65 frames) is a blank timing sequence in the WZ and is omitted; its slash/explosion frames live under sub-attacks 400011125/400011126.",
+  "HEXA Raging Blow has no distinct effect node in GMS 270; it shares Raging Blow (1121008) frames.",
+  "Burning Soul Blade summon images could not be fetched from maplestory.io (HTTP 500); its 2 Maple Editors 2019 stills are shown as labelled fallbacks and the summon animation is pending."
+ ],
+ "skills": [
+  {
+   "id": 1000003,
+   "name": "Iron Body",
+   "slug": "iron-body-1000003",
+   "job": "1st",
+   "description": "Boosts DEF and Max HP by a set percentage, and decreases damage taken when hit by enemies.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1000003",
+   "icon": "data/hero/frames/iron-body-1000003/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1000007,
+   "name": "Guardian Armor",
+   "slug": "guardian-armor-1000007",
+   "job": "1st",
+   "description": "Increase Battle Mode ATT based on DEF.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1000007",
+   "icon": "data/hero/frames/guardian-armor-1000007/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1000009,
+   "name": "Warrior Mastery",
+   "slug": "warrior-mastery-1000009",
+   "job": "1st",
+   "description": "Trains up your warrior basics to increase Movement Speed, Jump, Max HP, and Max Movement Speed. Also grants a chance to resist knockback.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1000009",
+   "icon": "data/hero/frames/warrior-mastery-1000009/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1001005,
+   "name": "Slash Blast",
+   "slug": "slash-blast-1001005",
+   "job": "1st",
+   "description": "Consumes MP to attack nearby enemies all at once.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1001005",
+   "icon": "data/hero/frames/slash-blast-1001005/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 39,
+      "y": 115,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 40,
+      "y": 115,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 53,
+      "y": 115,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 52,
+      "y": 118,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 51,
+      "y": 118,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 325,
+      "y": 170,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 340,
+      "y": 162,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 337,
+      "y": 158,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 331,
+      "y": 154,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 327,
+      "y": 154,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 317,
+      "y": 154,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 64,
+      "y": 70,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 67,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 76,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 71,
+      "y": 79,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/slash-blast-1001005/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 70,
+      "y": 79,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1001008,
+   "name": "War Leap",
+   "slug": "war-leap-1001008",
+   "job": "1st",
+   "description": "Leap once more while already in the air. Press the up key at the same time to move upward.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1001008",
+   "icon": "data/hero/frames/war-leap-1001008/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 4,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 4,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 5,
+      "y": 108,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 5,
+      "y": 112,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 5,
+      "y": 113,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 6,
+      "y": 113,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 6,
+      "y": 114,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 39,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 45,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 137,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 142,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 26,
+      "y": 144,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 39,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 45,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 137,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 142,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-18.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-19.webp",
+     "delay": 60,
+     "origin": {
+      "x": 46,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-20.webp",
+     "delay": 60,
+     "origin": {
+      "x": 46,
+      "y": 144,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-21.webp",
+     "delay": 60,
+     "origin": {
+      "x": 40,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-22.webp",
+     "delay": 60,
+     "origin": {
+      "x": 40,
+      "y": 123,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-23.webp",
+     "delay": 60,
+     "origin": {
+      "x": 39,
+      "y": 137,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-24.webp",
+     "delay": 60,
+     "origin": {
+      "x": 40,
+      "y": 142,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-25.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-26.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001008/effect-27.webp",
+     "delay": 60,
+     "origin": {
+      "x": 47,
+      "y": 144,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1001010,
+   "name": "Leap Attack",
+   "slug": "leap-attack-1001010",
+   "job": "1st",
+   "description": "Ambush the enemy by rapidly dropping to ground from mid-air.\nCan only be used if there's a platform within range below you. Use along with a left or right arrow keys to drop yourself diagonally.\nCan also be used by pressing the downward, left, or right arrow keys plus the attack key, instead of manually activating the skill.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1001010",
+   "icon": "data/hero/frames/leap-attack-1001010/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 217,
+      "y": 109,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 228,
+      "y": 130,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 232,
+      "y": 138,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 234,
+      "y": 142,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 232,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 221,
+      "y": 98,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 218,
+      "y": 98,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 156,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 49,
+      "y": 49,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 85,
+      "y": 63,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 98,
+      "y": 73,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 102,
+      "y": 76,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 92,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/leap-attack-1001010/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 62,
+      "y": 63,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1001011,
+   "name": "War Leap",
+   "slug": "war-leap-1001011",
+   "job": "1st",
+   "description": "Charge through the air to attack the enemy. Can also be used by pressing the upward arrow key plus the attack key.\nRight-click to lock command.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/100.img/skill/1001011",
+   "icon": "data/hero/frames/war-leap-1001011/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 68,
+      "y": 17,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 17,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 82,
+      "y": 18,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 85,
+      "y": 18,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 18,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 87,
+      "y": 19,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 87,
+      "y": 19,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 44,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 87,
+      "y": 48,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 95,
+      "y": 47,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 98,
+      "y": 50,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 99,
+      "y": 50,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 47,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 34,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 40,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 87,
+      "y": 44,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 95,
+      "y": 43,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 98,
+      "y": 46,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-18.webp",
+     "delay": 60,
+     "origin": {
+      "x": 99,
+      "y": 46,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-19.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 45,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-20.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 45,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-21.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 42,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-22.webp",
+     "delay": 60,
+     "origin": {
+      "x": 87,
+      "y": 42,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-23.webp",
+     "delay": 60,
+     "origin": {
+      "x": 95,
+      "y": 41,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-24.webp",
+     "delay": 60,
+     "origin": {
+      "x": 98,
+      "y": 42,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-25.webp",
+     "delay": 60,
+     "origin": {
+      "x": 99,
+      "y": 44,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-26.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 47,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/war-leap-1001011/effect-27.webp",
+     "delay": 60,
+     "origin": {
+      "x": 100,
+      "y": 47,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1100000,
+   "name": "Weapon Mastery",
+   "slug": "weapon-mastery-1100000",
+   "job": "2nd",
+   "description": "Increases Sword and Axe Mastery, Attack Speed, Final Damage, and Critical Rate.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1100000",
+   "icon": "data/hero/frames/weapon-mastery-1100000/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1100002,
+   "name": "Final Attack",
+   "slug": "final-attack-1100002",
+   "job": "2nd",
+   "description": "Chance to deliver an additional hit after a direct attack skill. Attacks the boss with the highest HP first. Must have a sword or axe equipped.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1100002",
+   "icon": "data/hero/frames/final-attack-1100002/icon.webp",
+   "effect": [],
+   "hit": [
+    {
+     "file": "data/hero/frames/final-attack-1100002/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 49,
+      "y": 78,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/final-attack-1100002/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 64,
+      "y": 64,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/final-attack-1100002/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 64,
+      "y": 72,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/final-attack-1100002/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 64,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/final-attack-1100002/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 57,
+      "y": 76,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1100009,
+   "name": "Physical Training",
+   "slug": "physical-training-1100009",
+   "job": "2nd",
+   "description": "Permanently increases STR and DEX through sheer physical training.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1100009",
+   "icon": "data/hero/frames/physical-training-1100009/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1100013,
+   "name": "Combo Attack",
+   "slug": "combo-attack-1100013",
+   "job": "2nd",
+   "description": "When activated, grants a chance to add each attack to the Combo Orb, up to 5.\nRight-click to toggle the Combo Orb Effect on/off",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1100013",
+   "icon": "data/hero/frames/combo-attack-1100013/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1100015,
+   "name": "Agile Arms",
+   "slug": "agile-arms-1100015",
+   "job": "2nd",
+   "description": "Increases Attack Speed and Strength.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1100015",
+   "icon": "data/hero/frames/agile-arms-1100015/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1101006,
+   "name": "Spirit Blade",
+   "slug": "spirit-blade-1101006",
+   "job": "2nd",
+   "description": "The sword and the spirit are united to improve the Attack Power of party members including yourself for a short time, and reflect a multiple of the damage that you receive.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1101006",
+   "icon": "data/hero/frames/spirit-blade-1101006/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 148,
+      "y": 225,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 146,
+      "y": 221,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 143,
+      "y": 222,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 140,
+      "y": 218,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 136,
+      "y": 212,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 137,
+      "y": 227,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 157,
+      "y": 235,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 136,
+      "y": 246,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 152,
+      "y": 356,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 152,
+      "y": 354,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 147,
+      "y": 350,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 128,
+      "y": 346,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 130,
+      "y": 336,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 131,
+      "y": 332,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 132,
+      "y": 331,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 108,
+      "y": 329,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/spirit-blade-1101006/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 102,
+      "y": 324,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1101011,
+   "name": "Brandish",
+   "slug": "brandish-1101011",
+   "job": "2nd",
+   "description": "[Swordsmanship] Perform a double attack on enemies in front of you.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1101011",
+   "icon": "data/hero/frames/brandish-1101011/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-00.webp",
+     "delay": 180,
+     "origin": {
+      "x": 11,
+      "y": 65,
+      "isEmpty": false
+     },
+     "placeholder": true
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 311,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 296,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 294,
+      "y": 194,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 295,
+      "y": 190,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 270,
+      "y": 185,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 272,
+      "y": 177,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 274,
+      "y": 166,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 263,
+      "y": 167,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 253,
+      "y": 147,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 221,
+      "y": 48,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 80,
+      "y": 71,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 70,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 74,
+      "y": 66,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 78,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 80,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 80,
+      "y": 60,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 79,
+      "y": 59,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 77,
+      "y": 59,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 51,
+      "y": 105,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 58,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 62,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 65,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 65,
+      "y": 88,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 56,
+      "y": 88,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 55,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/brandish-1101011/hit-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 55,
+      "y": 86,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1101014,
+   "name": "Flash Blade",
+   "slug": "flash-blade-1101014",
+   "job": "2nd",
+   "description": "Zip forward in a flash, cutting enemies in your path. Use the arrow keys to charge in any direction. Impervious to Knockback while casting.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/110.img/skill/1101014",
+   "icon": "data/hero/frames/flash-blade-1101014/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 13,
+      "y": 66,
+      "isEmpty": false
+     },
+     "placeholder": true
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-01.webp",
+     "delay": 30,
+     "origin": {
+      "x": 577,
+      "y": 178,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-02.webp",
+     "delay": 30,
+     "origin": {
+      "x": 595,
+      "y": 159,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-03.webp",
+     "delay": 30,
+     "origin": {
+      "x": 602,
+      "y": 162,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-04.webp",
+     "delay": 30,
+     "origin": {
+      "x": 507,
+      "y": 167,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-05.webp",
+     "delay": 30,
+     "origin": {
+      "x": 487,
+      "y": 169,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-06.webp",
+     "delay": 30,
+     "origin": {
+      "x": 483,
+      "y": 168,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 481,
+      "y": 165,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/effect-08.webp",
+     "delay": 30,
+     "origin": {
+      "x": 472,
+      "y": 146,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 169,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 169,
+      "y": 86,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 106,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 83,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 60,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/flash-blade-1101014/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 39,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1110000,
+   "name": "Self Recovery",
+   "slug": "self-recovery-1110000",
+   "job": "3rd",
+   "description": "Regularly recovers some HP and MP, even in combat.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1110000",
+   "icon": "data/hero/frames/self-recovery-1110000/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1110009,
+   "name": "Chance Attack",
+   "slug": "chance-attack-1110009",
+   "job": "3rd",
+   "description": "Deals greater damage when attacking weakened enemies. Also, permanently increases Critical Rate.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1110009",
+   "icon": "data/hero/frames/chance-attack-1110009/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1110011,
+   "name": "Endure",
+   "slug": "endure-1110011",
+   "job": "3rd",
+   "description": "Enhances your Abnormal Status Resistance and Elemental Resistance.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1110011",
+   "icon": "data/hero/frames/endure-1110011/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1110013,
+   "name": "Combo Synergy",
+   "slug": "combo-synergy-1110013",
+   "job": "3rd",
+   "description": "Increases Final Damage for each combo orb and increases the chance to gain combo orbs.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1110013",
+   "icon": "data/hero/frames/combo-synergy-1110013/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1111003,
+   "name": "Scarring Sword",
+   "slug": "scarring-sword-1111003",
+   "job": "3rd",
+   "description": "Infuses the sword with spirit, which leaves an indelible scar on the enemy.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1111003",
+   "icon": "data/hero/frames/scarring-sword-1111003/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 91,
+      "y": 266,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 141,
+      "y": 314,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 129,
+      "y": 317,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 141,
+      "y": 317,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 146,
+      "y": 317,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 148,
+      "y": 317,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 148,
+      "y": 317,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 148,
+      "y": 280,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 262,
+      "y": 327,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 214,
+      "y": 327,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 212,
+      "y": 326,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 186,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 189,
+      "y": 319,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 189,
+      "y": 320,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 189,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 118,
+      "y": 255,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-16.webp",
+     "delay": 90,
+     "origin": {
+      "x": 106,
+      "y": 240,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-17.webp",
+     "delay": 90,
+     "origin": {
+      "x": 81,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-18.webp",
+     "delay": 90,
+     "origin": {
+      "x": 78,
+      "y": 121,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-19.webp",
+     "delay": 90,
+     "origin": {
+      "x": 78,
+      "y": 120,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/scarring-sword-1111003/effect-20.webp",
+     "delay": 90,
+     "origin": {
+      "x": 73,
+      "y": 102,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1111010,
+   "name": "Intrepid Slash",
+   "slug": "intrepid-slash-1111010",
+   "job": "3rd",
+   "description": "[Swordsmanship] Deal 3 consecutive attacks to multiple enemies in front of you.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1111010",
+   "icon": "data/hero/frames/intrepid-slash-1111010/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 0,
+      "y": 0,
+      "isEmpty": true
+     },
+     "placeholder": true
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 33,
+      "y": 45,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 425,
+      "y": 283,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 425,
+      "y": 254,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 415,
+      "y": 246,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 410,
+      "y": 246,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 449,
+      "y": 283,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 445,
+      "y": 291,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 413,
+      "y": 293,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 412,
+      "y": 288,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 409,
+      "y": 282,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 388,
+      "y": 274,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 283,
+      "y": 252,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 78,
+      "y": 77,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 123,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 123,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 115,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 112,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 113,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/intrepid-slash-1111010/hit-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 104,
+      "y": 108,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1111012,
+   "name": "Rush",
+   "slug": "rush-1111012",
+   "job": "3rd",
+   "description": "Dashes forward and pushes back multiple monsters. Can be resisted by some monsters.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1111012",
+   "icon": "data/hero/frames/rush-1111012/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/rush-1111012/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 298,
+      "y": 131,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 286,
+      "y": 250,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 287,
+      "y": 195,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 294,
+      "y": 190,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 320,
+      "y": 184,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-05.webp",
+     "delay": 30,
+     "origin": {
+      "x": 294,
+      "y": 187,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 297,
+      "y": 190,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 299,
+      "y": 192,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 298,
+      "y": 193,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-09.webp",
+     "delay": 30,
+     "origin": {
+      "x": 198,
+      "y": 190,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-10.webp",
+     "delay": 30,
+     "origin": {
+      "x": 198,
+      "y": 187,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-11.webp",
+     "delay": 30,
+     "origin": {
+      "x": 196,
+      "y": 177,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/effect-12.webp",
+     "delay": 30,
+     "origin": {
+      "x": 193,
+      "y": 52,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/rush-1111012/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 89,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 121,
+      "y": 113,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 118,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 113,
+      "y": 109,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 108,
+      "y": 109,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 104,
+      "y": 107,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 101,
+      "y": 104,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 74,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rush-1111012/hit-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 57,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1111016,
+   "name": "Beam Blade",
+   "slug": "beam-blade-1111016",
+   "job": "3rd",
+   "description": "Launches out blades that tear your enemies apart. Use the arrow keys to attack in any direction.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/111.img/skill/1111016",
+   "icon": "data/hero/frames/beam-blade-1111016/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 116,
+      "y": 79,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 113,
+      "y": 80,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 111,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 110,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 108,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 291,
+      "y": 298,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 352,
+      "y": 300,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 385,
+      "y": 302,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 359,
+      "y": 296,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 355,
+      "y": 283,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 339,
+      "y": 204,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 318,
+      "y": 192,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 312,
+      "y": 173,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 307,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 235,
+      "y": 88,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 36,
+      "y": 47,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 73,
+      "y": 82,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 77,
+      "y": 88,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 79,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 84,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 96,
+      "y": 97,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 99,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 86,
+      "y": 98,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 88,
+      "y": 98,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 82,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 81,
+      "y": 78,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/beam-blade-1111016/hit-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 82,
+      "y": 71,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1120003,
+   "name": "Advanced Combo",
+   "slug": "advanced-combo-1120003",
+   "job": "4th/Hyper",
+   "description": "Increases the final damage dealt per combo orb and enables you to gain more orbs. Also grants a chance to gain orbs twice as quickly. Additionally increases mastery.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120003",
+   "icon": "data/hero/frames/advanced-combo-1120003/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120010,
+   "name": "Enrage",
+   "slug": "enrage-1120010",
+   "job": "4th/Hyper",
+   "description": "Focuses your rage into your combo orbs to deal powerful damage to enemies.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120010",
+   "icon": "data/hero/frames/enrage-1120010/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 145,
+      "y": 164,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 147,
+      "y": 173,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 166,
+      "y": 187,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 161,
+      "y": 182,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 161,
+      "y": 312,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 159,
+      "y": 342,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 159,
+      "y": 342,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 159,
+      "y": 343,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 164,
+      "y": 360,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 187,
+      "y": 360,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 202,
+      "y": 360,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 218,
+      "y": 359,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 225,
+      "y": 359,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 232,
+      "y": 359,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 238,
+      "y": 359,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 245,
+      "y": 359,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 251,
+      "y": 356,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/enrage-1120010/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 187,
+      "y": 354,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1120012,
+   "name": "Combat Mastery",
+   "slug": "combat-mastery-1120012",
+   "job": "4th/Hyper",
+   "description": "Ignores a portion of a monster's defense while attacking.",
+   "masterLevel": 10,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120012",
+   "icon": "data/hero/frames/combat-mastery-1120012/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120013,
+   "name": "Advanced Final Attack",
+   "slug": "advanced-final-attack-1120013",
+   "job": "4th/Hyper",
+   "description": "Permanently increases Attack Power. Greatly increases activation rate and damage of Final Attack.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120013",
+   "icon": "data/hero/frames/advanced-final-attack-1120013/icon.webp",
+   "effect": [],
+   "hit": [
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 72,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 72,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 103,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 69,
+      "y": 112,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 81,
+      "y": 114,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/advanced-final-attack-1120013/hit-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 81,
+      "y": 117,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1120014,
+   "name": "Power Stance",
+   "slug": "power-stance-1120014",
+   "job": "4th/Hyper",
+   "description": "Concentrates to hold your ground when struck, resisting knock-back effects permanently.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120014",
+   "icon": "data/hero/frames/power-stance-1120014/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120017,
+   "name": "Raging Blow",
+   "slug": "raging-blow-1120017",
+   "job": "4th/Hyper",
+   "description": "Deals multiple blows to enemies in front of you. The final two blows will always be criticals.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120017",
+   "icon": "data/hero/frames/raging-blow-1120017/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 169,
+      "y": 189,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 181,
+      "y": 171,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 181,
+      "y": 171,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 355,
+      "y": 266,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 340,
+      "y": 313,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 306,
+      "y": 294,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 321,
+      "y": 304,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 304,
+      "y": 267,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 375,
+      "y": 295,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 303,
+      "y": 309,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 371,
+      "y": 307,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 367,
+      "y": 289,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-12.webp",
+     "delay": 30,
+     "origin": {
+      "x": 366,
+      "y": 264,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/effect-13.webp",
+     "delay": 30,
+     "origin": {
+      "x": 359,
+      "y": 240,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 88,
+      "y": 71,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 94,
+      "y": 81,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 66,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 101,
+      "y": 73,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 101,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 76,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 76,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 77,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 77,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 77,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 73,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-16.webp",
+     "delay": 90,
+     "origin": {
+      "x": 71,
+      "y": 114,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-17.webp",
+     "delay": 90,
+     "origin": {
+      "x": 97,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-18.webp",
+     "delay": 90,
+     "origin": {
+      "x": 102,
+      "y": 103,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-19.webp",
+     "delay": 90,
+     "origin": {
+      "x": 102,
+      "y": 105,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-20.webp",
+     "delay": 90,
+     "origin": {
+      "x": 103,
+      "y": 105,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-21.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 105,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-22.webp",
+     "delay": 90,
+     "origin": {
+      "x": 102,
+      "y": 105,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-23.webp",
+     "delay": 90,
+     "origin": {
+      "x": 76,
+      "y": 103,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-24.webp",
+     "delay": 90,
+     "origin": {
+      "x": 106,
+      "y": 63,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-25.webp",
+     "delay": 90,
+     "origin": {
+      "x": 99,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-26.webp",
+     "delay": 90,
+     "origin": {
+      "x": 104,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-27.webp",
+     "delay": 90,
+     "origin": {
+      "x": 105,
+      "y": 94,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-28.webp",
+     "delay": 90,
+     "origin": {
+      "x": 105,
+      "y": 94,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-29.webp",
+     "delay": 90,
+     "origin": {
+      "x": 104,
+      "y": 89,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-30.webp",
+     "delay": 90,
+     "origin": {
+      "x": 104,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-31.webp",
+     "delay": 90,
+     "origin": {
+      "x": 88,
+      "y": 84,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-32.webp",
+     "delay": 90,
+     "origin": {
+      "x": 206,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-33.webp",
+     "delay": 90,
+     "origin": {
+      "x": 222,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-34.webp",
+     "delay": 90,
+     "origin": {
+      "x": 225,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-35.webp",
+     "delay": 90,
+     "origin": {
+      "x": 228,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-36.webp",
+     "delay": 90,
+     "origin": {
+      "x": 229,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-37.webp",
+     "delay": 90,
+     "origin": {
+      "x": 229,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-38.webp",
+     "delay": 90,
+     "origin": {
+      "x": 227,
+      "y": 66,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1120017/hit-39.webp",
+     "delay": 90,
+     "origin": {
+      "x": 224,
+      "y": 67,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1120043,
+   "name": "Advanced Combo Attack - Reinforce",
+   "slug": "advanced-combo-attack-reinforce-1120043",
+   "job": "4th/Hyper",
+   "description": "Final Damage increased for each additional combo orb.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120043",
+   "icon": "data/hero/frames/advanced-combo-attack-reinforce-1120043/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120044,
+   "name": "Advanced Combo Attack - Opportunity",
+   "slug": "advanced-combo-attack-opportunity-1120044",
+   "job": "4th/Hyper",
+   "description": "Increases the chance to charge 2 combo orbs at once.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120044",
+   "icon": "data/hero/frames/advanced-combo-attack-opportunity-1120044/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120045,
+   "name": "Advanced Combo Attack - Boss Rush",
+   "slug": "advanced-combo-attack-boss-rush-1120045",
+   "job": "4th/Hyper",
+   "description": "Damage increases when attacking Boss Monster for each combo.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120045",
+   "icon": "data/hero/frames/advanced-combo-attack-boss-rush-1120045/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120046,
+   "name": "Advanced Final Attack - Reinforce",
+   "slug": "advanced-final-attack-reinforce-1120046",
+   "job": "4th/Hyper",
+   "description": "Increases the damage of Advanced Final Attack.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120046",
+   "icon": "data/hero/frames/advanced-final-attack-reinforce-1120046/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120047,
+   "name": "Advanced Final Attack - Ferocity",
+   "slug": "advanced-final-attack-ferocity-1120047",
+   "job": "4th/Hyper",
+   "description": "Increases Advanced Final Attack's Attack Power boost.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120047",
+   "icon": "data/hero/frames/advanced-final-attack-ferocity-1120047/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120048,
+   "name": "Advanced Final Attack - Opportunity",
+   "slug": "advanced-final-attack-opportunity-1120048",
+   "job": "4th/Hyper",
+   "description": "Increases the activation chance of Advanced Final Attack.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120048",
+   "icon": "data/hero/frames/advanced-final-attack-opportunity-1120048/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120049,
+   "name": "Raging Blow - Reinforce",
+   "slug": "raging-blow-reinforce-1120049",
+   "job": "4th/Hyper",
+   "description": "Increases Raging Blow's damage.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120049",
+   "icon": "data/hero/frames/raging-blow-reinforce-1120049/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120050,
+   "name": "Raging Blow - Spread",
+   "slug": "raging-blow-spread-1120050",
+   "job": "4th/Hyper",
+   "description": "Increases the max number of monsters hit by Raging Blow.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120050",
+   "icon": "data/hero/frames/raging-blow-spread-1120050/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1120051,
+   "name": "Raging Blow - Extra Strike",
+   "slug": "raging-blow-extra-strike-1120051",
+   "job": "4th/Hyper",
+   "description": "Increases Raging Blow's attack count.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1120051",
+   "icon": "data/hero/frames/raging-blow-extra-strike-1120051/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 1121000,
+   "name": "Maple Warrior",
+   "slug": "maple-warrior-1121000",
+   "job": "4th/Hyper",
+   "description": "The Goddess of Maple World's grace increases your stats. Using the skill briefly makes the Goddess of Maple World appear.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121000",
+   "icon": "data/hero/frames/maple-warrior-1121000/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-00.webp",
+     "delay": 720,
+     "origin": {
+      "x": 0,
+      "y": 0,
+      "isEmpty": true
+     },
+     "placeholder": true
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 142,
+      "y": 309,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 302,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 294,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 294,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 292,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 289,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 144,
+      "y": 287,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 143,
+      "y": 294,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 149,
+      "y": 300,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 147,
+      "y": 301,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 145,
+      "y": 303,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/maple-warrior-1121000/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 135,
+      "y": 302,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1121008,
+   "name": "Raging Blow",
+   "slug": "raging-blow-1121008",
+   "job": "4th/Hyper",
+   "description": "[Swordsmanship] Instantly slashes several times to slice multiple enemies in front of you. The final blow will always be a critical hit. The skill is enhanced when combo is fully charged. Additionally enhances Beam Blade.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121008",
+   "icon": "data/hero/frames/raging-blow-1121008/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 375,
+      "y": 293,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 373,
+      "y": 281,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-06.webp",
+     "delay": 30,
+     "origin": {
+      "x": 369,
+      "y": 274,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 361,
+      "y": 258,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 428,
+      "y": 258,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 399,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 399,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 379,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 377,
+      "y": 228,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 374,
+      "y": 223,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-14.webp",
+     "delay": 30,
+     "origin": {
+      "x": 373,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-15.webp",
+     "delay": 30,
+     "origin": {
+      "x": 372,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-16.webp",
+     "delay": 30,
+     "origin": {
+      "x": 372,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-17.webp",
+     "delay": 30,
+     "origin": {
+      "x": 351,
+      "y": 59,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 84,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 82,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 82,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 94,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 79,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 201,
+      "y": 78,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 217,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 220,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 223,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 224,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 224,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 222,
+      "y": 70,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 219,
+      "y": 71,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1121011,
+   "name": "Hero's Will",
+   "slug": "hero-s-will-1121011",
+   "job": "4th/Hyper",
+   "description": "Hones your resolve to ignore certain abnormal status effects. Immune to most abnormal status effects for 3 sec. after use. Certain abnormal status effects will still get through. Does not apply Combat Orders.\nCan be used while using other skills.",
+   "masterLevel": 5,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121011",
+   "icon": "data/hero/frames/hero-s-will-1121011/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 95,
+      "y": 241,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 97,
+      "y": 237,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 101,
+      "y": 242,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 103,
+      "y": 249,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 103,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 104,
+      "y": 244,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 137,
+      "y": 238,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 194,
+      "y": 246,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 131,
+      "y": 247,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 132,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 249,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 57,
+      "y": 246,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/hero-s-will-1121011/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 55,
+      "y": 200,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1121015,
+   "name": "Puncture",
+   "slug": "puncture-1121015",
+   "job": "4th/Hyper",
+   "description": "[Swordsmanship] Pour your swordsman's spirit into a forward-downward strike, leaving a wound on your enemy that deals continuous damage for a short time. While taking continuous damage, the enemy will also take more damage.",
+   "masterLevel": 30,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121015",
+   "icon": "data/hero/frames/puncture-1121015/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": -21,
+      "y": 108,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": -1,
+      "y": 134,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 71,
+      "y": 205,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 81,
+      "y": 214,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 74,
+      "y": 216,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 10,
+      "y": 144,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": -8,
+      "y": 106,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": -27,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 138,
+      "y": 185,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 161,
+      "y": 171,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 187,
+      "y": 119,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 197,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 199,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 201,
+      "y": 24,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 199,
+      "y": 16,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/effect-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 196,
+      "y": 14,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 40,
+      "y": 33,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 100,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 103,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 105,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 97,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 105,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/puncture-1121015/hit-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 104,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1121016,
+   "name": "Magic Crash",
+   "slug": "magic-crash-1121016",
+   "job": "4th/Hyper",
+   "description": "Chance to remove certain buffs from affected enemies and prevent them regaining those buffs.\nEnemies hit will resist Magic Crash for 90 seconds. Buffs Removed: Attack Power & Magic ATT Bonuses, DEF Bonuses, and Obsidian Skin.",
+   "masterLevel": 10,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121016",
+   "icon": "data/hero/frames/magic-crash-1121016/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 123,
+      "y": 18,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 130,
+      "y": 45,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 132,
+      "y": 68,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 134,
+      "y": 126,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 133,
+      "y": 264,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 217,
+      "y": 263,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 229,
+      "y": 234,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 236,
+      "y": 248,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 244,
+      "y": 262,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 137,
+      "y": 183,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 136,
+      "y": 183,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 158,
+      "y": 186,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 168,
+      "y": 180,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 170,
+      "y": 173,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 172,
+      "y": 180,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 171,
+      "y": 173,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 167,
+      "y": 178,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 162,
+      "y": 178,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/magic-crash-1121016/effect-18.webp",
+     "delay": 60,
+     "origin": {
+      "x": 159,
+      "y": 119,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1121052,
+   "name": "Rising Rage",
+   "slug": "rising-rage-1121052",
+   "job": "4th/Hyper",
+   "description": "Manifest the rage of the ancients to wipe out the enemy in front of you.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121052",
+   "icon": "data/hero/frames/rising-rage-1121052/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 40,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 187,
+      "y": 210,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 186,
+      "y": 255,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 184,
+      "y": 249,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 181,
+      "y": 243,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 179,
+      "y": 213,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 175,
+      "y": 193,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 150,
+      "y": 164,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 48,
+      "y": 148,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 190,
+      "y": 208,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 187,
+      "y": 201,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 185,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 182,
+      "y": 194,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 176,
+      "y": 187,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 172,
+      "y": 140,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 158,
+      "y": 134,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-16.webp",
+     "delay": 90,
+     "origin": {
+      "x": 156,
+      "y": 36,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/effect-17.webp",
+     "delay": 90,
+     "origin": {
+      "x": 150,
+      "y": 21,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 95,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 127,
+      "y": 106,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 141,
+      "y": 115,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 148,
+      "y": 118,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 150,
+      "y": 122,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 155,
+      "y": 125,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 157,
+      "y": 122,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/rising-rage-1121052/hit-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 156,
+      "y": 122,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 1121053,
+   "name": "Epic Adventure",
+   "slug": "epic-adventure-1121053",
+   "job": "4th/Hyper",
+   "description": "Call upon the bravery deep within to increase damage output.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121053",
+   "icon": "data/hero/frames/epic-adventure-1121053/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-00.webp",
+     "delay": 360,
+     "origin": {
+      "x": 0,
+      "y": 0,
+      "isEmpty": true
+     },
+     "placeholder": true
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 198,
+      "y": 141,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 168,
+      "y": 143,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 140,
+      "y": 204,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 168,
+      "y": 270,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 164,
+      "y": 282,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 166,
+      "y": 302,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 170,
+      "y": 308,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 174,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 182,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 179,
+      "y": 369,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 160,
+      "y": 312,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 180,
+      "y": 312,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 207,
+      "y": 364,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 215,
+      "y": 130,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 226,
+      "y": 119,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/epic-adventure-1121053/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 172,
+      "y": 111,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1121054,
+   "name": "Cry Valhalla",
+   "slug": "cry-valhalla-1121054",
+   "job": "4th/Hyper",
+   "description": "Calls upon the power of the ancients to defend you. Except for common and 5th job skills, your Swordsmanship skills will periodically leave afterimages, which deal additional attacks to the enemy. Sword strikes are created first on the boss with the highest max HP.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121054",
+   "icon": "data/hero/frames/cry-valhalla-1121054/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 275,
+      "y": 285,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 284,
+      "y": 286,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 287,
+      "y": 307,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 285,
+      "y": 310,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 284,
+      "y": 314,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 275,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 243,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/cry-valhalla-1121054/effect-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 152,
+      "y": 315,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 1121055,
+   "name": "Cry Valhalla",
+   "slug": "cry-valhalla-1121055",
+   "job": "4th/Hyper",
+   "description": "Call upon the power of the ancients to defend you.",
+   "masterLevel": null,
+   "status": null,
+   "note": null,
+   "sourcePath": "Skill/112.img/skill/1121055",
+   "icon": "data/hero/frames/cry-valhalla-1121055/icon.webp",
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": 400011001,
+   "name": "Burning Soul Blade",
+   "slug": "burning-soul-blade-400011001",
+   "job": "5th",
+   "description": "Conjures a burning soul blade to fight at your side. Unaffected by attack reflection. Use the skill key with the down arrow key to summon it in a fixed state.\nWith Action Customization enabled, you can immediately summon in a fixed state by pressing its skill key again, without the use of the arrow keys.\nRight-click to toggle Action Customization ON/OFF",
+   "masterLevel": null,
+   "status": "PARTIAL",
+   "note": "WZ summon image payloads unreachable on maplestory.io (HTTP 500 / OutOfMemoryException / hangs, 4 attempts 2026-11-14); icons from skillbook; 2 fallback frames from Maple Editors 2019; summon delay/origin metadata saved in work/bsb-summon-metadata.json.",
+   "sourcePath": "Skill/40001.img/skill/400011001",
+   "icon": "data/hero/frames/burning-soul-blade-400011001/icon.webp",
+   "effect": [],
+   "hit": [],
+   "fallback": [
+    {
+     "file": "data/hero/frames/burning-soul-blade-400011001/maple-editors-attack-4-5.webp",
+     "note": "Maple Editors 2019: Burning Soul Blade Attack 4 frame 5 (460x348, summoned blade attack burst)"
+    },
+    {
+     "file": "data/hero/frames/burning-soul-blade-400011001/maple-editors-stand-8.webp",
+     "note": "Maple Editors 2019: Burning Soul Blade Stand frame 8 (120x264, the summoned blade alone)"
+    }
+   ],
+   "summon": {
+    "summoned": 11,
+    "stand": 8,
+    "move": 8,
+    "attack1": 8,
+    "die": 8
+   },
+   "summonFrames": 43
+  },
+  {
+   "id": 400011002,
+   "name": "Burning Soul Blade",
+   "slug": "burning-soul-blade-400011002",
+   "job": "5th",
+   "description": "Conjures a burning soul blade to fight at your side. Unaffected by attack reflection. Use the skill key with the down arrow key to summon it in a fixed state.\nWith Action Customization enabled, you can immediately summon in a fixed state by pressing its skill key again, without the use of the arrow keys.\nRight-click to toggle Action Customization ON/OFF",
+   "masterLevel": null,
+   "status": "PARTIAL",
+   "note": "WZ summon image payloads unreachable on maplestory.io (HTTP 500 / OutOfMemoryException / hangs, 4 attempts 2026-11-14); icons from skillbook; 2 fallback frames from Maple Editors 2019; summon delay/origin metadata saved in work/bsb-summon-metadata.json.",
+   "sourcePath": "Skill/40001.img/skill/400011002",
+   "icon": "data/hero/frames/burning-soul-blade-400011002/icon.webp",
+   "effect": [],
+   "hit": [],
+   "fallback": [
+    {
+     "file": "data/hero/frames/burning-soul-blade-400011002/maple-editors-attack-4-5.webp",
+     "note": "Maple Editors 2019: Burning Soul Blade Attack 4 frame 5 (460x348, summoned blade attack burst)"
+    },
+    {
+     "file": "data/hero/frames/burning-soul-blade-400011002/maple-editors-stand-8.webp",
+     "note": "Maple Editors 2019: Burning Soul Blade Stand frame 8 (120x264, the summoned blade alone)"
+    }
+   ],
+   "summon": {
+    "summoned": 11,
+    "stand": 8,
+    "attack1": 8,
+    "die": 8
+   },
+   "summonFrames": 35
+  },
+  {
+   "id": 400011027,
+   "name": "Worldreaver",
+   "slug": "worldreaver-400011027",
+   "job": "5th",
+   "description": "Unleashes a brutal slash.",
+   "masterLevel": null,
+   "status": "complete",
+   "note": null,
+   "sourcePath": "Skill/40001.img/skill/400011027",
+   "icon": "data/hero/frames/worldreaver-400011027/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 12,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 80,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 80,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 24,
+      "y": 80,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 24,
+      "y": 76,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 23,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 23,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 21,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 22,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 587,
+      "y": 244,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 646,
+      "y": 268,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 660,
+      "y": 272,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-18.webp",
+     "delay": 60,
+     "origin": {
+      "x": 671,
+      "y": 275,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-19.webp",
+     "delay": 60,
+     "origin": {
+      "x": 711,
+      "y": 289,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-20.webp",
+     "delay": 60,
+     "origin": {
+      "x": 709,
+      "y": 284,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-21.webp",
+     "delay": 60,
+     "origin": {
+      "x": 620,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-22.webp",
+     "delay": 60,
+     "origin": {
+      "x": 620,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/effect-23.webp",
+     "delay": 60,
+     "origin": {
+      "x": 619,
+      "y": 254,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 104,
+      "y": 69,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 151,
+      "y": 115,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 103,
+      "y": 133,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 127,
+      "y": 149,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 130,
+      "y": 142,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/worldreaver-400011027/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 147,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 400011073,
+   "name": "Instinctual Combo",
+   "slug": "instinctual-combo-400011073",
+   "job": "5th",
+   "description": "Tap into your subconscious abilities and use your power to its fullest potential. Increases the ability gained from the Combo Orb and allows you to leave a tear in space when Raging Blow is used. Also, Spirit Calibur will leave a soul trace upon hitting an enemy. The tear in space and soul trace are unaffected by attack reflection.",
+   "masterLevel": null,
+   "status": "complete",
+   "note": null,
+   "sourcePath": "Skill/40001.img/skill/400011073",
+   "icon": "data/hero/frames/instinctual-combo-400011073/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 136,
+      "y": 172,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 140,
+      "y": 188,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 144,
+      "y": 241,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 144,
+      "y": 251,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 165,
+      "y": 235,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 135,
+      "y": 224,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 140,
+      "y": 267,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 158,
+      "y": 280,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 178,
+      "y": 274,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 177,
+      "y": 274,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 179,
+      "y": 236,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/instinctual-combo-400011073/effect-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 116,
+      "y": 166,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 400011124,
+   "name": "Sword Illusion",
+   "slug": "sword-illusion-400011124",
+   "job": "5th",
+   "description": "Slice forward faster than the eye can see using a combo orb. Sword Illusion is unaffected by attack reflection.",
+   "masterLevel": null,
+   "status": "complete",
+   "note": "effect0 (65 frames) is a blank timing sequence in the WZ (1x1 frames, delay 1320, empty origin); omitted \u2014 maplestory.io skillbook also omits it. Sub-attacks 400011125/400011126 carry the slash/explosion frames.",
+   "sourcePath": "Skill/40001.img/skill/400011124",
+   "icon": "data/hero/frames/sword-illusion-400011124/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-00.webp",
+     "delay": 30,
+     "origin": {
+      "x": 208,
+      "y": 31,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-01.webp",
+     "delay": 30,
+     "origin": {
+      "x": 203,
+      "y": 31,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-02.webp",
+     "delay": 30,
+     "origin": {
+      "x": 200,
+      "y": 30,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 199,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 177,
+      "y": 151,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 195,
+      "y": 203,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-06.webp",
+     "delay": 60,
+     "origin": {
+      "x": 219,
+      "y": 225,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-07.webp",
+     "delay": 60,
+     "origin": {
+      "x": 254,
+      "y": 203,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 218,
+      "y": 151,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 148,
+      "y": 119,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 143,
+      "y": 119,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 662,
+      "y": 405,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 676,
+      "y": 409,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-13.webp",
+     "delay": 60,
+     "origin": {
+      "x": 658,
+      "y": 403,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-14.webp",
+     "delay": 60,
+     "origin": {
+      "x": 648,
+      "y": 390,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-15.webp",
+     "delay": 60,
+     "origin": {
+      "x": 658,
+      "y": 397,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-16.webp",
+     "delay": 60,
+     "origin": {
+      "x": 665,
+      "y": 402,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-17.webp",
+     "delay": 60,
+     "origin": {
+      "x": 669,
+      "y": 404,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-18.webp",
+     "delay": 60,
+     "origin": {
+      "x": 666,
+      "y": 402,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-19.webp",
+     "delay": 60,
+     "origin": {
+      "x": 658,
+      "y": 397,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-20.webp",
+     "delay": 60,
+     "origin": {
+      "x": 626,
+      "y": 384,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-21.webp",
+     "delay": 60,
+     "origin": {
+      "x": 626,
+      "y": 383,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011124/effect-22.webp",
+     "delay": 60,
+     "origin": {
+      "x": 591,
+      "y": 349,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": []
+  },
+  {
+   "id": 400011125,
+   "name": "Sword Illusion",
+   "slug": "sword-illusion-400011125",
+   "job": "5th",
+   "description": "",
+   "masterLevel": null,
+   "status": "complete",
+   "note": null,
+   "sourcePath": "Skill/40001.img/skill/400011125",
+   "icon": "data/hero/frames/sword-illusion-400011125/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/effect-00.webp",
+     "delay": null,
+     "origin": {
+      "x": 0,
+      "y": 0,
+      "isEmpty": true
+     },
+     "placeholder": true
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-00.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-01.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-02.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-03.webp",
+     "delay": 30,
+     "origin": {
+      "x": 88,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-04.webp",
+     "delay": 30,
+     "origin": {
+      "x": 86,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-05.webp",
+     "delay": 30,
+     "origin": {
+      "x": 85,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-06.webp",
+     "delay": 30,
+     "origin": {
+      "x": 104,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 104,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-08.webp",
+     "delay": 30,
+     "origin": {
+      "x": 94,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-09.webp",
+     "delay": 30,
+     "origin": {
+      "x": 92,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-10.webp",
+     "delay": 30,
+     "origin": {
+      "x": 90,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011125/hit-11.webp",
+     "delay": 30,
+     "origin": {
+      "x": 84,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 400011126,
+   "name": "Sword Illusion",
+   "slug": "sword-illusion-400011126",
+   "job": "5th",
+   "description": "",
+   "masterLevel": null,
+   "status": "complete",
+   "note": null,
+   "sourcePath": "Skill/40001.img/skill/400011126",
+   "icon": "data/hero/frames/sword-illusion-400011126/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/effect-00.webp",
+     "delay": null,
+     "origin": {
+      "x": 0,
+      "y": 0,
+      "isEmpty": true
+     },
+     "placeholder": true
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-00.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-01.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-02.webp",
+     "delay": 30,
+     "origin": {
+      "x": 131,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-03.webp",
+     "delay": 30,
+     "origin": {
+      "x": 88,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-04.webp",
+     "delay": 30,
+     "origin": {
+      "x": 86,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-05.webp",
+     "delay": 30,
+     "origin": {
+      "x": 85,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-06.webp",
+     "delay": 30,
+     "origin": {
+      "x": 104,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 104,
+      "y": 101,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-08.webp",
+     "delay": 30,
+     "origin": {
+      "x": 94,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-09.webp",
+     "delay": 30,
+     "origin": {
+      "x": 92,
+      "y": 87,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-10.webp",
+     "delay": 30,
+     "origin": {
+      "x": 90,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/sword-illusion-400011126/hit-11.webp",
+     "delay": 30,
+     "origin": {
+      "x": 84,
+      "y": 85,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ]
+  },
+  {
+   "id": 400004008,
+   "name": "Raging Blow Boost",
+   "slug": "raging-blow-boost-400004008",
+   "job": "6th",
+   "description": "HEXA core: boosts Raging Blow.",
+   "masterLevel": null,
+   "status": "complete (passive core, no frames)",
+   "note": "HEXA Raging Blow is the 6th-job enhancement of Raging Blow (1121008), not a separate skill with its own effect node: Skill/40000.img/skill/400004008 (\"Raging Blow Boost\") has icon/common/info only, no effect/hit layers, and Skill/112.img/skill/1121008 has no second effect node. Its visuals ARE Raging Blow's 18 effect + 16 hit frames (already in frames/raging-blow-1121008/). Maple Editors' 2024 \"HEXA-Raging-Blow-Effect1-00..17\" set is also 18 frames, matching Raging Blow effect 1-18.",
+   "sourcePath": "Skill/40000.img/skill/400004008",
+   "icon": null,
+   "effect": [],
+   "hit": []
+  },
+  {
+   "id": null,
+   "name": "HEXA Raging Blow",
+   "slug": "hexa-raging-blow",
+   "job": "6th",
+   "description": "[Swordsmanship] Instantly slash several times to slice multiple enemies in front of you. The final blow will always be a critical hit. (HEXA-enhanced.)",
+   "masterLevel": null,
+   "status": "complete (frames shared with Raging Blow 1121008)",
+   "note": "No distinct HEXA effect node exists in GMS 270 Skill.wz; see Raging Blow Boost entry above.",
+   "sourcePath": "Skill/112.img/skill/1121008",
+   "icon": "data/hero/frames/raging-blow-1121008/icon.webp",
+   "effect": [
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-00.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-01.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 83,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-02.webp",
+     "delay": 60,
+     "origin": {
+      "x": 37,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-03.webp",
+     "delay": 60,
+     "origin": {
+      "x": 44,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-04.webp",
+     "delay": 60,
+     "origin": {
+      "x": 375,
+      "y": 293,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-05.webp",
+     "delay": 60,
+     "origin": {
+      "x": 373,
+      "y": 281,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-06.webp",
+     "delay": 30,
+     "origin": {
+      "x": 369,
+      "y": 274,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-07.webp",
+     "delay": 30,
+     "origin": {
+      "x": 361,
+      "y": 258,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-08.webp",
+     "delay": 60,
+     "origin": {
+      "x": 428,
+      "y": 258,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-09.webp",
+     "delay": 60,
+     "origin": {
+      "x": 399,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-10.webp",
+     "delay": 60,
+     "origin": {
+      "x": 399,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-11.webp",
+     "delay": 60,
+     "origin": {
+      "x": 379,
+      "y": 257,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-12.webp",
+     "delay": 60,
+     "origin": {
+      "x": 377,
+      "y": 228,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 374,
+      "y": 223,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-14.webp",
+     "delay": 30,
+     "origin": {
+      "x": 373,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-15.webp",
+     "delay": 30,
+     "origin": {
+      "x": 372,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-16.webp",
+     "delay": 30,
+     "origin": {
+      "x": 372,
+      "y": 196,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/effect-17.webp",
+     "delay": 30,
+     "origin": {
+      "x": 351,
+      "y": 59,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "hit": [
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-00.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 74,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-01.webp",
+     "delay": 90,
+     "origin": {
+      "x": 107,
+      "y": 84,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-02.webp",
+     "delay": 90,
+     "origin": {
+      "x": 82,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-03.webp",
+     "delay": 90,
+     "origin": {
+      "x": 82,
+      "y": 92,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-04.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 94,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-05.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-06.webp",
+     "delay": 90,
+     "origin": {
+      "x": 83,
+      "y": 93,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-07.webp",
+     "delay": 90,
+     "origin": {
+      "x": 79,
+      "y": 90,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-08.webp",
+     "delay": 90,
+     "origin": {
+      "x": 201,
+      "y": 78,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-09.webp",
+     "delay": 90,
+     "origin": {
+      "x": 217,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-10.webp",
+     "delay": 90,
+     "origin": {
+      "x": 220,
+      "y": 91,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-11.webp",
+     "delay": 90,
+     "origin": {
+      "x": 223,
+      "y": 96,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-12.webp",
+     "delay": 90,
+     "origin": {
+      "x": 224,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-13.webp",
+     "delay": 90,
+     "origin": {
+      "x": 224,
+      "y": 95,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-14.webp",
+     "delay": 90,
+     "origin": {
+      "x": 222,
+      "y": 70,
+      "isEmpty": false
+     },
+     "placeholder": false
+    },
+    {
+     "file": "data/hero/frames/raging-blow-1121008/hit-15.webp",
+     "delay": 90,
+     "origin": {
+      "x": 219,
+      "y": 71,
+      "isEmpty": false
+     },
+     "placeholder": false
+    }
+   ],
+   "sharesFramesWith": "raging-blow-1121008"
+  },
+  {
+   "id": null,
+   "name": "Burning Soul Blade Boost / Worldreaver Boost / Instinctual Combo Boost / Sword Illusion Boost",
+   "slug": "v-skill-boosts",
+   "job": "6th",
+   "description": "HEXA enhancement cores for the four 5th-job skills (passive, Level Requirement 260).",
+   "masterLevel": null,
+   "status": "MISSING \u2014 IDs not located",
+   "note": "Only the 4000040xx block (Warrior 1st\u20134th-job boosts, incl. 400004008 Raging Blow Boost) was scanned by name; the V-skill Boost IDs were not found there. They are passive cores with no effect/hit frames, so they add no visuals to the site. IDs can be located later by scanning the remaining 400004xxx names in Skill/40000.img.",
+   "sourcePath": "Skill/40000.img/skill/400004xxx",
+   "icon": null,
+   "effect": [],
+   "hit": []
+  }
+ ]
+}
