@@ -261,7 +261,9 @@ function renderDetail(){
       ${s.status && s.status !== "complete" ? `<span class="badge">${esc(s.status)}</span>` : ""}
     </div>
     <p class="desc">${esc(s.description || "No description available.")}</p>`;
-  if (s.note) html += `<p class="note">${esc(s.note)}</p>`;
+  // Technical per-skill notes (s.note) live in skills.json only and are not
+  // shown on the public page — they read like build jargon (WZ internals,
+  // effect0 timing sequences, endpoint errors). Plain-language notes below stay.
   if (s.status && s.status.startsWith("MISSING")) html += `<p class="note">Skill IDs for these HEXA cores have not been located yet. They are passive cores with no animation frames, so nothing visual is missing.</p>`;
 
   if (hasFrames){
