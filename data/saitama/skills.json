@@ -1,0 +1,2506 @@
+{
+  "class": "Saitama",
+  "classLine": "Collab",
+  "game": "MapleStory",
+  "version": "GMS 270",
+  "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; class-specific 5th job skill list cross-checked against maplestorywiki.net",
+  "generated": "2026-11-14",
+  "counts": {
+    "skills": 26,
+    "withFrames": 17,
+    "effectFrames": 124,
+    "hitFrames": 86,
+    "effectFramesUnique": 124,
+    "hitFramesUnique": 86
+  },
+  "notes": [
+    "One-Punch Man collab class; single job file 12200; no 5th-job V skills in scope."
+  ],
+  "skills": [
+    {
+      "id": 122000001,
+      "name": "Hero from Another World",
+      "slug": "hero-from-another-world-122000001",
+      "job": "1st",
+      "description": "Increases all stats by a set percentage.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000001",
+      "icon": "data/saitama/frames/hero-from-another-world-122000001/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-00.webp",
+          "delay": 720,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 309,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 289,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 287,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 301,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 303,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-from-another-world-122000001/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 122000017,
+      "name": "Physical Training I",
+      "slug": "physical-training-i-122000017",
+      "job": "1st",
+      "description": "Basic physical ability attained through training.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000017",
+      "icon": "data/saitama/frames/physical-training-i-122000017/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000018,
+      "name": "Physical Training II",
+      "slug": "physical-training-ii-122000018",
+      "job": "1st",
+      "description": "Enhanced physical ability attained through consistent training.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000018",
+      "icon": "data/saitama/frames/physical-training-ii-122000018/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000019,
+      "name": "Physical Training III",
+      "slug": "physical-training-iii-122000019",
+      "job": "1st",
+      "description": "Further enhanced physical ability attained through in-depth training.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000019",
+      "icon": "data/saitama/frames/physical-training-iii-122000019/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000020,
+      "name": "Physical Training IV",
+      "slug": "physical-training-iv-122000020",
+      "job": "1st",
+      "description": "The limit of physical ability attained through intense training.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000020",
+      "icon": "data/saitama/frames/physical-training-iv-122000020/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000021,
+      "name": "Physical Training V",
+      "slug": "physical-training-v-122000021",
+      "job": "1st",
+      "description": "The pinnacle of physical ability.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122000021",
+      "icon": "data/saitama/frames/physical-training-v-122000021/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000118,
+      "name": "Physical Training II",
+      "slug": "physical-training-ii-122000118",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122000118",
+      "icon": "data/saitama/frames/physical-training-ii-122000118/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000119,
+      "name": "Physical Training III",
+      "slug": "physical-training-iii-122000119",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122000119",
+      "icon": "data/saitama/frames/physical-training-iii-122000119/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000120,
+      "name": "Physical Training IV",
+      "slug": "physical-training-iv-122000120",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122000120",
+      "icon": "data/saitama/frames/physical-training-iv-122000120/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122000121,
+      "name": "Physical Training V",
+      "slug": "physical-training-v-122000121",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122000121",
+      "icon": "data/saitama/frames/physical-training-v-122000121/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 122001000,
+      "name": "Double Jump",
+      "slug": "double-jump-122001000",
+      "job": "1st",
+      "description": "Leap forward once while already in the air. Press the up key at the same time to move upward.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001000",
+      "icon": "data/saitama/frames/double-jump-122001000/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": -1,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 24,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 19,
+            "y": 151,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 17,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 15,
+            "y": 149,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 14,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 14,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 13,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 12,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/double-jump-122001000/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 8,
+            "y": 144,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 122001001,
+      "name": "Normal Punch",
+      "slug": "normal-punch-122001001",
+      "job": "1st",
+      "description": "Deliver a normal punch to enemies in front of Saitama.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001001",
+      "icon": "data/saitama/frames/normal-punch-122001001/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 25,
+            "y": 52,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 330,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 328,
+            "y": 154,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 308,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 283,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 291,
+            "y": 62,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 295,
+            "y": 65,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 298,
+            "y": 65,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 51,
+            "y": 42,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 83,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001001/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001002,
+      "name": "Normal Punch",
+      "slug": "normal-punch-122001002",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122001002",
+      "icon": "data/saitama/frames/normal-punch-122001002/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 652,
+            "y": 422,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 782,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 814,
+            "y": 504,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 822,
+            "y": 406,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 865,
+            "y": 432,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 843,
+            "y": 468,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 864,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 910,
+            "y": 367,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 120,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 122,
+            "y": 120,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 115,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 106,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/normal-punch-122001002/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 83,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001003,
+      "name": "Consecutive Normal Punches",
+      "slug": "consecutive-normal-punches-122001003",
+      "job": "1st",
+      "description": "Attack enemies in front of Saitama with consecutive normal punches made with one hand.\\r\nImmune to knockback and debilitating status conditions while using the skill.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001003",
+      "icon": "data/saitama/frames/consecutive-normal-punches-122001003/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001003/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 44,
+            "y": 44,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001003/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001003/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001003/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001004,
+      "name": "Consecutive Normal Punches",
+      "slug": "consecutive-normal-punches-122001004",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122001004",
+      "icon": "data/saitama/frames/consecutive-normal-punches-122001004/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001004/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 44,
+            "y": 44,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001004/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001004/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/consecutive-normal-punches-122001004/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001005,
+      "name": "Run",
+      "slug": "run-122001005",
+      "job": "1st",
+      "description": "Quickly run forward.\\r\nPress the arrow keys while running to move in 8 directions.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001005",
+      "icon": "data/saitama/frames/run-122001005/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/run-122001005/effect-00.webp",
+          "delay": null,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/saitama/frames/run-122001005/effect-01.webp",
+          "delay": null,
+          "origin": {
+            "x": 81,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 122001006,
+      "name": "Vertical Jump",
+      "slug": "vertical-jump-122001006",
+      "job": "1st",
+      "description": "Jump incredibly high into the air.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001006",
+      "icon": "data/saitama/frames/vertical-jump-122001006/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/vertical-jump-122001006/effect-00.webp",
+          "delay": null,
+          "origin": {
+            "x": 101,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/vertical-jump-122001006/effect-01.webp",
+          "delay": null,
+          "origin": {
+            "x": 105,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/vertical-jump-122001006/effect-02.webp",
+          "delay": null,
+          "origin": {
+            "x": 106,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/vertical-jump-122001006/effect-03.webp",
+          "delay": null,
+          "origin": {
+            "x": 103,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 122001007,
+      "name": "Killer Move: Serious Series - Serious Sideways Jumps",
+      "slug": "killer-move-serious-series-serious-sideways-jumps-122001007",
+      "job": "1st",
+      "description": "Repeatedly jump at high speeds to leave afterimages behind.\nYour are invincible while using Killer Move: Serious Series - Serious Sideways Jumps.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001007",
+      "icon": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 48,
+            "y": 47,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 61,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-sideways-jumps-122001007/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 49,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001008,
+      "name": "Killer Move: Serious Series - Serious Punch",
+      "slug": "killer-move-serious-series-serious-punch-122001008",
+      "job": "1st",
+      "description": "Saitama unleashes the Killer Move: Serious Series - Serious Punch.\\r\nKiller Move: Serious Series - Serious Punch is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001008",
+      "icon": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001008/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": -34,
+            "y": -7,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001009,
+      "name": "Killer Move: Serious Series - Serious Punch",
+      "slug": "killer-move-serious-series-serious-punch-122001009",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122001009",
+      "icon": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001009/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": -34,
+            "y": -7,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001010,
+      "name": "Killer Move: Serious Series - Serious Punch",
+      "slug": "killer-move-serious-series-serious-punch-122001010",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12200.img/skill/122001010",
+      "icon": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/killer-move-serious-series-serious-punch-122001010/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": -34,
+            "y": -7,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001011,
+      "name": "Incineration Cannon",
+      "slug": "incineration-cannon-122001011",
+      "job": "1st",
+      "description": "Genos appears and fires the incineration cannon forward. Incineration Cannon is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001011",
+      "icon": "data/saitama/frames/incineration-cannon-122001011/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 54,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/incineration-cannon-122001011/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001012,
+      "name": "King Engine",
+      "slug": "king-engine-122001012",
+      "job": "1st",
+      "description": "King appears and revs up the King Engine. Enemies near King tremble in fear and take damage. King Engine is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001012",
+      "icon": "data/saitama/frames/king-engine-122001012/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 120,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 127,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 99,
+            "y": 123,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 120,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/king-engine-122001012/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001013,
+      "name": "Hellstorm",
+      "slug": "hellstorm-122001013",
+      "job": "1st",
+      "description": "Hellish Blizzard appears and creates a storm that attacks the boss with the highest HP within range first. Hellstorm is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001013",
+      "icon": "data/saitama/frames/hellstorm-122001013/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 139,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 27,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 30,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 31,
+            "y": 135,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 50,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 49,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 46,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 31,
+            "y": 140,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 30,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 30,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 30,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 53,
+            "y": 149,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 59,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 78,
+            "y": 170,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 61,
+            "y": 175,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 64,
+            "y": 180,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 184,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 163,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 164,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 166,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/effect-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": -3,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 57,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hellstorm-122001013/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 41,
+            "y": 51,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001014,
+      "name": "Psychic Powers",
+      "slug": "psychic-powers-122001014",
+      "job": "1st",
+      "description": "Terrible Tornado appears and uses her psychic powers to throw battlefield debris at enemies. Attacks enemies with the highest HP within range first, and is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001014",
+      "icon": "data/saitama/frames/psychic-powers-122001014/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": -9,
+            "y": 139,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 9,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 12,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 151,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 24,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 205,
+            "y": 177,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 118,
+            "y": 163,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 163,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 14,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 14,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 13,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 12,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 12,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 12,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 6,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": -1,
+            "y": 144,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": -16,
+            "y": 135,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/effect-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": -16,
+            "y": 134,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 38,
+            "y": 42,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 53,
+            "y": 46,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 52,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 57,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 56,
+            "y": 72,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 52,
+            "y": 50,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/psychic-powers-122001014/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 47,
+            "y": 50,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 122001016,
+      "name": "Hero Pride",
+      "slug": "hero-pride-122001016",
+      "job": "1st",
+      "description": "Hone your resolve to ignore certain abnormal statuses. Immune to abnormal statuses for 3 seconds sec. Only prevents certain abnormal statuses. Hero Pride can be used while using other skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12200.img/skill/122001016",
+      "icon": "data/saitama/frames/hero-pride-122001016/icon.webp",
+      "effect": [
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 241,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 237,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 242,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 244,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 238,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 194,
+            "y": 246,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 247,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 57,
+            "y": 246,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/saitama/frames/hero-pride-122001016/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 200,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    }
+  ]
+}
