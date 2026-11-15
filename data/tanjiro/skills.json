@@ -1,0 +1,5010 @@
+{
+  "class": "Tanjiro",
+  "classLine": "Collab",
+  "game": "MapleStory",
+  "version": "GMS 270",
+  "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; class-specific 5th job skill list cross-checked against maplestorywiki.net",
+  "generated": "2026-11-14",
+  "counts": {
+    "skills": 36,
+    "withFrames": 17,
+    "effectFrames": 160,
+    "hitFrames": 286,
+    "effectFramesUnique": 160,
+    "hitFramesUnique": 286
+  },
+  "notes": [
+    "Demon Slayer collab class; single job file 12100; no 5th-job V skills in scope."
+  ],
+  "skills": [
+    {
+      "id": 121000004,
+      "name": "Acclimation Training",
+      "slug": "acclimation-training-121000004",
+      "job": "1st",
+      "description": "Standard Demon Slayer Corps training to enhance an individual's physical abilities.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000004",
+      "icon": "data/tanjiro/frames/acclimation-training-121000004/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000009,
+      "name": "Total Concentration Breathing",
+      "slug": "total-concentration-breathing-121000009",
+      "job": "1st",
+      "description": "A breathing technique that accelerates the user's blood circulation and heart rate, allowing a human to fight with the strength of a demon.\\r\nIncreases the damage of Tanjiro's skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000009",
+      "icon": "data/tanjiro/frames/total-concentration-breathing-121000009/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000010,
+      "name": "Basic Fitness Training",
+      "slug": "basic-fitness-training-121000010",
+      "job": "1st",
+      "description": "Lay the foundation of long-term fitness by mastering the basics.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000010",
+      "icon": "data/tanjiro/frames/basic-fitness-training-121000010/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000011,
+      "name": "Enhanced Weapon Mastery",
+      "slug": "enhanced-weapon-mastery-121000011",
+      "job": "1st",
+      "description": "Increases Attack Speed and weapon mastery.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000011",
+      "icon": "data/tanjiro/frames/enhanced-weapon-mastery-121000011/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000012,
+      "name": "Basic Combat Training",
+      "slug": "basic-combat-training-121000012",
+      "job": "1st",
+      "description": "Train hard to become an expert Demon Slayer by mastering the basics.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000012",
+      "icon": "data/tanjiro/frames/basic-combat-training-121000012/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000015,
+      "name": "Intermediate Fitness Training",
+      "slug": "intermediate-fitness-training-121000015",
+      "job": "1st",
+      "description": "Raise your fitness to the upper echelons of human ability with intermediate training techniques.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000015",
+      "icon": "data/tanjiro/frames/intermediate-fitness-training-121000015/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000016,
+      "name": "Joint Training I",
+      "slug": "joint-training-i-121000016",
+      "job": "1st",
+      "description": "Train yourself to fight alongside your allies.\\r\nIncreases the damage of Beast Breathing and Thunder Breathing skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000016",
+      "icon": "data/tanjiro/frames/joint-training-i-121000016/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000017,
+      "name": "Intermediate Combat Training",
+      "slug": "intermediate-combat-training-121000017",
+      "job": "1st",
+      "description": "Advance to the skills of an expert swordsman, the basic standard for the rank of Mizunoto.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000017",
+      "icon": "data/tanjiro/frames/intermediate-combat-training-121000017/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000018,
+      "name": "Advanced Fitness Training",
+      "slug": "advanced-fitness-training-121000018",
+      "job": "1st",
+      "description": "Break through your human limits and gain the strength to combat demons.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000018",
+      "icon": "data/tanjiro/frames/advanced-fitness-training-121000018/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000019,
+      "name": "Constant Concentration",
+      "slug": "constant-concentration-121000019",
+      "job": "1st",
+      "description": "Keeps the Total Concentration Breathing technique continuously active, restoring a great deal of your power.\\r\nEnhances the damage of Water Breathing and Dancing Flash skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000019",
+      "icon": "data/tanjiro/frames/constant-concentration-121000019/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000020,
+      "name": "Joint Training II",
+      "slug": "joint-training-ii-121000020",
+      "job": "1st",
+      "description": "Work with your allies to become an unbeatable team.\\r\nEnhances the damage of Beast Breathing and Thunder Breathing skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000020",
+      "icon": "data/tanjiro/frames/joint-training-ii-121000020/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000021,
+      "name": "Advanced Combat Training",
+      "slug": "advanced-combat-training-121000021",
+      "job": "1st",
+      "description": "Break through your human limits and wield a blade that demons fear.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000021",
+      "icon": "data/tanjiro/frames/advanced-combat-training-121000021/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000022,
+      "name": "Body Temperature Spike",
+      "slug": "body-temperature-spike-121000022",
+      "job": "1st",
+      "description": "Temporarily increase your body temperature, allowing you to fight with explosive power.\\r\nEnhances the damage of Water Breathing and Dancing Flash skills.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121000022",
+      "icon": "data/tanjiro/frames/body-temperature-spike-121000022/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000112,
+      "name": "Basic Combat Training",
+      "slug": "basic-combat-training-121000112",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121000112",
+      "icon": "data/tanjiro/frames/basic-combat-training-121000112/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000115,
+      "name": "Intermediate Fitness Training",
+      "slug": "intermediate-fitness-training-121000115",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121000115",
+      "icon": "data/tanjiro/frames/intermediate-fitness-training-121000115/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121000121,
+      "name": "Advanced Combat Training",
+      "slug": "advanced-combat-training-121000121",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121000121",
+      "icon": "data/tanjiro/frames/advanced-combat-training-121000121/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121001000,
+      "name": "Basic Swordsmanship",
+      "slug": "basic-swordsmanship-121001000",
+      "job": "1st",
+      "description": "Move forward and attack with a basic sword technique. Hit the target up to 4 times.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121001000",
+      "icon": "data/tanjiro/frames/basic-swordsmanship-121001000/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 274,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 274,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 310,
+            "y": 196,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 262,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 159,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 58,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": -30,
+            "y": 123,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001000/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121001001,
+      "name": "Basic Swordsmanship",
+      "slug": "basic-swordsmanship-121001001",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121001001",
+      "icon": "data/tanjiro/frames/basic-swordsmanship-121001001/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-00.webp",
+          "delay": 120,
+          "origin": {
+            "x": 104,
+            "y": 49,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 49,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 369,
+            "y": 81,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 403,
+            "y": 68,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 423,
+            "y": 59,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 420,
+            "y": 49,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 410,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001001/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121001002,
+      "name": "Basic Swordsmanship",
+      "slug": "basic-swordsmanship-121001002",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121001002",
+      "icon": "data/tanjiro/frames/basic-swordsmanship-121001002/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 148,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 148,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 261,
+            "y": 226,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 254,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 10,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001002/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121001003,
+      "name": "Basic Swordsmanship",
+      "slug": "basic-swordsmanship-121001003",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121001003",
+      "icon": "data/tanjiro/frames/basic-swordsmanship-121001003/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": -4,
+            "y": 155,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": -4,
+            "y": 155,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 273,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 270,
+            "y": 256,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 267,
+            "y": 257,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 260,
+            "y": 257,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 233,
+            "y": 257,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/basic-swordsmanship-121001003/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121001005,
+      "name": "Battle Stance",
+      "slug": "battle-stance-121001005",
+      "job": "1st",
+      "description": "Plant your feet in a battle stance that allows you to use the Basic Swordsmanship technique without moving, depending on the situation.\\r\nUsing the skill activates the effect and it can be toggled On/Off.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121001005",
+      "icon": "data/tanjiro/frames/battle-stance-121001005/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121001006,
+      "name": "Vulpes Leap",
+      "slug": "vulpes-leap-121001006",
+      "job": "1st",
+      "description": "Allows you to double jump.\\r\nPress the up key at the same time to move upward.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121001006",
+      "icon": "data/tanjiro/frames/vulpes-leap-121001006/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 65,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 60,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 53,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 48,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 1,
+            "y": 63,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": -5,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001006/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": -23,
+            "y": 32,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 121001007,
+      "name": "Vulpes Leap",
+      "slug": "vulpes-leap-121001007",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121001007",
+      "icon": "data/tanjiro/frames/vulpes-leap-121001007/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 65,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 20,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 16,
+            "y": 31,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/vulpes-leap-121001007/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 10,
+            "y": 13,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 121001008,
+      "name": "High-Speed Movement",
+      "slug": "high-speed-movement-121001008",
+      "job": "1st",
+      "description": "Quickly charge in the direction you are facing.\\r\nMove freely in all 8 directions with the arrow keys.",
+      "masterLevel": null,
+      "status": null,
+      "note": "effect (2 frames) is a blank timing sequence in the source WZ (1x1 frames); omitted.",
+      "sourcePath": "Skill/12100.img/skill/121001008",
+      "icon": "data/tanjiro/frames/high-speed-movement-121001008/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/high-speed-movement-121001008/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121001013,
+      "name": "Warrior of the Corps",
+      "slug": "warrior-of-the-corps-121001013",
+      "job": "1st",
+      "description": "Temporarily increases the stats of all party members.\\r\nStacks with Maple Warrior, Call of Cygnus, Nova Warrior, Hero of the Flora, President's Orders, Anima Warrior, Rhinne's Protection, Pink Warrior, and Hero of El Nath based on what was learned.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121001013",
+      "icon": "data/tanjiro/frames/warrior-of-the-corps-121001013/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-00.webp",
+          "delay": 720,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 309,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 289,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 144,
+            "y": 287,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 301,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 303,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/warrior-of-the-corps-121001013/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 121001014,
+      "name": "Will of the Corps",
+      "slug": "will-of-the-corps-121001014",
+      "job": "1st",
+      "description": "Hones your resolve to ignore certain abnormal status effects. Immune to Abnormal Status for 3 sec after use. However, this will not work for all abnormal status effects.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121001014",
+      "icon": "data/tanjiro/frames/will-of-the-corps-121001014/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 241,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 237,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 242,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 244,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 238,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 194,
+            "y": 246,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 247,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 248,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 57,
+            "y": 246,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/will-of-the-corps-121001014/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 200,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 121001113,
+      "name": "Warrior of the Corps",
+      "slug": "warrior-of-the-corps-121001113",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121001113",
+      "icon": "data/tanjiro/frames/warrior-of-the-corps-121001113/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121002000,
+      "name": "Water Breathing Second Form: Water Wheel",
+      "slug": "water-breathing-second-form-water-wheel-121002000",
+      "job": "1st",
+      "description": "Spin your body like water carried around a wheel and cut down your foes.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121002000",
+      "icon": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": -92,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 316,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 291,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 301,
+            "y": 375,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 301,
+            "y": 374,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 302,
+            "y": 369,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 305,
+            "y": 378,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 307,
+            "y": 371,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 312,
+            "y": 371,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 316,
+            "y": 369,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 316,
+            "y": 365,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 324,
+            "y": 341,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 327,
+            "y": 343,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 334,
+            "y": 309,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 343,
+            "y": 323,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 207,
+            "y": 299,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 208,
+            "y": 299,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 105,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 92,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-second-form-water-wheel-121002000/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002001,
+      "name": "Water Breathing Fourth Form: Striking Tide",
+      "slug": "water-breathing-fourth-form-striking-tide-121002001",
+      "job": "1st",
+      "description": "Strike with the grace of a flowing tide and seal your opponent's movement.\\r\nAffected enemies cannot be stunned again by Water Breathing Fourth Form: Striking Tide or other skills for 90 seconds.\nNot affected by cooldown reset.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121002001",
+      "icon": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 31,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 31,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 212,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 402,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 428,
+            "y": 219,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 428,
+            "y": 221,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 426,
+            "y": 221,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 421,
+            "y": 220,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 390,
+            "y": 219,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 364,
+            "y": 217,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 333,
+            "y": 210,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 323,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 322,
+            "y": 182,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 317,
+            "y": 181,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 315,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 236,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 96,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-fourth-form-striking-tide-121002001/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 45,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002002,
+      "name": "Beast Breathing Fifth Fang: Crazy Cutting",
+      "slug": "beast-breathing-fifth-fang-crazy-cutting-121002002",
+      "job": "1st",
+      "description": "Call upon Inosuke to periodically fly through the air and attack in all directions.\\r\nUnaffected by attack reflection.\nCan be toggled On/Off.",
+      "masterLevel": null,
+      "status": null,
+      "note": "effect (1 frames) is a blank timing sequence in the source WZ (1x1 frames); omitted.",
+      "sourcePath": "Skill/12100.img/skill/121002002",
+      "icon": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002002/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 121002003,
+      "name": "Beast Breathing Fifth Fang: Crazy Cutting",
+      "slug": "beast-breathing-fifth-fang-crazy-cutting-121002003",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121002003",
+      "icon": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-10.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-30.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-31.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-32.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-33.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-34.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-35.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-36.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-37.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-38.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-39.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-40.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-41.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-42.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-43.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-44.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-45.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-46.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-47.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-48.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-49.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-50.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-51.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-52.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-53.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-54.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-55.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-56.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-57.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-58.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-59.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-60.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-61.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-62.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-63.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-64.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-65.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-66.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-67.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-68.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-69.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-70.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-71.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-72.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-73.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-74.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-75.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-76.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-77.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-78.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-79.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-80.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-81.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-82.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-83.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-84.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-85.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-86.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-87.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-88.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-89.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-90.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-91.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-92.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-93.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-94.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-95.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-96.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-97.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-98.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-99.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-100.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-101.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-102.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-103.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-104.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-105.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-106.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-107.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-108.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-109.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-110.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-111.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-112.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-113.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-114.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-115.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-116.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-117.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-118.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-119.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-120.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-121.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-122.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-123.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-124.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-125.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-126.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-127.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-128.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-129.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-130.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-131.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-132.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-133.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-134.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-135.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-136.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-137.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-138.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-139.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-140.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-141.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-142.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-143.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-144.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-145.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-146.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-147.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-148.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-149.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-150.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-151.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-152.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-153.webp",
+          "delay": 60,
+          "origin": {
+            "x": -125,
+            "y": 192,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-154.webp",
+          "delay": 60,
+          "origin": {
+            "x": -38,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-155.webp",
+          "delay": 60,
+          "origin": {
+            "x": 157,
+            "y": 263,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-156.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 255,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-157.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 223,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-158.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-159.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-160.webp",
+          "delay": 60,
+          "origin": {
+            "x": 171,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-161.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-162.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-163.webp",
+          "delay": 60,
+          "origin": {
+            "x": 231,
+            "y": 37,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-164.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-165.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-166.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-167.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-168.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-169.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-170.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-171.webp",
+          "delay": 60,
+          "origin": {
+            "x": 26,
+            "y": 178,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-172.webp",
+          "delay": 120,
+          "origin": {
+            "x": 16,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-173.webp",
+          "delay": 60,
+          "origin": {
+            "x": 169,
+            "y": 212,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-174.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-175.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-176.webp",
+          "delay": 60,
+          "origin": {
+            "x": 155,
+            "y": 243,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-177.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-178.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-179.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-180.webp",
+          "delay": 60,
+          "origin": {
+            "x": 5,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-181.webp",
+          "delay": 60,
+          "origin": {
+            "x": 3,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/beast-breathing-fifth-fang-crazy-cutting-121002003/hit-182.webp",
+          "delay": 60,
+          "origin": {
+            "x": -50,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002004,
+      "name": "Water Breathing Sixth Form: Whirlpool",
+      "slug": "water-breathing-sixth-form-whirlpool-121002004",
+      "job": "1st",
+      "description": "Twist like an all-consuming whirlpool to attack with a slashing vortex.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121002004",
+      "icon": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 234,
+            "y": 161,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 271,
+            "y": 199,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 300,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 370,
+            "y": 400,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 376,
+            "y": 456,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 379,
+            "y": 444,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 382,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 384,
+            "y": 464,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 381,
+            "y": 464,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 373,
+            "y": 465,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 371,
+            "y": 466,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 369,
+            "y": 461,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 365,
+            "y": 448,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 354,
+            "y": 447,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 352,
+            "y": 389,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 341,
+            "y": 422,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 339,
+            "y": 424,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 336,
+            "y": 423,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 333,
+            "y": 416,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 324,
+            "y": 404,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 321,
+            "y": 402,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-sixth-form-whirlpool-121002004/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 62,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002005,
+      "name": "Thunder Breathing First Form: Thunderclap and Flash",
+      "slug": "thunder-breathing-first-form-thunderclap-and-flash-121002005",
+      "job": "1st",
+      "description": "Call upon Zenitsu to appear like a bolt of thunder and slash with lightning speed.\\r\nUnaffected by attack reflection and cooldown reset.",
+      "masterLevel": null,
+      "status": null,
+      "note": "effect (1 frames) is a blank timing sequence in the source WZ (1x1 frames); omitted.",
+      "sourcePath": "Skill/12100.img/skill/121002005",
+      "icon": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 68,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 65,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 56,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 65,
+            "y": 56,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 57,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 66,
+            "y": 54,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 82,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 83,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/thunder-breathing-first-form-thunderclap-and-flash-121002005/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 72,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002006,
+      "name": "Water Breathing Eighth Form: Waterfall Basin",
+      "slug": "water-breathing-eighth-form-waterfall-basin-121002006",
+      "job": "1st",
+      "description": "Strike downwards with the force of a roaring waterfall.\\r\nHit enemies are weakened temporarily and have decreased defense.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/12100.img/skill/121002006",
+      "icon": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/icon.webp",
+      "effect": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 27,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 281,
+            "y": 402,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 289,
+            "y": 409,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 382,
+            "y": 415,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 390,
+            "y": 474,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 405,
+            "y": 487,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 410,
+            "y": 500,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 399,
+            "y": 521,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 381,
+            "y": 567,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 383,
+            "y": 579,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 389,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 389,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 393,
+            "y": 591,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 401,
+            "y": 611,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 405,
+            "y": 612,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 412,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 404,
+            "y": 616,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 390,
+            "y": 506,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 399,
+            "y": 509,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 310,
+            "y": 372,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 309,
+            "y": 367,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 307,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 306,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 264,
+            "y": 214,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 191,
+            "y": 170,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/effect-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 189,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 99,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 109,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 110,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 116,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 117,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-06.webp",
+          "delay": null,
+          "origin": {
+            "x": 121,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-07.webp",
+          "delay": null,
+          "origin": {
+            "x": 122,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/water-breathing-eighth-form-waterfall-basin-121002006/hit-08.webp",
+          "delay": null,
+          "origin": {
+            "x": 121,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002007,
+      "name": "Hinokami Kagura: Dancing Flash",
+      "slug": "hinokami-kagura-dancing-flash-121002007",
+      "job": "1st",
+      "description": "Launch an all-out attack that combines the powerful slash of Hinokami Kagura: Dance with the lightning dash of Thunder Breathing First Form: Thunderclap and Flash.\\r\nUnaffected by attack reflection and cooldown reset.",
+      "masterLevel": null,
+      "status": null,
+      "note": "effect (1 frames) is a blank timing sequence in the source WZ (1x1 frames); omitted.",
+      "sourcePath": "Skill/12100.img/skill/121002007",
+      "icon": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002007/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 121002008,
+      "name": "Hinokami Kagura: Dancing Flash",
+      "slug": "hinokami-kagura-dancing-flash-121002008",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/12100.img/skill/121002008",
+      "icon": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/tanjiro/frames/hinokami-kagura-dancing-flash-121002008/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    }
+  ]
+}
