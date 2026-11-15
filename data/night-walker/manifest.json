@@ -928,6 +928,30 @@
       "hitFrames": 51
     },
     {
+      "id": 400041059,
+      "name": "Rapid Throw",
+      "slug": "rapid-throw-400041059",
+      "job": "5th",
+      "source": "maplestory.io skillbook GMS 270 job 40004",
+      "sourcePath": "Skill/40004.img/skill/400041059",
+      "description": "[Throw]\nToss countless throwing stars at blinding speed. If you use this skill in the air, you'll hover while you toss them. Using Rapid Throw while Dark Sight is active does not deactivate Dark Sight. You are immune to knockback and debilitating abnormal statuses while casting the skill.\nRapid Throw is unaffected by Shadow Momentum's inertia effect. Each throwing star is applied at most once to the throwing star skill count of Shadow Bat and Ravenous Bat. It's a dark-attribute attack, but consecutive throw attacks have higher damage even though the shadow from Shadow Spear isn't formed.",
+      "masterLevel": null,
+      "effectFrames": 0,
+      "hitFrames": 30
+    },
+    {
+      "id": 400041060,
+      "name": "Rapid Throw",
+      "slug": "rapid-throw-400041060",
+      "job": "5th",
+      "source": "maplestory.io skillbook GMS 270 job 40004",
+      "sourcePath": "Skill/40004.img/skill/400041060",
+      "description": "",
+      "masterLevel": null,
+      "effectFrames": 22,
+      "hitFrames": 11
+    },
+    {
       "id": 400041081,
       "name": "Greater Dark Servant",
       "slug": "greater-dark-servant-400041081",
@@ -1421,12 +1445,14 @@
     }
   ],
   "totals": {
-    "skills": 118,
-    "skillsWithFrames": 56,
-    "effectFramesUnique": 525,
-    "hitFramesUnique": 435,
-    "effectPlusHitFramesUnique": 960
+    "skills": 120,
+    "skillsWithFrames": 58,
+    "effectFramesUnique": 547,
+    "hitFramesUnique": 476,
+    "effectPlusHitFramesUnique": 1023
   },
   "missing": [],
-  "notes": []
+  "notes": [
+    "V skills 8/8 complete 2026-11-15: Rapid Throw 400041059 (hit 30) and 400041060 (effect 22, hit 11) recovered from a fresh full job-40004 skillbook download (364 MB, not truncated); the earlier truncated book had missed them. 400041059 has no effect layer in WZ data (hit frames only). Minor gap: 400041060 effect0 extra layer only 1/8 frames retrievable via WZ API (effect0-00 is a 1x1 placeholder, flagged; frames 1-7 fail after 3 attempts). 400041081 (Greater Dark Servant sub-entry) has no frames in the skillbook, as before."
+  ]
 }

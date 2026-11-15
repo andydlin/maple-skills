@@ -6,12 +6,12 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 118,
-    "withFrames": 56,
-    "effectFrames": 525,
-    "hitFrames": 435,
-    "effectFramesUnique": 525,
-    "hitFramesUnique": 435
+    "skills": 120,
+    "withFrames": 58,
+    "effectFrames": 547,
+    "hitFrames": 476,
+    "effectFramesUnique": 547,
+    "hitFramesUnique": 476
   },
   "notes": [],
   "skills": [
@@ -7207,6 +7207,667 @@
           "origin": {
             "x": 229,
             "y": 306,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400041059,
+      "name": "Rapid Throw",
+      "slug": "rapid-throw-400041059",
+      "job": "5th",
+      "description": "[Throw]\nToss countless throwing stars at blinding speed. If you use this skill in the air, you'll hover while you toss them. Using Rapid Throw while Dark Sight is active does not deactivate Dark Sight. You are immune to knockback and debilitating abnormal statuses while casting the skill.\nRapid Throw is unaffected by Shadow Momentum's inertia effect. Each throwing star is applied at most once to the throwing star skill count of Shadow Bat and Ravenous Bat. It's a dark-attribute attack, but consecutive throw attacks have higher damage even though the shadow from Shadow Spear isn't formed.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": "No effect layer in WZ data (hit frames only)",
+      "sourcePath": "Skill/40004.img/skill/400041059",
+      "icon": "data/night-walker/frames/rapid-throw-400041059/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 51,
+            "y": 52,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 52,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 42,
+            "y": 46,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 42,
+            "y": 46,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 41,
+            "y": 43,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 41,
+            "y": 41,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 36,
+            "y": 28,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 35,
+            "y": 27,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 67,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 67,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 60,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 59,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 47,
+            "y": 36,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 46,
+            "y": 35,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 74,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 67,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 59,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041059/hit-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": 58,
+            "y": 44,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400041060,
+      "name": "Rapid Throw",
+      "slug": "rapid-throw-400041060",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete (effect0 1/8 via WZ; remaining effect0 frames fail on the WZ API after 3 attempts)",
+      "note": null,
+      "sourcePath": "Skill/40004.img/skill/400041060",
+      "icon": "data/night-walker/frames/rapid-throw-400041060/icon.webp",
+      "effect": [
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-00.webp",
+          "delay": 30,
+          "origin": {
+            "x": 196,
+            "y": 371,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-01.webp",
+          "delay": 30,
+          "origin": {
+            "x": 221,
+            "y": 369,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-02.webp",
+          "delay": 30,
+          "origin": {
+            "x": 213,
+            "y": 362,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-03.webp",
+          "delay": 30,
+          "origin": {
+            "x": 253,
+            "y": 421,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-04.webp",
+          "delay": 30,
+          "origin": {
+            "x": 186,
+            "y": 368,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-05.webp",
+          "delay": 30,
+          "origin": {
+            "x": 60,
+            "y": 244,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 50,
+            "y": 141,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 599,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 645,
+            "y": 489,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 869,
+            "y": 382,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 875,
+            "y": 380,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 879,
+            "y": 337,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 880,
+            "y": 337,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 882,
+            "y": 337,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 882,
+            "y": 346,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 883,
+            "y": 336,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 885,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 875,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 887,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 888,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 879,
+            "y": 322,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 616,
+            "y": 322,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 196,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 199,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 204,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 206,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 208,
+            "y": 166,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 208,
+            "y": 165,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 207,
+            "y": 161,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 205,
+            "y": 161,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 202,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 198,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/night-walker/frames/rapid-throw-400041060/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 129,
             "isEmpty": false
           },
           "placeholder": false
