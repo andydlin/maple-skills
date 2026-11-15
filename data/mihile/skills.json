@@ -6,12 +6,12 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 96,
-    "withFrames": 55,
-    "effectFrames": 751,
-    "hitFrames": 303,
-    "effectFramesUnique": 751,
-    "hitFramesUnique": 303
+    "skills": 109,
+    "withFrames": 65,
+    "effectFrames": 907,
+    "hitFrames": 480,
+    "effectFramesUnique": 907,
+    "hitFramesUnique": 480
   },
   "notes": [],
   "skills": [
@@ -6536,6 +6536,3535 @@
           "placeholder": false
         }
       ]
+    },
+    {
+      "id": 400011011,
+      "name": "Shield of Light",
+      "slug": "shield-of-light-400011011",
+      "job": "5th",
+      "description": "Become a shield for your fellow party members. Temporarily blocks the damage and debilitating status conditions on party members inside the area, and increases your Final Damage.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011011",
+      "icon": "data/mihile/frames/shield-of-light-400011011/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 149,
+            "y": 198,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 315,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 341,
+            "y": 356,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 342,
+            "y": 369,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 351,
+            "y": 370,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 354,
+            "y": 374,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 335,
+            "y": 383,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 254,
+            "y": 392,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 248,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/shield-of-light-400011011/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400011032,
+      "name": "Sword of Light",
+      "slug": "sword-of-light-400011032",
+      "job": "5th",
+      "description": "[Radiant Soul Skill]\nFocuses the power of your Soul Shield into the form of the legendary Sword of Light to strike down your foes.",
+      "masterLevel": null,
+      "status": "complete (no frames in skillbook)",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011032",
+      "icon": "data/mihile/frames/sword-of-light-400011032/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400011035,
+      "name": "Sword of Light",
+      "slug": "sword-of-light-400011035",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011035",
+      "icon": "data/mihile/frames/sword-of-light-400011035/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 129,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 136,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 143,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 416,
+            "y": 479,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 535,
+            "y": 604,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 511,
+            "y": 588,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 488,
+            "y": 617,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 492,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 392,
+            "y": 518,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 295,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 273,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 273,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 272,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 262,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 257,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 259,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 238,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 227,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 230,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 231,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 230,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 371,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/effect-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 204,
+            "y": 346,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 130,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011035/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011036,
+      "name": "Sword of Light",
+      "slug": "sword-of-light-400011036",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011036",
+      "icon": "data/mihile/frames/sword-of-light-400011036/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 129,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 136,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 143,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 489,
+            "y": 541,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 627,
+            "y": 688,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 601,
+            "y": 669,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 574,
+            "y": 703,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 578,
+            "y": 692,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 460,
+            "y": 588,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 361,
+            "y": 498,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 341,
+            "y": 480,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 341,
+            "y": 480,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 340,
+            "y": 476,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 327,
+            "y": 460,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 302,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 304,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 280,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 266,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 270,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 271,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 270,
+            "y": 374,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 245,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/effect-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 239,
+            "y": 384,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 130,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011036/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011037,
+      "name": "Sword of Light",
+      "slug": "sword-of-light-400011037",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011037",
+      "icon": "data/mihile/frames/sword-of-light-400011037/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 129,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 136,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 143,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 162,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 611,
+            "y": 644,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 671,
+            "y": 786,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 670,
+            "y": 795,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 676,
+            "y": 803,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 674,
+            "y": 798,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 573,
+            "y": 713,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 451,
+            "y": 590,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 431,
+            "y": 567,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 431,
+            "y": 567,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 426,
+            "y": 563,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 411,
+            "y": 542,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 411,
+            "y": 471,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 412,
+            "y": 480,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 412,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 412,
+            "y": 442,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 410,
+            "y": 437,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 408,
+            "y": 471,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 336,
+            "y": 435,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 304,
+            "y": 483,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/effect-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 297,
+            "y": 447,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 130,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011037/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011050,
+      "name": "Radiant Soul",
+      "slug": "radiant-soul-400011050",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011050",
+      "icon": "data/mihile/frames/radiant-soul-400011050/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/effect-00.webp",
+          "delay": null,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 117,
+            "y": 366,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 192,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 210,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 218,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 218,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 212,
+            "y": 329,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 205,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 325,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 210,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 200,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 197,
+            "y": 315,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-13.webp",
+          "delay": 180,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 366,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 202,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 220,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 228,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 228,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 222,
+            "y": 329,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 219,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 215,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 219,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 219,
+            "y": 325,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 220,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 210,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 207,
+            "y": 315,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-27.webp",
+          "delay": 300,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-28.webp",
+          "delay": 90,
+          "origin": {
+            "x": 107,
+            "y": 366,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-29.webp",
+          "delay": 90,
+          "origin": {
+            "x": 182,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-30.webp",
+          "delay": 90,
+          "origin": {
+            "x": 200,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-31.webp",
+          "delay": 90,
+          "origin": {
+            "x": 208,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-32.webp",
+          "delay": 90,
+          "origin": {
+            "x": 208,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-33.webp",
+          "delay": 90,
+          "origin": {
+            "x": 202,
+            "y": 329,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-34.webp",
+          "delay": 90,
+          "origin": {
+            "x": 199,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-35.webp",
+          "delay": 90,
+          "origin": {
+            "x": 195,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-36.webp",
+          "delay": 90,
+          "origin": {
+            "x": 199,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-37.webp",
+          "delay": 90,
+          "origin": {
+            "x": 199,
+            "y": 325,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-38.webp",
+          "delay": 90,
+          "origin": {
+            "x": 200,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-39.webp",
+          "delay": 90,
+          "origin": {
+            "x": 190,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-40.webp",
+          "delay": 90,
+          "origin": {
+            "x": 187,
+            "y": 315,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-41.webp",
+          "delay": 420,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-42.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 366,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-43.webp",
+          "delay": 90,
+          "origin": {
+            "x": 197,
+            "y": 302,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-44.webp",
+          "delay": 90,
+          "origin": {
+            "x": 215,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-45.webp",
+          "delay": 90,
+          "origin": {
+            "x": 223,
+            "y": 338,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-46.webp",
+          "delay": 90,
+          "origin": {
+            "x": 223,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-47.webp",
+          "delay": 90,
+          "origin": {
+            "x": 217,
+            "y": 329,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-48.webp",
+          "delay": 90,
+          "origin": {
+            "x": 214,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-49.webp",
+          "delay": 90,
+          "origin": {
+            "x": 210,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-50.webp",
+          "delay": 90,
+          "origin": {
+            "x": 214,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-51.webp",
+          "delay": 90,
+          "origin": {
+            "x": 214,
+            "y": 325,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-52.webp",
+          "delay": 90,
+          "origin": {
+            "x": 215,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-53.webp",
+          "delay": 90,
+          "origin": {
+            "x": 205,
+            "y": 326,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011050/hit-54.webp",
+          "delay": 90,
+          "origin": {
+            "x": 202,
+            "y": 315,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011067,
+      "name": "Sword of Light",
+      "slug": "sword-of-light-400011067",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011067",
+      "icon": "data/mihile/frames/sword-of-light-400011067/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 92,
+            "y": 347,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 97,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 111,
+            "y": 363,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 111,
+            "y": 363,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 111,
+            "y": 363,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 111,
+            "y": 363,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 266,
+            "y": 353,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 341,
+            "y": 433,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 327,
+            "y": 419,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 312,
+            "y": 405,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 284,
+            "y": 360,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 251,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 173,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 161,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 163,
+            "y": 289,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 163,
+            "y": 270,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 164,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 165,
+            "y": 279,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 166,
+            "y": 282,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 152,
+            "y": 261,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 145,
+            "y": 260,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 147,
+            "y": 264,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 148,
+            "y": 279,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 147,
+            "y": 264,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 133,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/effect-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 130,
+            "y": 269,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 130,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/sword-of-light-400011067/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011083,
+      "name": "Radiant Soul",
+      "slug": "radiant-soul-400011083",
+      "job": "5th",
+      "description": "Draw on your soul power and imbue your sword with a radiant light. You can use Radiant Soul Slash with a regular attack while equipping Radiant Soul. Using Action Customization allows you to use Radiant Soul Slash with a regular attack or Radiant Cross. By reusing the skill, you can use Light Force Rei, which emits intense light, one time.\nWhile the skill is in use, the Royal Guard's debuff is applied with max stacks. The afterimage of the sword is unaffected by attack reflection.\nAction Customization Lock: Right-click",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011083",
+      "icon": "data/mihile/frames/radiant-soul-400011083/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 243,
+            "y": 376,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 277,
+            "y": 356,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 241,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 257,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 225,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 224,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 225,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 229,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 214,
+            "y": 345,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-400011083/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 213,
+            "y": 251,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400011084,
+      "name": "Radiant Soul Slash",
+      "slug": "radiant-soul-slash-400011084",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": "Radiant Soul Slash (sub-attack)",
+      "sourcePath": "Skill/40001.img/skill/400011084",
+      "icon": "data/mihile/frames/radiant-soul-slash-400011084/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 0,
+            "y": 25,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 78,
+            "y": 237,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 314,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 480,
+            "y": 393,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 510,
+            "y": 416,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 517,
+            "y": 393,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 519,
+            "y": 417,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 522,
+            "y": 482,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 523,
+            "y": 403,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 482,
+            "y": 414,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 64,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 82,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/radiant-soul-slash-400011084/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011087,
+      "name": "Light Force Rei",
+      "slug": "light-force-rei-400011087",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": "Light Force Rei (Radiant Soul finisher)",
+      "sourcePath": "Skill/40001.img/skill/400011087",
+      "icon": "data/mihile/frames/light-force-rei-400011087/icon.webp",
+      "effect": [
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 144,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 161,
+            "y": 163,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 173,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 160,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 161,
+            "y": 164,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 356,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 775,
+            "y": 199,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 753,
+            "y": 213,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 728,
+            "y": 216,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 687,
+            "y": 215,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 686,
+            "y": 218,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 686,
+            "y": 217,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 592,
+            "y": 206,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 576,
+            "y": 211,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 558,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-00.webp",
+          "delay": 30,
+          "origin": {
+            "x": 100,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-01.webp",
+          "delay": 30,
+          "origin": {
+            "x": 145,
+            "y": 144,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-02.webp",
+          "delay": 30,
+          "origin": {
+            "x": 147,
+            "y": 146,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-03.webp",
+          "delay": 30,
+          "origin": {
+            "x": 147,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-04.webp",
+          "delay": 30,
+          "origin": {
+            "x": 144,
+            "y": 141,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-05.webp",
+          "delay": 30,
+          "origin": {
+            "x": 127,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-06.webp",
+          "delay": 30,
+          "origin": {
+            "x": 99,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 6,
+            "y": 27,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 82,
+            "y": 83,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 147,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 165,
+            "y": 141,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 167,
+            "y": 143,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 168,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 170,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 169,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 169,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 171,
+            "y": 149,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 114,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 113,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 109,
+            "y": 127,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 108,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 104,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 103,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 75,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 137,
+            "y": 76,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 190,
+            "y": 111,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-27.webp",
+          "delay": 90,
+          "origin": {
+            "x": 206,
+            "y": 123,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-28.webp",
+          "delay": 90,
+          "origin": {
+            "x": 207,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-29.webp",
+          "delay": 90,
+          "origin": {
+            "x": 208,
+            "y": 128,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-30.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-31.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 134,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-32.webp",
+          "delay": 90,
+          "origin": {
+            "x": 209,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-33.webp",
+          "delay": 90,
+          "origin": {
+            "x": 211,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-34.webp",
+          "delay": 90,
+          "origin": {
+            "x": 164,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-35.webp",
+          "delay": 90,
+          "origin": {
+            "x": 162,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-36.webp",
+          "delay": 90,
+          "origin": {
+            "x": 160,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-37.webp",
+          "delay": 90,
+          "origin": {
+            "x": 158,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-38.webp",
+          "delay": 90,
+          "origin": {
+            "x": 156,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-39.webp",
+          "delay": 90,
+          "origin": {
+            "x": 155,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-40.webp",
+          "delay": 90,
+          "origin": {
+            "x": 154,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-41.webp",
+          "delay": 60,
+          "origin": {
+            "x": -28,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-42.webp",
+          "delay": 60,
+          "origin": {
+            "x": 48,
+            "y": 164,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-43.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 206,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-44.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 222,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-45.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-46.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-47.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 231,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-48.webp",
+          "delay": 30,
+          "origin": {
+            "x": 135,
+            "y": 234,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-49.webp",
+          "delay": 30,
+          "origin": {
+            "x": 135,
+            "y": 231,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-50.webp",
+          "delay": 30,
+          "origin": {
+            "x": 137,
+            "y": 230,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-51.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-52.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-53.webp",
+          "delay": 60,
+          "origin": {
+            "x": 75,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-54.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 202,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-55.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 195,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-56.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 191,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-57.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-58.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-59.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-60.webp",
+          "delay": 60,
+          "origin": {
+            "x": 202,
+            "y": 171,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-61.webp",
+          "delay": 60,
+          "origin": {
+            "x": 218,
+            "y": 183,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-62.webp",
+          "delay": 60,
+          "origin": {
+            "x": 219,
+            "y": 185,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-63.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-64.webp",
+          "delay": 60,
+          "origin": {
+            "x": 221,
+            "y": 191,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-65.webp",
+          "delay": 30,
+          "origin": {
+            "x": 221,
+            "y": 194,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-66.webp",
+          "delay": 30,
+          "origin": {
+            "x": 221,
+            "y": 191,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-67.webp",
+          "delay": 30,
+          "origin": {
+            "x": 223,
+            "y": 190,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-68.webp",
+          "delay": 60,
+          "origin": {
+            "x": 176,
+            "y": 173,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-69.webp",
+          "delay": 60,
+          "origin": {
+            "x": 174,
+            "y": 173,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-70.webp",
+          "delay": 60,
+          "origin": {
+            "x": 172,
+            "y": 173,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-71.webp",
+          "delay": 60,
+          "origin": {
+            "x": 170,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-72.webp",
+          "delay": 60,
+          "origin": {
+            "x": 168,
+            "y": 162,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-73.webp",
+          "delay": 60,
+          "origin": {
+            "x": 167,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-74.webp",
+          "delay": 60,
+          "origin": {
+            "x": 166,
+            "y": 159,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-75.webp",
+          "delay": 60,
+          "origin": {
+            "x": 34,
+            "y": 9,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-76.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 65,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-77.webp",
+          "delay": 60,
+          "origin": {
+            "x": 175,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-78.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 123,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-79.webp",
+          "delay": 60,
+          "origin": {
+            "x": 195,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-80.webp",
+          "delay": 60,
+          "origin": {
+            "x": 196,
+            "y": 129,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-81.webp",
+          "delay": 60,
+          "origin": {
+            "x": 198,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-82.webp",
+          "delay": 60,
+          "origin": {
+            "x": 197,
+            "y": 135,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-83.webp",
+          "delay": 60,
+          "origin": {
+            "x": 197,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-84.webp",
+          "delay": 60,
+          "origin": {
+            "x": 199,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-85.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-86.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-87.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-88.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-89.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-90.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/mihile/frames/light-force-rei-400011087/hit-91.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011127,
+      "name": "Light of Courage",
+      "slug": "light-of-courage-400011127",
+      "job": "5th",
+      "description": "Inspire your allies and scorch your enemies with the light of unfailing courage.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011127",
+      "icon": null,
+      "effect": [
+        {
+          "file": "data/mihile/frames/light-of-courage-400011127/effect-03.webp",
+          "delay": 30,
+          "origin": {
+            "x": 515,
+            "y": 746,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400011128,
+      "name": "Light of Courage",
+      "slug": "light-of-courage-400011128",
+      "job": "5th",
+      "description": "Damage is increased by the light of unfailing courage.",
+      "masterLevel": null,
+      "status": "PARTIAL (no frames via WZ API)",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011128",
+      "icon": null,
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400011141,
+      "name": "Shield of Light",
+      "slug": "shield-of-light-400011141",
+      "job": "5th",
+      "description": "Become a shield for your fellow party members. Temporarily blocks the damage and debilitating status conditions on party members inside the area, and increases your Final Damage.",
+      "masterLevel": null,
+      "status": "complete (no frames in skillbook)",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011141",
+      "icon": "data/mihile/frames/shield-of-light-400011141/icon.webp",
+      "effect": [],
+      "hit": []
     },
     {
       "id": 51140018,
