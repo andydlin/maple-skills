@@ -6,12 +6,12 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 97,
-    "withFrames": 50,
-    "effectFrames": 578,
-    "hitFrames": 484,
-    "effectFramesUnique": 578,
-    "hitFramesUnique": 484
+    "skills": 106,
+    "withFrames": 56,
+    "effectFrames": 586,
+    "hitFrames": 486,
+    "effectFramesUnique": 586,
+    "hitFramesUnique": 486
   },
   "notes": [],
   "skills": [
@@ -7576,6 +7576,125 @@
       ]
     },
     {
+      "id": 400021004,
+      "name": "Orbital Inferno",
+      "slug": "orbital-inferno-400021004",
+      "job": "5th",
+      "description": "Hurls a giant ball of flame that shoots forward before returning to you. It disappears if you move too far. Can be used without a casting animation during Orbital Flame. This is a fire-attribute attack. \nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "status": "PARTIAL (no frames via WZ API)",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021004",
+      "icon": null,
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400021042,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021042",
+      "job": "5th",
+      "description": "Unleash the true might of the Essence of Fire. Only usable while Fires of Creation is active. Attack varies based on the Fire Essence summoned. Using it while pressing the down arrow key will activate an attack that matches a Fire Essence that isn't summoned. Triggers an attack that matches a summoned Fire Essence even when used with the down arrow key when command is locked. This is a fire-attribute attack.\nUnaffected by attack reflection.\nCommand Lock: Right-click",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021042",
+      "icon": null,
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021042/effect-00.webp",
+          "delay": null,
+          "origin": null,
+          "placeholder": true
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400021043,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021043",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021043",
+      "icon": "data/blaze-wizard/frames/savage-flame-400021043/icon.webp",
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021043/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 549,
+            "y": 581,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021043/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 617,
+            "y": 711,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400021044,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021044",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "PARTIAL (no frames via WZ API)",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021044",
+      "icon": null,
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400021045,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021045",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021045",
+      "icon": null,
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021045/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 91,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021045/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 92,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
       "id": 400021072,
       "name": "Inferno Sphere",
       "slug": "inferno-sphere-400021072",
@@ -7587,6 +7706,115 @@
       "sourcePath": "Skill/40002.img/skill/400021072",
       "icon": null,
       "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400021092,
+      "name": "Salamander Mischief",
+      "slug": "salamander-mischief-400021092",
+      "job": "5th",
+      "description": "Summon the fire of a playful salamander spirit.\nSalamander tracks a nearby enemy to attack when a direct skill attack by Blaze Wizard hits. In a single action, it either consumes all of the number of attacks or returns to the summoner's location when it strays too far.\nObtain Ember every time Salamander's attack hits, and Salamander's attack becomes stronger in proportion. You can get a Magic ATT increase buff in return for the Ember when Salamander disappears.\nUnaffected by attack reflection, and prioritizes boss with highest Max HP. It's a fire-attribute attack.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021092",
+      "icon": null,
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/salamander-mischief-400021092/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 126,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400021093,
+      "name": "Salamander Mischief",
+      "slug": "salamander-mischief-400021093",
+      "job": "5th",
+      "description": "Salamander's Gift increases Magic ATT.",
+      "masterLevel": null,
+      "status": "PARTIAL (no frames via WZ API)",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021093",
+      "icon": null,
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 400021140,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021140",
+      "job": "5th",
+      "description": "Unleash the true might of the Essence of Fire. Only usable while Fires of Creation is active. Attack varies based on the Fire Essence summoned. Using it while pressing the down arrow key will activate an attack that matches a Fire Essence that isn't currently summoned. \nThis skill consumes all the flames, boosting its attack power in proportion to the number of flames consumed. This is a fire attack.\nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021140",
+      "icon": null,
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021140/effect-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 39,
+            "y": 453,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400021141,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021141",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021141",
+      "icon": null,
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021141/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021141/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 190,
+            "y": 258,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/savage-flame-400021141/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 188,
+            "y": 269,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
       "hit": []
     },
     {

@@ -772,6 +772,66 @@
       "hitFrames": 10
     },
     {
+      "id": 400021004,
+      "name": "Orbital Inferno",
+      "slug": "orbital-inferno-400021004",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021004",
+      "description": "Hurls a giant ball of flame that shoots forward before returning to you. It disappears if you move too far. Can be used without a casting animation during Orbital Flame. This is a fire-attribute attack. \nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "effectFrames": 0,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021042,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021042",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021042",
+      "description": "Unleash the true might of the Essence of Fire. Only usable while Fires of Creation is active. Attack varies based on the Fire Essence summoned. Using it while pressing the down arrow key will activate an attack that matches a Fire Essence that isn't summoned. Triggers an attack that matches a summoned Fire Essence even when used with the down arrow key when command is locked. This is a fire-attribute attack.\nUnaffected by attack reflection.\nCommand Lock: Right-click",
+      "masterLevel": null,
+      "effectFrames": 1,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021043,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021043",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021043",
+      "description": "",
+      "masterLevel": null,
+      "effectFrames": 2,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021044,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021044",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021044",
+      "description": "",
+      "masterLevel": null,
+      "effectFrames": 0,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021045,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021045",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021045",
+      "description": "",
+      "masterLevel": null,
+      "effectFrames": 0,
+      "hitFrames": 2
+    },
+    {
       "id": 400021072,
       "name": "Inferno Sphere",
       "slug": "inferno-sphere-400021072",
@@ -781,6 +841,54 @@
       "description": "Blaze through your enemies with the phoenix's symbol of infinite life and death. You are immune to knockback and debilitating abnormal statuses while casting the skill. It's a fire-attribute attack.",
       "masterLevel": null,
       "effectFrames": 0,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021092,
+      "name": "Salamander Mischief",
+      "slug": "salamander-mischief-400021092",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021092",
+      "description": "Summon the fire of a playful salamander spirit.\nSalamander tracks a nearby enemy to attack when a direct skill attack by Blaze Wizard hits. In a single action, it either consumes all of the number of attacks or returns to the summoner's location when it strays too far.\nObtain Ember every time Salamander's attack hits, and Salamander's attack becomes stronger in proportion. You can get a Magic ATT increase buff in return for the Ember when Salamander disappears.\nUnaffected by attack reflection, and prioritizes boss with highest Max HP. It's a fire-attribute attack.",
+      "masterLevel": null,
+      "effectFrames": 1,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021093,
+      "name": "Salamander Mischief",
+      "slug": "salamander-mischief-400021093",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021093",
+      "description": "Salamander's Gift increases Magic ATT.",
+      "masterLevel": null,
+      "effectFrames": 0,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021140,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021140",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021140",
+      "description": "Unleash the true might of the Essence of Fire. Only usable while Fires of Creation is active. Attack varies based on the Fire Essence summoned. Using it while pressing the down arrow key will activate an attack that matches a Fire Essence that isn't currently summoned. \nThis skill consumes all the flames, boosting its attack power in proportion to the number of flames consumed. This is a fire attack.\nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "effectFrames": 1,
+      "hitFrames": 0
+    },
+    {
+      "id": 400021141,
+      "name": "Savage Flame",
+      "slug": "savage-flame-400021141",
+      "job": "5th",
+      "source": "maplestory.io WZ API GMS 270",
+      "sourcePath": "Skill/40002.img/skill/400021141",
+      "description": "",
+      "masterLevel": null,
+      "effectFrames": 3,
       "hitFrames": 0
     },
     {
@@ -1169,11 +1277,11 @@
     }
   ],
   "totals": {
-    "skills": 97,
-    "skillsWithFrames": 50,
-    "effectFramesUnique": 578,
-    "hitFramesUnique": 484,
-    "effectPlusHitFramesUnique": 1062
+    "skills": 106,
+    "skillsWithFrames": 56,
+    "effectFramesUnique": 586,
+    "hitFramesUnique": 486,
+    "effectPlusHitFramesUnique": 1072
   },
   "missing": [],
   "notes": []
