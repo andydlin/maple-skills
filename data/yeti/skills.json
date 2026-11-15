@@ -1,0 +1,4977 @@
+{
+  "class": "Yeti",
+  "classLine": "Special",
+  "game": "MapleStory",
+  "version": "GMS 270",
+  "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; class-specific 5th job skill list cross-checked against maplestorywiki.net",
+  "generated": "2026-11-14",
+  "counts": {
+    "skills": 42,
+    "withFrames": 26,
+    "effectFrames": 247,
+    "hitFrames": 186,
+    "effectFramesUnique": 247,
+    "hitFramesUnique": 186
+  },
+  "notes": [
+    "Single-file class (job 13500); no 5th-job V skills in scope."
+  ],
+  "skills": [
+    {
+      "id": 130010112,
+      "name": "Yeti All Soft Now!",
+      "slug": "yeti-all-soft-now-130010112",
+      "job": "Beginner",
+      "description": "A Yeti who drank the wrong potion and traded strength for cuteness.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/13001.img/skill/130010112",
+      "icon": "data/yeti/frames/yeti-all-soft-now-130010112/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135000010,
+      "name": "Rage Enhancement: Super Jetpack",
+      "slug": "rage-enhancement-super-jetpack-135000010",
+      "job": "1st",
+      "description": "After a great deal of explosive research, Yeti has created the ultimate jetpack! Once learned, enables Homemade Super Jetpack while Enraged. Permanently increases Speed as a passive effect.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135000010",
+      "icon": "data/yeti/frames/rage-enhancement-super-jetpack-135000010/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135000014,
+      "name": "Rage Enhancement: Yeti Smash",
+      "slug": "rage-enhancement-yeti-smash-135000014",
+      "job": "1st",
+      "description": "Yeti's heightened rage enhances Yeti Smash, allowing for a more powerful 2nd Hit attack.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135000014",
+      "icon": "data/yeti/frames/rage-enhancement-yeti-smash-135000014/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135000021,
+      "name": "Yeti Charisma",
+      "slug": "yeti-charisma-135000021",
+      "job": "1st",
+      "description": "Yeti, the most powerful creature in all of Maple World, possesses numerous abilities that make him totally different from normal monsters. At least that's what Yeti thinks.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135000021",
+      "icon": "data/yeti/frames/yeti-charisma-135000021/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-charisma-135000021/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 42,
+            "y": 54,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-charisma-135000021/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 47,
+            "y": 39,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-charisma-135000021/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 33,
+            "y": 31,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-charisma-135000021/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 22,
+            "y": 23,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-charisma-135000021/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 18,
+            "y": 16,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135000022,
+      "name": "Yeti Power",
+      "slug": "yeti-power-135000022",
+      "job": "1st",
+      "description": "As Yeti starts to recover his lost powers,his stats will continue to increase.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135000022",
+      "icon": "data/yeti/frames/yeti-power-135000022/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135001000,
+      "name": "Snack Dash",
+      "slug": "snack-dash-135001000",
+      "job": "1st",
+      "description": "Yeti lunges violently forward in pursuit of snacks, dealing damage to enemies in his path while moving forward in the direction of the arrow key pressed. Does not collide with enemies while moving forward.\nSnack Dash can be used as an attack and can be eup to 3 times in a row.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001000",
+      "icon": "data/yeti/frames/snack-dash-135001000/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-00.webp",
+          "delay": 120,
+          "origin": {
+            "x": 213,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-01.webp",
+          "delay": 120,
+          "origin": {
+            "x": 218,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-02.webp",
+          "delay": 120,
+          "origin": {
+            "x": 219,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-03.webp",
+          "delay": 120,
+          "origin": {
+            "x": 217,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-04.webp",
+          "delay": 120,
+          "origin": {
+            "x": 213,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-05.webp",
+          "delay": 120,
+          "origin": {
+            "x": 203,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/effect-06.webp",
+          "delay": 120,
+          "origin": {
+            "x": 191,
+            "y": 137,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 70,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 73,
+            "y": 72,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 71,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 69,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 65,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001000/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 58,
+            "y": 66,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001001,
+      "name": "Snack Dash",
+      "slug": "snack-dash-135001001",
+      "job": "1st",
+      "description": "Yeti lunges violently forward in pursuit of snacks, dealing damage to enemies in his path while moving forward in the direction of the arrow key pressed. Does not collide with enemies while moving forward.\nSnack Dash can be used as an attack and can be eup to 3 times in a row.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001001",
+      "icon": "data/yeti/frames/snack-dash-135001001/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-00.webp",
+          "delay": 120,
+          "origin": {
+            "x": 214,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-01.webp",
+          "delay": 120,
+          "origin": {
+            "x": 228,
+            "y": 171,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-02.webp",
+          "delay": 120,
+          "origin": {
+            "x": 226,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-03.webp",
+          "delay": 120,
+          "origin": {
+            "x": 224,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-04.webp",
+          "delay": 120,
+          "origin": {
+            "x": 220,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/effect-05.webp",
+          "delay": 120,
+          "origin": {
+            "x": 212,
+            "y": 161,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 70,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 73,
+            "y": 72,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 71,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 69,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 65,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001001/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 58,
+            "y": 66,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001002,
+      "name": "Snack Dash",
+      "slug": "snack-dash-135001002",
+      "job": "1st",
+      "description": "Yeti lunges violently forward in pursuit of snacks, dealing damage to enemies in his path while moving forward in the direction of the arrow key pressed. Does not collide with enemies while moving forward.\nSnack Dash can be used as an attack and can be eup to 3 times in a row.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001002",
+      "icon": "data/yeti/frames/snack-dash-135001002/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 294,
+            "y": 230,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 312,
+            "y": 262,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 312,
+            "y": 262,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 312,
+            "y": 262,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 301,
+            "y": 251,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 302,
+            "y": 259,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 300,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 296,
+            "y": 272,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 295,
+            "y": 276,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 294,
+            "y": 277,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 286,
+            "y": 281,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 296,
+            "y": 282,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 100,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 79,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/snack-dash-135001002/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 77,
+            "y": 81,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001003,
+      "name": "Yeti Flight",
+      "slug": "yeti-flight-135001003",
+      "job": "1st",
+      "description": "Pepe gives Yeti a boost, allowing him to double-jump in the desired direction.\nWhen used while holding the up arrow key, Yeti performs a high jump that inflicts damage to nearby enemies upon landing.\nYeti Flight is unaffected by attack reflection.\nRight-click to lock the command.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001003",
+      "icon": "data/yeti/frames/yeti-flight-135001003/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": -12,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 5,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 6,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 5,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001003/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001004,
+      "name": "Yeti Flight",
+      "slug": "yeti-flight-135001004",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001004",
+      "icon": "data/yeti/frames/yeti-flight-135001004/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 0,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 113,
+            "y": 311,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 114,
+            "y": 333,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 115,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 116,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 119,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 121,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 123,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 124,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 25,
+            "y": 240,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 92,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 95,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 95,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 93,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135001004/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 92,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001005,
+      "name": "Yeti Rage",
+      "slug": "yeti-rage-135001005",
+      "job": "1st",
+      "description": "Annoyed from constantly being attacked, Yeti accumulates rage. Upon use, Yeti becomes Enraged.\\r\nWhile Enraged, the skill Yeti Smash replaces Snack Dash.\nWhile Enraged, the duration of Hey Pepe!, Yeti Master Chef, and Hero of El Nath will not decrease, but some skills will be unavailable for use.\nYeti Rage is not affected by cooldown resets or buff duration increases.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001005",
+      "icon": "data/yeti/frames/yeti-rage-135001005/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135001006,
+      "name": "Yeti Smash",
+      "slug": "yeti-smash-135001006",
+      "job": "1st",
+      "description": "Enraged, Yeti uses his massive fists to demolish enemies in his path.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001006",
+      "icon": "data/yeti/frames/yeti-smash-135001006/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-00.webp",
+          "delay": 300,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 407,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 447,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 447,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 449,
+            "y": 252,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 447,
+            "y": 251,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 449,
+            "y": 252,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 447,
+            "y": 251,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 123,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 123,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 120,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001006/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001007,
+      "name": "Homemade Jetpack",
+      "slug": "homemade-jetpack-135001007",
+      "job": "1st",
+      "description": "Yeti zooms forward on his Homemade Jetpack.\nIt can be used in 8 directions and will move in the direction of the arrow keys pressed.\nThe Jetpack recharges periodically.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001007",
+      "icon": "data/yeti/frames/homemade-jetpack-135001007/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 77,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135001007/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 75,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001008,
+      "name": "Yeti Smarts: Book Toss",
+      "slug": "yeti-smarts-book-toss-135001008",
+      "job": "1st",
+      "description": "Having been disturbed while reading, Yeti retaliates by throwing his book at monsters in his path.\nYeti Smarts skills grant rage based on the number of enemies hit. Permanently increases Final Damage.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001008",
+      "icon": "data/yeti/frames/yeti-smarts-book-toss-135001008/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-00.webp",
+          "delay": 540,
+          "origin": {
+            "x": -24,
+            "y": -1,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 221,
+            "y": 200,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 230,
+            "y": 190,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 228,
+            "y": 190,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 228,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 230,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 230,
+            "y": 188,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 227,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 76,
+            "y": 76,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 82,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 84,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 85,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 75,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-book-toss-135001008/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 70,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001009,
+      "name": "Yeti Master Chef",
+      "slug": "yeti-master-chef-135001009",
+      "job": "1st",
+      "description": "Hungry, Yeti decides to cook a meal for the whole party. Increases Attack Power and EXP for you and nearby party members. This EXP buff is halved for characters on a different map than the caster.\nYeti Master Chef is unaffected by buff duration increases.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001009",
+      "icon": "data/yeti/frames/yeti-master-chef-135001009/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 54,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 110,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 113,
+            "y": 142,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 115,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 115,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 114,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 222,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 222,
+            "y": 281,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 265,
+            "y": 275,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 261,
+            "y": 285,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 243,
+            "y": 294,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 223,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 221,
+            "y": 303,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 213,
+            "y": 305,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 216,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 216,
+            "y": 264,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 215,
+            "y": 252,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 203,
+            "y": 246,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-master-chef-135001009/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 130,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001010,
+      "name": "Homemade Super Jetpack",
+      "slug": "homemade-super-jetpack-135001010",
+      "job": "1st",
+      "description": "Yeti moves even faster with Super Jetpack.\n It can be used in 8 directions and will move in the direction of the arrow keys pressed.\nThe Super Jetpack recharges periodically.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001010",
+      "icon": "data/yeti/frames/homemade-super-jetpack-135001010/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 130,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 139,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-super-jetpack-135001010/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 45,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001011,
+      "name": "Yeti Smarts: Bomb Disposal",
+      "slug": "yeti-smarts-bomb-disposal-135001011",
+      "job": "1st",
+      "description": "Yeti does his very best to defuse a bomb, but it explodes anyway, dealing damage in a wide area.\nYeti Smarts skills grant rage based on the number of enemies hit. Permanently increases Final Damage.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001011",
+      "icon": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-00.webp",
+          "delay": 720,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 148,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 267,
+            "y": 340,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 266,
+            "y": 368,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 281,
+            "y": 385,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 285,
+            "y": 397,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 285,
+            "y": 418,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 286,
+            "y": 424,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 287,
+            "y": 427,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 288,
+            "y": 430,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 287,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 269,
+            "y": 431,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 208,
+            "y": 432,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 208,
+            "y": 434,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 91,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 96,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-bomb-disposal-135001011/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001012,
+      "name": "Homemade Snowman",
+      "slug": "homemade-snowman-135001012",
+      "job": "1st",
+      "description": "Yeti tries to build a snowman, but what he creates is an abomination whose howls of pain periodically damage nearby enemies at set intervals.\nEnemies hit by this attack will have their Speed reduced, and take increased damage from all sources. Yeti gains additional rage when defeating an afflicted enemy.\nHomemade Snowman is unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001012",
+      "icon": "data/yeti/frames/homemade-snowman-135001012/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-00.webp",
+          "delay": 540,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 237,
+            "y": 204,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 245,
+            "y": 207,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 206,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 160,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 245,
+            "y": 165,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 170,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 253,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 245,
+            "y": 199,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 246,
+            "y": 204,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 247,
+            "y": 205,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 248,
+            "y": 204,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 249,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 249,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 97,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 88,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 90,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 89,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 84,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-snowman-135001012/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 81,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001013,
+      "name": "Hero of El Nath",
+      "slug": "hero-of-el-nath-135001013",
+      "job": "1st",
+      "description": "Yeti, who dreams of becoming a great knight, rallies his friends, temporarily increasing the stats of him and his party members.\nStacks with Maple Warrior, Call of Cygnus, Nova Warrior, Hero of the Flora, President's Orders, Anima Warrior, Rhinne's Protection, and Pink Warrior.\nHero of El Nath is not affected by buff duration increases.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001013",
+      "icon": "data/yeti/frames/hero-of-el-nath-135001013/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-00.webp",
+          "delay": 720,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 353,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 350,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 353,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 353,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 355,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hero-of-el-nath-135001013/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 353,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001014,
+      "name": "Yeti Smash",
+      "slug": "yeti-smash-135001014",
+      "job": "1st",
+      "description": "Furious, Yeti demolishes enemies in his path.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135001014",
+      "icon": "data/yeti/frames/yeti-smash-135001014/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-00.webp",
+          "delay": 300,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 525,
+            "y": 287,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 564,
+            "y": 319,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 564,
+            "y": 319,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 561,
+            "y": 315,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 555,
+            "y": 310,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 552,
+            "y": 310,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 550,
+            "y": 308,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 118,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 126,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 123,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 120,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smash-135001014/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001015,
+      "name": "Hey Pepe!",
+      "slug": "hey-pepe-135001015",
+      "job": "1st",
+      "description": "Yeti summons his old friend Pepe to aid him in battle.\nWhen used, increases EXP for a set period of time. When attacking enemies, there is a chance of summoning Pepes, who attack the enemy and grant Yeti additional rage.\nHey Pepe! is not affected by buff duration increases or attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001015",
+      "icon": "data/yeti/frames/hey-pepe-135001015/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-00.webp",
+          "delay": 180,
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "isEmpty": true
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-01.webp",
+          "delay": null,
+          "origin": {
+            "x": 160,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-02.webp",
+          "delay": null,
+          "origin": {
+            "x": 160,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-03.webp",
+          "delay": null,
+          "origin": {
+            "x": 160,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-04.webp",
+          "delay": null,
+          "origin": {
+            "x": 160,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-05.webp",
+          "delay": null,
+          "origin": {
+            "x": 159,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-06.webp",
+          "delay": null,
+          "origin": {
+            "x": 158,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-07.webp",
+          "delay": null,
+          "origin": {
+            "x": 156,
+            "y": 330,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-08.webp",
+          "delay": null,
+          "origin": {
+            "x": 159,
+            "y": 329,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-09.webp",
+          "delay": null,
+          "origin": {
+            "x": 160,
+            "y": 323,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-10.webp",
+          "delay": null,
+          "origin": {
+            "x": 125,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135001015/effect-11.webp",
+          "delay": null,
+          "origin": {
+            "x": 54,
+            "y": 17,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001016,
+      "name": "Yeti Smarts: Scientific Research",
+      "slug": "yeti-smarts-scientific-research-135001016",
+      "job": "1st",
+      "description": "Yeti attempts to develop an upgrade to his jetpack, then boom! A chemical explosion deals damage to enemies in a wide area.\nYeti Smarts skills grant rage based on the number of enemies hit. Permanently increases Final Damage.\nYeti Smarts: Scientific Research is not affected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001016",
+      "icon": "data/yeti/frames/yeti-smarts-scientific-research-135001016/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 81,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 83,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 80,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 106,
+            "y": 131,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 259,
+            "y": 283,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 323,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 335,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 333,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 335,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 336,
+            "y": 335,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 338,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 336,
+            "y": 331,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 332,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 299,
+            "y": 323,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 311,
+            "y": 323,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/effect-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 323,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-scientific-research-135001016/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001017,
+      "name": "Spice Overload",
+      "slug": "spice-overload-135001017",
+      "job": "1st",
+      "description": "Yeti spots a pot of fiery peppers and tries to eat them. Overwhelmed with spicy capsaicin, Yeti accumulates rage at an accelerated rate for a set period of time.\nSpice Overload is not affected by cooldown resets or buff duration increases.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001017",
+      "icon": "data/yeti/frames/spice-overload-135001017/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 141,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 127,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 128,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 129,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 130,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 128,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 128,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 128,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 113,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 120,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spice-overload-135001017/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 126,
+            "y": 139,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135001018,
+      "name": "Rage Enhancement: Explosive Fists",
+      "slug": "rage-enhancement-explosive-fists-135001018",
+      "job": "1st",
+      "description": "Yeti's heightened rage further enhances Yeti Smash.\nYeti Smash's 2nd hit now fires a shockwave forward, striking enemies in a wide area.\nRage Enhancement: Explosive Fists is not affected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001018",
+      "icon": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-explosive-fists-135001018/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001019,
+      "name": "Yeti Smarts: Violin Solo",
+      "slug": "yeti-smarts-violin-solo-135001019",
+      "job": "1st",
+      "description": "The house lights fade, the spotlight is on Yeti. He begins to play, and SCREECH! His violin releases a shockwave that deals damge to enemies in a wide area.\nYeti Smarts skills grant rage based on the number of enemies hit. Permanently increases Final Damage. However, you can only obtain one rage per enemy struck using this skill.\nYeti Smarts: Violin Solo is not affected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001019",
+      "icon": "data/yeti/frames/yeti-smarts-violin-solo-135001019/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": -31,
+            "y": 139,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 4,
+            "y": 164,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": -19,
+            "y": 174,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": -21,
+            "y": 175,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 223,
+            "y": 251,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 429,
+            "y": 421,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 576,
+            "y": 446,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 623,
+            "y": 464,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 599,
+            "y": 489,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 563,
+            "y": 501,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 543,
+            "y": 521,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 572,
+            "y": 524,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 591,
+            "y": 531,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 593,
+            "y": 541,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 587,
+            "y": 536,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 593,
+            "y": 475,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 588,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 412,
+            "y": 457,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 415,
+            "y": 459,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 410,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 82,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 67,
+            "y": 61,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 82,
+            "y": 76,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 95,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 114,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 118,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 96,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 96,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 96,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 102,
+            "y": 112,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 72,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 108,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 127,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 126,
+            "y": 123,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 136,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 118,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 119,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 84,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 90,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 117,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 126,
+            "y": 124,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 137,
+            "y": 133,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 148,
+            "y": 134,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-27.webp",
+          "delay": 90,
+          "origin": {
+            "x": 134,
+            "y": 135,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-28.webp",
+          "delay": 90,
+          "origin": {
+            "x": 135,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-smarts-violin-solo-135001019/hit-29.webp",
+          "delay": 90,
+          "origin": {
+            "x": 108,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135001020,
+      "name": "Rage Enhancement: Furious Roar",
+      "slug": "rage-enhancement-furious-roar-135001020",
+      "job": "1st",
+      "description": "Yeti focuses all his rage to devastate his surroundings.\nRage Enhancement: Furious Roar is not affected by attack reflection and can only be used once for the duration of the Enraged state.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135001020",
+      "icon": "data/yeti/frames/rage-enhancement-furious-roar-135001020/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 194,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 181,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 186,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 172,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 173,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/rage-enhancement-furious-roar-135001020/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 170,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135002000,
+      "name": "Snack Dash",
+      "slug": "snack-dash-135002000",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002000",
+      "icon": "data/yeti/frames/snack-dash-135002000/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002008,
+      "name": "Yeti Smarts: Book Toss",
+      "slug": "yeti-smarts-book-toss-135002008",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002008",
+      "icon": "data/yeti/frames/yeti-smarts-book-toss-135002008/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002011,
+      "name": "Yeti Smarts: Bomb Disposal",
+      "slug": "yeti-smarts-bomb-disposal-135002011",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002011",
+      "icon": "data/yeti/frames/yeti-smarts-bomb-disposal-135002011/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002013,
+      "name": "Hero of El Nath",
+      "slug": "hero-of-el-nath-135002013",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002013",
+      "icon": "data/yeti/frames/hero-of-el-nath-135002013/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002015,
+      "name": "Hey Pepe!",
+      "slug": "hey-pepe-135002015",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002015",
+      "icon": "data/yeti/frames/hey-pepe-135002015/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-00.webp",
+          "delay": 120,
+          "origin": {
+            "x": 144,
+            "y": 2,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-01.webp",
+          "delay": 120,
+          "origin": {
+            "x": 140,
+            "y": 0,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-02.webp",
+          "delay": 120,
+          "origin": {
+            "x": 141,
+            "y": 2,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-03.webp",
+          "delay": 120,
+          "origin": {
+            "x": 255,
+            "y": 119,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 243,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 194,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 197,
+            "y": 120,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 196,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 197,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-09.webp",
+          "delay": 120,
+          "origin": {
+            "x": -73,
+            "y": -47,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-10.webp",
+          "delay": 120,
+          "origin": {
+            "x": -77,
+            "y": -49,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-11.webp",
+          "delay": 120,
+          "origin": {
+            "x": -76,
+            "y": -47,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-12.webp",
+          "delay": 120,
+          "origin": {
+            "x": 99,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 116,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 133,
+            "y": 132,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 135,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 138,
+            "y": 141,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 139,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-18.webp",
+          "delay": 120,
+          "origin": {
+            "x": -75,
+            "y": 189,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-19.webp",
+          "delay": 120,
+          "origin": {
+            "x": -79,
+            "y": 198,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-20.webp",
+          "delay": 120,
+          "origin": {
+            "x": -78,
+            "y": 200,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-21.webp",
+          "delay": 120,
+          "origin": {
+            "x": 102,
+            "y": 167,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 107,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 110,
+            "y": 152,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-24.webp",
+          "delay": 90,
+          "origin": {
+            "x": 112,
+            "y": 151,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-25.webp",
+          "delay": 90,
+          "origin": {
+            "x": 113,
+            "y": 149,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-26.webp",
+          "delay": 90,
+          "origin": {
+            "x": 110,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-27.webp",
+          "delay": 120,
+          "origin": {
+            "x": 189,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-28.webp",
+          "delay": 120,
+          "origin": {
+            "x": 193,
+            "y": 228,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-29.webp",
+          "delay": 120,
+          "origin": {
+            "x": 196,
+            "y": 229,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-30.webp",
+          "delay": 120,
+          "origin": {
+            "x": 185,
+            "y": 218,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-31.webp",
+          "delay": 90,
+          "origin": {
+            "x": 178,
+            "y": 195,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-32.webp",
+          "delay": 90,
+          "origin": {
+            "x": 186,
+            "y": 194,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-33.webp",
+          "delay": 90,
+          "origin": {
+            "x": 191,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-34.webp",
+          "delay": 90,
+          "origin": {
+            "x": 193,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/hey-pepe-135002015/hit-35.webp",
+          "delay": 90,
+          "origin": {
+            "x": 193,
+            "y": 168,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135002016,
+      "name": "Yeti Smarts: Scientific Research",
+      "slug": "yeti-smarts-scientific-research-135002016",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002016",
+      "icon": "data/yeti/frames/yeti-smarts-scientific-research-135002016/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002018,
+      "name": "Rage Enhancement: Explosive Fists",
+      "slug": "rage-enhancement-explosive-fists-135002018",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002018",
+      "icon": "data/yeti/frames/rage-enhancement-explosive-fists-135002018/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002019,
+      "name": "Yeti Smarts: Violin Solo",
+      "slug": "yeti-smarts-violin-solo-135002019",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002019",
+      "icon": "data/yeti/frames/yeti-smarts-violin-solo-135002019/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002020,
+      "name": "Rage Enhancement: Furious Roar",
+      "slug": "rage-enhancement-furious-roar-135002020",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002020",
+      "icon": "data/yeti/frames/rage-enhancement-furious-roar-135002020/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002021,
+      "name": "Yeti Charisma",
+      "slug": "yeti-charisma-135002021",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002021",
+      "icon": "data/yeti/frames/yeti-charisma-135002021/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002022,
+      "name": "Yeti Power",
+      "slug": "yeti-power-135002022",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135002022",
+      "icon": "data/yeti/frames/yeti-power-135002022/icon.webp",
+      "effect": [],
+      "hit": []
+    },
+    {
+      "id": 135002023,
+      "name": "Spirit of El Nath",
+      "slug": "spirit-of-el-nath-135002023",
+      "job": "1st",
+      "description": "Summons the ancient Yeti Guardian that has been protecting the Yetis of the El Nath Mountains for generations. It seems the Yeti Guardian longed for Maple World's Goddess.\nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "status": null,
+      "note": null,
+      "sourcePath": "Skill/13500.img/skill/135002023",
+      "icon": "data/yeti/frames/spirit-of-el-nath-135002023/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 99,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 121,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 154,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 103,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 101,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 98,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 99,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 121,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 154,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 103,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 101,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 98,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 99,
+            "y": 136,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 121,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 105,
+            "y": 154,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-21.webp",
+          "delay": 90,
+          "origin": {
+            "x": 103,
+            "y": 153,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-22.webp",
+          "delay": 90,
+          "origin": {
+            "x": 101,
+            "y": 150,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/spirit-of-el-nath-135002023/hit-23.webp",
+          "delay": 90,
+          "origin": {
+            "x": 98,
+            "y": 147,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135003003,
+      "name": "Yeti Flight",
+      "slug": "yeti-flight-135003003",
+      "job": "1st",
+      "description": "Pepe gives Yeti a boost, allowing him to double-jump in the desired direction.\nWhen used while holding the up arrow key, Yeti performs a high jump that inflicts damage to nearby enemies upon landing.\nYeti Flight is unaffected by attack reflection.\nRight-click to lock the command.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135003003",
+      "icon": "data/yeti/frames/yeti-flight-135003003/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": -12,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 5,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 6,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 5,
+            "y": 118,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003003/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 3,
+            "y": 116,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135003004,
+      "name": "Yeti Flight",
+      "slug": "yeti-flight-135003004",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135003004",
+      "icon": "data/yeti/frames/yeti-flight-135003004/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 0,
+            "y": 176,
+            "isEmpty": false
+          },
+          "placeholder": true
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 112,
+            "y": 311,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 113,
+            "y": 333,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 114,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 115,
+            "y": 327,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 118,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 120,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 121,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 122,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 123,
+            "y": 284,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 24,
+            "y": 240,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 97,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 97,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 95,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 96,
+            "y": 100,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/yeti-flight-135003004/hit-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 94,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 135003007,
+      "name": "Homemade Jetpack",
+      "slug": "homemade-jetpack-135003007",
+      "job": "1st",
+      "description": "Yeti zooms forward on his Homemade Jetpack.\nIt can be used in 8 directions and will move in the direction of the arrow keys pressed.\nThe Jetpack recharges periodically.",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135003007",
+      "icon": "data/yeti/frames/homemade-jetpack-135003007/icon.webp",
+      "effect": [
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/yeti/frames/homemade-jetpack-135003007/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 135003023,
+      "name": "Spirit of El Nath",
+      "slug": "spirit-of-el-nath-135003023",
+      "job": "1st",
+      "description": "",
+      "masterLevel": null,
+      "status": null,
+      "note": " Invisible in the skillbook UI.",
+      "sourcePath": "Skill/13500.img/skill/135003023",
+      "icon": "data/yeti/frames/spirit-of-el-nath-135003023/icon.webp",
+      "effect": [],
+      "hit": []
+    }
+  ]
+}
