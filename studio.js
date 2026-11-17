@@ -960,6 +960,64 @@ $("#favorite").onclick = () => {
   $("#favorite").setAttribute("aria-pressed", favorites.has(k));
   renderSkills();
 };
+let stillBlob = null, stillURL = null, stillVersion = 0;
+$("#still").onclick = async () => {
+  if (!current || !frames[index]) { toast("Choose an available animation frame first."); return; }
+  pause();
+  const frame = frames[index], flipped = $("#flip").checked;
+  const name = `${selectedClass}-${current.slug}-${layer || "still"}-${String(index + 1).padStart(3, "0")}.png`;
+  const token = ++stillVersion;
+  stillBlob = null;
+  if (stillURL) URL.revokeObjectURL(stillURL);
+  stillURL = null;
+  $("#stillImage").hidden = true;
+  $("#stillDownload").hidden = true;
+  $("#stillCopy").disabled = true;
+  $("#stillContext").textContent = `${current.name} · ${layer || "still"} · Frame ${index + 1}`;
+  $("#stillStatus").textContent = "Preparing PNG…";
+  $("#stillDialog").showModal();
+  try {
+    const im = await imageFor(frame.file);
+    const entries = [{ ...frame, image: im, width: im.width, height: im.height }];
+    const plan = ExportKit.plan(entries, { mode: "frame", scale: 1, flip: flipped });
+    const canvas = document.createElement("canvas");
+    canvas.width = plan.width; canvas.height = plan.height;
+    ExportKit.draw(canvas, entries, plan);
+    const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/png"));
+    if (token !== stillVersion) return;
+    if (!blob) throw new Error("PNG could not be created.");
+    stillBlob = blob;
+    stillURL = URL.createObjectURL(blob);
+    $("#stillImage").src = stillURL;
+    $("#stillImage").alt = $("#stillContext").textContent;
+    $("#stillImage").hidden = false;
+    $("#stillDownload").href = stillURL;
+    $("#stillDownload").download = name;
+    $("#stillDownload").hidden = false;
+    const canCopy = !!(navigator.clipboard?.write && window.ClipboardItem);
+    $("#stillCopy").disabled = !canCopy;
+    $("#stillStatus").textContent = `${plan.width} × ${plan.height} px · Transparent PNG${canCopy ? "" : " · Use the image menu or Download PNG to save."}`;
+  } catch (error) {
+    if (token === stillVersion) $("#stillStatus").textContent = error.message || "Could not prepare this frame. Try another frame.";
+  }
+};
+$("#stillCopy").onclick = async () => {
+  if (!stillBlob) return;
+  try {
+    await navigator.clipboard.write([new ClipboardItem({ "image/png": stillBlob })]);
+    $("#stillStatus").textContent = "Image copied. Paste it into your editor or message.";
+  } catch {
+    $("#stillStatus").textContent = "This browser could not copy the image. Press and hold or right-click the image, or download the PNG.";
+  }
+};
+$("#stillClose").onclick = () => $("#stillDialog").close();
+$("#stillDialog").addEventListener("close", () => {
+  ++stillVersion;
+  stillBlob = null;
+  $("#stillImage").removeAttribute("src");
+  if (stillURL) URL.revokeObjectURL(stillURL);
+  stillURL = null;
+});
 let exportSnapshot = null,
   exportPrepared = null,
   exportVersion = 0;
@@ -1116,6 +1174,7 @@ document.addEventListener("keydown", (e) => {
     /INPUT|SELECT|TEXTAREA|BUTTON/.test(e.target.tagName) ||
     $("#sourceDialog").open ||
     $("#exportDialog").open ||
+    $("#stillDialog").open ||
     $("#helpDialog").open
   )
     return;

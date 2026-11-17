@@ -9,8 +9,8 @@
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=studio-rev-3" />
-    <link rel="stylesheet" href="home.css?v=studio-rev-3" />
+    <link rel="stylesheet" href="studio.css?v=static-png-1" />
+    <link rel="stylesheet" href="home.css?v=static-png-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -350,6 +350,7 @@
         <section class="capture-panel" aria-label="Save frames">
           <div><div class="section-label">TAKE IT WITH YOU</div><h3>Save the perfect moment</h3><p id="captureContext">Choose a frame to save.</p></div>
           <div class="export">
+            <button id="still" type="button">▧ View / copy static PNG</button>
             <button id="export" class="primary" disabled>
               ↓ Export current frame</button
             ><button id="sheet" disabled>▦ Export a frame sheet</button
@@ -447,6 +448,14 @@
         </div>
       </form>
     </dialog>
+    <dialog id="stillDialog" aria-labelledby="stillTitle">
+      <h2 id="stillTitle">Your static frame</h2>
+      <p id="stillContext"></p>
+      <div class="still-image"><img id="stillImage" alt="" hidden /></div>
+      <p id="stillStatus" role="status">Preparing PNG…</p>
+      <p class="export-note">Press and hold the image to copy or save it on your phone. On desktop, right-click the image or use Copy image. Transparent PNG at original resolution; preview backgrounds and overlays are excluded.</p>
+      <div class="dialog-buttons"><button id="stillClose" type="button">Close</button><a id="stillDownload" class="still-download" download hidden>Download PNG</a><button id="stillCopy" class="primary" type="button" disabled>Copy image</button></div>
+    </dialog>
     <dialog id="exportDialog" aria-labelledby="exportTitle">
       <form method="dialog">
         <div class="eyebrow">TAKE A LITTLE MAGIC WITH YOU</div>
@@ -541,8 +550,8 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=studio-rev-3"></script>
-    <script src="home.js?v=studio-rev-3"></script>
-    <script src="studio.js?v=studio-rev-3"></script>
+    <script src="exporter.js?v=static-png-1"></script>
+    <script src="home.js?v=static-png-1"></script>
+    <script src="studio.js?v=static-png-1"></script>
   </body>
 </html>

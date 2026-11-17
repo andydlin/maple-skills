@@ -261,6 +261,22 @@ const waitFor = async (fn) => {
   assert.ok(!run("playing"));
   assert.equal(new URLSearchParams(new URL(copied).hash.slice(1)).get("frame"), "2");
   assert.ok(!d.querySelector(".preview-settings").open);
+  w.ClipboardItem = class { constructor(data) { this.data = data; } };
+  let copiedImage;
+  w.navigator.clipboard.write = async items => { copiedImage = items[0]; };
+  await d.querySelector("#still").onclick();
+  assert.ok(d.querySelector("#stillDialog").open);
+  assert.ok(!d.querySelector("#stillImage").hidden);
+  assert.equal(d.querySelector("#stillImage").src, "blob:test");
+  assert.ok(d.querySelector("#stillDownload").download.endsWith(".png"));
+  await d.querySelector("#stillCopy").onclick();
+  assert.equal(copiedImage.data["image/png"].type, "image/png");
+  w.navigator.clipboard.write = async () => { throw new Error("Denied"); };
+  await d.querySelector("#stillCopy").onclick();
+  assert.ok(d.querySelector("#stillStatus").textContent.includes("download"));
+  d.querySelector("#stillClose").click();
+  assert.ok(!d.querySelector("#stillDialog").open);
+  console.log("PASS: static PNG image preview, download name, image clipboard payload, and denied clipboard fallback.");
   console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and exact frame sharing during playback.");
   console.log(
     "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, both export dialogs, range controls, mobile browse collapse, help, global search.",
