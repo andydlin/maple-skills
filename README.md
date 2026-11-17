@@ -64,3 +64,5 @@ npm test
 The suite checks control IDs against the real HTML, player and search state, frame-range behavior, export geometry and transparency, contact-sheet labeling, size limits, contrast tokens, and actual DOM interactions with dialogs and navigation. DOM tests simulate image loading and canvas operations; they are not visual rendering or PNG-decoding tests.
 
 All 59 catalog totals were checked: 6,197 entries. Representative first and last frame URLs across every class were checked: 118/118 successful. Earlier Hero playback and a single-frame PNG download were tested in Chrome; that PNG was verified as RGBA with alpha. Visual browser QA for the five new rounds is still pending because the Mac was locked during implementation.
+
+The capture panel offers one static PNG action. Its modal supports transparent, black, and white backgrounds, included in the displayed image and clipboard/download output. Legacy export-sheet and link-copy UI has been removed.

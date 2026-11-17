@@ -1523,3 +1523,7 @@ kbd {
 .still-image img { max-width: 100%; height: auto; image-rendering: pixelated; -webkit-touch-callout: default; user-select: auto; }
 #stillStatus, #stillContext { color: #596d74; font-size: 12px; line-height: 1.6; }
 .still-download { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; color: #344c51; text-decoration: none; font-size: 12px; }
+
+.capture-panel .export { display: flex; flex-direction: column; width: min(100%, 360px); }
+.still-background { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 16px 0; color: #344c51; font-size: 12px; font-weight: 600; }
+.still-background select { min-height: 44px; min-width: 170px; }

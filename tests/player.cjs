@@ -171,7 +171,6 @@ vm.runInContext(source, context);
     "selectSkill(skills.find(s=>!layers(s).length))",
     context,
   );
-  assert.equal(node("#export").disabled, true);
   assert.ok(node("#stageMessage").textContent.includes("No animation"));
   await vm.runInContext("loadClass('not-a-class')", context);
   assert.equal(node("#skillName").textContent, "Class unavailable");

@@ -24,7 +24,7 @@ w.HTMLCanvasElement.prototype.getContext = function () {
     drawImage() {
       paint.push("image");
     },
-    fillRect() {},
+    fillRect() { paint.push({ fill: this.fillStyle, composite: this.globalCompositeOperation }); },
     fillText() {},
   };
 };
@@ -152,7 +152,7 @@ const waitFor = async (fn) => {
   assert.equal(d.querySelector("#counter").textContent, "13 / 40");
   await run("loadClass('hero')");
   assert.equal(d.querySelectorAll("#skills button").length, 83);
-  assert.equal(d.querySelector("#sheet").disabled, false);
+  assert.equal(d.querySelector("#sheet"), null);
   assert.ok(paint.length);
   let historyWrites = 0;
   const originalReplace = w.history.replaceState.bind(w.history);
@@ -171,24 +171,6 @@ const waitFor = async (fn) => {
     d.querySelector("#favorite").getAttribute("aria-pressed"),
     "true",
   );
-  d.querySelector("#sheet").click();
-  await waitFor(() => !d.querySelector("#downloadExport").disabled);
-  assert.ok(d.querySelector("#exportDialog").open);
-  assert.equal(d.querySelector("#exportMode").value, "sprite");
-  assert.ok(
-    d.querySelector("#exportSummary").textContent.includes("14 frames"),
-  );
-  d.querySelector("#exportCancel").click();
-  assert.equal(d.querySelector("#exportDialog").open, false);
-  d.querySelector("#export").click();
-  await waitFor(() => !d.querySelector("#downloadExport").disabled);
-  assert.ok(d.querySelector("#exportSummary").textContent.includes("120 × 90"));
-  d.querySelector("#exportMode").value = "contact";
-  d.querySelector("#exportMode").dispatchEvent(new w.Event("change"));
-  await waitFor(() =>
-    d.querySelector("#exportSummary").textContent.includes("Labeled"),
-  );
-  d.querySelector("#exportCancel").click();
   d.querySelector("#browseToggle").click();
   assert.ok(d.body.classList.contains("browse-open"));
   d.querySelector('[data-slug="slash-blast-1001005"]').click();
@@ -252,14 +234,8 @@ const waitFor = async (fn) => {
   await run("setRange(1, 3)");
   assert.ok(d.querySelector("#filmstrip button").classList.contains("outside-range"));
   assert.equal(d.querySelectorAll("#filmstrip .range-edge").length, 2);
-  assert.ok(d.querySelector("#captureContext").textContent.includes("Sheet: frames 2–4"));
+  assert.ok(d.querySelector("#captureContext").textContent.includes("Original resolution"));
   assert.ok(d.querySelector("#stage").onpointerdown == null);
-  let copied = "";
-  w.navigator.clipboard.writeText = async value => { copied = value; };
-  await run("playing=true;showFrame(2)");
-  await d.querySelector("#link").onclick();
-  assert.ok(!run("playing"));
-  assert.equal(new URLSearchParams(new URL(copied).hash.slice(1)).get("frame"), "2");
   assert.ok(!d.querySelector(".preview-settings").open);
   w.ClipboardItem = class { constructor(data) { this.data = data; } };
   let copiedImage;
@@ -269,6 +245,19 @@ const waitFor = async (fn) => {
   assert.ok(!d.querySelector("#stillImage").hidden);
   assert.equal(d.querySelector("#stillImage").src, "blob:test");
   assert.ok(d.querySelector("#stillDownload").download.endsWith(".png"));
+  for (const background of ["black", "white", "transparent"]) {
+    const before = paint.length;
+    d.querySelector("#stillBackground").value = background;
+    await d.querySelector("#stillBackground").onchange();
+    assert.ok(!d.querySelector("#stillImage").hidden);
+    const fills = paint.slice(before).filter(item => item && item.fill);
+    if (background !== "transparent") {
+      assert.ok(d.querySelector("#stillDownload").download.endsWith(`-${background}.png`));
+      assert.deepEqual(fills, [{ fill: background === "black" ? "#000000" : "#ffffff", composite: "destination-over" }]);
+    } else assert.equal(fills.length, 0);
+  }
+  assert.equal(d.querySelector("#export"), null);
+  assert.equal(d.querySelector("#link"), null);
   await d.querySelector("#stillCopy").onclick();
   assert.equal(copiedImage.data["image/png"].type, "image/png");
   w.navigator.clipboard.write = async () => { throw new Error("Denied"); };
@@ -277,9 +266,9 @@ const waitFor = async (fn) => {
   d.querySelector("#stillClose").click();
   assert.ok(!d.querySelector("#stillDialog").open);
   console.log("PASS: static PNG image preview, download name, image clipboard payload, and denied clipboard fallback.");
-  console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and exact frame sharing during playback.");
+  console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and simplified capture controls.");
   console.log(
-    "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, both export dialogs, range controls, mobile browse collapse, help, global search.",
+    "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, range controls, mobile browse collapse, help, global search.",
   );
   dom.window.close();
 })().catch((e) => {

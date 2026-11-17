@@ -16,7 +16,8 @@ const scripts = [...html.matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g)].map(
 for (const file of ["exporter.js", "home.js", "studio.js"])
   assert.ok(scripts.includes(file));
 assert.ok(scripts.indexOf("exporter.js") < scripts.indexOf("studio.js"));
-assert.ok(html.includes('id="sheet"'));
+assert.ok(html.includes('id="stillBackground"'));
+assert.ok(!html.includes('id="sheet"'));
 assert.ok(scripts.indexOf("home.js") < scripts.indexOf("studio.js"));
 assert.ok(html.includes('aria-label="Animation layer"'));
 console.log(
