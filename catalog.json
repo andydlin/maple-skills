@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "adele",
+    "name": "Adele",
+    "line": "Flora",
+    "count": 102
+  },
+  {
+    "slug": "angelic-buster",
+    "name": "Angelic Buster",
+    "line": "Nova \u2014 Pirate",
+    "count": 140
+  },
+  {
+    "slug": "aran",
+    "name": "Aran",
+    "line": "Warrior \u2014 Heroes",
+    "count": 103
+  },
+  {
+    "slug": "ark",
+    "name": "Ark",
+    "line": "Flora",
+    "count": 147
+  },
+  {
+    "slug": "battle-mage",
+    "name": "Battle Mage",
+    "line": "Magician \u2014 Resistance",
+    "count": 88
+  },
+  {
+    "slug": "beast-tamer",
+    "name": "Beast Tamer",
+    "line": "Beast Tamer",
+    "count": 122
+  },
+  {
+    "slug": "bishop",
+    "name": "Bishop",
+    "line": "Magician \u2014 Explorer",
+    "count": 104
+  },
+  {
+    "slug": "blaster",
+    "name": "Blaster",
+    "line": "Warrior \u2014 Resistance",
+    "count": 118
+  },
+  {
+    "slug": "blaze-wizard",
+    "name": "Blaze Wizard",
+    "line": "Blaze Wizard \u2014 Cygnus Knights",
+    "count": 108
+  },
+  {
+    "slug": "bowmaster",
+    "name": "Bowmaster",
+    "line": "Bowman \u2014 Explorer",
+    "count": 101
+  },
+  {
+    "slug": "buccaneer",
+    "name": "Buccaneer",
+    "line": "Pirate \u2014 Explorer",
+    "count": 108
+  },
+  {
+    "slug": "cadena",
+    "name": "Cadena",
+    "line": "Nova \u2014 Thief",
+    "count": 188
+  },
+  {
+    "slug": "cannoneer",
+    "name": "Cannoneer",
+    "line": "Pirate \u2014 Explorer (Special)",
+    "count": 100
+  },
+  {
+    "slug": "corsair",
+    "name": "Corsair",
+    "line": "Pirate \u2014 Explorer",
+    "count": 110
+  },
+  {
+    "slug": "dark-knight",
+    "name": "Dark Knight",
+    "line": "Warrior \u2014 Explorer",
+    "count": 84
+  },
+  {
+    "slug": "dawn-warrior",
+    "name": "Dawn Warrior",
+    "line": "Dawn Warrior \u2014 Cygnus Knights",
+    "count": 94
+  },
+  {
+    "slug": "demon-avenger",
+    "name": "Demon Avenger",
+    "line": "Warrior \u2014 Resistance",
+    "count": 111
+  },
+  {
+    "slug": "demon-slayer",
+    "name": "Demon Slayer",
+    "line": "Warrior \u2014 Resistance",
+    "count": 94
+  },
+  {
+    "slug": "dual-blade",
+    "name": "Dual Blade",
+    "line": "Thief \u2014 Explorer",
+    "count": 88
+  },
+  {
+    "slug": "erel-light",
+    "name": "Erel Light",
+    "line": "Shine",
+    "count": 81
+  },
+  {
+    "slug": "evan",
+    "name": "Evan",
+    "line": "Dragon Mage \u2014 Heroes",
+    "count": 118
+  },
+  {
+    "slug": "fire-poison-arch-mage",
+    "name": "Fire/Poison Arch Mage",
+    "line": "Magician \u2014 Explorer",
+    "count": 100
+  },
+  {
+    "slug": "hayato",
+    "name": "Hayato",
+    "line": "Sengoku",
+    "count": 105
+  },
+  {
+    "slug": "hero",
+    "name": "Hero",
+    "line": "Warrior \u2014 Explorer",
+    "count": 83
+  },
+  {
+    "slug": "hoyoung",
+    "name": "Hoyoung",
+    "line": "Anima",
+    "count": 159
+  },
+  {
+    "slug": "ice-lightning-arch-mage",
+    "name": "Ice/Lightning Arch Mage",
+    "line": "Magician \u2014 Explorer",
+    "count": 91
+  },
+  {
+    "slug": "illium",
+    "name": "Illium",
+    "line": "Flora",
+    "count": 102
+  },
+  {
+    "slug": "jett",
+    "name": "Jett",
+    "line": "Pirate \u2014 Explorer (Jett)",
+    "count": 85
+  },
+  {
+    "slug": "kain",
+    "name": "Kain",
+    "line": "Nova \u2014 Bowman",
+    "count": 199
+  },
+  {
+    "slug": "kaiser",
+    "name": "Kaiser",
+    "line": "Nova \u2014 Warrior",
+    "count": 191
+  },
+  {
+    "slug": "kanna",
+    "name": "Kanna",
+    "line": "Sengoku",
+    "count": 131
+  },
+  {
+    "slug": "khali",
+    "name": "Khali",
+    "line": "Flora",
+    "count": 113
+  },
+  {
+    "slug": "kinesis",
+    "name": "Kinesis",
+    "line": "Sengoku",
+    "count": 91
+  },
+  {
+    "slug": "lara",
+    "name": "Lara",
+    "line": "Anima",
+    "count": 122
+  },
+  {
+    "slug": "luminous",
+    "name": "Luminous",
+    "line": "Mage \u2014 Heroes",
+    "count": 102
+  },
+  {
+    "slug": "lynn",
+    "name": "Lynn",
+    "line": "Anima",
+    "count": 88
+  },
+  {
+    "slug": "marksman",
+    "name": "Marksman",
+    "line": "Bowman \u2014 Explorer",
+    "count": 98
+  },
+  {
+    "slug": "mechanic",
+    "name": "Mechanic",
+    "line": "Pirate \u2014 Resistance",
+    "count": 90
+  },
+  {
+    "slug": "mercedes",
+    "name": "Mercedes",
+    "line": "Dual Bowgun \u2014 Heroes",
+    "count": 112
+  },
+  {
+    "slug": "mihile",
+    "name": "Mihile",
+    "line": "Mihile \u2014 Cygnus Knights",
+    "count": 109
+  },
+  {
+    "slug": "mo-xuan",
+    "name": "Mo Xuan",
+    "line": "Anima",
+    "count": 101
+  },
+  {
+    "slug": "night-lord",
+    "name": "Night Lord",
+    "line": "Thief \u2014 Explorer",
+    "count": 95
+  },
+  {
+    "slug": "night-walker",
+    "name": "Night Walker",
+    "line": "Night Walker \u2014 Cygnus Knights",
+    "count": 120
+  },
+  {
+    "slug": "paladin",
+    "name": "Paladin",
+    "line": "Warrior \u2014 Explorer",
+    "count": 83
+  },
+  {
+    "slug": "pathfinder",
+    "name": "Pathfinder",
+    "line": "Bowman \u2014 Explorer",
+    "count": 35
+  },
+  {
+    "slug": "phantom",
+    "name": "Phantom",
+    "line": "Thief \u2014 Heroes",
+    "count": 109
+  },
+  {
+    "slug": "pink-bean",
+    "name": "Pink Bean",
+    "line": "Special",
+    "count": 76
+  },
+  {
+    "slug": "ren",
+    "name": "Ren",
+    "line": "Anima",
+    "count": 100
+  },
+  {
+    "slug": "saitama",
+    "name": "Saitama",
+    "line": "Collab",
+    "count": 26
+  },
+  {
+    "slug": "shade",
+    "name": "Shade",
+    "line": "Fighter \u2014 Heroes",
+    "count": 107
+  },
+  {
+    "slug": "shadower",
+    "name": "Shadower",
+    "line": "Thief \u2014 Explorer",
+    "count": 111
+  },
+  {
+    "slug": "sia-astelle",
+    "name": "Sia Astelle",
+    "line": "Shine",
+    "count": 109
+  },
+  {
+    "slug": "tanjiro",
+    "name": "Tanjiro",
+    "line": "Collab",
+    "count": 36
+  },
+  {
+    "slug": "thunder-breaker",
+    "name": "Thunder Breaker",
+    "line": "Thunder Breaker \u2014 Cygnus Knights",
+    "count": 89
+  },
+  {
+    "slug": "wild-hunter",
+    "name": "Wild Hunter",
+    "line": "Bowman \u2014 Resistance",
+    "count": 95
+  },
+  {
+    "slug": "wind-archer",
+    "name": "Wind Archer",
+    "line": "Wind Archer \u2014 Cygnus Knights",
+    "count": 83
+  },
+  {
+    "slug": "xenon",
+    "name": "Xenon",
+    "line": "Thief \u2014 Resistance",
+    "count": 110
+  },
+  {
+    "slug": "yeti",
+    "name": "Yeti",
+    "line": "Special",
+    "count": 42
+  },
+  {
+    "slug": "zero",
+    "name": "Zero",
+    "line": "Zero \u2014 Transcendent of Time",
+    "count": 190
+  }
+]

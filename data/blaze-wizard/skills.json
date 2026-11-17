@@ -6,11 +6,11 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 106,
-    "withFrames": 56,
-    "effectFrames": 586,
+    "skills": 108,
+    "withFrames": 58,
+    "effectFrames": 618,
     "hitFrames": 486,
-    "effectFramesUnique": 586,
+    "effectFramesUnique": 618,
     "hitFramesUnique": 486
   },
   "notes": [],
@@ -7576,6 +7576,294 @@
       ]
     },
     {
+      "id": 400021000,
+      "name": "Mana Overload",
+      "slug": "mana-overload-400021000",
+      "job": "5th",
+      "description": "Increases your attack skills by overloading the mana flowing through you.\nRight-click to lock activation effect.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021000",
+      "icon": "data/blaze-wizard/frames/mana-overload-400021000/icon.webp",
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 229,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 269,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 151,
+            "y": 273,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 185,
+            "y": 299,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 194,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 177,
+            "y": 303,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 185,
+            "y": 312,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 194,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 197,
+            "y": 309,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 184,
+            "y": 320,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 188,
+            "y": 330,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 177,
+            "y": 341,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 182,
+            "y": 351,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 148,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [],
+      "effect0": [
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 44,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 64,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 209,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 198,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/mana-overload-400021000/effect0-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 64,
+            "y": 196,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "effect0Frames": 13
+    },
+    {
       "id": 400021004,
       "name": "Orbital Inferno",
       "slug": "orbital-inferno-400021004",
@@ -7693,6 +7981,201 @@
           "placeholder": false
         }
       ]
+    },
+    {
+      "id": 400021060,
+      "name": "Ethereal Form",
+      "slug": "ethereal-form-400021060",
+      "job": "5th",
+      "description": "Move to a different dimension to become invincible. Use the skill again to return.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40002.img/skill/400021060",
+      "icon": "data/blaze-wizard/frames/ethereal-form-400021060/icon.webp",
+      "effect": [
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 179,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 189,
+            "y": 208,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 209,
+            "y": 224,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 218,
+            "y": 232,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 226,
+            "y": 237,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 241,
+            "y": 247,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 255,
+            "y": 257,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 269,
+            "y": 268,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 282,
+            "y": 276,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 288,
+            "y": 280,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 294,
+            "y": 283,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 299,
+            "y": 286,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 179,
+            "y": 193,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 162,
+            "y": 187,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 158,
+            "y": 189,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 164,
+            "y": 191,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 168,
+            "y": 195,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/blaze-wizard/frames/ethereal-form-400021060/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 170,
+            "y": 195,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
     },
     {
       "id": 400021072,

@@ -6,12 +6,12 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; class-specific 5th job skill list cross-checked against maplestorywiki.net",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 101,
-    "withFrames": 48,
-    "effectFrames": 496,
-    "hitFrames": 325,
-    "effectFramesUnique": 496,
-    "hitFramesUnique": 325
+    "skills": 102,
+    "withFrames": 49,
+    "effectFrames": 517,
+    "hitFrames": 334,
+    "effectFramesUnique": 517,
+    "hitFramesUnique": 334
   },
   "notes": [],
   "skills": [
@@ -6103,6 +6103,322 @@
           "origin": {
             "x": 168,
             "y": 109,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011136,
+      "name": "Storm",
+      "slug": "storm-400011136",
+      "job": "5th",
+      "description": "All aether swords commanded by Hunting Decree sweep around you in a wild current. With Hunting Decree, gather illusions around your person in proportion to the number of swords hunting for the enemy. Storm is unaffected by attack reflection, and the skill can be used again to immediately end it.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011136",
+      "icon": "data/adele/frames/storm-400011136/icon.webp",
+      "effect": [
+        {
+          "file": "data/adele/frames/storm-400011136/effect-00.webp",
+          "delay": 90,
+          "origin": {
+            "x": 483,
+            "y": 332,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-01.webp",
+          "delay": 90,
+          "origin": {
+            "x": 505,
+            "y": 336,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-02.webp",
+          "delay": 90,
+          "origin": {
+            "x": 509,
+            "y": 350,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-03.webp",
+          "delay": 90,
+          "origin": {
+            "x": 525,
+            "y": 370,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-04.webp",
+          "delay": 90,
+          "origin": {
+            "x": 529,
+            "y": 373,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-05.webp",
+          "delay": 90,
+          "origin": {
+            "x": 527,
+            "y": 362,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-06.webp",
+          "delay": 90,
+          "origin": {
+            "x": 810,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-07.webp",
+          "delay": 90,
+          "origin": {
+            "x": 812,
+            "y": 472,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-08.webp",
+          "delay": 90,
+          "origin": {
+            "x": 815,
+            "y": 474,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-09.webp",
+          "delay": 90,
+          "origin": {
+            "x": 815,
+            "y": 482,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-10.webp",
+          "delay": 90,
+          "origin": {
+            "x": 812,
+            "y": 472,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-11.webp",
+          "delay": 90,
+          "origin": {
+            "x": 807,
+            "y": 472,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-12.webp",
+          "delay": 90,
+          "origin": {
+            "x": 801,
+            "y": 472,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-13.webp",
+          "delay": 90,
+          "origin": {
+            "x": 786,
+            "y": 466,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-14.webp",
+          "delay": 90,
+          "origin": {
+            "x": 768,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-15.webp",
+          "delay": 90,
+          "origin": {
+            "x": 701,
+            "y": 303,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-16.webp",
+          "delay": 90,
+          "origin": {
+            "x": 703,
+            "y": 293,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-17.webp",
+          "delay": 90,
+          "origin": {
+            "x": 705,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-18.webp",
+          "delay": 90,
+          "origin": {
+            "x": 711,
+            "y": 288,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-19.webp",
+          "delay": 90,
+          "origin": {
+            "x": 714,
+            "y": 293,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/effect-20.webp",
+          "delay": 90,
+          "origin": {
+            "x": 693,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/adele/frames/storm-400011136/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 123,
+            "y": 98,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 81,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 95,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 115,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 115,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 109,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/adele/frames/storm-400011136/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 58,
+            "y": 57,
             "isEmpty": false
           },
           "placeholder": false

@@ -6,15 +6,15 @@
   "source": "maplestory.io (GMS 270) \u2014 skillbook API + raw WZ API; class-specific 5th job skill list cross-checked against maplestorywiki.net",
   "generated": "2026-11-14",
   "counts": {
-    "skills": 90,
-    "withFrames": 49,
-    "effectFrames": 589,
-    "hitFrames": 315,
-    "effectFramesUnique": 589,
-    "hitFramesUnique": 315
+    "skills": 100,
+    "withFrames": 58,
+    "effectFrames": 650,
+    "hitFrames": 683,
+    "effectFramesUnique": 650,
+    "hitFramesUnique": 683
   },
   "notes": [
-    "No 5th-job V skills in scope."
+    "5th-job V skills pulled via the raw WZ API (40001) on 2026-11-16 (10 skills)."
   ],
   "skills": [
     {
@@ -6777,6 +6777,5945 @@
           "placeholder": false
         }
       ]
+    },
+    {
+      "id": 400011147,
+      "name": "Final Plum Blossom Sword: Thousand Blossom Flurry",
+      "slug": "final-plum-blossom-sword-thousand-blossom-flurry-400011147",
+      "job": "5th",
+      "description": "Summons a plum blossom tree that spreads dancing petals across the battlefield, each as sharp as your peerless sword.\nFor a set period of time, a blossom strike will occur each time a direct skill attack lands. When enough blossom strikes have triggered, the plum blossom tree will flower, and the unfolded plum blossoms will spread their petals to attack the enemy. The blossom strikes and flowering plum blossoms attack the boss with the highest HP first, and are unaffected by attack reflection.\nThe plum blossom tree disappears once it has flowered for the final time, but the buff will remain for the full duration.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011147",
+      "icon": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/icon.webp",
+      "effect": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 93,
+            "y": 259,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 93,
+            "y": 259,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 120,
+            "y": 257,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 121,
+            "y": 256,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 152,
+            "y": 254,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 154,
+            "y": 249,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 234,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 161,
+            "y": 253,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 48,
+            "y": 44,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 165,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 164,
+            "y": 339,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 178,
+            "y": 349,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 187,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 178,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 180,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 181,
+            "y": 359,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 183,
+            "y": 359,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 181,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 164,
+            "y": 339,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 178,
+            "y": 349,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 187,
+            "y": 354,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 178,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 180,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 181,
+            "y": 359,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [],
+      "summon": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 311,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 298,
+            "y": 283,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 271,
+            "y": 337,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 264,
+            "y": 337,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 263,
+            "y": 371,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 296,
+            "y": 572,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 289,
+            "y": 562,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 298,
+            "y": 537,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 405,
+            "y": 591,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 423,
+            "y": 591,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 423,
+            "y": 591,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 423,
+            "y": 590,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 425,
+            "y": 595,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 405,
+            "y": 575,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 322,
+            "y": 517,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 480,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 505,
+            "y": 681,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 532,
+            "y": 696,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 545,
+            "y": 710,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 558,
+            "y": 719,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 564,
+            "y": 715,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 575,
+            "y": 717,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 579,
+            "y": 706,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 573,
+            "y": 718,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 579,
+            "y": 692,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 575,
+            "y": 690,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 565,
+            "y": 667,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 433,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 422,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": 461,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-30.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 624,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-31.webp",
+          "delay": 60,
+          "origin": {
+            "x": 453,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-32.webp",
+          "delay": 60,
+          "origin": {
+            "x": 445,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-33.webp",
+          "delay": 60,
+          "origin": {
+            "x": 436,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-34.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-35.webp",
+          "delay": 60,
+          "origin": {
+            "x": 450,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-36.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-37.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-38.webp",
+          "delay": 60,
+          "origin": {
+            "x": 458,
+            "y": 625,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-39.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-40.webp",
+          "delay": 60,
+          "origin": {
+            "x": 464,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-41.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-42.webp",
+          "delay": 60,
+          "origin": {
+            "x": 449,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-43.webp",
+          "delay": 60,
+          "origin": {
+            "x": 433,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-44.webp",
+          "delay": 60,
+          "origin": {
+            "x": 422,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-45.webp",
+          "delay": 60,
+          "origin": {
+            "x": 461,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-46.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 624,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-47.webp",
+          "delay": 60,
+          "origin": {
+            "x": 453,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-48.webp",
+          "delay": 60,
+          "origin": {
+            "x": 445,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-49.webp",
+          "delay": 60,
+          "origin": {
+            "x": 436,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-50.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-51.webp",
+          "delay": 60,
+          "origin": {
+            "x": 450,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-52.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-53.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-54.webp",
+          "delay": 60,
+          "origin": {
+            "x": 458,
+            "y": 625,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-55.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-56.webp",
+          "delay": 60,
+          "origin": {
+            "x": 464,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-57.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-58.webp",
+          "delay": 60,
+          "origin": {
+            "x": 449,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-59.webp",
+          "delay": 60,
+          "origin": {
+            "x": 433,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-60.webp",
+          "delay": 60,
+          "origin": {
+            "x": 422,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-61.webp",
+          "delay": 60,
+          "origin": {
+            "x": 461,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-62.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 624,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-63.webp",
+          "delay": 60,
+          "origin": {
+            "x": 453,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-64.webp",
+          "delay": 60,
+          "origin": {
+            "x": 445,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-65.webp",
+          "delay": 60,
+          "origin": {
+            "x": 436,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-66.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-67.webp",
+          "delay": 60,
+          "origin": {
+            "x": 450,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-68.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-69.webp",
+          "delay": 60,
+          "origin": {
+            "x": 460,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-70.webp",
+          "delay": 60,
+          "origin": {
+            "x": 458,
+            "y": 625,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-71.webp",
+          "delay": 60,
+          "origin": {
+            "x": 452,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-72.webp",
+          "delay": 60,
+          "origin": {
+            "x": 464,
+            "y": 635,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-73.webp",
+          "delay": 60,
+          "origin": {
+            "x": 459,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-74.webp",
+          "delay": 60,
+          "origin": {
+            "x": 449,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-75.webp",
+          "delay": 60,
+          "origin": {
+            "x": 433,
+            "y": 634,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-76.webp",
+          "delay": 60,
+          "origin": {
+            "x": 548,
+            "y": 636,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-77.webp",
+          "delay": 60,
+          "origin": {
+            "x": 509,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-78.webp",
+          "delay": 60,
+          "origin": {
+            "x": 476,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-79.webp",
+          "delay": 60,
+          "origin": {
+            "x": 464,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-80.webp",
+          "delay": 60,
+          "origin": {
+            "x": 456,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-81.webp",
+          "delay": 60,
+          "origin": {
+            "x": 439,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-82.webp",
+          "delay": 60,
+          "origin": {
+            "x": 419,
+            "y": 621,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-83.webp",
+          "delay": 60,
+          "origin": {
+            "x": 420,
+            "y": 611,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-84.webp",
+          "delay": 60,
+          "origin": {
+            "x": 415,
+            "y": 627,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-85.webp",
+          "delay": 60,
+          "origin": {
+            "x": 411,
+            "y": 618,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-86.webp",
+          "delay": 60,
+          "origin": {
+            "x": 411,
+            "y": 589,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-87.webp",
+          "delay": 60,
+          "origin": {
+            "x": 411,
+            "y": 590,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-88.webp",
+          "delay": 60,
+          "origin": {
+            "x": 411,
+            "y": 607,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-89.webp",
+          "delay": 60,
+          "origin": {
+            "x": 412,
+            "y": 587,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-90.webp",
+          "delay": 60,
+          "origin": {
+            "x": 403,
+            "y": 577,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-91.webp",
+          "delay": 60,
+          "origin": {
+            "x": 403,
+            "y": 518,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-92.webp",
+          "delay": 60,
+          "origin": {
+            "x": 617,
+            "y": 796,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-93.webp",
+          "delay": 60,
+          "origin": {
+            "x": 639,
+            "y": 800,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-94.webp",
+          "delay": 60,
+          "origin": {
+            "x": 598,
+            "y": 803,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-95.webp",
+          "delay": 60,
+          "origin": {
+            "x": 575,
+            "y": 803,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-96.webp",
+          "delay": 60,
+          "origin": {
+            "x": 584,
+            "y": 790,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-97.webp",
+          "delay": 60,
+          "origin": {
+            "x": 593,
+            "y": 787,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-98.webp",
+          "delay": 60,
+          "origin": {
+            "x": 600,
+            "y": 805,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-99.webp",
+          "delay": 60,
+          "origin": {
+            "x": 573,
+            "y": 789,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-100.webp",
+          "delay": 60,
+          "origin": {
+            "x": 656,
+            "y": 793,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-101.webp",
+          "delay": 60,
+          "origin": {
+            "x": 649,
+            "y": 793,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-102.webp",
+          "delay": 60,
+          "origin": {
+            "x": 635,
+            "y": 797,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-103.webp",
+          "delay": 60,
+          "origin": {
+            "x": 619,
+            "y": 781,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-104.webp",
+          "delay": 60,
+          "origin": {
+            "x": 599,
+            "y": 797,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-105.webp",
+          "delay": 60,
+          "origin": {
+            "x": 587,
+            "y": 807,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-106.webp",
+          "delay": 60,
+          "origin": {
+            "x": 593,
+            "y": 743,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-107.webp",
+          "delay": 60,
+          "origin": {
+            "x": 601,
+            "y": 744,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-108.webp",
+          "delay": 60,
+          "origin": {
+            "x": 590,
+            "y": 741,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-109.webp",
+          "delay": 60,
+          "origin": {
+            "x": 594,
+            "y": 741,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "summonFrames": 110,
+      "effect0": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 148,
+            "y": 287,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 148,
+            "y": 287,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 291,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 117,
+            "y": 288,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 224,
+            "y": 404,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 245,
+            "y": 408,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 225,
+            "y": 408,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 233,
+            "y": 408,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 212,
+            "y": 379,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 378,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 188,
+            "y": 373,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 193,
+            "y": 379,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 194,
+            "y": 373,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 164,
+            "y": 344,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 292,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 290,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 288,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 278,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/effect0-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 181,
+            "y": 359,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "effect0Frames": 26
+    },
+    {
+      "id": 400011148,
+      "name": "Final Plum Blossom Sword: Thousand Blossom Flurry",
+      "slug": "final-plum-blossom-sword-thousand-blossom-flurry-400011148",
+      "job": "5th",
+      "description": "Summons a plum blossom tree that spreads dancing petals across the battlefield, each as sharp as your peerless sword.\nFor a set period of time, a blossom strike will occur each time a direct skill attack lands. When enough blossom strikes have triggered, the plum blossom tree will flower, and the unfolded plum blossoms will spread their petals to attack the enemy. The blossom strikes and flowering plum blossoms attack the boss with the highest HP first, and are unaffected by attack reflection.\nThe plum blossom tree disappears once it has flowered for the final time, but the buff will remain for the full duration.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011148",
+      "icon": null,
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 42,
+            "y": 38,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 79,
+            "y": 125,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 83,
+            "y": 99,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 101,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 105,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 103,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 40,
+            "y": 34,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 83,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 96,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 90,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 91,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 96,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 93,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 42,
+            "y": 38,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 81,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 96,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-30.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 97,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-31.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 94,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011148/hit-32.webp",
+          "delay": 60,
+          "origin": {
+            "x": 96,
+            "y": 92,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011149,
+      "name": "Final Plum Blossom Sword: Thousand Blossom Flurry",
+      "slug": "final-plum-blossom-sword-thousand-blossom-flurry-400011149",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011149",
+      "icon": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 56,
+            "y": 58,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 85,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 89,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 88,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 88,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011149/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 87,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011150,
+      "name": "Soul Immeasurable",
+      "slug": "soul-immeasurable-400011150",
+      "job": "5th",
+      "description": "Covers the battlefield with the full strength of Saya's unfettered power.\nFor a set period of time, a divine strike will occur each time a direct skill attack lands. When enough divine strikes have trigged, Saya's love will manifest as a divine serpent to crash down upon your enemies.\nThe divine strikes and divine serpent attack the boss with the highest HP first, and are unaffected by attack reflection.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011150",
+      "icon": "data/ren/frames/soul-immeasurable-400011150/icon.webp",
+      "effect": [
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 143,
+            "y": 283,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 220,
+            "y": 372,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 260,
+            "y": 406,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 284,
+            "y": 455,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 275,
+            "y": 445,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 272,
+            "y": 450,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 239,
+            "y": 415,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 239,
+            "y": 415,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 239,
+            "y": 415,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 239,
+            "y": 415,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 236,
+            "y": 412,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011150/effect-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 236,
+            "y": 412,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": []
+    },
+    {
+      "id": 400011151,
+      "name": "Soul Immeasurable",
+      "slug": "soul-immeasurable-400011151",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011151",
+      "icon": "data/ren/frames/soul-immeasurable-400011151/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 612,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 580,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 159,
+            "y": 564,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 565,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 468,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 453,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 75,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 356,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 63,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 64,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 301,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 299,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-30.webp",
+          "delay": 60,
+          "origin": {
+            "x": 63,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-31.webp",
+          "delay": 60,
+          "origin": {
+            "x": 59,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-32.webp",
+          "delay": 60,
+          "origin": {
+            "x": 41,
+            "y": 381,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-33.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 381,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-34.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-35.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-36.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-37.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-38.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-39.webp",
+          "delay": 60,
+          "origin": {
+            "x": 82,
+            "y": 344,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-40.webp",
+          "delay": 60,
+          "origin": {
+            "x": 47,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-41.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 321,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-42.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-43.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-44.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-45.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-46.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-47.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-48.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 423,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-49.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 430,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-50.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 434,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-51.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-52.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-53.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-54.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-55.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 402,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-56.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 204,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-57.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-58.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 497,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-59.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 516,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-60.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 523,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-61.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-62.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-63.webp",
+          "delay": 60,
+          "origin": {
+            "x": 106,
+            "y": 493,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-64.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-65.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-66.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-67.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-68.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-69.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-70.webp",
+          "delay": 60,
+          "origin": {
+            "x": 158,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-71.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 569,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-72.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-73.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-74.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-75.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-76.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-77.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-78.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-79.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-80.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-81.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-82.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-83.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-84.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-85.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-86.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-87.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 604,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-88.webp",
+          "delay": 60,
+          "origin": {
+            "x": 139,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-89.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-90.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-91.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-92.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-93.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-94.webp",
+          "delay": 60,
+          "origin": {
+            "x": 139,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-95.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 604,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-96.webp",
+          "delay": 60,
+          "origin": {
+            "x": 91,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-97.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-98.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-99.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-100.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-101.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-102.webp",
+          "delay": 60,
+          "origin": {
+            "x": 151,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-103.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 572,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-104.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-105.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-106.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-107.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-108.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-109.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-110.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-111.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-112.webp",
+          "delay": 60,
+          "origin": {
+            "x": 107,
+            "y": 600,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-113.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 610,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-114.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 615,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-115.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-116.webp",
+          "delay": 60,
+          "origin": {
+            "x": 140,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-117.webp",
+          "delay": 60,
+          "origin": {
+            "x": 140,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-118.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-119.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 569,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-120.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 244,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-121.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 603,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-122.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 610,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-123.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-124.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-125.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 607,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-126.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 603,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-127.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 605,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-128.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-129.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-130.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 619,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-131.webp",
+          "delay": 60,
+          "origin": {
+            "x": 132,
+            "y": 612,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-132.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-133.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 580,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-134.webp",
+          "delay": 60,
+          "origin": {
+            "x": 159,
+            "y": 564,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-135.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 565,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-136.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-137.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-138.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 499,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-139.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-140.webp",
+          "delay": 60,
+          "origin": {
+            "x": 110,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-141.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 468,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-142.webp",
+          "delay": 60,
+          "origin": {
+            "x": 104,
+            "y": 452,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-143.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 453,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-144.webp",
+          "delay": 60,
+          "origin": {
+            "x": 75,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-145.webp",
+          "delay": 60,
+          "origin": {
+            "x": 80,
+            "y": 356,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-146.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-147.webp",
+          "delay": 60,
+          "origin": {
+            "x": 86,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-148.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 358,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-149.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-150.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 357,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-151.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 352,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-152.webp",
+          "delay": 60,
+          "origin": {
+            "x": 63,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-153.webp",
+          "delay": 60,
+          "origin": {
+            "x": 64,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-154.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-155.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 300,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-156.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 301,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-157.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 299,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-158.webp",
+          "delay": 60,
+          "origin": {
+            "x": 63,
+            "y": 297,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-159.webp",
+          "delay": 60,
+          "origin": {
+            "x": 59,
+            "y": 295,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-160.webp",
+          "delay": 60,
+          "origin": {
+            "x": 41,
+            "y": 381,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-161.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 381,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-162.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-163.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-164.webp",
+          "delay": 60,
+          "origin": {
+            "x": 89,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-165.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-166.webp",
+          "delay": 60,
+          "origin": {
+            "x": 90,
+            "y": 377,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-167.webp",
+          "delay": 60,
+          "origin": {
+            "x": 82,
+            "y": 344,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-168.webp",
+          "delay": 60,
+          "origin": {
+            "x": 47,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-169.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 321,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-170.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-171.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-172.webp",
+          "delay": 60,
+          "origin": {
+            "x": 68,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-173.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-174.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 318,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-175.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 317,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-176.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 423,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-177.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 430,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-178.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 434,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-179.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-180.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-181.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-182.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 413,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-183.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 402,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-184.webp",
+          "delay": 60,
+          "origin": {
+            "x": 67,
+            "y": 204,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-185.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-186.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 497,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-187.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 516,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-188.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 523,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-189.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 494,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-190.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 491,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-191.webp",
+          "delay": 60,
+          "origin": {
+            "x": 106,
+            "y": 493,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-192.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-193.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-194.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 628,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-195.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-196.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-197.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 622,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-198.webp",
+          "delay": 60,
+          "origin": {
+            "x": 158,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-199.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 569,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-200.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-201.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-202.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-203.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-204.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-205.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-206.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-207.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 570,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-208.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-209.webp",
+          "delay": 60,
+          "origin": {
+            "x": 131,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-210.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-211.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-212.webp",
+          "delay": 60,
+          "origin": {
+            "x": 137,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-213.webp",
+          "delay": 60,
+          "origin": {
+            "x": 136,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-214.webp",
+          "delay": 60,
+          "origin": {
+            "x": 129,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-215.webp",
+          "delay": 60,
+          "origin": {
+            "x": 125,
+            "y": 604,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-216.webp",
+          "delay": 60,
+          "origin": {
+            "x": 139,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-217.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-218.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-219.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-220.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 613,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-221.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 608,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-222.webp",
+          "delay": 60,
+          "origin": {
+            "x": 139,
+            "y": 606,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-223.webp",
+          "delay": 60,
+          "origin": {
+            "x": 135,
+            "y": 604,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-224.webp",
+          "delay": 60,
+          "origin": {
+            "x": 91,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-225.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-226.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-227.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-228.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-229.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-230.webp",
+          "delay": 60,
+          "origin": {
+            "x": 151,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-231.webp",
+          "delay": 60,
+          "origin": {
+            "x": 134,
+            "y": 572,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-232.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-233.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-234.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-235.webp",
+          "delay": 60,
+          "origin": {
+            "x": 146,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-236.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-237.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-238.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-239.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 632,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-240.webp",
+          "delay": 60,
+          "origin": {
+            "x": 107,
+            "y": 600,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-241.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 610,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-242.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 615,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-243.webp",
+          "delay": 60,
+          "origin": {
+            "x": 141,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-244.webp",
+          "delay": 60,
+          "origin": {
+            "x": 140,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-245.webp",
+          "delay": 60,
+          "origin": {
+            "x": 140,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-246.webp",
+          "delay": 60,
+          "origin": {
+            "x": 142,
+            "y": 585,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-247.webp",
+          "delay": 60,
+          "origin": {
+            "x": 133,
+            "y": 569,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-248.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 244,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-249.webp",
+          "delay": 60,
+          "origin": {
+            "x": 147,
+            "y": 603,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-250.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 610,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-251.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-252.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 633,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-253.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 607,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-254.webp",
+          "delay": 60,
+          "origin": {
+            "x": 145,
+            "y": 603,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011151/hit-255.webp",
+          "delay": 60,
+          "origin": {
+            "x": 138,
+            "y": 605,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011152,
+      "name": "Soul Immeasurable",
+      "slug": "soul-immeasurable-400011152",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011152",
+      "icon": "data/ren/frames/soul-immeasurable-400011152/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 62,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 115,
+            "y": 159,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 113,
+            "y": 145,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 114,
+            "y": 135,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 137,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 116,
+            "y": 134,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 119,
+            "y": 129,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 79,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 112,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/soul-immeasurable-400011152/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 111,
+            "y": 117,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011153,
+      "name": "Final Plum Blossom Sword: Dancing Annihilation",
+      "slug": "final-plum-blossom-sword-dancing-annihilation-400011153",
+      "job": "5th",
+      "description": "Annihilates the enemy with a sword dance of unsurpassable grace. Hold the skill key to continually attack. This skill can be combined with Serene Breeze and the Final Imugi Spirit Sword techniques. Allows you to use the Final Imugi Spirit Sword techniques without the casting action.\nYou are immune to knockback and debilitating status effects while casting the skill.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": "14 effect-flash frame(s) have no image data in the source (parametric flash, not sprites).",
+      "sourcePath": "Skill/40001.img/skill/400011153",
+      "icon": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 13,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 149,
+            "y": 29,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 124,
+            "y": 31,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 109,
+            "y": 32,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 33,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 34,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-plum-blossom-sword-dancing-annihilation-400011153/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 33,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011154,
+      "name": "Final Imugi Spirit Sword: Blade of the Unbound Heart",
+      "slug": "final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154",
+      "job": "5th",
+      "description": "Moves your sword solely through the power of Saya's unbound heart--the heart of a dragon--and summons spirit blades that are fired in all directions. The spirit blades pursue and attack enemies. Can be used after Final Imugi Spirit Sword: Years Uncounted.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011154",
+      "icon": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/icon.webp",
+      "effect": [
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 471,
+            "y": 334,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 592,
+            "y": 498,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 584,
+            "y": 486,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 594,
+            "y": 529,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 608,
+            "y": 566,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 638,
+            "y": 599,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 596,
+            "y": 626,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 609,
+            "y": 647,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 626,
+            "y": 631,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 633,
+            "y": 638,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 636,
+            "y": 645,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 610,
+            "y": 650,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 562,
+            "y": 653,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "hit": [
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 32,
+            "y": 49,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 76,
+            "y": 93,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 69,
+            "y": 107,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 50,
+            "y": 60,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 94,
+            "y": 69,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 109,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 108,
+            "y": 82,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 86,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-13.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 87,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-14.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 84,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-15.webp",
+          "delay": 60,
+          "origin": {
+            "x": 70,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-16.webp",
+          "delay": 60,
+          "origin": {
+            "x": 50,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-17.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 56,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-18.webp",
+          "delay": 60,
+          "origin": {
+            "x": 106,
+            "y": 55,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-19.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 54,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-20.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 52,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-21.webp",
+          "delay": 60,
+          "origin": {
+            "x": 102,
+            "y": 49,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-22.webp",
+          "delay": 60,
+          "origin": {
+            "x": 91,
+            "y": 47,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-23.webp",
+          "delay": 60,
+          "origin": {
+            "x": 32,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-24.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 108,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-25.webp",
+          "delay": 60,
+          "origin": {
+            "x": 85,
+            "y": 106,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-26.webp",
+          "delay": 60,
+          "origin": {
+            "x": 84,
+            "y": 104,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-27.webp",
+          "delay": 60,
+          "origin": {
+            "x": 82,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-28.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 102,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-29.webp",
+          "delay": 60,
+          "origin": {
+            "x": 81,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-30.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-31.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 53,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-32.webp",
+          "delay": 60,
+          "origin": {
+            "x": 107,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-33.webp",
+          "delay": 60,
+          "origin": {
+            "x": 105,
+            "y": 75,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-34.webp",
+          "delay": 60,
+          "origin": {
+            "x": 103,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-35.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-36.webp",
+          "delay": 60,
+          "origin": {
+            "x": 101,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-37.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 77,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/hit-38.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "effect0": [
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 482,
+            "y": 400,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 514,
+            "y": 583,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 569,
+            "y": 631,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 600,
+            "y": 647,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 606,
+            "y": 645,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 610,
+            "y": 576,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 612,
+            "y": 623,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 567,
+            "y": 624,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 550,
+            "y": 623,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 543,
+            "y": 611,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-10.webp",
+          "delay": 60,
+          "origin": {
+            "x": 545,
+            "y": 574,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-11.webp",
+          "delay": 60,
+          "origin": {
+            "x": 539,
+            "y": 578,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011154/effect0-12.webp",
+          "delay": 60,
+          "origin": {
+            "x": 36,
+            "y": -54,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "effect0Frames": 13
+    },
+    {
+      "id": 400011155,
+      "name": "Final Imugi Spirit Sword: Blade of the Unbound Heart",
+      "slug": "final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155",
+      "job": "5th",
+      "description": "",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011155",
+      "icon": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/icon.webp",
+      "effect": [],
+      "hit": [
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 95,
+            "y": 122,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 121,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 157,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 99,
+            "y": 159,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 99,
+            "y": 156,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 158,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 100,
+            "y": 115,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 98,
+            "y": 114,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-08.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011155/hit-09.webp",
+          "delay": 60,
+          "origin": {
+            "x": 97,
+            "y": 110,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": 400011157,
+      "name": "Final Imugi Spirit Sword: Blade of the Unbound Heart",
+      "slug": "final-imugi-spirit-sword-blade-of-the-unbound-heart-400011157",
+      "job": "5th",
+      "description": "Moves your sword solely through the power of Saya's unbound heart--the heart of a dragon--and summons spirit blades that are fired in all directions. The spirit blades pursue and attack enemies. Can be used after Final Imugi Spirit Sword: Years Uncounted.\nUnaffected by attack reflection.",
+      "masterLevel": null,
+      "status": "complete",
+      "note": null,
+      "sourcePath": "Skill/40001.img/skill/400011157",
+      "icon": "data/ren/frames/final-imugi-spirit-sword-blade-of-the-unbound-heart-400011157/icon.webp",
+      "effect": [],
+      "hit": []
     },
     {
       "id": 161140005,

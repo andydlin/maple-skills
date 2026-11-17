@@ -11,9 +11,12 @@
     "effectFrames": 677,
     "hitFrames": 646,
     "effectFramesUnique": 677,
-    "hitFramesUnique": 646
+    "hitFramesUnique": 646,
+    "ballFrames": 12
   },
-  "notes": [],
+  "notes": [
+    "Ball (projectile) frames for Cosmic Matter 11101029 (8) and Luna Divide 11100128 (4) restored 2026-11-14 from frames preserved by the Beast Tamer worker; the Dawn Warrior pull had dropped ball layers entirely."
+  ],
   "skills": [
     {
       "id": 11000021,
@@ -1863,6 +1866,48 @@
           },
           "placeholder": false
         }
+      ],
+      "ball": [
+        {
+          "file": "data/dawn-warrior/frames/luna-divide-11100128/ball-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 56,
+            "y": 36,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/luna-divide-11100128/ball-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 35,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/luna-divide-11100128/ball-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 55,
+            "y": 36,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/luna-divide-11100128/ball-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 54,
+            "y": 35,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
       ]
     },
     {
@@ -2291,6 +2336,88 @@
           "origin": {
             "x": 84,
             "y": 78,
+            "isEmpty": false
+          },
+          "placeholder": false
+        }
+      ],
+      "ball": [
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-00.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 72,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-01.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-02.webp",
+          "delay": 60,
+          "origin": {
+            "x": 71,
+            "y": 73,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-03.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 74,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-04.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 71,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-05.webp",
+          "delay": 60,
+          "origin": {
+            "x": 74,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-06.webp",
+          "delay": 60,
+          "origin": {
+            "x": 72,
+            "y": 70,
+            "isEmpty": false
+          },
+          "placeholder": false
+        },
+        {
+          "file": "data/dawn-warrior/frames/cosmic-matter-11101029/ball-07.webp",
+          "delay": 60,
+          "origin": {
+            "x": 73,
+            "y": 72,
             "isEmpty": false
           },
           "placeholder": false

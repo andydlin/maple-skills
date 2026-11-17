@@ -1,347 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hero Skills — MapleStory Class Skills</title>
-<style>
-  :root{--bg:#0f1117;--panel:#171a22;--panel2:#1e222d;--line:#2a2f3d;--text:#e8eaf0;--muted:#9aa1b2;--accent:#f5b942;--accent2:#7dd3fc}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
-  a{color:var(--accent2)}
-  .wrap{max-width:1080px;margin:0 auto;padding:16px}
-  header{padding:8px 0 4px}
-  header h1{margin:0;font-size:28px;line-height:1.2}
-  header p{margin:6px 0;color:var(--muted);font-size:14px}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
-  .chip{background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--muted)}
-  .controls{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
-  .controls input[type=search]{flex:1 1 220px;min-width:180px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:15px}
-  .btnrow{display:flex;flex-wrap:wrap;gap:6px}
-  button{cursor:pointer;border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:8px;padding:8px 12px;font-size:14px}
-  button:hover{border-color:var(--accent)}
-  button[aria-pressed=true],button.active{background:var(--accent);color:#1a1200;border-color:var(--accent);font-weight:600}
-  button:disabled{opacity:.4;cursor:not-allowed}
-  select{padding:8px;border-radius:8px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font-size:14px}
-  /* viewer */
-  #viewer{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;margin:12px 0}
-  #viewer h2{margin:0 0 2px;font-size:20px}
-  .badges{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
-  .badge{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:12px;color:var(--muted)}
-  .badge.job{color:var(--accent);border-color:var(--accent)}
-  .desc{white-space:pre-line;color:var(--text);font-size:14px;margin:8px 0}
-  .note{background:#2a2113;border:1px solid #6b5316;border-radius:8px;padding:8px 10px;font-size:13px;color:#f0d9a0;margin:8px 0}
-  .note.info{background:#12233a;border-color:#274b73;color:#bcd9f5}
-  .stagewrap{position:relative;background:#10131a;border:1px solid var(--line);border-radius:10px;overflow:hidden}
-  canvas{display:block;width:100%;height:340px}
-  @media (max-width:600px){canvas{height:260px}}
-  .paused-veil{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;color:var(--muted);font-size:13px;background:rgba(0,0,0,.25)}
-  .playerbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:10px}
-  .playerbar input[type=range]{flex:1 1 140px;min-width:120px}
-  .framecount{font-size:13px;color:var(--muted);min-width:86px;text-align:right}
-  .tabs{display:flex;gap:6px;margin-top:10px}
-  .filmstrip{display:flex;gap:6px;overflow-x:auto;padding:8px 2px 2px;margin-top:6px}
-  .filmstrip img{width:64px;height:48px;object-fit:contain;background:#10131a;border:2px solid transparent;border-radius:6px;cursor:pointer;flex:0 0 auto}
-  .filmstrip img.sel{border-color:var(--accent)}
-  .fallbacks{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0}
-  .fallbacks figure{margin:0;max-width:460px}
-  .fallbacks img{width:100%;height:auto;background:#10131a;border:1px solid var(--line);border-radius:8px}
-  .fallbacks figcaption{font-size:12px;color:var(--muted);margin-top:4px}
-  /* grid */
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:12px 0}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px;cursor:pointer;text-align:left;color:var(--text);font-family:inherit}
-  .card:hover{border-color:var(--accent)}
-  .card.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
-  .card img{width:32px;height:32px;image-rendering:pixelated}
-  .card .noicon{width:32px;height:32px;display:flex;align-items:center;justify-content:center;background:var(--panel2);border-radius:6px;color:var(--muted);font-weight:700}
-  .card h3{margin:8px 0 2px;font-size:14px;line-height:1.3}
-  .card .meta{font-size:12px;color:var(--muted)}
-  .card .tag{display:inline-block;margin-top:6px;font-size:11px;padding:2px 7px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--muted)}
-  .card .tag.anim{color:#8ee6a0;border-color:#2c5a36}
-  .empty{color:var(--muted);padding:24px;text-align:center}
-  footer{color:var(--muted);font-size:12px;padding:18px 0 28px;border-top:1px solid var(--line);margin-top:20px}
-  .loading{color:var(--muted);padding:24px;text-align:center}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header>
-    <h1>Hero — Class Skills</h1>
-    <p>Warrior · Explorer · MapleStory <span id="version"></span> · Every skill, with its animation frames where they exist.</p>
-    <div class="chips" id="counts"></div>
-  </header>
-
-  <div class="controls">
-    <input type="search" id="search" placeholder="Search skills…" aria-label="Search skills">
-    <div class="btnrow" id="jobFilters" role="group" aria-label="Job filter"></div>
-    <div class="btnrow" id="typeFilters" role="group" aria-label="Animated or passive filter"></div>
-  </div>
-
-  <section id="viewer" aria-label="Skill viewer">
-    <div id="detail"><p class="loading">Loading skills…</p></div>
-  </section>
-
-  <div class="grid" id="grid"></div>
-  <p class="empty" id="emptyMsg" hidden>No skills match your search.</p>
-
-  <footer>
-    <p>Data: <a href="https://maplestory.io">maplestory.io</a> (GMS 270) — skillbook API and raw WZ API. Burning Soul Blade stills: Maple Editors (2019). Skill descriptions: maplestory.io, formatting codes stripped.</p>
-    <p>Frames are Nexon game assets, shown here for reference only. Hero is the first class on this site; more classes will be added under <code>data/&lt;class&gt;/</code>.</p>
-  </footer>
-</div>
-
-<script>
-"use strict";
-/* Hero skill viewer — static, no external calls.
-   Lessons baked in from the earlier prototype:
-   - Never auto-play: the player starts paused on frame 1.
-   - Never scrollIntoView during playback: the filmstrip only highlights
-     the current frame in place; the page never moves on its own.
-   - Playback pauses when the stage scrolls out of view. */
-const DATA_URL = "data/hero/skills.json";
-const JOBS = ["All","1st","2nd","3rd","4th/Hyper","5th","6th"];
-const TYPES = [["all","All"],["animated","Animated"],["passive","No animation"]];
-
-let skills = [], meta = {};
-let jobFilter = "All", typeFilter = "all", query = "";
-let current = null, layer = "effect", frames = [], idx = 0;
-let playing = false, timer = null, speed = 1, showOrigin = false;
-let imgCache = {};
-
-const $ = s => document.querySelector(s);
-const gridEl = $("#grid"), detailEl = $("#detail");
-
-function playableFrames(skill, lyr){
-  return (skill[lyr] || []).filter(f => !f.placeholder);
-}
-function skillType(skill){
-  return playableFrames(skill,"effect").length || playableFrames(skill,"hit").length ? "animated" : "passive";
-}
-function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
-
-function filtered(){
-  const q = query.trim().toLowerCase();
-  return skills.filter(s => {
-    if (jobFilter !== "All" && s.job !== jobFilter) return false;
-    if (typeFilter !== "all" && skillType(s) !== typeFilter) return false;
-    if (q && !(s.name.toLowerCase().includes(q) || (s.description||"").toLowerCase().includes(q))) return false;
-    return true;
-  });
-}
-
-function renderCounts(){
-  const c = meta.counts || {};
-  $("#version").textContent = meta.version || "";
-  $("#counts").innerHTML =
-    `<span class="chip">${c.skills||0} skills</span>` +
-    `<span class="chip">${c.withFrames||0} with animation frames</span>` +
-    `<span class="chip">${c.effectFramesUnique||0} effect frames</span>` +
-    `<span class="chip">${c.hitFramesUnique||0} hit frames</span>` +
-    `<span class="chip">Source: maplestory.io ${esc(meta.version||"")}</span>`;
-}
-
-function renderFilters(){
-  $("#jobFilters").innerHTML = JOBS.map(j =>
-    `<button data-job="${j}" aria-pressed="${j===jobFilter}">${j==="All"?"All jobs":j+" job"}</button>`).join("");
-  $("#typeFilters").innerHTML = TYPES.map(([v,l]) =>
-    `<button data-type="${v}" aria-pressed="${v===typeFilter}">${l}</button>`).join("");
-  $("#jobFilters").querySelectorAll("button").forEach(b => b.onclick = () => { jobFilter = b.dataset.job; renderFilters(); renderGrid(); });
-  $("#typeFilters").querySelectorAll("button").forEach(b => b.onclick = () => { typeFilter = b.dataset.type; renderFilters(); renderGrid(); });
-}
-
-function renderGrid(){
-  const list = filtered();
-  $("#emptyMsg").hidden = list.length > 0;
-  gridEl.innerHTML = list.map(s => {
-    const t = skillType(s);
-    const icon = s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy">` : `<span class="noicon">?</span>`;
-    const framesNote = t === "animated"
-      ? `${playableFrames(s,"effect").length + playableFrames(s,"hit").length} frames`
-      : (s.fallback ? "Stills only" : "No animation");
-    return `<button class="card ${current && current.slug===s.slug ? "sel":""}" data-slug="${esc(s.slug)}">
-      ${icon}<h3>${esc(s.name)}</h3>
-      <div class="meta">${esc(s.job)} job${s.id ? " · #" + s.id : ""}</div>
-      <span class="tag ${t==="animated"?"anim":""}">${framesNote}</span></button>`;
-  }).join("");
-  gridEl.querySelectorAll(".card").forEach(c => c.onclick = () => {
-    const s = skills.find(x => x.slug === c.dataset.slug);
-    if (s) loadSkill(s, true);
-  });
-}
-
-/* ---------- player ---------- */
-function loadImage(url){
-  if (imgCache[url]) return imgCache[url];
-  const p = new Promise((res, rej) => { const im = new Image(); im.onload = () => res(im); im.onerror = rej; im.src = url; });
-  imgCache[url] = p; return p;
-}
-function preload(list){ list.forEach(f => loadImage(f.file).catch(()=>{})); }
-
-function stopTimer(){ if (timer !== null){ clearTimeout(timer); timer = null; } }
-function pause(){ playing = false; stopTimer(); updatePlayUI(); }
-function play(){
-  if (!frames.length) return;
-  playing = true; updatePlayUI(); scheduleNext();
-}
-function scheduleNext(){
-  stopTimer();
-  if (!playing || !frames.length) return;
-  const d = (frames[idx].delay || 90) / speed;
-  timer = setTimeout(() => { idx = (idx + 1) % frames.length; showFrame(idx); scheduleNext(); }, Math.max(16, d));
-}
-function updatePlayUI(){
-  const b = $("#playBtn"); if (!b) return;
-  b.textContent = playing ? "⏸ Pause" : "▶ Play animation";
-  b.disabled = !frames.length;
-  const veil = $("#pausedVeil"); if (veil) veil.style.display = playing ? "none" : "flex";
-}
-
-async function showFrame(i){
-  idx = i;
-  const f = frames[i]; if (!f) return;
-  const canvas = $("#stage"); if (!canvas) return;
-  const ctx = canvas.getContext("2d");
-  const cw = canvas.width, ch = canvas.height;
-  ctx.clearRect(0, 0, cw, ch);
-  try {
-    const im = await loadImage(f.file);
-    const scale = Math.min(cw / im.naturalWidth, ch / im.naturalHeight, 1.4);
-    const w = im.naturalWidth * scale, h = im.naturalHeight * scale;
-    // Origin-aligned: the frame's origin point sits on the stage anchor.
-    const ox = f.origin && !f.origin.isEmpty ? f.origin.x : im.naturalWidth / 2;
-    const oy = f.origin && !f.origin.isEmpty ? f.origin.y : im.naturalHeight;
-    const anchorX = cw / 2, anchorY = ch * 0.78;
-    ctx.drawImage(im, anchorX - ox * scale, anchorY - oy * scale, w, h);
-    if (showOrigin){
-      ctx.strokeStyle = "#ff5555"; ctx.lineWidth = 2;
-      ctx.beginPath();
-      ctx.moveTo(anchorX - 10, anchorY); ctx.lineTo(anchorX + 10, anchorY);
-      ctx.moveTo(anchorX, anchorY - 10); ctx.lineTo(anchorX, anchorY + 10);
-      ctx.stroke();
-    }
-  } catch(e){ /* broken frame: leave stage blank */ }
-  const fc = $("#frameCount"); if (fc) fc.textContent = `Frame ${i+1} / ${frames.length}`;
-  const sc = $("#scrub"); if (sc){ sc.max = Math.max(0, frames.length - 1); sc.value = i; }
-  document.querySelectorAll("#filmstrip img").forEach((im, k) => im.classList.toggle("sel", k === i));
-}
-
-function setLayer(lyr){
-  if (!current) return;
-  layer = lyr;
-  frames = playableFrames(current, lyr);
-  idx = 0; pause();
-  preload(frames);
-  renderDetail();
-}
-
-function loadSkill(skill, scrollToViewer){
-  pause();
-  current = skill;
-  const eff = playableFrames(skill, "effect"), hit = playableFrames(skill, "hit");
-  layer = eff.length ? "effect" : "hit";
-  frames = layer === "effect" ? eff : hit;
-  idx = 0;
-  preload(frames);
-  renderDetail();
-  renderGrid();
-  if (scrollToViewer) $("#viewer").scrollIntoView({block:"nearest"});
-}
-
-function renderDetail(){
-  const s = current; if (!s) return;
-  const eff = playableFrames(s, "effect"), hit = playableFrames(s, "hit");
-  const hasFrames = eff.length || hit.length;
-  const master = s.masterLevel ? `Master level ${esc(s.masterLevel)}` : "";
-  let html = `<h2>${esc(s.name)}</h2>
-    <div class="badges">
-      <span class="badge job">${esc(s.job)} job</span>
-      ${s.id ? `<span class="badge">Skill #${s.id}</span>` : ""}
-      ${master ? `<span class="badge">${master}</span>` : ""}
-      <span class="badge">${hasFrames ? (eff.length + hit.length) + " animation frames" : "No animation frames"}</span>
-      ${s.status && s.status !== "complete" ? `<span class="badge">${esc(s.status)}</span>` : ""}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Maple Skills — Animation Studio</title>
+    <link rel="stylesheet" href="studio.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./"
+        ><span class="mark">✦</span> maple<span>skills</span></a
+      ><span class="divider"></span><span>Animation studio</span>
+      <div class="header-right">
+        <span id="catalogStatus">Loading library</span
+        ><button id="sourceBtn">Asset source</button>
+      </div>
+    </header>
+    <div class="workspace">
+      <aside class="classes">
+        <div class="section-label">
+          THE LIBRARY <span id="classCount"></span>
+        </div>
+        <h2>Find your class.</h2>
+        <input
+          id="classSearch"
+          type="search"
+          placeholder="Search classes…"
+          aria-label="Search classes"
+        />
+        <nav id="classes" aria-label="Classes"></nav>
+        <div class="aside-foot">
+          A closer look at MapleStory.<br /><small
+            >Skills, motion & every little detail.</small
+          >
+        </div>
+      </aside>
+      <section class="library">
+        <div class="library-top">
+          <div class="eyebrow" id="classLine">EXPLORER / WARRIOR</div>
+          <h1 id="className">Hero</h1>
+          <p id="classStats">Loading skills…</p>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search skills or ID…"
+            aria-label="Search skills"
+          />
+          <div class="filters">
+            <select id="job" aria-label="Job tier">
+              <option>All jobs</option></select
+            ><select id="kind" aria-label="Skill type">
+              <option value="all">All skills</option>
+              <option value="animated">With frames</option>
+              <option value="still">Without frames</option>
+              <option value="saved">Favorites</option>
+            </select>
+          </div>
+        </div>
+        <div class="list-label">
+          <span>SKILLS</span><span id="resultCount"></span>
+        </div>
+        <div id="skills" class="skill-list"></div>
+      </section>
+      <main>
+        <div class="breadcrumb">
+          LIBRARY <span>/</span> <span id="crumb">HERO</span
+          ><span>/</span> SKILL INSPECTOR
+        </div>
+        <div class="skill-heading">
+          <div>
+            <div class="eyebrow" id="skillJob"></div>
+            <h2 id="skillName">Choose a skill</h2>
+          </div>
+          <button id="favorite" aria-label="Favorite skill">☆</button>
+        </div>
+        <div class="stage" id="stage">
+          <div class="stage-top">
+            <span class="pill" id="stageLabel">FRAME PREVIEW</span
+            ><span class="pill" id="frameSize"></span>
+          </div>
+          <canvas
+            id="canvas"
+            width="1200"
+            height="650"
+            aria-label="Skill animation preview"
+          ></canvas>
+          <div id="stageMessage" role="status"></div>
+          <div class="stage-bottom">
+            <span>✛ <span id="viewLabel">Fit to view</span> · Drag to pan</span
+            ><span id="playState">PAUSED</span>
+          </div>
+        </div>
+        <div class="transport">
+          <button id="play" class="primary" disabled>▶ Play</button
+          ><button id="prev" aria-label="Previous frame">│‹</button
+          ><button id="next" aria-label="Next frame">›│</button
+          ><span id="counter">0 / 0</span>
+          <div class="transport-end">
+            <label
+              >Speed
+              <select id="speed">
+                <option value="0.25">0.25×</option>
+                <option value="0.5">0.5×</option>
+                <option value="1" selected>1×</option>
+                <option value="1.5">1.5×</option>
+                <option value="2">2×</option>
+                <option value="4">4×</option>
+              </select></label
+            ><label><input id="loop" type="checkbox" checked /> Loop</label>
+          </div>
+        </div>
+        <input
+          id="timeline"
+          type="range"
+          min="0"
+          max="0"
+          value="0"
+          aria-label="Frame timeline"
+        />
+        <div class="timeline-meta">
+          <span id="time">0 ms</span><span>Space to play · ← → to step</span
+          ><span id="duration">0 ms</span>
+        </div>
+        <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
+        <section class="tools">
+          <div>
+            <div class="section-label">ANIMATION LAYER</div>
+            <div id="layers" class="segments"></div>
+          </div>
+          <div>
+            <div class="section-label">BACKGROUND</div>
+            <select id="background" aria-label="Preview background">
+              <option value="checker">Transparency</option>
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
+              <option value="green">Green screen</option>
+            </select>
+          </div>
+          <div>
+            <div class="section-label">SCALE</div>
+            <select id="zoom" aria-label="Preview scale">
+              <option value="fit">Fit</option>
+              <option value="0.5">50%</option>
+              <option value="1">100%</option>
+              <option value="2">200%</option>
+              <option value="4">400%</option>
+            </select>
+          </div>
+          <div>
+            <div class="section-label">VIEW</div>
+            <button id="reset" title="Reset scale and position">
+              Reset view
+            </button>
+            <label><input id="origin" type="checkbox" /> Origin</label>
+            <label><input id="flip" type="checkbox" /> Flip</label
+            ><label
+              ><input id="pixel" type="checkbox" checked /> Crisp pixels</label
+            >
+          </div>
+        </section>
+        <section class="details">
+          <div>
+            <div class="section-label">ABOUT THIS SKILL</div>
+            <p id="description"></p>
+            <p id="availability" class="muted"></p>
+          </div>
+          <div class="export">
+            <button id="export" class="primary" disabled>
+              ↓ Save frame as PNG</button
+            ><button id="link">Copy skill link</button
+            ><small>Transparent · original resolution</small>
+          </div>
+        </section>
+        <footer>
+          <span id="metadata"></span
+          ><span>Nexon assets · personal visual reference</span>
+        </footer>
+      </main>
     </div>
-    <p class="desc">${esc(s.description || "No description available.")}</p>`;
-  // Technical per-skill notes (s.note) live in skills.json only and are not
-  // shown on the public page — they read like build jargon (WZ internals,
-  // effect0 timing sequences, endpoint errors). Plain-language notes below stay.
-  if (s.status && s.status.startsWith("MISSING")) html += `<p class="note">Skill IDs for these HEXA cores have not been located yet. They are passive cores with no animation frames, so nothing visual is missing.</p>`;
-
-  if (hasFrames){
-    html += `
-    <div class="stagewrap" id="stagewrap">
-      <canvas id="stage" width="960" height="340" role="img" aria-label="Animation frame for ${esc(s.name)}"></canvas>
-      <div class="paused-veil" id="pausedVeil">Paused — press Play</div>
-    </div>
-    <div class="tabs" role="group" aria-label="Animation layer">
-      <button id="tabEffect" ${eff.length ? "" : "disabled"}>Effect (${eff.length})</button>
-      <button id="tabHit" ${hit.length ? "" : "disabled"}>Hit (${hit.length})</button>
-    </div>
-    <div class="playerbar">
-      <button id="playBtn">▶ Play animation</button>
-      <button id="prevBtn" aria-label="Previous frame">‹ Prev</button>
-      <button id="nextBtn" aria-label="Next frame">Next ›</button>
-      <input type="range" id="scrub" min="0" max="0" value="0" step="1" aria-label="Scrub frames">
-      <span class="framecount" id="frameCount"></span>
-      <label>Speed <select id="speedSel" aria-label="Playback speed">
-        <option value="0.5">0.5×</option><option value="1" selected>1×</option>
-        <option value="2">2×</option><option value="4">4×</option>
-      </select></label>
-      <label><input type="checkbox" id="originToggle"> Origin marker</label>
-    </div>
-    <div class="filmstrip" id="filmstrip"></div>`;
-  } else if (s.fallback && s.fallback.length){
-    html += `<p class="note">The summon animation for this skill could not be fetched from maplestory.io (its image endpoints return errors). The stills below are from Maple Editors, 2019, and the summon's timing data is saved for a future retry.</p>
-    <div class="fallbacks">${s.fallback.map(fb => `
-      <figure><img src="${esc(fb.file)}" alt="Still frame for ${esc(s.name)}" loading="lazy">
-      <figcaption>${esc(fb.note)}</figcaption></figure>`).join("")}</div>`;
-    if (s.summon) html += `<p class="note info">Summon animation (pending images): ${Object.entries(s.summon).map(([k,v]) => `${esc(k)} ${v} frames`).join(" · ")}.</p>`;
-  } else {
-    html += `<p class="note info">This skill has no animation frames in the game data — it is a passive, buff, or HEXA core. Icon, description, and stats above are the complete entry.</p>`;
-  }
-  if (s.sourcePath) html += `<p style="color:var(--muted);font-size:12px">Source: <code>${esc(s.sourcePath)}</code></p>`;
-  detailEl.innerHTML = html;
-
-  if (hasFrames){
-    $("#tabEffect").classList.toggle("active", layer === "effect");
-    $("#tabHit").classList.toggle("active", layer === "hit");
-    $("#tabEffect").onclick = () => setLayer("effect");
-    $("#tabHit").onclick = () => setLayer("hit");
-    $("#playBtn").onclick = () => playing ? pause() : play();
-    $("#prevBtn").onclick = () => { pause(); showFrame((idx - 1 + frames.length) % frames.length); };
-    $("#nextBtn").onclick = () => { pause(); showFrame((idx + 1) % frames.length); };
-    $("#scrub").oninput = e => { pause(); showFrame(Number(e.target.value)); };
-    $("#speedSel").onchange = e => { speed = Number(e.target.value); };
-    $("#originToggle").onchange = e => { showOrigin = e.target.checked; showFrame(idx); };
-    const fs = $("#filmstrip");
-    fs.innerHTML = frames.map((f, i) =>
-      `<img src="${esc(f.file)}" alt="Frame ${i+1}" loading="lazy" data-i="${i}">`).join("");
-    fs.querySelectorAll("img").forEach(im => im.onclick = () => { pause(); showFrame(Number(im.dataset.i)); });
-    // Pause when the stage scrolls out of view.
-    new IntersectionObserver(entries => {
-      if (!entries[0].isIntersecting && playing) pause();
-    }, {threshold: 0.1}).observe($("#stagewrap"));
-    showFrame(0);
-    updatePlayUI();
-  }
-}
-
-async function init(){
-  renderFilters();
-  try {
-    const res = await fetch(DATA_URL);
-    const data = await res.json();
-    meta = data; skills = data.skills || [];
-  } catch(e){
-    detailEl.innerHTML = `<p class="note">Could not load <code>${DATA_URL}</code>. Open this page from a web server (for example <code>python3 -m http.server</code>) rather than directly from the file system.</p>`;
-    return;
-  }
-  renderCounts();
-  renderGrid();
-  const def = skills.find(s => s.slug === "raging-blow-1121008") || skills.find(s => skillType(s) === "animated") || skills[0];
-  if (def) loadSkill(def, false);
-  $("#search").addEventListener("input", e => { query = e.target.value; renderGrid(); });
-}
-init();
-</script>
-</body>
+    <dialog id="sourceDialog">
+      <form method="dialog">
+        <h2>Asset library</h2>
+        <p>
+          Connect a public asset root with
+          <code>class-name/skills.json</code> and its WebP frames. No account
+          keys are needed.
+        </p>
+        <label
+          >Public asset root<input
+            id="assetRoot"
+            type="url"
+            placeholder="https://assets.example.com/"
+        /></label>
+        <p id="sourceError" role="status"></p>
+        <div class="dialog-buttons">
+          <button value="cancel">Cancel</button
+          ><button id="connect" type="button" class="primary">
+            Connect library
+          </button>
+        </div>
+      </form>
+    </dialog>
+    <div id="toast" role="status"></div>
+    <script src="studio.js"></script>
+  </body>
 </html>
