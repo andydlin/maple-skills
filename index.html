@@ -276,8 +276,10 @@
         </div>
         <div class="transport">
           <button id="play" class="primary" disabled>▶ Play</button
-          ><button id="prev" aria-label="Previous frame">│‹</button
-          ><button id="next" aria-label="Next frame">›│</button
+          ><button id="first" aria-label="First frame" title="First frame (Home)">|‹</button
+          ><button id="prev" aria-label="Previous frame" title="Previous frame (left arrow)">‹</button
+          ><button id="next" aria-label="Next frame" title="Next frame (right arrow)">›</button
+          ><button id="last" aria-label="Last frame" title="Last frame (End)">›|</button
           ><span id="counter">0 / 0</span>
           <div class="transport-end">
             <label
@@ -324,6 +326,7 @@
           <span id="time">0 ms</span><span>Space to play · ← → to step</span
           ><span id="duration">0 ms</span>
         </div>
+        <div class="filmstrip-heading"><strong>Frames</strong><span>Click a still to inspect it</span></div>
         <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
         <details class="range-panel">
           <summary>

@@ -609,6 +609,9 @@ async function showFrame(i) {
     token = ++showFrame.token;
   if (!f) return;
   $("#timeline").value = index;
+  $("#timeline").setAttribute("aria-valuetext", `Frame ${index + 1} of ${frames.length}`);
+  $("#first").disabled = $("#prev").disabled = index === 0;
+  $("#last").disabled = $("#next").disabled = index === frames.length - 1;
   $("#frameJump").value = index + 1;
   $("#frameJump").max = frames.length;
   $("#frameInfo").textContent =
@@ -779,6 +782,11 @@ function updateRangeUI() {
   $("#rangeSummary").textContent = frames.length
     ? `${rangeStart + 1}–${rangeEnd + 1} · ${rangeEnd - rangeStart + 1} frame${rangeEnd === rangeStart ? "" : "s"} · ${frames.slice(rangeStart, rangeEnd + 1).reduce((n, f) => n + delayOf(f), 0)} ms`
     : "No frames";
+  $("#filmstrip").querySelectorAll("button").forEach((button, i) => {
+    button.classList.toggle("outside-range", i < rangeStart || i > rangeEnd);
+    button.classList.toggle("range-edge", (rangeStart > 0 || rangeEnd < frames.length - 1) && (i === rangeStart || i === rangeEnd));
+  });
+  for (const id of ["first", "last", "prev", "next"]) $("#" + id).disabled = !frames.length;
   for (const id of ["frameJump", "markIn", "markOut", "fullRange"])
     $("#" + id).disabled = !frames.length;
 }
@@ -843,12 +851,14 @@ function schedule() {
 $("#play").onclick = () => (playing ? pause() : play());
 $("#prev").onclick = () => {
   pause();
-  showFrame((index - 1 + frames.length) % frames.length);
+  showFrame(index - 1);
 };
 $("#next").onclick = () => {
   pause();
-  showFrame((index + 1) % frames.length);
+  showFrame(index + 1);
 };
+$("#first").onclick = () => { pause(); showFrame(0); };
+$("#last").onclick = () => { pause(); showFrame(frames.length - 1); };
 $("#timeline").oninput = (e) => {
   pause();
   showFrame(+e.target.value);
@@ -1120,6 +1130,10 @@ document.addEventListener("keydown", (e) => {
     return;
   }
   if (Home.isVisible()) return;
+  if (e.key === "Home" || e.key === "End") {
+    e.preventDefault();
+    $(e.key === "Home" ? "#first" : "#last").click();
+  }
   if (e.key.toLowerCase() === "r") {
     e.preventDefault();
     resetView();
