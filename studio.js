@@ -46,7 +46,6 @@ let catalog = [],
   loadVersion = 0,
   drawVersion = 0,
   bounds = null,
-  pan = { x: 0, y: 0 },
   root =
     readLocal("mapleAssetRoot", null) ??
     "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev",
@@ -497,7 +496,6 @@ async function setLayer(name) {
   pingDirection = 1;
   updateRangeUI();
   bounds = null;
-  pan = { x: 0, y: 0 };
   ++showFrame.token;
   const token = ++drawVersion;
   $("#loadHealth").textContent = "";
@@ -659,7 +657,7 @@ async function showFrame(i) {
       ),
       scale = $("#zoom").value === "fit" ? fit : Number($("#zoom").value) * dpr;
     ctx.save();
-    ctx.translate(c.width / 2 + pan.x * dpr, c.height / 2 + pan.y * dpr);
+    ctx.translate(c.width / 2, c.height / 2);
     ctx.scale($("#flip").checked ? -scale : scale, scale);
     ctx.translate(-(b.minX + b.maxX) / 2, -(b.minY + b.maxY) / 2);
     ctx.imageSmoothingEnabled = !$("#pixel").checked;
@@ -701,7 +699,6 @@ async function showFrame(i) {
 }
 showFrame.token = 0;
 function resetView() {
-  pan = { x: 0, y: 0 };
   $("#zoom").value = "fit";
   $("#viewLabel").textContent = "Fit to view";
   showFrame(index);
@@ -1260,19 +1257,6 @@ new ResizeObserver(() => {
   c.height = Math.round(r.height * d);
   if (frames.length) showFrame(index);
 }).observe($("#stage"));
-let drag = null;
-$("#stage").onpointerdown = (e) => {
-  drag = { x: e.clientX, y: e.clientY, px: pan.x, py: pan.y };
-  $("#stage").setPointerCapture(e.pointerId);
-};
-$("#stage").onpointermove = (e) => {
-  if (!drag) return;
-  pan = { x: drag.px + e.clientX - drag.x, y: drag.py + e.clientY - drag.y };
-  showFrame(index);
-};
-$("#stage").onpointerup = $("#stage").onpointercancel = () => {
-  drag = null;
-};
 $("#stage").ondblclick = resetView;
 $("#reset").onclick = resetView;
 const savedBackground = readLocal("mapleBackground", "checker");

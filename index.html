@@ -9,8 +9,8 @@
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=home-atlas-1" />
-    <link rel="stylesheet" href="home.css?v=home-atlas-1" />
+    <link rel="stylesheet" href="studio.css?v=studio-rev-1" />
+    <link rel="stylesheet" href="home.css?v=studio-rev-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -270,7 +270,7 @@
           ></canvas>
           <div id="stageMessage" role="status"></div>
           <div class="stage-bottom">
-            <span>✛ <span id="viewLabel">Fit to view</span> · Drag to pan</span
+            <span>✛ <span id="viewLabel">Fit to view</span></span
             ><span id="playState">PAUSED</span>
           </div>
         </div>
@@ -344,6 +344,8 @@
             through the full animation.
           </p>
         </details>
+        <details class="preview-settings" open>
+          <summary>Preview appearance <span>Background, scale &amp; overlays</span></summary>
         <section class="tools">
           <div>
             <div class="section-label">BACKGROUND</div>
@@ -370,7 +372,7 @@
               ><input id="onion" type="checkbox" /> Previous-frame
               overlay</label
             >
-            <button id="reset" title="Reset scale and position">
+            <button id="reset" title="Fit animation to preview">
               Reset view
             </button>
             <label><input id="origin" type="checkbox" /> Origin</label>
@@ -380,6 +382,7 @@
             >
           </div>
         </section>
+        </details>
         <section class="details">
           <div>
             <div class="section-label">ABOUT THIS SKILL</div>
@@ -509,7 +512,7 @@
         </div>
         <div>
           <dt><kbd>R</kbd></dt>
-          <dd>Reset scale and pan</dd>
+          <dd>Fit animation to preview</dd>
         </div>
         <div>
           <dt><kbd>/</kbd></dt>
@@ -521,14 +524,14 @@
         </div>
       </dl>
       <p>
-        Drag the preview to pan. Double-click to fit the full animation. Export
+        Double-click the preview to fit the full animation. Export
         sheets use the study range; previews and overlays stay out of your PNGs.
       </p>
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=home-atlas-1"></script>
-    <script src="home.js?v=home-atlas-1"></script>
-    <script src="studio.js?v=home-atlas-1"></script>
+    <script src="exporter.js?v=studio-rev-1"></script>
+    <script src="home.js?v=studio-rev-1"></script>
+    <script src="studio.js?v=studio-rev-1"></script>
   </body>
 </html>
