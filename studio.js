@@ -33,6 +33,89 @@ let catalog = [],
     JSON.parse(localStorage.getItem("mapleFavorites") || "[]"),
   );
 const images = new Map();
+const classData = new Map();
+let searchVersion = 0,
+  globalLibrary = null,
+  globalPromise = null,
+  globalFailures = 0;
+let recentClasses = JSON.parse(
+  localStorage.getItem("mapleRecentClasses") || "[]",
+);
+const familyOf = (c) =>
+  [
+    "Cygnus Knights",
+    "Explorer",
+    "Resistance",
+    "Heroes",
+    "Nova",
+    "Flora",
+    "Anima",
+    "Sengoku",
+    "Shine",
+    "Special",
+    "Collab",
+  ].find((f) => (c.line || "").includes(f)) || "Other";
+const frameCount = (s) => layers(s).reduce((n, [, f]) => n + f.length, 0);
+const skillKey = (slug, s) => slug + ":" + s.id + ":" + s.slug;
+async function getClassData(slug) {
+  if (!classData.has(slug)) {
+    classData.set(
+      slug,
+      (async () => {
+        const r = await fetch(asset(`data/${slug}/skills.json`));
+        if (!r.ok) throw Error(`HTTP ${r.status}`);
+        const d = await r.json();
+        if (!Array.isArray(d.skills)) throw Error("Invalid class catalog");
+        return d;
+      })().catch((e) => {
+        classData.delete(slug);
+        throw e;
+      }),
+    );
+  }
+  return classData.get(slug);
+}
+async function getGlobalLibrary() {
+  if (globalLibrary) return globalLibrary;
+  if (globalPromise) return globalPromise;
+  globalPromise = (async () => {
+    let cursor = 0,
+      done = 0,
+      rows = [];
+    globalFailures = 0;
+    await Promise.all(
+      Array.from({ length: 4 }, async () => {
+        while (cursor < catalog.length) {
+          const c = catalog[cursor++];
+          try {
+            const d = await getClassData(c.slug);
+            rows.push(
+              ...d.skills.map((skill) => ({
+                skill,
+                classSlug: c.slug,
+                className: c.name,
+              })),
+            );
+          } catch {
+            globalFailures++;
+          }
+          done++;
+          if ($("#scope").value === "all")
+            $("#searchStatus").textContent =
+              `Indexing classes ${done} / ${catalog.length}…`;
+        }
+      }),
+    );
+    if (!globalFailures) globalLibrary = rows;
+    return rows;
+  })();
+  try {
+    return await globalPromise;
+  } finally {
+    globalPromise = null;
+  }
+}
+
 const asset = (p) =>
   /^https?:/.test(p)
     ? p
@@ -73,47 +156,126 @@ function imageFor(file) {
   return p;
 }
 function renderClasses() {
-  const q = $("#classSearch").value.toLowerCase();
-  $("#classes").innerHTML = catalog
-    .filter((c) => c.name.toLowerCase().includes(q))
-    .map(
-      (c) =>
-        `<button class="class-button ${c.slug === selectedClass ? "active" : ""}" data-class="${esc(c.slug)}">${esc(c.name)}<span>${c.count ?? ""}</span></button>`,
-    )
-    .join("");
+  const q = $("#classSearch").value.toLowerCase(),
+    family = $("#family").value || "all";
+  const list = catalog.filter(
+    (c) =>
+      (c.name + " " + c.line).toLowerCase().includes(q) &&
+      (family === "all" || familyOf(c) === family),
+  );
+  $("#classes").innerHTML =
+    list
+      .map(
+        (c) =>
+          `<button class="class-button ${c.slug === selectedClass ? "active" : ""}" aria-current="${c.slug === selectedClass ? "page" : "false"}" data-class="${esc(c.slug)}">${esc(c.name)}<span>${c.count ?? ""}</span></button>`,
+      )
+      .join("") ||
+    '<p class="empty">No classes match. Try another family or name.</p>';
   $("#classes")
     .querySelectorAll("button")
-    .forEach((b) => (b.onclick = () => loadClass(b.dataset.class)));
+    .forEach(
+      (b) =>
+        (b.onclick = () => {
+          $("#scope").value = "class";
+          loadClass(b.dataset.class);
+        }),
+    );
+  const recent = recentClasses
+    .filter((slug) => slug !== selectedClass)
+    .map((slug) => catalog.find((c) => c.slug === slug))
+    .filter(Boolean)
+    .slice(0, 3);
+  $("#recentClasses").innerHTML = recent.length
+    ? '<span class="section-label">RECENT</span>' +
+      recent
+        .map(
+          (c) => `<button data-class="${esc(c.slug)}">${esc(c.name)}</button>`,
+        )
+        .join("")
+    : "";
+  $("#recentClasses")
+    .querySelectorAll("button")
+    .forEach(
+      (b) =>
+        (b.onclick = () => {
+          $("#scope").value = "class";
+          loadClass(b.dataset.class);
+        }),
+    );
 }
-function renderSkills() {
-  const q = $("#search").value.toLowerCase(),
+function filteredRows(rows) {
+  const q = $("#search").value.trim().toLowerCase(),
     job = $("#job").value,
     kind = $("#kind").value;
-  const list = skills.filter(
-    (s) =>
+  const result = rows.filter(
+    ({ skill: s, classSlug }) =>
       (job === "All jobs" || s.job === job) &&
       (!q ||
         `${s.name} ${s.id} ${s.description || ""}`.toLowerCase().includes(q)) &&
       (kind === "all" ||
-        (kind === "saved" && favorites.has(key(s))) ||
+        (kind === "saved" && favorites.has(skillKey(classSlug, s))) ||
         (kind === "animated" && layers(s).length) ||
         (kind === "still" && !layers(s).length)),
   );
+  const sort = $("#sort").value;
+  if (sort === "name")
+    result.sort((a, b) => a.skill.name.localeCompare(b.skill.name));
+  if (sort === "frames")
+    result.sort((a, b) => frameCount(b.skill) - frameCount(a.skill));
+  return result;
+}
+async function renderSkills() {
+  const token = ++searchVersion,
+    global = $("#scope").value === "all";
+  $("#listTitle").textContent = global ? "ALL CLASSES" : "SKILLS";
+  let rows = skills.map((skill) => ({
+    skill,
+    classSlug: selectedClass,
+    className: meta.class,
+  }));
+  if (global) {
+    if ($("#search").value.trim().length < 2 && $("#kind").value !== "saved") {
+      $("#skills").innerHTML =
+        '<div class="empty"><strong>A whole world of skills.</strong><p>Enter at least 2 characters to search all 59 classes, or choose Favorites to see saved skills.</p></div>';
+      $("#resultCount").textContent = "—";
+      $("#searchStatus").textContent =
+        "The all-class index loads once, when you search.";
+      return;
+    }
+    $("#searchStatus").textContent = "Loading the all-class index…";
+    rows = await getGlobalLibrary();
+    if (token !== searchVersion) return;
+  }
+  const list = filteredRows(rows),
+    shown = list.slice(0, 250);
   $("#resultCount").textContent = list.length;
-  $("#skills").innerHTML = list.length
-    ? list
+  $("#searchStatus").textContent =
+    globalFailures && global
+      ? `${globalFailures} classes could not be indexed. Search again to retry.`
+      : list.length > 250
+        ? `Showing the first 250 of ${list.length} results. Refine your search.`
+        : global
+          ? "Results include the class name. Select one to open its preview."
+          : "";
+  $("#skills").innerHTML = shown.length
+    ? shown
         .map(
-          (s) =>
-            `<button class="skill-card ${s === current ? "active" : ""}" data-slug="${esc(s.slug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${esc(s.job || "Other")} · ${layers(s).reduce((n, [, f]) => n + f.length, 0) || "No"} frames</small></span>${favorites.has(key(s)) ? '<span class="dot">★</span>' : ""}</button>`,
+          ({ skill: s, classSlug, className }) =>
+            `<button class="skill-card ${s === current ? "active" : ""}" aria-pressed="${s === current}" data-slug="${esc(s.slug)}" data-class="${esc(classSlug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${global ? esc(className) + " · " : ""}${esc(s.job || "Other")} · ${frameCount(s) || "No"} frames</small></span>${favorites.has(skillKey(classSlug, s)) ? '<span class="dot">★</span>' : ""}</button>`,
         )
         .join("")
-    : '<p class="empty">No matching skills. Try another search or filter.</p>';
+    : '<div class="empty"><strong>No matching skills.</strong><p>Try a shorter search, a different job, or Clear to reset the filters.</p></div>';
   $("#skills")
     .querySelectorAll("button")
     .forEach(
       (b) =>
-        (b.onclick = () =>
-          selectSkill(skills.find((s) => s.slug === b.dataset.slug))),
+        (b.onclick = () => {
+          if (b.dataset.class !== selectedClass || global) {
+            $("#scope").value = "class";
+            $("#kind").value = "all";
+            loadClass(b.dataset.class, b.dataset.slug);
+          } else selectSkill(skills.find((s) => s.slug === b.dataset.slug));
+        }),
     );
 }
 async function loadClass(slug, skillSlug) {
@@ -134,11 +296,15 @@ async function loadClass(slug, skillSlug) {
     .getContext("2d")
     .clearRect(0, 0, $("#canvas").width, $("#canvas").height);
   try {
-    const res = await fetch(asset(`data/${slug}/skills.json`));
-    if (!res.ok) throw Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    const data = await getClassData(slug);
     if (token !== loadVersion) return;
     if (!Array.isArray(data.skills)) throw Error("Invalid class catalog");
+    recentClasses = [slug, ...recentClasses.filter((x) => x !== slug)].slice(
+      0,
+      6,
+    );
+    localStorage.setItem("mapleRecentClasses", JSON.stringify(recentClasses));
+    renderClasses();
     meta = data;
     skills = data.skills;
     $("#className").textContent = data.class || slug;
@@ -451,6 +617,19 @@ $("#background").onchange = (e) => {
 };
 $("#search").oninput = $("#job").onchange = $("#kind").onchange = renderSkills;
 $("#classSearch").oninput = renderClasses;
+$("#family").onchange = renderClasses;
+$("#sort").onchange = $("#scope").onchange = () => {
+  if ($("#scope").value === "all") $("#job").value = "All jobs";
+  renderSkills();
+};
+$("#clearFilters").onclick = () => {
+  $("#search").value = "";
+  $("#job").value = "All jobs";
+  $("#kind").value = "all";
+  $("#sort").value = "job";
+  renderSkills();
+  $("#search").focus();
+};
 $("#favorite").onclick = () => {
   if (!current) return;
   const k = key(current);
@@ -540,6 +719,9 @@ $("#connect").onclick = async () => {
     root = next;
     localStorage.setItem("mapleAssetRoot", root);
     images.clear();
+    classData.clear();
+    globalLibrary = null;
+    globalPromise = null;
     $("#sourceDialog").close();
     await init();
     toast("Asset library connected");
@@ -550,6 +732,12 @@ $("#connect").onclick = async () => {
 async function init() {
   catalog = await (await fetch("catalog.json")).json();
   $("#classCount").textContent = catalog.length;
+  $("#family").innerHTML =
+    '<option value="all">All class families</option>' +
+    [...new Set(catalog.map(familyOf))]
+      .sort()
+      .map((f) => `<option>${esc(f)}</option>`)
+      .join("");
   $("#catalogStatus").textContent =
     `${catalog.length} classes · ${root ? "Connected assets" : "Local collection"}`;
   renderClasses();

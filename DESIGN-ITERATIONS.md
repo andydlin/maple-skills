@@ -9,3 +9,11 @@ Changes: warm paper surfaces, sky and mint navigation, maple-orange actions, an 
 Evaluation: source review confirms the desktop inspector retains flexible width while both navigation columns scroll independently. The selected skill has both an orange edge and a filled background. Mobile breakpoints preserve readable single-column skill names. Syntax and existing player regressions pass. Browser visual review is pending because the Mac is locked; this is not a screenshot-verified round.
 
 Next: make a 6,197-entry collection easier to navigate across classes.
+
+## Round 2 — Find skills across the whole collection
+
+Changes: explicit class/all-class search scope; lazy all-class indexing with four concurrent catalog requests and progress; class names in global results; class-family filters; recent classes; name/frame-count sorting; clear filters; selected-state semantics; bounded rendering of 250 results.
+
+Evaluation: automated checks index all 6,197 entries, find Raging Blow across classes, and confirm that a one-character global query asks for refinement rather than rendering thousands of buttons. Class metadata is cached; indexing does not run on initial load. Global favorites use class-qualified keys. Source review identified no need for a new backend or hosting changes. Visual review remains pending while the Mac is locked.
+
+Next: improve precise motion study, especially repeating only the frames of interest.

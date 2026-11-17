@@ -34,6 +34,14 @@
           placeholder="Search classes…"
           aria-label="Search classes"
         />
+        <select id="family" aria-label="Class family">
+          <option value="all">All class families</option>
+        </select>
+        <div
+          id="recentClasses"
+          class="recent-classes"
+          aria-label="Recent classes"
+        ></div>
         <nav id="classes" aria-label="Classes"></nav>
         <div class="aside-foot">
           A little Maple magic.<br /><small
@@ -52,6 +60,13 @@
             placeholder="Search skills or ID…"
             aria-label="Search skills"
           />
+          <div class="search-scope">
+            <label for="scope">Search in</label
+            ><select id="scope">
+              <option value="class">This class</option>
+              <option value="all">All 59 classes</option>
+            </select>
+          </div>
           <div class="filters">
             <select id="job" aria-label="Job tier">
               <option>All jobs</option></select
@@ -63,8 +78,19 @@
             </select>
           </div>
         </div>
+        <div class="sort-row">
+          <label for="sort">Sort skills</label
+          ><select id="sort">
+            <option value="job">Job order</option>
+            <option value="name">Name A–Z</option>
+            <option value="frames">Most frames</option></select
+          ><button id="clearFilters" title="Reset search and skill filters">
+            Clear
+          </button>
+        </div>
+        <div id="searchStatus" class="search-status" role="status"></div>
         <div class="list-label">
-          <span>SKILLS</span><span id="resultCount"></span>
+          <span id="listTitle">SKILLS</span><span id="resultCount"></span>
         </div>
         <div id="skills" class="skill-list"></div>
       </section>

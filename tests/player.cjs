@@ -7,9 +7,15 @@ function node(id) {
   if (nodes.has(id)) return nodes.get(id);
   const n = {
     value:
-      { "#job": "All jobs", "#kind": "all", "#zoom": "fit", "#speed": "1" }[
-        id
-      ] || "",
+      {
+        "#job": "All jobs",
+        "#kind": "all",
+        "#zoom": "fit",
+        "#speed": "1",
+        "#scope": "class",
+        "#sort": "job",
+        "#family": "all",
+      }[id] || "",
     checked: ["#loop", "#pixel"].includes(id),
     textContent: "",
     innerHTML: "",
@@ -147,6 +153,20 @@ vm.runInContext(source, context);
   );
   assert.equal(node("#className").textContent, "Ren");
   assert.ok(node("#skillName").textContent !== "Loading…");
+  node("#scope").value = "all";
+  node("#search").value = "Raging Blow";
+  await vm.runInContext("renderSkills()", context);
+  assert.ok(Number(node("#resultCount").textContent) > 0);
+  assert.ok(node("#skills").innerHTML.includes("Hero"));
+  const allCount = await vm.runInContext(
+    "getGlobalLibrary().then(rows=>rows.length)",
+    context,
+  );
+  assert.equal(allCount, 6197);
+  node("#search").value = "a";
+  await vm.runInContext("renderSkills()", context);
+  assert.ok(node("#skills").innerHTML.includes("at least 2 characters"));
+  node("#scope").value = "class";
   assert.ok(draws.every((x) => !x.includes("/data/")));
   console.log(
     "PASS: catalog, layer switching, frame deep links, class navigation, icon-only entries, missing classes, race handling, asset paths.",
