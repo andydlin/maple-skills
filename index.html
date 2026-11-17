@@ -9,8 +9,8 @@
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=static-bg-1" />
-    <link rel="stylesheet" href="home.css?v=static-bg-1" />
+    <link rel="stylesheet" href="studio.css?v=static-fullscreen-1" />
+    <link rel="stylesheet" href="home.css?v=static-fullscreen-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -445,13 +445,15 @@
       </form>
     </dialog>
     <dialog id="stillDialog" aria-labelledby="stillTitle">
-      <h2 id="stillTitle">Your static frame</h2>
+      <div class="still-header"><h2 id="stillTitle">Your static frame</h2><button id="stillClose" type="button" aria-label="Close static frame preview" autofocus>✕ Close</button></div>
+      <div class="still-content">
       <p id="stillContext"></p>
       <label class="still-background">Background<select id="stillBackground"><option value="transparent">Transparent</option><option value="black">Black</option><option value="white">White</option></select></label>
       <div class="still-image"><img id="stillImage" alt="" hidden /></div>
       <p id="stillStatus" role="status">Preparing PNG…</p>
       <p class="export-note">Press and hold the image to copy or save it on your phone. On desktop, right-click the image or use Copy image. PNG at original resolution. Your chosen background is included when you copy or download; preview overlays are excluded.</p>
-      <div class="dialog-buttons"><button id="stillClose" type="button">Close</button><a id="stillDownload" class="still-download" download hidden>Download PNG</a><button id="stillCopy" class="primary" type="button" disabled>Copy image</button></div>
+      </div>
+      <div class="dialog-buttons still-actions"><a id="stillDownload" class="still-download" download hidden>Download PNG</a><button id="stillCopy" class="primary" type="button" disabled>Copy image</button></div>
     </dialog>
     <dialog id="helpDialog" aria-labelledby="helpTitle">
       <h2 id="helpTitle">A few useful shortcuts</h2>
@@ -496,8 +498,8 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=static-bg-1"></script>
-    <script src="home.js?v=static-bg-1"></script>
-    <script src="studio.js?v=static-bg-1"></script>
+    <script src="exporter.js?v=static-fullscreen-1"></script>
+    <script src="home.js?v=static-fullscreen-1"></script>
+    <script src="studio.js?v=static-fullscreen-1"></script>
   </body>
 </html>
