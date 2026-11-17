@@ -354,7 +354,7 @@ async function showFrame(i) {
     ctx.imageSmoothingEnabled = !$("#pixel").checked;
     ctx.drawImage(im, -o.x, -o.y);
     if ($("#origin").checked) {
-      ctx.strokeStyle = "#d6ec98";
+      ctx.strokeStyle = "#db5314";
       ctx.lineWidth = 1.5 / scale;
       ctx.beginPath();
       ctx.moveTo(-12 / scale, 0);
@@ -443,9 +443,9 @@ $("#background").onchange = (e) => {
   const s = $("#stage");
   s.style.backgroundImage = e.target.value === "checker" ? "" : "none";
   s.style.backgroundColor = {
-    checker: "#1b201b",
+    checker: "#f1f5f4",
     dark: "#101210",
-    light: "#eee9df",
+    light: "#fffdf4",
     green: "#00b140",
   }[e.target.value];
 };
