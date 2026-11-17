@@ -25,3 +25,11 @@ Changes: direct frame entry and per-frame delay/origin readouts; a collapsible s
 Evaluation: deterministic player tests cover range clamping, forward stopping, reverse wrapping, ping-pong turnarounds, and a non-looping return to the start. Full-sequence scrubbing remains available outside the study range. Overlay pixels are kept out of still exports. The overlay and optional origin marker do not replace the original frame. Syntax and previous browsing regressions pass. Full-screen and touch behavior still require browser QA.
 
 Next: turn frame selection into reusable visual-reference exports.
+
+## Round 4 — Reusable frame exports
+
+Changes: an export dialog with output dimensions, original/2×/4× scale, configurable columns and padding; transparent single-frame and sprite-sheet PNGs; labeled contact sheets; timing/origin JSON. Sheets use the selected study range and a shared origin. Export snapshots isolate the operation from later selection changes. Canvas dimensions are capped at 8,192 pixels per side and 24 million total pixels.
+
+Evaluation: independent export-geometry tests cover shared-origin alignment, mirroring metadata, original-size PNG geometry, contact-sheet labels, range frame numbers, and oversized-sheet rejection. Player regressions pass. The export state disables downloads until all selected images load and rejects incomplete exports. PNG encoding and contact-sheet appearance still need browser verification; initial-version single-frame PNG alpha was previously verified.
+
+Next: review the complete experience for accessibility, loading failures, navigation continuity, and mobile usability.

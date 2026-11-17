@@ -247,7 +247,7 @@
           </div>
           <div class="export">
             <button id="export" class="primary" disabled>
-              ↓ Save frame as PNG</button
+              ↓ Export current frame</button
             ><button id="link">Copy skill link</button
             ><small>Transparent · original resolution</small>
           </div>
@@ -281,7 +281,59 @@
         </div>
       </form>
     </dialog>
+    <dialog id="exportDialog" aria-labelledby="exportTitle">
+      <form method="dialog">
+        <div class="eyebrow">TAKE A LITTLE MAGIC WITH YOU</div>
+        <h2 id="exportTitle">Export frames</h2>
+        <p id="exportContext"></p>
+        <div class="export-options">
+          <label
+            >Format<select id="exportMode">
+              <option value="frame">Current frame · transparent PNG</option>
+              <option value="sprite">Sprite sheet · transparent PNG</option>
+              <option value="contact">Contact sheet · labels & timing</option>
+            </select></label
+          ><label
+            >Scale<select id="exportScale">
+              <option value="1">Original (1×)</option>
+              <option value="2">2× crisp pixels</option>
+              <option value="4">4× crisp pixels</option>
+            </select></label
+          ><label
+            >Columns<input
+              id="exportCols"
+              type="number"
+              min="1"
+              max="16"
+              value="4" /></label
+          ><label
+            >Cell padding<input
+              id="exportPad"
+              type="number"
+              min="0"
+              max="64"
+              value="8"
+          /></label>
+        </div>
+        <div id="exportSummary" class="export-summary" role="status">
+          Preparing export…
+        </div>
+        <p class="export-note">
+          Sprite sheets use a shared origin so animation frames stay aligned.
+          Contact sheets include frame numbers and source timing. Preview
+          backgrounds and overlays are excluded.
+        </p>
+        <div class="dialog-buttons">
+          <button value="cancel">Cancel</button
+          ><button id="exportMetadata" type="button">Timing JSON</button
+          ><button id="downloadExport" type="button" class="primary" disabled>
+            ↓ Download PNG
+          </button>
+        </div>
+      </form>
+    </dialog>
     <div id="toast" role="status"></div>
+    <script src="exporter.js"></script>
     <script src="studio.js"></script>
   </body>
 </html>

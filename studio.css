@@ -1148,3 +1148,63 @@ main:fullscreen .stage {
     height: 55dvh;
   }
 }
+
+/* Round 4: exports as reusable references */
+.export-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 18px;
+}
+.export-options label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 11px;
+  color: #587072;
+}
+.export-options > label:first-child {
+  grid-column: 1/-1;
+}
+.export-options input,
+.export-options select {
+  width: 100%;
+  min-width: 0;
+  font-size: 12px;
+}
+.export-summary {
+  padding: 14px;
+  border-radius: 9px;
+  background: #eaf6ef;
+  border: 1px solid #cce4d6;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-top: 20px;
+  color: #37694e;
+  font-variant-numeric: tabular-nums;
+}
+.export-note {
+  font-size: 11px;
+}
+#exportDialog .eyebrow {
+  margin-bottom: 9px;
+}
+#exportDialog .dialog-buttons {
+  flex-wrap: wrap;
+}
+.export #sheet {
+  background: #eaf5f7;
+  border-color: #bdd8df;
+  color: #2d6a7c;
+}
+@media (max-width: 480px) {
+  .export-options {
+    gap: 12px;
+  }
+  #exportDialog .dialog-buttons {
+    justify-content: stretch;
+  }
+  #exportDialog .dialog-buttons button {
+    flex: 1;
+  }
+}

@@ -293,6 +293,7 @@ async function loadClass(slug, skillSlug) {
   ++drawVersion;
   ++showFrame.token;
   $("#export").disabled = true;
+  $("#sheet").disabled = true;
   $("#play").disabled = true;
   renderClasses();
   $("#skills").innerHTML = '<p class="empty">Loading class…</p>';
@@ -347,6 +348,7 @@ async function loadClass(slug, skillSlug) {
       "Could not load this class. Check the asset source and try again.";
     $("#play").disabled = true;
     $("#export").disabled = true;
+    $("#sheet").disabled = true;
     $("#layers").innerHTML = "";
     $("#filmstrip").innerHTML = "";
     $("#counter").textContent = "0 / 0";
@@ -427,6 +429,7 @@ async function setLayer(name) {
   $("#play").disabled = true;
   $("#prev").disabled = $("#next").disabled = !frames.length;
   $("#export").disabled = true;
+  $("#sheet").disabled = true;
   $("#duration").textContent =
     frames.reduce((n, f) => n + (f.delay || 90), 0) + " ms";
   if (!frames.length) {
@@ -570,6 +573,7 @@ async function showFrame(i) {
       : "STILL REFERENCE";
     $("#frameSize").textContent = `${im.width} × ${im.height} PX`;
     $("#export").disabled = false;
+    $("#sheet").disabled = !framesReady;
   } catch (e) {
     if (token !== showFrame.token) return;
     $("#canvas")
@@ -578,6 +582,7 @@ async function showFrame(i) {
     $("#stageMessage").textContent =
       "Frame unavailable. Try another frame or check the asset source.";
     $("#export").disabled = true;
+    $("#sheet").disabled = true;
   }
 }
 showFrame.token = 0;
@@ -781,32 +786,146 @@ $("#favorite").onclick = () => {
   $("#favorite").setAttribute("aria-pressed", favorites.has(k));
   renderSkills();
 };
-$("#export").onclick = async () => {
+let exportSnapshot = null,
+  exportPrepared = null,
+  exportVersion = 0;
+function downloadBlob(blob, name) {
+  const a = document.createElement("a"),
+    url = URL.createObjectURL(blob);
+  a.href = url;
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 3000);
+}
+function openExport(mode) {
+  if (!current || !frames.length || !framesReady) return;
   pause();
+  exportSnapshot = {
+    classSlug: selectedClass,
+    className: meta.class,
+    skill: current.name,
+    skillSlug: current.slug,
+    layer,
+    version: meta.version,
+    flip: $("#flip").checked,
+    current: index,
+    rangeStart,
+    rangeEnd,
+    frames: frames.slice(),
+  };
+  $("#exportMode").value = mode;
+  $("#exportContext").textContent =
+    `${meta.class} / ${current.name} / ${layer || "still reference"}`;
+  $("#exportDialog").showModal();
+  prepareExport();
+}
+async function prepareExport() {
+  const token = ++exportVersion,
+    s = exportSnapshot;
+  if (!s) return;
+  exportPrepared = null;
+  $("#downloadExport").disabled = true;
+  $("#exportMetadata").disabled = true;
+  $("#exportSummary").textContent = "Preparing export…";
+  const mode = $("#exportMode").value || "frame",
+    entries = (
+      mode === "frame"
+        ? s.frames.slice(s.current, s.current + 1)
+        : s.frames.slice(s.rangeStart, s.rangeEnd + 1)
+    ).map((f, i) => ({
+      ...f,
+      frameNumber: (mode === "frame" ? s.current : s.rangeStart) + i + 1,
+    }));
+  $("#exportCols").disabled = $("#exportPad").disabled = mode === "frame";
   try {
-    const f = frames[index],
-      im = await imageFor(f.file),
-      c = document.createElement("canvas");
-    c.width = im.width;
-    c.height = im.height;
-    const ctx = c.getContext("2d");
-    if ($("#flip").checked) {
-      ctx.translate(c.width, 0);
-      ctx.scale(-1, 1);
-    }
-    ctx.drawImage(im, 0, 0);
-    const blob = await new Promise((r) => c.toBlob(r, "image/png"));
-    if (!blob) throw Error();
-    const a = document.createElement("a"),
-      url = URL.createObjectURL(blob);
-    a.href = url;
-    a.download = `${selectedClass}-${current.slug}-${layer || "still"}-${String(index + 1).padStart(3, "0")}.png`;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 3000);
-    toast("Frame saved as transparent PNG");
+    let cursor = 0;
+    await Promise.all(
+      Array.from({ length: Math.min(6, entries.length) }, async () => {
+        while (cursor < entries.length && token === exportVersion) {
+          const i = cursor++,
+            im = await imageFor(entries[i].file);
+          entries[i] = {
+            ...entries[i],
+            image: im,
+            width: im.width,
+            height: im.height,
+          };
+        }
+      }),
+    );
+    if (token !== exportVersion) return;
+    const plan = ExportKit.plan(entries, {
+      mode,
+      scale: $("#exportScale").value,
+      columns: $("#exportCols").value,
+      padding: $("#exportPad").value,
+      flip: s.flip,
+    });
+    exportPrepared = { entries, plan, snapshot: s };
+    $("#exportSummary").textContent =
+      `${plan.width.toLocaleString()} × ${plan.height.toLocaleString()} px · ${entries.length} frame${entries.length === 1 ? "" : "s"} · ${mode === "contact" ? "Labeled background" : "Transparent"}${s.flip ? " · Mirrored" : ""}`;
+    $("#downloadExport").disabled = false;
+    $("#exportMetadata").disabled = false;
   } catch (e) {
-    toast("Export failed. The asset host must allow CORS for this site.");
+    if (token === exportVersion)
+      $("#exportSummary").textContent =
+        e.message || "Could not prepare this export.";
   }
+}
+$("#export").onclick = () => openExport("frame");
+$("#sheet").onclick = () => openExport("sprite");
+for (const id of ["exportMode", "exportScale", "exportCols", "exportPad"])
+  $("#" + id).onchange = prepareExport;
+$("#exportDialog").addEventListener("close", () => {
+  ++exportVersion;
+  exportSnapshot = null;
+  exportPrepared = null;
+});
+$("#downloadExport").onclick = async () => {
+  const prepared = exportPrepared,
+    token = exportVersion;
+  if (!prepared) return;
+  $("#downloadExport").disabled = true;
+  try {
+    const { entries, plan, snapshot: s } = prepared,
+      c = ExportKit.draw(
+        document.createElement("canvas"),
+        entries,
+        plan,
+        `${s.className} / ${s.skill} / ${s.layer || "still"}`,
+      );
+    const blob = await new Promise((r) => c.toBlob(r, "image/png"));
+    if (token !== exportVersion) return;
+    if (!blob) throw Error("Could not encode the image. Try a smaller sheet.");
+    downloadBlob(
+      blob,
+      `${s.classSlug}-${s.skillSlug}-${s.layer || "still"}-${plan.mode}-${entries[0].frameNumber}-${entries[entries.length - 1].frameNumber}.png`,
+    );
+    $("#exportDialog").close();
+    toast("Your PNG is ready.");
+  } catch (e) {
+    if (token === exportVersion) {
+      $("#exportSummary").textContent =
+        e.message || "Export failed. Check the asset connection and try again.";
+      $("#downloadExport").disabled = false;
+    }
+  }
+};
+$("#exportMetadata").onclick = () => {
+  if (!exportPrepared) return;
+  const { entries, plan, snapshot: s } = exportPrepared;
+  const data = ExportKit.metadata(entries, plan, {
+    class: s.className,
+    skill: s.skill,
+    skillSlug: s.skillSlug,
+    layer: s.layer,
+    sourceVersion: s.version,
+  });
+  downloadBlob(
+    new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }),
+    `${s.classSlug}-${s.skillSlug}-${plan.mode}.json`,
+  );
+  toast("Timing and origin data saved.");
 };
 $("#link").onclick = async () => {
   updateURL();
@@ -820,7 +939,8 @@ $("#link").onclick = async () => {
 document.addEventListener("keydown", (e) => {
   if (
     /INPUT|SELECT|TEXTAREA|BUTTON/.test(e.target.tagName) ||
-    $("#sourceDialog").open
+    $("#sourceDialog").open ||
+    $("#exportDialog").open
   )
     return;
   if (e.key.toLowerCase() === "r") {
