@@ -9,8 +9,8 @@
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=studio-rev-1" />
-    <link rel="stylesheet" href="home.css?v=studio-rev-1" />
+    <link rel="stylesheet" href="studio.css?v=studio-rev-3" />
+    <link rel="stylesheet" href="home.css?v=studio-rev-3" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -347,7 +347,17 @@
             through the full animation.
           </p>
         </details>
-        <details class="preview-settings" open>
+        <section class="capture-panel" aria-label="Save frames">
+          <div><div class="section-label">TAKE IT WITH YOU</div><h3>Save the perfect moment</h3><p id="captureContext">Choose a frame to save.</p></div>
+          <div class="export">
+            <button id="export" class="primary" disabled>
+              ↓ Export current frame</button
+            ><button id="sheet" disabled>▦ Export a frame sheet</button
+            ><button id="link">Copy frame link</button
+            ><small>Transparent PNG · export scale is separate from preview zoom</small>
+          </div>
+        </section>
+        <details class="preview-settings">
           <summary>Preview appearance <span>Background, scale &amp; overlays</span></summary>
         <section class="tools">
           <div>
@@ -396,13 +406,7 @@
               <p id="skillSource"></p>
             </details>
           </div>
-          <div class="export">
-            <button id="export" class="primary" disabled>
-              ↓ Export current frame</button
-            ><button id="sheet" disabled>▦ Export a frame sheet</button
-            ><button id="link">Copy skill link</button
-            ><small>Transparent · original resolution</small>
-          </div>
+
         </section>
         <footer>
           <span id="metadata"></span
@@ -510,6 +514,10 @@
           <dd>Previous / next frame</dd>
         </div>
         <div>
+          <dt><kbd>Home</kbd> <kbd>End</kbd></dt>
+          <dd>First / last frame</dd>
+        </div>
+        <div>
           <dt><kbd>F</kbd></dt>
           <dd>Focus view / show library</dd>
         </div>
@@ -533,8 +541,8 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=studio-rev-1"></script>
-    <script src="home.js?v=studio-rev-1"></script>
-    <script src="studio.js?v=studio-rev-1"></script>
+    <script src="exporter.js?v=studio-rev-3"></script>
+    <script src="home.js?v=studio-rev-3"></script>
+    <script src="studio.js?v=studio-rev-3"></script>
   </body>
 </html>

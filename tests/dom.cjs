@@ -240,6 +240,28 @@ const waitFor = async (fn) => {
       !d.body.classList.contains("home-view") &&
       d.querySelector("#className").textContent === "Adele",
   );
+  await run("loadClass('hero', 'raging-blow-1120017')");
+  await run("showFrame(0)");
+  assert.ok(d.querySelector("#first").disabled);
+  assert.ok(d.querySelector("#prev").disabled);
+  d.querySelector("#last").click();
+  await waitFor(() => run("index === frames.length - 1"));
+  assert.ok(d.querySelector("#last").disabled);
+  assert.ok(d.querySelector("#next").disabled);
+  d.querySelector("#first").click();
+  await run("setRange(1, 3)");
+  assert.ok(d.querySelector("#filmstrip button").classList.contains("outside-range"));
+  assert.equal(d.querySelectorAll("#filmstrip .range-edge").length, 2);
+  assert.ok(d.querySelector("#captureContext").textContent.includes("Sheet: frames 2–4"));
+  assert.ok(d.querySelector("#stage").onpointerdown == null);
+  let copied = "";
+  w.navigator.clipboard.writeText = async value => { copied = value; };
+  await run("playing=true;showFrame(2)");
+  await d.querySelector("#link").onclick();
+  assert.ok(!run("playing"));
+  assert.equal(new URLSearchParams(new URL(copied).hash.slice(1)).get("frame"), "2");
+  assert.ok(!d.querySelector(".preview-settings").open);
+  console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and exact frame sharing during playback.");
   console.log(
     "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, both export dialogs, range controls, mobile browse collapse, help, global search.",
   );

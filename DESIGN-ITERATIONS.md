@@ -43,3 +43,12 @@ Reliability changes: safe local storage parsing/writes, direct-frame input norma
 Evaluation: previous tests plus a real-markup control contract and export geometry checks pass. The primary orange button is darkened for readable white text. Malformed storage and failed frame states are handled without blocking the rest of the interface. All 59 catalogs remain unchanged. Visual browser QA is still blocked by the locked Mac and is explicitly not claimed as complete.
 
 Final automated integration review uses the actual HTML through jsdom, with image/canvas operations simulated. It verifies both export dialogs, mobile browse collapse after selecting a skill, favorites, range actions, global search, malformed local storage, and suppression of history writes during playback. Main text/button contrast tokens are checked against a minimum 4.5:1 ratio. These checks complement rather than replace visual rendering and actual PNG decoding.
+
+
+## Studio: three additional rounds
+
+1. **Preview hierarchy and panning removal.** Removed drag state, pointer capture, cursor hints, and canvas offsets. The preview remains centered; vertical touch scrolling is restored. Appearance settings now have their own collapsible section. Evaluation: fewer competing controls around the stage; fit and fixed zoom remain available.
+2. **Deliberate frame inspection.** Added first/last controls and Home/End shortcuts, bounded single-frame stepping, a larger timeline target, and visible range endpoints with muted excluded frames. Evaluation: clearer boundaries for still selection without changing loop playback.
+3. **Capture workflow.** Moved exports above secondary settings and description, added explicit still/sheet scope, collapsed appearance controls by default, and corrected frame sharing during playback by pausing before copying the current URL. Evaluation: choosing and saving a still now form one continuous workflow; export zoom independence is explained.
+
+Validation: full existing suite plus DOM checks for boundaries, range feedback, capture context, removed pointer handlers, and exact sharing during playback. Rendered browser review could not run: Mac locked and browser access disabled. Layout conclusions are based on source review and responsive rules, not screenshots.

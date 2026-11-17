@@ -26,7 +26,7 @@ WebP frame assets remain in the existing Cloudflare R2 bucket, `maple-skills-fra
 A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-orange colors. The animation stage has independent transparency, dark, light, and green backgrounds.
 
 - Browse class families and recent classes; search within one class or all 59. Filter by job, frame availability, or favorites and sort by name or frame count. The all-class index loads on demand and is cached for the session.
-- Study frames at their source timing. Step, scrub, jump to a frame, or loop a selected range forward, backward, or in ping-pong mode. Inspect per-frame origins and delays; overlay the previous frame; zoom, pan, mirror, or open focus/full-screen views.
+- Study frames at their source timing. Step, scrub, jump to a frame, or loop a selected range forward, backward, or in ping-pong mode. Inspect per-frame origins and delays; overlay the previous frame; zoom, mirror, or open focus/full-screen views.
 - Export transparent stills or origin-aligned sprite sheets, labeled contact sheets, and timing/origin JSON. Choose output scale, columns, and padding and review dimensions before downloading. Sheet exports use the study range. Preview backgrounds, origin markers, and the previous-frame overlay stay out of PNGs.
 - On mobile, a sticky browse control opens the library when needed. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
 

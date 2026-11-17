@@ -614,6 +614,7 @@ async function showFrame(i) {
   $("#last").disabled = $("#next").disabled = index === frames.length - 1;
   $("#frameJump").value = index + 1;
   $("#frameJump").max = frames.length;
+  updateCaptureUI();
   $("#frameInfo").textContent =
     `${f.delay ?? 90} ms · origin ${f.origin?.x ?? "—"}, ${f.origin?.y ?? "—"}`;
   $("#canvas").setAttribute(
@@ -772,7 +773,13 @@ function nextInRange(i, direction, mode, start, end, loop) {
     ? { stop: !loop, next: start, direction: 1 }
     : { next: i + 1, direction: 1 };
 }
+function updateCaptureUI() {
+  $("#captureContext").textContent = frames.length
+    ? `Still: frame ${index + 1} of ${frames.length} · Sheet: frames ${rangeStart + 1}–${rangeEnd + 1}`
+    : "No animation frames available for export.";
+}
 function updateRangeUI() {
+  updateCaptureUI();
   $("#rangeStart").value = rangeStart + 1;
   $("#rangeEnd").value = rangeEnd + 1;
   for (const id of ["rangeStart", "rangeEnd"]) {
@@ -786,7 +793,8 @@ function updateRangeUI() {
     button.classList.toggle("outside-range", i < rangeStart || i > rangeEnd);
     button.classList.toggle("range-edge", (rangeStart > 0 || rangeEnd < frames.length - 1) && (i === rangeStart || i === rangeEnd));
   });
-  for (const id of ["first", "last", "prev", "next"]) $("#" + id).disabled = !frames.length;
+  $("#first").disabled = $("#prev").disabled = !frames.length || index === 0;
+  $("#last").disabled = $("#next").disabled = !frames.length || index === frames.length - 1;
   for (const id of ["frameJump", "markIn", "markOut", "fullRange"])
     $("#" + id).disabled = !frames.length;
 }
@@ -1094,10 +1102,11 @@ $("#exportMetadata").onclick = () => {
   toast("Timing and origin data saved.");
 };
 $("#link").onclick = async () => {
+  pause();
   updateURL();
   try {
     await navigator.clipboard.writeText(location.href);
-    toast("Skill link copied");
+    toast("Frame link copied");
   } catch {
     toast("Copy the URL from your address bar");
   }
