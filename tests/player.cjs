@@ -20,7 +20,8 @@ function node(id) {
     textContent: "",
     innerHTML: "",
     style: {},
-    classList: { toggle() {} },
+    classList: { toggle() {}, remove() {} },
+    focus() {},
     querySelectorAll() {
       return [];
     },
@@ -67,7 +68,7 @@ const context = {
   Infinity,
   setTimeout,
   clearTimeout,
-  window: { devicePixelRatio: 1 },
+  window: { devicePixelRatio: 1, addEventListener() {} },
   location,
   history: {
     replaceState(a, b, u) {
@@ -81,7 +82,21 @@ const context = {
     },
     setItem() {},
   },
-  document: { querySelector: node, addEventListener() {} },
+  document: {
+    querySelector: node,
+    addEventListener() {},
+    body: {
+      classList: {
+        remove() {},
+        contains() {
+          return false;
+        },
+        toggle() {
+          return false;
+        },
+      },
+    },
+  },
   navigator: { clipboard: { writeText: async () => {} } },
   IntersectionObserver: class {
     observe() {}
@@ -192,6 +207,9 @@ vm.runInContext(source, context);
   await vm.runInContext("renderSkills()", context);
   assert.ok(node("#skills").innerHTML.includes("at least 2 characters"));
   node("#scope").value = "class";
+  assert.equal(vm.runInContext("readJSON('not-json',[]).length", context), 0);
+  await vm.runInContext("showFrame(NaN)", context);
+  assert.ok(!String(node("#counter").textContent).includes("NaN"));
   assert.ok(draws.every((x) => !x.includes("/data/")));
   console.log(
     "PASS: catalog, layer switching, frame deep links, class navigation, icon-only entries, missing classes, race handling, asset paths.",

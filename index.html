@@ -4,9 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Maple Skills — Animation Studio</title>
+    <meta
+      name="description"
+      content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
+    />
+    <meta name="theme-color" content="#eef7f5" />
     <link rel="stylesheet" href="studio.css" />
   </head>
   <body>
+    <a class="skip-link" href="#inspector">Skip to skill preview</a>
     <header>
       <a class="brand" href="./"
         ><span class="mark" aria-hidden="true"
@@ -19,11 +25,20 @@
       ><span class="divider"></span><span>Your skill playground</span>
       <div class="header-right">
         <span id="catalogStatus">Loading library</span
-        ><button id="sourceBtn">Asset source</button>
+        ><button id="help">? Shortcuts</button>
       </div>
     </header>
+    <div class="mobile-nav">
+      <button
+        id="browseToggle"
+        aria-expanded="false"
+        aria-controls="classBrowser skillBrowser"
+      >
+        ☰ Browse classes &amp; skills</button
+      ><span id="mobileSelection">Hero</span>
+    </div>
     <div class="workspace">
-      <aside class="classes">
+      <aside class="classes" id="classBrowser">
         <div class="section-label">
           THE LIBRARY <span id="classCount"></span>
         </div>
@@ -49,7 +64,7 @@
           >
         </div>
       </aside>
-      <section class="library">
+      <section class="library" id="skillBrowser">
         <div class="library-top">
           <div class="eyebrow" id="classLine">EXPLORER / WARRIOR</div>
           <h1 id="className">Hero</h1>
@@ -94,7 +109,7 @@
         </div>
         <div id="skills" class="skill-list"></div>
       </section>
-      <main>
+      <main id="inspector" tabindex="-1">
         <div class="breadcrumb">
           LIBRARY <span>/</span> <span id="crumb">HERO</span
           ><span>/</span> SKILL INSPECTOR
@@ -112,6 +127,17 @@
             ><button id="favorite" aria-label="Favorite skill">☆</button>
           </div>
         </div>
+        <div class="layer-toolbar">
+          <span class="section-label">ANIMATION LAYER</span>
+          <div
+            id="layers"
+            class="segments"
+            role="group"
+            aria-label="Animation layer"
+          ></div>
+        </div>
+        <div class="load-health" id="loadHealth" role="status"></div>
+        <button id="retryFrames" hidden>Retry unavailable frames</button>
         <div class="stage" id="stage">
           <div class="stage-top">
             <span class="pill" id="stageLabel">FRAME PREVIEW</span
@@ -122,6 +148,7 @@
             width="1200"
             height="650"
             aria-label="Skill animation preview"
+            role="img"
           ></canvas>
           <div id="stageMessage" role="status"></div>
           <div class="stage-bottom">
@@ -201,10 +228,6 @@
         </details>
         <section class="tools">
           <div>
-            <div class="section-label">ANIMATION LAYER</div>
-            <div id="layers" class="segments"></div>
-          </div>
-          <div>
             <div class="section-label">BACKGROUND</div>
             <select id="background" aria-label="Preview background">
               <option value="checker">Transparency</option>
@@ -244,17 +267,32 @@
             <div class="section-label">ABOUT THIS SKILL</div>
             <p id="description"></p>
             <p id="availability" class="muted"></p>
+            <details class="description-details">
+              <summary>Source &amp; availability</summary>
+              <p id="skillSource"></p>
+            </details>
           </div>
           <div class="export">
             <button id="export" class="primary" disabled>
               ↓ Export current frame</button
+            ><button id="sheet" disabled>▦ Export a frame sheet</button
             ><button id="link">Copy skill link</button
             ><small>Transparent · original resolution</small>
           </div>
         </section>
         <footer>
           <span id="metadata"></span
-          ><span>Nexon assets · personal visual reference</span>
+          ><span
+            ><button id="sourceBtn" class="text-button">Asset settings</button>
+            ·
+            <a
+              href="https://github.com/andydlin/maple-skills"
+              target="_blank"
+              rel="noopener"
+              >GitHub source</a
+            >
+            · Nexon assets</span
+          >
         </footer>
       </main>
     </div>
@@ -274,7 +312,7 @@
         /></label>
         <p id="sourceError" role="status"></p>
         <div class="dialog-buttons">
-          <button value="cancel">Cancel</button
+          <button type="button" id="sourceCancel">Cancel</button
           ><button id="connect" type="button" class="primary">
             Connect library
           </button>
@@ -324,13 +362,51 @@
           backgrounds and overlays are excluded.
         </p>
         <div class="dialog-buttons">
-          <button value="cancel">Cancel</button
+          <button type="button" id="exportCancel">Cancel</button
           ><button id="exportMetadata" type="button">Timing JSON</button
           ><button id="downloadExport" type="button" class="primary" disabled>
             ↓ Download PNG
           </button>
         </div>
       </form>
+    </dialog>
+    <dialog id="helpDialog" aria-labelledby="helpTitle">
+      <h2 id="helpTitle">A few useful shortcuts</h2>
+      <p>
+        Start with a class and skill. Choose a layer above the preview, then
+        play, step, or scrub through its frames.
+      </p>
+      <dl class="shortcuts">
+        <div>
+          <dt><kbd>Space</kbd></dt>
+          <dd>Play / pause</dd>
+        </div>
+        <div>
+          <dt><kbd>←</kbd> <kbd>→</kbd></dt>
+          <dd>Previous / next frame</dd>
+        </div>
+        <div>
+          <dt><kbd>F</kbd></dt>
+          <dd>Focus view / show library</dd>
+        </div>
+        <div>
+          <dt><kbd>R</kbd></dt>
+          <dd>Reset scale and pan</dd>
+        </div>
+        <div>
+          <dt><kbd>/</kbd></dt>
+          <dd>Search skills</dd>
+        </div>
+        <div>
+          <dt><kbd>?</kbd></dt>
+          <dd>Open this guide</dd>
+        </div>
+      </dl>
+      <p>
+        Drag the preview to pan. Double-click to fit the full animation. Export
+        sheets use the study range; previews and overlays stay out of your PNGs.
+      </p>
+      <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
     <script src="exporter.js"></script>

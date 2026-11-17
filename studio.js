@@ -12,6 +12,27 @@ const $ = (s) => document.querySelector(s),
           "'": "&#39;",
         })[c],
     );
+function readLocal(key, fallback) {
+  try {
+    return localStorage.getItem(key) ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+function readJSON(key, fallback) {
+  try {
+    return JSON.parse(readLocal(key, JSON.stringify(fallback)));
+  } catch {
+    return fallback;
+  }
+}
+function writeLocal(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch {}
+}
+const asStrings = (value) =>
+  Array.isArray(value) ? value.filter((x) => typeof x === "string") : [];
 let catalog = [],
   meta = {},
   skills = [],
@@ -27,11 +48,9 @@ let catalog = [],
   bounds = null,
   pan = { x: 0, y: 0 },
   root =
-    localStorage.getItem("mapleAssetRoot") ??
+    readLocal("mapleAssetRoot", null) ??
     "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev",
-  favorites = new Set(
-    JSON.parse(localStorage.getItem("mapleFavorites") || "[]"),
-  );
+  favorites = new Set(asStrings(readJSON("mapleFavorites", [])));
 let rangeStart = 0,
   rangeEnd = 0,
   pingDirection = 1,
@@ -39,14 +58,14 @@ let rangeStart = 0,
   framesReady = false;
 const delayOf = (f) => (Number.isFinite(f?.delay) ? Math.max(1, f.delay) : 90);
 const images = new Map();
+const imageSizes = new Map();
+let imageBytes = 0;
 const classData = new Map();
 let searchVersion = 0,
   globalLibrary = null,
   globalPromise = null,
   globalFailures = 0;
-let recentClasses = JSON.parse(
-  localStorage.getItem("mapleRecentClasses") || "[]",
-);
+let recentClasses = asStrings(readJSON("mapleRecentClasses", []));
 const familyOf = (c) =>
   [
     "Cygnus Knights",
@@ -146,20 +165,65 @@ const toast = (t) => {
 };
 function imageFor(file) {
   const url = asset(file);
-  if (images.has(url)) return images.get(url);
+  if (images.has(url)) {
+    const promise = images.get(url);
+    images.delete(url);
+    images.set(url, promise);
+    return promise;
+  }
   const p = new Promise((resolve, reject) => {
     const im = new Image();
-    im.crossOrigin = "anonymous";
-    im.onload = () => resolve(im);
-    im.onerror = () => {
+    let timeout = setTimeout(() => {
+      im.src = "";
+      fail();
+    }, 20000);
+    function fail() {
+      clearTimeout(timeout);
       images.delete(url);
-      reject(new Error("Frame unavailable"));
+      imageBytes -= imageSizes.get(url) || 0;
+      imageSizes.delete(url);
+      reject(Error("Frame unavailable"));
+    }
+    im.crossOrigin = "anonymous";
+    im.onload = () => {
+      clearTimeout(timeout);
+      if (images.has(url)) {
+        const bytes = im.width * im.height * 4;
+        imageSizes.set(url, bytes);
+        imageBytes += bytes;
+        while (
+          images.size > 2 &&
+          (imageBytes > 96 * 1024 * 1024 || images.size > 240)
+        ) {
+          const oldest = images.keys().next().value;
+          images.delete(oldest);
+          imageBytes -= imageSizes.get(oldest) || 0;
+          imageSizes.delete(oldest);
+        }
+      }
+      resolve(im);
     };
+    im.onerror = fail;
     im.src = url;
   });
   images.set(url, p);
-  if (images.size > 600) images.delete(images.keys().next().value);
   return p;
+}
+function closeBrowser() {
+  document.body.classList.remove("browse-open");
+  $("#browseToggle").setAttribute("aria-expanded", false);
+  $("#browseToggle").textContent = "☰ Browse classes & skills";
+}
+function navigateClass(slug, skillSlug) {
+  const u = new URL(location.href);
+  u.hash = new URLSearchParams({
+    class: slug,
+    ...(skillSlug ? { skill: skillSlug } : {}),
+  }).toString();
+  try {
+    history.pushState(null, "", u);
+  } catch {}
+  return loadClass(slug, skillSlug);
 }
 function renderClasses() {
   const q = $("#classSearch").value.toLowerCase(),
@@ -183,7 +247,7 @@ function renderClasses() {
       (b) =>
         (b.onclick = () => {
           $("#scope").value = "class";
-          loadClass(b.dataset.class);
+          navigateClass(b.dataset.class);
         }),
     );
   const recent = recentClasses
@@ -205,7 +269,7 @@ function renderClasses() {
       (b) =>
         (b.onclick = () => {
           $("#scope").value = "class";
-          loadClass(b.dataset.class);
+          navigateClass(b.dataset.class);
         }),
     );
 }
@@ -279,17 +343,33 @@ async function renderSkills() {
           if (b.dataset.class !== selectedClass || global) {
             $("#scope").value = "class";
             $("#kind").value = "all";
-            loadClass(b.dataset.class, b.dataset.slug);
-          } else selectSkill(skills.find((s) => s.slug === b.dataset.slug));
+            closeBrowser();
+            navigateClass(b.dataset.class, b.dataset.slug);
+          } else {
+            const u = new URL(location.href);
+            u.hash = new URLSearchParams({
+              class: selectedClass,
+              skill: b.dataset.slug,
+            }).toString();
+            try {
+              history.pushState(null, "", u);
+            } catch {}
+            closeBrowser();
+            selectSkill(skills.find((s) => s.slug === b.dataset.slug));
+          }
         }),
     );
 }
 async function loadClass(slug, skillSlug) {
-  pause();
+  pause(false);
+  framesReady = false;
+  ++searchVersion;
   const token = ++loadVersion;
   selectedClass = slug;
   current = null;
   frames = [];
+  updateRangeUI();
+  $("#prev").disabled = $("#next").disabled = true;
   ++drawVersion;
   ++showFrame.token;
   $("#export").disabled = true;
@@ -298,6 +378,9 @@ async function loadClass(slug, skillSlug) {
   renderClasses();
   $("#skills").innerHTML = '<p class="empty">Loading class…</p>';
   $("#skillName").textContent = "Loading…";
+  $("#skills").setAttribute("aria-busy", true);
+  $("#loadHealth").textContent = "";
+  $("#retryFrames").hidden = true;
   $("#stageMessage").textContent = "Loading class…";
   $("#canvas")
     .getContext("2d")
@@ -310,10 +393,11 @@ async function loadClass(slug, skillSlug) {
       0,
       6,
     );
-    localStorage.setItem("mapleRecentClasses", JSON.stringify(recentClasses));
+    writeLocal("mapleRecentClasses", JSON.stringify(recentClasses));
     renderClasses();
     meta = data;
     skills = data.skills;
+    $("#skills").setAttribute("aria-busy", false);
     $("#className").textContent = data.class || slug;
     $("#classLine").textContent = data.classLine || "MapleStory";
     $("#crumb").textContent = (data.class || slug).toUpperCase();
@@ -335,6 +419,7 @@ async function loadClass(slug, skillSlug) {
     );
   } catch (e) {
     if (token !== loadVersion) return;
+    $("#skills").setAttribute("aria-busy", false);
     skills = [];
     $("#className").textContent =
       catalog.find((c) => c.slug === slug)?.name || slug;
@@ -355,7 +440,7 @@ async function loadClass(slug, skillSlug) {
   }
 }
 function updateURL() {
-  if (!current) return;
+  if (!current || playing) return;
   const u = new URL(location.href);
   u.hash = new URLSearchParams({
     class: selectedClass,
@@ -363,13 +448,19 @@ function updateURL() {
     layer,
     frame: index,
   }).toString();
-  history.replaceState(null, "", u);
+  try {
+    history.replaceState(null, "", u);
+  } catch {}
 }
 async function selectSkill(s) {
   if (!s) return;
-  pause();
+  pause(false);
   current = s;
   $("#skillName").textContent = s.name;
+  $("#mobileSelection").textContent =
+    `${meta.class || selectedClass} · ${s.name}`;
+  $("#skillSource").textContent =
+    `${meta.version || "Source version unknown"} · ${s.status || "No completeness status supplied"}${s.sourcePath ? "\n" + s.sourcePath : ""}`;
   $("#skillJob").textContent = `${s.job || "OTHER"} JOB / #${s.id || "—"}`;
   $("#search").placeholder = `Search ${meta.class || "class"} skills…`;
   $("#description").textContent = s.description || "No description available.";
@@ -391,9 +482,10 @@ async function selectSkill(s) {
     .forEach((b) => (b.onclick = () => setLayer(b.dataset.layer)));
   renderSkills();
   await setLayer(ls[0]?.[0] || "");
+  saveSelection();
 }
 async function setLayer(name) {
-  pause();
+  pause(false);
   framesReady = false;
   layer = name;
   frames =
@@ -407,9 +499,14 @@ async function setLayer(name) {
   pan = { x: 0, y: 0 };
   ++showFrame.token;
   const token = ++drawVersion;
+  $("#loadHealth").textContent = "";
+  $("#retryFrames").hidden = true;
   $("#layers")
     .querySelectorAll("button")
-    .forEach((b) => b.classList.toggle("active", b.dataset.layer === name));
+    .forEach((b) => {
+      b.classList.toggle("active", b.dataset.layer === name);
+      b.setAttribute("aria-pressed", b.dataset.layer === name);
+    });
   $("#filmstrip").innerHTML = frames
     .map(
       (f, i) =>
@@ -431,7 +528,7 @@ async function setLayer(name) {
   $("#export").disabled = true;
   $("#sheet").disabled = true;
   $("#duration").textContent =
-    frames.reduce((n, f) => n + (f.delay || 90), 0) + " ms";
+    frames.reduce((n, f) => n + delayOf(f), 0) + " ms";
   if (!frames.length) {
     $("#canvas")
       .getContext("2d")
@@ -456,7 +553,10 @@ async function setLayer(name) {
         try {
           loaded[i] = {
             status: "fulfilled",
-            value: await imageFor(sequence[i].file),
+            value: await imageFor(sequence[i].file).then((im) => ({
+              width: im.width,
+              height: im.height,
+            })),
           };
         } catch {
           loaded[i] = { status: "rejected" };
@@ -483,8 +583,20 @@ async function setLayer(name) {
     maxY = Math.max(maxY, im.height - o.y);
   });
   if (Number.isFinite(minX)) bounds = { minX, minY, maxX, maxY };
-  framesReady = true;
-  $("#play").disabled = frames.length < 2;
+  const missing = loaded.filter((r) => r.status !== "fulfilled").length;
+  $("#loadHealth").textContent = missing
+    ? `${missing} of ${frames.length} frames could not be loaded. Available frames remain viewable.`
+    : "";
+  $("#retryFrames").hidden = !missing;
+  $("#filmstrip")
+    .querySelectorAll("button")
+    .forEach((b, i) => {
+      b.classList.toggle("is-missing", loaded[i]?.status !== "fulfilled");
+      if (loaded[i]?.status !== "fulfilled")
+        b.title = "Frame unavailable — retry loading";
+    });
+  framesReady = loaded.some((r) => r.status === "fulfilled");
+  $("#play").disabled = frames.length < 2 || !framesReady;
   await showFrame(0);
 }
 function originFor(f, im) {
@@ -493,7 +605,7 @@ function originFor(f, im) {
     : { x: im.width / 2, y: im.height / 2 };
 }
 async function showFrame(i) {
-  index = Math.max(0, Math.min(i, frames.length - 1));
+  index = Math.max(0, Math.min(Math.trunc(Number(i)) || 0, frames.length - 1));
   const f = frames[index],
     token = ++showFrame.token;
   if (!f) return;
@@ -509,7 +621,7 @@ async function showFrame(i) {
   $("#counter").textContent =
     `${String(index + 1).padStart(2, "0")} / ${frames.length}`;
   $("#time").textContent =
-    frames.slice(0, index).reduce((n, f) => n + (f.delay || 90), 0) + " ms";
+    frames.slice(0, index).reduce((n, f) => n + delayOf(f), 0) + " ms";
   $("#filmstrip")
     .querySelectorAll("button")
     .forEach((b, j) => {
@@ -520,6 +632,14 @@ async function showFrame(i) {
   try {
     const im = await imageFor(f.file);
     if (token !== showFrame.token) return;
+    let previousImage = null;
+    const previousFrame = frames[index - 1];
+    if ($("#onion").checked && previousFrame) {
+      try {
+        previousImage = await imageFor(previousFrame.file);
+      } catch {}
+      if (token !== showFrame.token) return;
+    }
     const c = $("#canvas"),
       ctx = c.getContext("2d"),
       dpr = window.devicePixelRatio || 1,
@@ -542,18 +662,11 @@ async function showFrame(i) {
     ctx.scale($("#flip").checked ? -scale : scale, scale);
     ctx.translate(-(b.minX + b.maxX) / 2, -(b.minY + b.maxY) / 2);
     ctx.imageSmoothingEnabled = !$("#pixel").checked;
-    if ($("#onion").checked && index > 0) {
-      try {
-        const previous = await imageFor(frames[index - 1].file);
-        if (token !== showFrame.token) {
-          ctx.restore();
-          return;
-        }
-        const po = originFor(frames[index - 1], previous);
-        ctx.globalAlpha = 0.24;
-        ctx.drawImage(previous, -po.x, -po.y);
-        ctx.globalAlpha = 1;
-      } catch {}
+    if (previousImage) {
+      const po = originFor(previousFrame, previousImage);
+      ctx.globalAlpha = 0.24;
+      ctx.drawImage(previousImage, -po.x, -po.y);
+      ctx.globalAlpha = 1;
     }
     ctx.drawImage(im, -o.x, -o.y);
     if ($("#origin").checked) {
@@ -592,12 +705,28 @@ function resetView() {
   $("#viewLabel").textContent = "Fit to view";
   showFrame(index);
 }
-function pause() {
+function saveSelection() {
+  if (current)
+    writeLocal(
+      "mapleLastSelection",
+      JSON.stringify({
+        class: selectedClass,
+        skill: current.slug,
+        layer,
+        frame: index,
+      }),
+    );
+}
+function pause(persist = true) {
   ++playSession;
   playing = false;
   clearTimeout(timer);
   $("#play").textContent = "▶ Play";
   $("#playState").textContent = "PAUSED";
+  if (persist) {
+    updateURL();
+    saveSelection();
+  }
 }
 function nextInRange(i, direction, mode, start, end, loop) {
   if (end <= start) return { stop: true, next: start, direction };
@@ -623,7 +752,7 @@ function updateRangeUI() {
     $("#" + id).disabled = !frames.length;
   }
   $("#rangeSummary").textContent = frames.length
-    ? `${rangeStart + 1}–${rangeEnd + 1} · ${rangeEnd - rangeStart + 1} frames · ${frames.slice(rangeStart, rangeEnd + 1).reduce((n, f) => n + delayOf(f), 0)} ms`
+    ? `${rangeStart + 1}–${rangeEnd + 1} · ${rangeEnd - rangeStart + 1} frame${rangeEnd === rangeStart ? "" : "s"} · ${frames.slice(rangeStart, rangeEnd + 1).reduce((n, f) => n + delayOf(f), 0)} ms`
     : "No frames";
   for (const id of ["frameJump", "markIn", "markOut", "fullRange"])
     $("#" + id).disabled = !frames.length;
@@ -711,6 +840,7 @@ for (const id of ["zoom", "origin", "flip", "pixel", "onion"])
         : Number($("#zoom").value) * 100 + "% scale";
   };
 $("#background").onchange = (e) => {
+  writeLocal("mapleBackground", e.target.value);
   const s = $("#stage");
   s.style.backgroundImage = e.target.value === "checker" ? "" : "none";
   s.style.backgroundColor = {
@@ -781,7 +911,7 @@ $("#favorite").onclick = () => {
   if (!current) return;
   const k = key(current);
   favorites.has(k) ? favorites.delete(k) : favorites.add(k);
-  localStorage.setItem("mapleFavorites", JSON.stringify([...favorites]));
+  writeLocal("mapleFavorites", JSON.stringify([...favorites]));
   $("#favorite").textContent = favorites.has(k) ? "★" : "☆";
   $("#favorite").setAttribute("aria-pressed", favorites.has(k));
   renderSkills();
@@ -940,9 +1070,25 @@ document.addEventListener("keydown", (e) => {
   if (
     /INPUT|SELECT|TEXTAREA|BUTTON/.test(e.target.tagName) ||
     $("#sourceDialog").open ||
-    $("#exportDialog").open
+    $("#exportDialog").open ||
+    $("#helpDialog").open
   )
     return;
+  if (e.key === "/") {
+    e.preventDefault();
+    if (
+      window.matchMedia?.("(max-width:850px)").matches &&
+      !document.body.classList.contains("browse-open")
+    )
+      $("#browseToggle").click();
+    $("#search").focus();
+    return;
+  }
+  if (e.key === "?") {
+    e.preventDefault();
+    $("#help").click();
+    return;
+  }
   if (e.key.toLowerCase() === "r") {
     e.preventDefault();
     resetView();
@@ -970,6 +1116,41 @@ document.addEventListener("visibilitychange", () => {
 new IntersectionObserver((e) => {
   if (!e[0].isIntersecting) pause();
 }).observe($("#stage"));
+$("#help").onclick = () => $("#helpDialog").showModal();
+$("#helpClose").onclick = () => $("#helpDialog").close();
+$("#browseToggle").onclick = () => {
+  const open = document.body.classList.toggle("browse-open");
+  $("#browseToggle").setAttribute("aria-expanded", !!open);
+  $("#browseToggle").textContent = open
+    ? "↑ Close browser"
+    : "☰ Browse classes & skills";
+};
+$("#sourceCancel").onclick = () => $("#sourceDialog").close();
+$("#exportCancel").onclick = () => $("#exportDialog").close();
+$("#sourceDialog form").onsubmit = (e) => {
+  e.preventDefault();
+  $("#connect").click();
+};
+$("#exportDialog form").onsubmit = (e) => {
+  e.preventDefault();
+  if (!$("#downloadExport").disabled) $("#downloadExport").click();
+};
+$("#retryFrames").onclick = async () => {
+  const at = index,
+    start = rangeStart,
+    end = rangeEnd;
+  await setLayer(layer);
+  setRange(start, end);
+  await showFrame(at);
+};
+window.addEventListener("pagehide", saveSelection);
+window.addEventListener("popstate", async () => {
+  const p = new URLSearchParams(location.hash.slice(1));
+  await loadClass(p.get("class") || "hero", p.get("skill"));
+  if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
+    await setLayer(p.get("layer"));
+  if (p.has("frame")) await showFrame(p.get("frame"));
+});
 $("#sourceBtn").onclick = () => {
   $("#assetRoot").value = root;
   $("#sourceDialog").showModal();
@@ -987,8 +1168,10 @@ $("#connect").onclick = async () => {
     const d = await r.json();
     if (!Array.isArray(d.skills)) throw Error("Expected a skills catalog.");
     root = next;
-    localStorage.setItem("mapleAssetRoot", root);
+    writeLocal("mapleAssetRoot", root);
     images.clear();
+    imageSizes.clear();
+    imageBytes = 0;
     classData.clear();
     globalLibrary = null;
     globalPromise = null;
@@ -1009,9 +1192,15 @@ async function init() {
       .map((f) => `<option>${esc(f)}</option>`)
       .join("");
   $("#catalogStatus").textContent =
-    `${catalog.length} classes · ${root ? "Connected assets" : "Local collection"}`;
+    `${catalog.length} classes · ${catalog.reduce((n, c) => n + c.count, 0).toLocaleString()} skills`;
   renderClasses();
-  const p = new URLSearchParams(location.hash.slice(1));
+  const saved = readJSON("mapleLastSelection", {});
+  const p = new URLSearchParams(
+    location.hash.slice(1) ||
+      new URLSearchParams(
+        saved && typeof saved === "object" ? saved : {},
+      ).toString(),
+  );
   await loadClass(p.get("class") || "hero", p.get("skill"));
   if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
     await setLayer(p.get("layer"));
@@ -1040,6 +1229,11 @@ $("#stage").onpointerup = $("#stage").onpointercancel = () => {
 };
 $("#stage").ondblclick = resetView;
 $("#reset").onclick = resetView;
+const savedBackground = readLocal("mapleBackground", "checker");
+if (["checker", "dark", "light", "green"].includes(savedBackground)) {
+  $("#background").value = savedBackground;
+  $("#background").onchange({ target: $("#background") });
+}
 init().catch(() => {
   $("#stageMessage").textContent =
     "Could not load the catalog. Reload to try again.";

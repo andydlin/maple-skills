@@ -33,3 +33,13 @@ Changes: an export dialog with output dimensions, original/2×/4× scale, config
 Evaluation: independent export-geometry tests cover shared-origin alignment, mirroring metadata, original-size PNG geometry, contact-sheet labels, range frame numbers, and oversized-sheet rejection. Player regressions pass. The export state disables downloads until all selected images load and rejects incomplete exports. PNG encoding and contact-sheet appearance still need browser verification; initial-version single-frame PNG alpha was previously verified.
 
 Next: review the complete experience for accessibility, loading failures, navigation continuity, and mobile usability.
+
+## Round 5 — A connected, resilient experience
+
+Integration review caught a missing sheet-export button that permissive DOM mocks did not detect. The control is now present and a markup contract test checks every literal ID used by the player. Layer controls move above the preview. On mobile, a sticky browse toggle exposes the library on demand so the animation is visible without scrolling past two navigation panels. Shortcut help, a skip link, larger touch targets, last-selection restoration, and remembered stage backgrounds improve everyday use.
+
+Reliability changes: safe local storage parsing/writes, direct-frame input normalization, image timeouts, a bounded decoded-image cache, unavailable-frame counts and retry, export-form keyboard behavior, and navigation history. URL writes are suppressed during playback to avoid browser history throttling. Range timing now uses the same delay function as playback. Export operations retain frozen selection snapshots.
+
+Evaluation: previous tests plus a real-markup control contract and export geometry checks pass. The primary orange button is darkened for readable white text. Malformed storage and failed frame states are handled without blocking the rest of the interface. All 59 catalogs remain unchanged. Visual browser QA is still blocked by the locked Mac and is explicitly not claimed as complete.
+
+Final automated integration review uses the actual HTML through jsdom, with image/canvas operations simulated. It verifies both export dialogs, mobile browse collapse after selecting a skill, favorites, range actions, global search, malformed local storage, and suppression of history writes during playback. Main text/button contrast tokens are checked against a minimum 4.5:1 ratio. These checks complement rather than replace visual rendering and actual PNG decoding.

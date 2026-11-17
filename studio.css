@@ -8,7 +8,7 @@
   color: #34434b;
   background: #f6f5ed;
   font-size: 13px;
-  --muted: #697980;
+  --muted: #596d74;
   --line: #dce4e3;
   --accent: #dc5a18;
   --blue: #18708b;
@@ -226,7 +226,7 @@ aside,
   line-height: 1.8;
 }
 .aside-foot small {
-  color: #72887d;
+  color: #5f756a;
   font-size: 10px;
 }
 .library {
@@ -1206,5 +1206,287 @@ main:fullscreen .stage {
   }
   #exportDialog .dialog-buttons button {
     flex: 1;
+  }
+}
+
+/* Round 5: integration, mobile browsing and recovery */
+.primary {
+  background: #bd4810;
+  border-color: #a93e0c;
+}
+.primary:hover {
+  background: #a53a09;
+  border-color: #963307;
+}
+.skip-link {
+  position: fixed;
+  top: -80px;
+  left: 15px;
+  z-index: 40;
+  padding: 12px;
+  background: white;
+  color: #165a70;
+  border: 2px solid #18708b;
+  border-radius: 8px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+.mobile-nav {
+  display: none;
+}
+.layer-toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 13px;
+}
+.layer-toolbar .section-label {
+  margin: 0;
+  font-size: 9px;
+}
+.layer-toolbar .segments {
+  flex: 1;
+}
+.layer-toolbar .segments button {
+  background: #fffef9;
+}
+.layer-toolbar .segments button.active {
+  background: #def1f4;
+  border-color: #7cb6c0;
+}
+.load-health {
+  color: #8d5516;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0 0 10px;
+}
+.load-health:empty {
+  display: none;
+}
+#retryFrames {
+  font-size: 10px;
+  margin-bottom: 12px;
+  background: #fff1df;
+}
+.frame.is-missing {
+  background: #f9e8de;
+  border-style: dashed;
+}
+.frame.is-missing span {
+  color: #925232;
+}
+.text-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  text-decoration: underline;
+  font-size: inherit;
+  color: #51787c;
+}
+footer a {
+  color: #426f7d;
+}
+.description-details {
+  font-size: 10px;
+  color: #697e7c;
+  margin-top: 10px;
+}
+.description-details summary {
+  cursor: pointer;
+}
+.description-details p {
+  font-size: 10px;
+  margin: 9px 0;
+  overflow-wrap: anywhere;
+}
+.shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 22px 0;
+}
+.shortcuts > div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.shortcuts dt {
+  min-width: 100px;
+}
+.shortcuts dd {
+  margin: 0;
+  color: #526b70;
+  font-size: 12px;
+}
+kbd {
+  display: inline-block;
+  min-width: 27px;
+  padding: 5px 8px;
+  text-align: center;
+  background: #eef4f2;
+  border: 1px solid #c7d6d2;
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  font: 11px inherit;
+}
+#helpDialog p {
+  font-size: 12px;
+  line-height: 1.9;
+}
+.export > #sheet {
+  min-height: 38px;
+}
+.stage[aria-busy="true"] {
+  cursor: progress;
+}
+.tools {
+  justify-content: flex-start;
+  gap: 25px;
+}
+.onion-label {
+  padding-bottom: 3px;
+}
+@media (max-width: 850px) {
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background: #edf6f5;
+    border-bottom: 1px solid #d4e4e2;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  .mobile-nav button {
+    font-size: 11px;
+    white-space: nowrap;
+    background: #fffef8;
+    border-color: #b9d0cb;
+    min-height: 40px;
+  }
+  .mobile-nav > span {
+    font-size: 10px;
+    color: #557773;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .classes,
+  .library {
+    display: none;
+  }
+  .browse-open .classes,
+  .browse-open .library {
+    display: flex;
+  }
+  .browse-open .classes nav {
+    max-height: 130px;
+  }
+  .browse-open .skill-list {
+    max-height: 320px;
+  }
+  .focus-mode .mobile-nav {
+    display: none;
+  }
+  .workspace {
+    display: block;
+  }
+  .focus-mode .workspace {
+    display: block;
+  }
+  .library-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px 12px;
+  }
+  .library-top .eyebrow,
+  .library-top h1,
+  .library-top p,
+  .library-top > #search {
+    grid-column: 1/-1;
+  }
+  .library-top h1,
+  .library-top p {
+    margin: 0;
+  }
+  .library-top .filters,
+  .library-top .search-scope {
+    margin: 0;
+  }
+  .library-top p {
+    margin-bottom: 5px;
+  }
+  .skill-heading {
+    margin-top: 16px;
+  }
+  .range-panel summary,
+  .range-controls button,
+  .tools button,
+  .segments button {
+    min-height: 38px;
+  }
+  .export {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: stretch;
+  }
+  .export small {
+    grid-column: 1/-1;
+  }
+  .export #link {
+    grid-column: 1/-1;
+  }
+  .heading-actions button {
+    min-height: 38px;
+  }
+  .tools label {
+    line-height: 2.3;
+  }
+}
+@media (max-width: 480px) {
+  .mobile-nav {
+    gap: 9px;
+    padding: 8px 12px;
+  }
+  .mobile-nav button {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+  .mobile-nav > span {
+    font-size: 9px;
+  }
+  .library-top {
+    display: block;
+  }
+  .library-top .search-scope,
+  .library-top .filters {
+    margin-top: 10px;
+  }
+  .library-top > #search {
+    margin-top: 12px;
+  }
+  .export {
+    grid-template-columns: 1fr;
+  }
+  .export small,
+  .export #link {
+    grid-column: auto;
+  }
+  .heading-actions #fullscreen {
+    display: none;
+  }
+  .transport > button {
+    min-height: 42px;
+  }
+  .range-controls button {
+    min-height: 42px;
+  }
+  .stage-bottom > span:first-child {
+    max-width: 75%;
+    font-size: 8px;
   }
 }
