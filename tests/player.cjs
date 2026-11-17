@@ -136,6 +136,7 @@ const context = {
     }
   },
 };
+context.Atlas = { hide() {}, show() {} };
 context.Home = {
   init: async () => {},
   show: async () => {},

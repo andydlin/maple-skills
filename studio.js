@@ -360,7 +360,9 @@ async function renderSkills() {
     );
 }
 async function loadClass(slug, skillSlug) {
+  Atlas.hide();
   Home.hide();
+  $("#classSummons").href = "#" + new URLSearchParams({ section: "summons", class: slug });
   pause(false);
   framesReady = false;
   ++searchVersion;
@@ -436,7 +438,7 @@ async function loadClass(slug, skillSlug) {
   }
 }
 function updateURL() {
-  if (!current || playing || Home.isVisible()) return;
+  if (!current || playing || Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   const u = new URL(location.href);
   u.hash = new URLSearchParams({
     class: selectedClass,
@@ -698,7 +700,7 @@ function resetView() {
   showFrame(index);
 }
 function saveSelection() {
-  if (Home.isVisible()) return;
+  if (Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   if (current)
     writeLocal(
       "mapleLastSelection",
@@ -1033,6 +1035,7 @@ document.addEventListener("keydown", (e) => {
     $("#helpDialog").open
   )
     return;
+  if (document.body.classList.contains("atlas-view")) return;
   if (e.key === "/") {
     e.preventDefault();
     if (Home.isVisible()) {
@@ -1052,7 +1055,7 @@ document.addEventListener("keydown", (e) => {
     $("#help").click();
     return;
   }
-  if (Home.isVisible()) return;
+  if (Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   if (e.key === "Home" || e.key === "End") {
     e.preventDefault();
     $(e.key === "Home" ? "#first" : "#last").click();
@@ -1113,6 +1116,8 @@ async function routeFromURL() {
   const token = ++routeVersion;
   lastRouteHash = location.hash;
   const p = new URLSearchParams(location.hash.slice(1));
+  if (p.has("section")) { Atlas.show(p.get("section"), p.get("class")); return; }
+  Atlas.hide();
   if (!p.has("class") && !p.has("skill") && p.get("view") !== "favorites") {
     await Home.show();
     return;

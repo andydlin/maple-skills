@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "exampleOnly": true,
+  "id": "SOURCE_SUMMON_ID",
+  "name": "Source summon name",
+  "classSlugs": [
+    "adele"
+  ],
+  "sourceSkillIds": [],
+  "source": {
+    "version": "SOURCE_VERSION",
+    "path": "SOURCE_PATH"
+  },
+  "actions": {
+    "stand": {
+      "frames": []
+    }
+  },
+  "unavailableActions": []
+}

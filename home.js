@@ -349,6 +349,7 @@ const Home = (() => {
     }
   }
   async function show() {
+    Atlas.hide();
     pause(false);
     ++loadVersion;
     ++drawVersion;
@@ -364,6 +365,7 @@ const Home = (() => {
     $("#homeNav").setAttribute("aria-current", "page");
     $("#studioNav").removeAttribute("aria-current");
     $("#skipLink").href = "#homePage";
+    $("#skipLink").textContent = "Skip to home content";
     document.title = "Maple Skills — Class Atlas & Animation Studio";
     renderAtlas();
     renderDiscoveries();
@@ -376,6 +378,7 @@ const Home = (() => {
     $("#homeNav").removeAttribute("aria-current");
     $("#studioNav").setAttribute("aria-current", "page");
     $("#skipLink").href = "#inspector";
+    $("#skipLink").textContent = "Skip to skill preview";
     document.title = "Maple Skills — Animation Studio";
   }
   return {

@@ -1028,3 +1028,30 @@
     font-size: 9px;
   }
 }
+
+.atlas-view .workspace, .atlas-view .mobile-nav { display: none; }
+.atlas-view { display: block; overflow: auto; }
+.atlas-page { min-height: calc(100dvh - 80px); }
+.atlas-page h1 { max-width: 780px; font-size: clamp(32px, 5vw, 54px); letter-spacing: -1.5px; line-height: 1.1; color: #344c51; }
+.atlas-lead { max-width: 700px; line-height: 1.8; color: #596d74; }
+.atlas-group { margin-top: 40px; }
+.atlas-group h2 { color: #344c51; }
+.atlas-section-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.atlas-section-card, .atlas-empty { border: 1px solid #d2ded7; border-radius: 16px; padding: 24px; background: #fffef9; }
+.atlas-section-card { display: block; color: #344c51; text-decoration: none; }
+.atlas-section-card:hover { border-color: #bd4810; background: #fff8e9; }
+.atlas-section-card p, .atlas-empty p { color: #596d74; font-size: 13px; line-height: 1.8; }
+.atlas-section-card strong, .atlas-empty a, .atlas-back { color: #9c4014; font-size: 13px; }
+.atlas-status { display: inline-block; padding: 5px 8px; font-size: 10px; font-weight: 700; background: #edf2ee; color: #52655b; border-radius: 6px; }
+.atlas-status.ready { background: #e2efdf; color: #3f6041; }
+.atlas-back { display: inline-block; margin-bottom: 30px; }
+.atlas-empty { margin-top: 24px; max-width: 760px; }
+.class-assets { display: flex; gap: 8px; margin: 16px 0; font-size: 12px; }
+.class-assets a, .class-assets span { padding: 9px 14px; border: 1px solid #d2ded7; border-radius: 8px; text-decoration: none; color: #344c51; background: #fffef9; }
+.class-assets [aria-current] { background: #ffedcf; border-color: #d5b17c; font-weight: 700; }
+.atlas-class-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.atlas-class-grid a { display: flex; flex-direction: column; gap: 8px; padding: 16px; border: 1px solid #d2ded7; border-radius: 10px; background: #fffef9; text-decoration: none; color: #344c51; }
+.atlas-class-grid span { font-size: 11px; color: #596d74; }
+.atlas-invitation { display: flex; gap: 24px; align-items: center; justify-content: space-between; margin: 40px 0; padding: 24px; background: #edf5ee; border-radius: 16px; color: #344c51; }
+.atlas-invitation a { color: #9c4014; }
+@media(max-width:700px) { .atlas-section-grid { grid-template-columns: 1fr; } .atlas-class-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .atlas-invitation { flex-direction: column; align-items: start; } }

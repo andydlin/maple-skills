@@ -102,6 +102,7 @@ const ctx = dom.getInternalVMContext();
 vm.runInContext(fs.readFileSync("exporter.js", "utf8"), ctx);
 let source = fs.readFileSync("studio.js", "utf8");
 source = source.slice(0, source.lastIndexOf("\ninit().catch("));
+vm.runInContext(fs.readFileSync("atlas.js", "utf8"), ctx);
 vm.runInContext(fs.readFileSync("home.js", "utf8"), ctx);
 vm.runInContext(source, ctx);
 const run = (s) => vm.runInContext(s, ctx);
@@ -265,6 +266,32 @@ const waitFor = async (fn) => {
   assert.ok(d.querySelector("#stillStatus").textContent.includes("download"));
   d.querySelector("#stillClose").click();
   assert.ok(!d.querySelector("#stillDialog").open);
+  w.location.hash = "section=atlas";
+  await run("routeFromURL()");
+  assert.ok(d.body.classList.contains("atlas-view"));
+  assert.equal(d.querySelectorAll(".atlas-section-card").length, 6);
+  for (const section of ["characters", "mobs", "npcs", "maps"]) {
+    w.location.hash = "section=" + section;
+    await run("routeFromURL()");
+    assert.ok(d.querySelector("#atlasPage").textContent.includes("Planned collection"));
+  }
+  w.location.hash = "section=summons";
+  await run("routeFromURL()");
+  assert.equal(d.querySelectorAll(".atlas-class-grid a").length, 59);
+  w.location.hash = "section=summons&class=adele";
+  await run("routeFromURL()");
+  assert.ok(d.querySelector("#atlasPage h1").textContent.includes("Adele"));
+  assert.ok(d.querySelector("#atlasPage").textContent.includes("Awaiting frame import"));
+  await run("showFrame(0)");
+  assert.ok(w.location.hash.includes("section=summons"));
+  d.querySelector("#studioNav").click();
+  await waitFor(() => !d.body.classList.contains("atlas-view"));
+  assert.ok(d.querySelector("#atlasPage").hidden);
+  assert.ok(d.querySelector("#classSummons").href.includes("class=adele"));
+  d.querySelector("#homeNav").click();
+  await waitFor(() => d.body.classList.contains("home-view"));
+  assert.ok(!d.body.classList.contains("atlas-view"));
+  console.log("PASS: atlas collections, all class summon routes, explicit import states, and return to Studio/home.");
   console.log("PASS: static PNG image preview, download name, image clipboard payload, and denied clipboard fallback.");
   console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and simplified capture controls.");
   console.log(

@@ -9,8 +9,8 @@
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=static-fullscreen-1" />
-    <link rel="stylesheet" href="home.css?v=static-fullscreen-1" />
+    <link rel="stylesheet" href="studio.css?v=atlas-scaffold-1" />
+    <link rel="stylesheet" href="home.css?v=atlas-scaffold-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -28,7 +28,7 @@
       ><span class="divider"></span><span>Your skill playground</span>
       <nav class="header-nav" aria-label="Main navigation">
         <a id="homeNav" href="./">Home</a
-        ><a id="studioNav" href="#class=adele">Studio</a>
+        ><a id="studioNav" href="#class=adele">Studio</a><a id="exploreNav" href="#section=atlas">Explore</a>
       </nav>
       <div class="header-right">
         <span id="catalogStatus">Loading library</span
@@ -134,6 +134,7 @@
         ></div>
         <div id="discoveryGrid" class="discovery-grid"></div>
       </section>
+      <section class="atlas-invitation"><div><p class="home-kicker">BEYOND SKILLS</p><h2>More of the Maple world.</h2><p>Class summons, characters, mobs, NPCs, and maps are next.</p></div><a href="#section=atlas">Explore the growing atlas →</a></section>
       <div class="home-footer">
         <span
           >A closer look at the Maple world.
@@ -146,6 +147,7 @@
         ><span>Nexon game assets &middot; Personal visual reference</span>
       </div>
     </main>
+    <main id="atlasPage" class="home-page atlas-page" tabindex="-1" hidden></main>
     <div class="mobile-nav">
       <button
         id="browseToggle"
@@ -187,6 +189,7 @@
           <div class="eyebrow" id="classLine">MAPLESTORY</div>
           <h1 id="className">Loading class…</h1>
           <p id="classStats">Loading skills…</p>
+          <nav class="class-assets" aria-label="Class assets"><span aria-current="page">Skills</span><a id="classSummons" href="#section=summons&amp;class=adele">Summons</a></nav>
           <input
             id="search"
             type="search"
@@ -498,8 +501,9 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=static-fullscreen-1"></script>
-    <script src="home.js?v=static-fullscreen-1"></script>
-    <script src="studio.js?v=static-fullscreen-1"></script>
+    <script src="exporter.js?v=atlas-scaffold-1"></script>
+    <script src="atlas.js?v=atlas-scaffold-1"></script>
+    <script src="home.js?v=atlas-scaffold-1"></script>
+    <script src="studio.js?v=atlas-scaffold-1"></script>
   </body>
 </html>

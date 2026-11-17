@@ -66,3 +66,7 @@ The suite checks control IDs against the real HTML, player and search state, fra
 All 59 catalog totals were checked: 6,197 entries. Representative first and last frame URLs across every class were checked: 118/118 successful. Earlier Hero playback and a single-frame PNG download were tested in Chrome; that PNG was verified as RGBA with alpha. Visual browser QA for the five new rounds is still pending because the Mac was locked during implementation.
 
 The capture panel offers one static PNG action. Its modal supports transparent, black, and white backgrounds, included in the displayed image and clipboard/download output. Legacy export-sheet and link-copy UI has been removed.
+
+## Atlas expansion
+
+Explore now scaffolds class-owned summons, characters, mobs, NPCs, and maps. See [SITEMAP.md](SITEMAP.md) for routes and hierarchy, and [data/README.md](data/README.md) for the proposed import contract. Collection placeholders are explicit; Muse’s summons have not been imported yet.

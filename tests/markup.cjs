@@ -2,7 +2,7 @@ const fs = require("node:fs"),
   assert = require("node:assert/strict");
 const html = fs.readFileSync("index.html", "utf8"),
   source =
-    fs.readFileSync("studio.js", "utf8") + fs.readFileSync("home.js", "utf8");
+    fs.readFileSync("studio.js", "utf8") + fs.readFileSync("home.js", "utf8") + fs.readFileSync("atlas.js", "utf8");
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
 assert.equal(new Set(ids).size, ids.length, "Duplicate HTML IDs");
 const referenced = [
