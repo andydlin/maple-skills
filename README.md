@@ -28,6 +28,8 @@ A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-or
 - Export transparent stills or origin-aligned sprite sheets, labeled contact sheets, and timing/origin JSON. Choose output scale, columns, and padding and review dimensions before downloading. Sheet exports use the study range. Preview backgrounds, origin markers, and the previous-frame overlay stay out of PNGs.
 - On mobile, a sticky browse control opens the library when needed. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
 
+A fresh visit to the site root opens the first class in `catalog.json` (currently Adele), even if a previous selection was saved. Explicit skill links still open their requested class, layer, and frame.
+
 Use the Shortcuts guide for keyboard controls. Direct links preserve the class, skill, layer, and selected frame.
 
 ## Run locally

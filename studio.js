@@ -37,7 +37,7 @@ let catalog = [],
   meta = {},
   skills = [],
   current = null,
-  selectedClass = "hero",
+  selectedClass = "",
   layer = "",
   frames = [],
   index = 0,
@@ -1146,7 +1146,7 @@ $("#retryFrames").onclick = async () => {
 window.addEventListener("pagehide", saveSelection);
 window.addEventListener("popstate", async () => {
   const p = new URLSearchParams(location.hash.slice(1));
-  await loadClass(p.get("class") || "hero", p.get("skill"));
+  await loadClass(p.get("class") || catalog[0]?.slug, p.get("skill"));
   if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
     await setLayer(p.get("layer"));
   if (p.has("frame")) await showFrame(p.get("frame"));
@@ -1194,14 +1194,8 @@ async function init() {
   $("#catalogStatus").textContent =
     `${catalog.length} classes · ${catalog.reduce((n, c) => n + c.count, 0).toLocaleString()} skills`;
   renderClasses();
-  const saved = readJSON("mapleLastSelection", {});
-  const p = new URLSearchParams(
-    location.hash.slice(1) ||
-      new URLSearchParams(
-        saved && typeof saved === "object" ? saved : {},
-      ).toString(),
-  );
-  await loadClass(p.get("class") || "hero", p.get("skill"));
+  const p = new URLSearchParams(location.hash.slice(1));
+  await loadClass(p.get("class") || catalog[0]?.slug, p.get("skill"));
   if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
     await setLayer(p.get("layer"));
   if (p.has("frame")) await showFrame(+p.get("frame") || 0);

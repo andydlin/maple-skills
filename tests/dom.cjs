@@ -89,6 +89,10 @@ Object.defineProperty(w.navigator, "clipboard", {
 });
 w.localStorage.setItem("mapleFavorites", "{broken json");
 w.localStorage.setItem("mapleRecentClasses", '{"bad":"shape"}');
+w.localStorage.setItem(
+  "mapleLastSelection",
+  JSON.stringify({ class: "hero", skill: "raging-blow-1120017" }),
+);
 const ctx = dom.getInternalVMContext();
 vm.runInContext(fs.readFileSync("exporter.js", "utf8"), ctx);
 let source = fs.readFileSync("studio.js", "utf8");
@@ -105,6 +109,23 @@ const waitFor = async (fn) => {
 (async () => {
   await run("init()");
   assert.equal(d.querySelectorAll("#classes button").length, 59);
+  assert.equal(
+    d.querySelector("#className").textContent,
+    require("../catalog.json")[0].name,
+  );
+  assert.equal(
+    d.querySelectorAll("#skills button").length,
+    require("../catalog.json")[0].count,
+  );
+  w.history.replaceState(
+    null,
+    "",
+    "#class=hero&skill=raging-blow-1120017&layer=hit&frame=12",
+  );
+  await run("init()");
+  assert.equal(d.querySelector("#className").textContent, "Hero");
+  assert.equal(d.querySelector("#counter").textContent, "13 / 40");
+  await run("loadClass('hero')");
   assert.equal(d.querySelectorAll("#skills button").length, 83);
   assert.equal(d.querySelector("#sheet").disabled, false);
   assert.ok(paint.length);

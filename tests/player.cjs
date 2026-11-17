@@ -144,6 +144,11 @@ vm.runInContext(source, context);
 (async () => {
   await vm.runInContext("init()", context);
   assert.equal(node("#classCount").textContent, 59);
+  assert.equal(
+    node("#className").textContent,
+    require("../catalog.json")[0].name,
+  );
+  await vm.runInContext("loadClass('hero')", context);
   assert.equal(node("#skillName").textContent, "Raging Blow");
   assert.ok(draws.length);
   await vm.runInContext("setLayer('hit')", context);
