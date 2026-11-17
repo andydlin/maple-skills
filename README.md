@@ -14,6 +14,8 @@ This GitHub repository contains the complete website source, class index, and al
 - `exporter.js` — transparent PNG, sprite-sheet, contact-sheet, and timing/origin export.
 - `DESIGN-ITERATIONS.md` — the five implementation and evaluation rounds.
 - `catalog.json` — index of all 59 classes.
+- `home.js` and `home.css` — Class Atlas home, personal shortcuts, and discovery gallery.
+- `home-catalog.json` — lightweight class-card and curated-still metadata; regenerate with `npm run data:home`.
 - `data/<class>/skills.json` — versioned class catalog with skill descriptions, frame paths, timing, and origins.
 - `.nojekyll` — serves the files directly through GitHub Pages.
 
@@ -28,7 +30,9 @@ A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-or
 - Export transparent stills or origin-aligned sprite sheets, labeled contact sheets, and timing/origin JSON. Choose output scale, columns, and padding and review dimensions before downloading. Sheet exports use the study range. Preview backgrounds, origin markers, and the previous-frame overlay stay out of PNGs.
 - On mobile, a sticky browse control opens the library when needed. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
 
-A fresh visit to the site root opens the first class in `catalog.json` (currently Adele), even if a previous selection was saved. Explicit skill links still open their requested class, layer, and frame.
+The site root opens a combined home page: a primary Class Atlas and search, a compact personal workbench, and a lower discovery gallery. The atlas starts with 12 cards and expands to all 59, so discovery stays easy to reach. Search supports class names or skills. Recent and favorite links open the inspector directly; a new visitor gets a compact getting-started prompt.
+
+The Studio navigation opens the first class in `catalog.json` (currently Adele). Explicit skill links still open their requested class, layer, and frame. Home and Studio share the same GitHub Pages site and browser history. Home discovery uses real effect stills and does not autoplay animations.
 
 Use the Shortcuts guide for keyboard controls. Direct links preserve the class, skill, layer, and selected frame.
 

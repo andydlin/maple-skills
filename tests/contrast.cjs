@@ -25,3 +25,13 @@ for (const [label, a, b] of [
 console.log(
   "PASS: primary, body, muted, sidebar and selected text contrast tokens.",
 );
+
+const homeCss = fs.readFileSync("home.css", "utf8");
+for (const match of homeCss.matchAll(
+  /(?<![\w-])color:\s*#([0-9a-f]{6})(?![0-9a-f])/gi,
+))
+  assert.ok(
+    ratio(match[1], "f0f6ec") >= 4.5,
+    "Home text contrast: " + match[1],
+  );
+console.log("PASS: home-page foreground text tokens on the workbench surface.");

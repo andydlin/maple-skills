@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Maple Skills — Animation Studio</title>
+    <title>Maple Skills — Class Atlas &amp; Animation Studio</title>
     <meta
       name="description"
       content="Explore MapleStory skills across 59 classes. Study animation frames, loop a sequence, and export transparent stills and sprite sheets."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css" />
+    <link rel="stylesheet" href="studio.css?v=home-atlas-1" />
+    <link rel="stylesheet" href="home.css?v=home-atlas-1" />
   </head>
-  <body>
-    <a class="skip-link" href="#inspector">Skip to skill preview</a>
+  <body class="home-view">
+    <a id="skipLink" class="skip-link" href="#inspector"
+      >Skip to skill preview</a
+    >
     <header>
       <a class="brand" href="./"
         ><span class="mark" aria-hidden="true"
@@ -23,11 +26,126 @@
         ></span>
         maple<span>skills</span></a
       ><span class="divider"></span><span>Your skill playground</span>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a id="homeNav" href="./">Home</a
+        ><a id="studioNav" href="#class=adele">Studio</a>
+      </nav>
       <div class="header-right">
         <span id="catalogStatus">Loading library</span
         ><button id="help">? Shortcuts</button>
       </div>
     </header>
+    <main id="homePage" class="home-page" tabindex="-1" hidden>
+      <section class="home-hero" aria-labelledby="homeTitle">
+        <div class="home-hero-copy">
+          <p class="home-overline">THE MAPLESTORY SKILL ATLAS</p>
+          <h1 id="homeTitle">
+            A world of skills.<br />
+            <em>A closer look.</em>
+          </h1>
+          <p class="home-intro">
+            Find your class, follow a spark of inspiration, and see the magic
+            one frame at a time.
+          </p>
+          <form id="homeSearchForm" class="home-search" role="search">
+            <input
+              id="homeSearch"
+              type="search"
+              aria-label="Search the atlas"
+              placeholder="What would you like to explore?"
+              autocomplete="off"
+            /><select id="homeSearchType" aria-label="Search type">
+              <option value="classes">Classes</option>
+              <option value="skills">Skills</option></select
+            ><button
+              id="homeClearSearch"
+              type="button"
+              aria-label="Clear atlas search"
+              hidden
+            >
+              &times;
+            </button>
+          </form>
+          <div id="homeSearchStatus" class="home-search-status" role="status">
+            59 classes. Thousands of little details to explore.
+          </div>
+          <div
+            id="homeSearchResults"
+            class="home-search-results"
+            aria-label="Atlas search results"
+            hidden
+          ></div>
+          <div class="home-hero-links">
+            <button id="browseAtlas">Browse the Class Atlas &darr;</button
+            ><span>For the curious. For the creators.</span>
+          </div>
+        </div>
+        <div id="homeSpotlight"></div>
+      </section>
+      <section class="personal-section" aria-labelledby="personalTitle">
+        <div class="home-section-heading">
+          <h2 id="personalTitle">Your little workbench</h2>
+          <p>A shortcut back to the good stuff.</p>
+        </div>
+        <div id="personalContent" class="personal-content"></div>
+      </section>
+      <section
+        id="classAtlas"
+        class="atlas-section"
+        aria-labelledby="atlasTitle"
+      >
+        <div class="home-section-heading">
+          <div>
+            <p class="home-kicker">START YOUR ADVENTURE</p>
+            <h2 id="atlasTitle">Find your class.</h2>
+            <p>Pick a familiar face, or meet your next main.</p>
+          </div>
+          <span id="homeClassCount">59 classes</span>
+        </div>
+        <div
+          id="homeFamilies"
+          class="home-families"
+          role="group"
+          aria-label="Filter the Class Atlas by family"
+        ></div>
+        <div id="homeClassGrid" class="atlas-grid"></div>
+        <div class="atlas-expand">
+          <button id="showAllClasses">Browse all 59 classes &darr;</button>
+        </div>
+      </section>
+      <section
+        id="discoverySection"
+        class="discovery-section"
+        aria-labelledby="discoveryTitle"
+      >
+        <div class="home-section-heading">
+          <div>
+            <p class="home-kicker">FOLLOW A LITTLE CURIOSITY</p>
+            <h2 id="discoveryTitle">Something might spark an idea.</h2>
+            <p>A few handpicked effects. Open one to study its motion.</p>
+          </div>
+          <span>Visual inspiration</span>
+        </div>
+        <div
+          id="discoveryFilters"
+          class="discovery-filters"
+          role="group"
+          aria-label="Filter inspiration"
+        ></div>
+        <div id="discoveryGrid" class="discovery-grid"></div>
+      </section>
+      <div class="home-footer">
+        <span
+          >A closer look at the Maple world.
+          <a
+            href="https://github.com/andydlin/maple-skills"
+            target="_blank"
+            rel="noopener"
+            >Made on GitHub &nearr;</a
+          ></span
+        ><span>Nexon game assets &middot; Personal visual reference</span>
+      </div>
+    </main>
     <div class="mobile-nav">
       <button
         id="browseToggle"
@@ -409,7 +527,8 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js"></script>
-    <script src="studio.js"></script>
+    <script src="exporter.js?v=home-atlas-1"></script>
+    <script src="home.js?v=home-atlas-1"></script>
+    <script src="studio.js?v=home-atlas-1"></script>
   </body>
 </html>

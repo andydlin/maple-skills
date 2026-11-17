@@ -1,0 +1,767 @@
+{
+  "classes": [
+    {
+      "slug": "adele",
+      "name": "Adele",
+      "line": "Flora",
+      "count": 102,
+      "icons": [
+        "data/adele/frames/artistic-recall-150021000/icon.webp",
+        "data/adele/frames/blade-of-will-151001000/icon.webp",
+        "data/adele/frames/magic-dispatch-151001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "angelic-buster",
+      "name": "Angelic Buster",
+      "line": "Nova — Pirate",
+      "count": 140,
+      "icons": [
+        "data/angelic-buster/frames/freezing-axe-60020097/icon.webp",
+        "data/angelic-buster/frames/ice-smash-60020099/icon.webp",
+        "data/angelic-buster/frames/ice-tempest-60020100/icon.webp"
+      ]
+    },
+    {
+      "slug": "aran",
+      "name": "Aran",
+      "line": "Warrior — Heroes",
+      "count": 103,
+      "icons": [
+        "data/aran/frames/recovery-20001001/icon.webp",
+        "data/aran/frames/agile-body-20001002/icon.webp",
+        "data/aran/frames/combat-step-20001295/icon.webp"
+      ]
+    },
+    {
+      "slug": "ark",
+      "name": "Ark",
+      "line": "Flora",
+      "count": 147,
+      "icons": [
+        "data/ark/frames/basic-charge-drive-155001100/icon.webp",
+        "data/ark/frames/ominous-nightmare-155001102/icon.webp",
+        "data/ark/frames/ominous-dream-155001202/icon.webp"
+      ]
+    },
+    {
+      "slug": "battle-mage",
+      "name": "Battle Mage",
+      "line": "Magician — Resistance",
+      "count": 88,
+      "icons": [
+        "data/battle-mage/frames/triple-blow-32001000/icon.webp",
+        "data/battle-mage/frames/condemnation-32001014/icon.webp",
+        "data/battle-mage/frames/blink-jump-32001018/icon.webp"
+      ]
+    },
+    {
+      "slug": "beast-tamer",
+      "name": "Beast Tamer",
+      "line": "Beast Tamer",
+      "count": 122,
+      "icons": [
+        "data/beast-tamer/frames/paw-swipe-112000000/icon.webp",
+        "data/beast-tamer/frames/paw-swipe-2-112000001/icon.webp",
+        "data/beast-tamer/frames/paw-swipe-3-112000002/icon.webp"
+      ]
+    },
+    {
+      "slug": "bishop",
+      "name": "Bishop",
+      "line": "Magician — Explorer",
+      "count": 104,
+      "icons": [
+        "data/bishop/frames/magic-guard-2000002/icon.webp",
+        "data/bishop/frames/energy-bolt-2001008/icon.webp",
+        "data/bishop/frames/teleport-2001009/icon.webp"
+      ]
+    },
+    {
+      "slug": "blaster",
+      "name": "Blaster",
+      "line": "Warrior — Resistance",
+      "count": 118,
+      "icons": [
+        "data/blaster/frames/detonate-37000005/icon.webp",
+        "data/blaster/frames/revolving-cannon-mastery-37000007/icon.webp",
+        "data/blaster/frames/bunker-buster-explosion-37000008/icon.webp"
+      ]
+    },
+    {
+      "slug": "blaze-wizard",
+      "name": "Blaze Wizard",
+      "line": "Blaze Wizard — Cygnus Knights",
+      "count": 108,
+      "icons": [
+        "data/blaze-wizard/frames/orbital-flame-12000026/icon.webp",
+        "data/blaze-wizard/frames/flame-bite-12001021/icon.webp",
+        "data/blaze-wizard/frames/firewalk-12001027/icon.webp"
+      ]
+    },
+    {
+      "slug": "bowmaster",
+      "name": "Bowmaster",
+      "line": "Bowman — Explorer",
+      "count": 101,
+      "icons": [
+        "data/bowmaster/frames/double-jump-3000008/icon.webp",
+        "data/bowmaster/frames/double-jump-3000009/icon.webp",
+        "data/bowmaster/frames/double-jump-3000010/icon.webp"
+      ]
+    },
+    {
+      "slug": "buccaneer",
+      "name": "Buccaneer",
+      "line": "Pirate — Explorer",
+      "count": 108,
+      "icons": [
+        "data/buccaneer/frames/sommersault-kick-5001002/icon.webp",
+        "data/buccaneer/frames/double-shot-5001003/icon.webp",
+        "data/buccaneer/frames/dash-5001005/icon.webp"
+      ]
+    },
+    {
+      "slug": "cadena",
+      "name": "Cadena",
+      "line": "Nova — Thief",
+      "count": 188,
+      "icons": [
+        "data/cadena/frames/hidden-potential-hero-60010093/icon.webp",
+        "data/cadena/frames/freezing-axe-60010097/icon.webp",
+        "data/cadena/frames/ice-smash-60010099/icon.webp"
+      ]
+    },
+    {
+      "slug": "cannoneer",
+      "name": "Cannoneer",
+      "line": "Pirate — Explorer (Special)",
+      "count": 100,
+      "icons": [
+        "data/cannoneer/frames/cannon-blaster-5011000/icon.webp",
+        "data/cannoneer/frames/cannon-strike-5011001/icon.webp",
+        "data/cannoneer/frames/blast-back-5011002/icon.webp"
+      ]
+    },
+    {
+      "slug": "corsair",
+      "name": "Corsair",
+      "line": "Pirate — Explorer",
+      "count": 110,
+      "icons": [
+        "data/corsair/frames/sommersault-kick-5001002/icon.webp",
+        "data/corsair/frames/double-shot-5001003/icon.webp",
+        "data/corsair/frames/dash-5001005/icon.webp"
+      ]
+    },
+    {
+      "slug": "dark-knight",
+      "name": "Dark Knight",
+      "line": "Warrior — Explorer",
+      "count": 84,
+      "icons": [
+        "data/dark-knight/frames/slash-blast-1001005/icon.webp",
+        "data/dark-knight/frames/war-leap-1001008/icon.webp",
+        "data/dark-knight/frames/leap-attack-1001010/icon.webp"
+      ]
+    },
+    {
+      "slug": "dawn-warrior",
+      "name": "Dawn Warrior",
+      "line": "Dawn Warrior — Cygnus Knights",
+      "count": 94,
+      "icons": [
+        "data/dawn-warrior/frames/soul-element-11001022/icon.webp",
+        "data/dawn-warrior/frames/falling-moon-11001024/icon.webp",
+        "data/dawn-warrior/frames/rising-sun-11001025/icon.webp"
+      ]
+    },
+    {
+      "slug": "demon-avenger",
+      "name": "Demon Avenger",
+      "line": "Warrior — Resistance",
+      "count": 111,
+      "icons": [
+        "data/demon-avenger/frames/demon-wings-30011109/icon.webp",
+        "data/demon-avenger/frames/demon-wings-30011159/icon.webp",
+        "data/demon-avenger/frames/exceed-double-slash-31011000/icon.webp"
+      ]
+    },
+    {
+      "slug": "demon-slayer",
+      "name": "Demon Slayer",
+      "line": "Warrior — Resistance",
+      "count": 94,
+      "icons": [
+        "data/demon-slayer/frames/demon-lash-31000004/icon.webp",
+        "data/demon-slayer/frames/grim-scythe-31001000/icon.webp",
+        "data/demon-slayer/frames/demon-lash-31001006/icon.webp"
+      ]
+    },
+    {
+      "slug": "dual-blade",
+      "name": "Dual Blade",
+      "line": "Thief — Explorer",
+      "count": 88,
+      "icons": [
+        "data/dual-blade/frames/tornado-spin-4301004/icon.webp",
+        "data/dual-blade/frames/bandit-slash-boost-4301007/icon.webp",
+        "data/dual-blade/frames/flash-jump-4301010/icon.webp"
+      ]
+    },
+    {
+      "slug": "erel-light",
+      "name": "Erel Light",
+      "line": "Shine",
+      "count": 81,
+      "icons": [
+        "data/erel-light/frames/return-to-helia-180011000/icon.webp",
+        "data/erel-light/frames/spear-of-lugh-181001000/icon.webp",
+        "data/erel-light/frames/fury-of-roan-181101000/icon.webp"
+      ]
+    },
+    {
+      "slug": "evan",
+      "name": "Evan",
+      "line": "Dragon Mage — Heroes",
+      "count": 118,
+      "icons": [
+        "data/evan/frames/dragon-flight-20010022/icon.webp",
+        "data/evan/frames/recover-20011001/icon.webp",
+        "data/evan/frames/nimble-feet-20011002/icon.webp"
+      ]
+    },
+    {
+      "slug": "fire-poison-arch-mage",
+      "name": "Fire/Poison Arch Mage",
+      "line": "Magician — Explorer",
+      "count": 100,
+      "icons": [
+        "data/fire-poison-arch-mage/frames/magic-guard-2000002/icon.webp",
+        "data/fire-poison-arch-mage/frames/energy-bolt-2001008/icon.webp",
+        "data/fire-poison-arch-mage/frames/teleport-2001009/icon.webp"
+      ]
+    },
+    {
+      "slug": "hayato",
+      "name": "Hayato",
+      "line": "Sengoku",
+      "count": 105,
+      "icons": [
+        "data/hayato/frames/return-of-the-five-planets-40011227/icon.webp",
+        "data/hayato/frames/shinsoku-mist-slash-41001000/icon.webp",
+        "data/hayato/frames/shinsoku-grazing-cut-41001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "hero",
+      "name": "Hero",
+      "line": "Warrior — Explorer",
+      "count": 83,
+      "icons": [
+        "data/hero/frames/slash-blast-1001005/icon.webp",
+        "data/hero/frames/war-leap-1001008/icon.webp",
+        "data/hero/frames/leap-attack-1001010/icon.webp"
+      ]
+    },
+    {
+      "slug": "hoyoung",
+      "name": "Hoyoung",
+      "line": "Anima",
+      "count": 159,
+      "icons": [
+        "data/hoyoung/frames/humanity-as-you-will-fan-164001000/icon.webp",
+        "data/hoyoung/frames/talisman-evil-sealing-gourd-164001001/icon.webp",
+        "data/hoyoung/frames/talisman-evil-sealing-gourd-164001002/icon.webp"
+      ]
+    },
+    {
+      "slug": "ice-lightning-arch-mage",
+      "name": "Ice/Lightning Arch Mage",
+      "line": "Magician — Explorer",
+      "count": 91,
+      "icons": [
+        "data/ice-lightning-arch-mage/frames/magic-guard-2000002/icon.webp",
+        "data/ice-lightning-arch-mage/frames/energy-bolt-2001008/icon.webp",
+        "data/ice-lightning-arch-mage/frames/teleport-2001009/icon.webp"
+      ]
+    },
+    {
+      "slug": "illium",
+      "name": "Illium",
+      "line": "Flora",
+      "count": 102,
+      "icons": [
+        "data/illium/frames/radiant-javelin-152001001/icon.webp",
+        "data/illium/frames/radiant-orb-152001002/icon.webp",
+        "data/illium/frames/ex-152001003/icon.webp"
+      ]
+    },
+    {
+      "slug": "jett",
+      "name": "Jett",
+      "line": "Pirate — Explorer (Jett)",
+      "count": 85,
+      "icons": [
+        "data/jett/frames/blaster-barrage-5081002/icon.webp",
+        "data/jett/frames/space-walk-5081003/icon.webp",
+        "data/jett/frames/tutorial-skill-5081010/icon.webp"
+      ]
+    },
+    {
+      "slug": "kain",
+      "name": "Kain",
+      "line": "Nova — Bowman",
+      "count": 199,
+      "icons": [
+        "data/kain/frames/freezing-axe-60030097/icon.webp",
+        "data/kain/frames/ice-smash-60030099/icon.webp",
+        "data/kain/frames/ice-tempest-60030100/icon.webp"
+      ]
+    },
+    {
+      "slug": "kaiser",
+      "name": "Kaiser",
+      "line": "Nova — Warrior",
+      "count": 191,
+      "icons": [
+        "data/kaiser/frames/freezing-axe-60000097/icon.webp",
+        "data/kaiser/frames/ice-smash-60000099/icon.webp",
+        "data/kaiser/frames/ice-tempest-60000100/icon.webp"
+      ]
+    },
+    {
+      "slug": "kanna",
+      "name": "Kanna",
+      "line": "Sengoku",
+      "count": 131,
+      "icons": [
+        "data/kanna/frames/return-of-the-five-planets-40021227/icon.webp",
+        "data/kanna/frames/soul-shatter-talisman-scores-42001000/icon.webp",
+        "data/kanna/frames/leap-talisman-42001002/icon.webp"
+      ]
+    },
+    {
+      "slug": "khali",
+      "name": "Khali",
+      "line": "Flora",
+      "count": 113,
+      "icons": [
+        "data/khali/frames/contact-caravan-150011074/icon.webp",
+        "data/khali/frames/contact-caravan-zippy-150011075/icon.webp",
+        "data/khali/frames/contact-caravan-ferret-150011076/icon.webp"
+      ]
+    },
+    {
+      "slug": "kinesis",
+      "name": "Kinesis",
+      "line": "Sengoku",
+      "count": 91,
+      "icons": [
+        "data/kinesis/frames/psychic-attack-140001289/icon.webp",
+        "data/kinesis/frames/return-140001290/icon.webp",
+        "data/kinesis/frames/psychic-force-142001000/icon.webp"
+      ]
+    },
+    {
+      "slug": "lara",
+      "name": "Lara",
+      "line": "Anima",
+      "count": 122,
+      "icons": [
+        "data/lara/frames/to-narin-160011074/icon.webp",
+        "data/lara/frames/essence-sprinkle-162001000/icon.webp",
+        "data/lara/frames/jump-for-joy-162001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "luminous",
+      "name": "Luminous",
+      "line": "Mage — Heroes",
+      "count": 102,
+      "icons": [
+        "data/luminous/frames/sunfire-20040216/icon.webp",
+        "data/luminous/frames/eclipse-20040217/icon.webp",
+        "data/luminous/frames/equilibrium-20040219/icon.webp"
+      ]
+    },
+    {
+      "slug": "lynn",
+      "name": "Lynn",
+      "line": "Anima",
+      "count": 88,
+      "icons": [
+        "data/lynn/frames/forest-kiss-170011000/icon.webp",
+        "data/lynn/frames/strike-172001000/icon.webp",
+        "data/lynn/frames/focus-heal-172001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "marksman",
+      "name": "Marksman",
+      "line": "Bowman — Explorer",
+      "count": 98,
+      "icons": [
+        "data/marksman/frames/double-jump-3000008/icon.webp",
+        "data/marksman/frames/double-jump-3000009/icon.webp",
+        "data/marksman/frames/double-jump-3000010/icon.webp"
+      ]
+    },
+    {
+      "slug": "mechanic",
+      "name": "Mechanic",
+      "line": "Pirate — Resistance",
+      "count": 90,
+      "icons": [
+        "data/mechanic/frames/mechanic-dash-30001078/icon.webp",
+        "data/mechanic/frames/mech-double-jump-30001079/icon.webp",
+        "data/mechanic/frames/mech-double-jump-30001081/icon.webp"
+      ]
+    },
+    {
+      "slug": "mercedes",
+      "name": "Mercedes",
+      "line": "Dual Bowgun — Heroes",
+      "count": 112,
+      "icons": [
+        "data/mercedes/frames/updraft-20020111/icon.webp",
+        "data/mercedes/frames/crystal-throw-20021000/icon.webp",
+        "data/mercedes/frames/infiltrate-20021001/icon.webp"
+      ]
+    },
+    {
+      "slug": "mihile",
+      "name": "Mihile",
+      "line": "Mihile — Cygnus Knights",
+      "count": 109,
+      "icons": [
+        "data/mihile/frames/weightless-heart-51001003/icon.webp",
+        "data/mihile/frames/shining-pierce-51001004/icon.webp",
+        "data/mihile/frames/royal-guard-51001006/icon.webp"
+      ]
+    },
+    {
+      "slug": "mo-xuan",
+      "name": "Mo Xuan",
+      "line": "Anima",
+      "count": 101,
+      "icons": [
+        "data/mo-xuan/frames/return-to-xuanshan-170001000/icon.webp",
+        "data/mo-xuan/frames/xuanshan-strike-tian-175001002/icon.webp",
+        "data/mo-xuan/frames/divine-art-erupting-flame-175001003/icon.webp"
+      ]
+    },
+    {
+      "slug": "night-lord",
+      "name": "Night Lord",
+      "line": "Thief — Explorer",
+      "count": 95,
+      "icons": [
+        "data/night-lord/frames/double-stab-4001334/icon.webp",
+        "data/night-lord/frames/lucky-seven-4001344/icon.webp",
+        "data/night-lord/frames/dark-sight-4001003/icon.webp"
+      ]
+    },
+    {
+      "slug": "night-walker",
+      "name": "Night Walker",
+      "line": "Night Walker — Cygnus Knights",
+      "count": 120,
+      "icons": [
+        "data/night-walker/frames/lucky-seven-14001020/icon.webp",
+        "data/night-walker/frames/dark-elemental-14001021/icon.webp",
+        "data/night-walker/frames/dark-sight-14001023/icon.webp"
+      ]
+    },
+    {
+      "slug": "paladin",
+      "name": "Paladin",
+      "line": "Warrior — Explorer",
+      "count": 83,
+      "icons": [
+        "data/paladin/frames/slash-blast-1001005/icon.webp",
+        "data/paladin/frames/war-leap-1001008/icon.webp",
+        "data/paladin/frames/leap-attack-1001010/icon.webp"
+      ]
+    },
+    {
+      "slug": "pathfinder",
+      "name": "Pathfinder",
+      "line": "Bowman — Explorer",
+      "count": 35,
+      "icons": [
+        "data/pathfinder/frames/cardinal-deluge-3011004/icon.webp",
+        "data/pathfinder/frames/double-jump-3011006/icon.webp",
+        "data/pathfinder/frames/double-jump-3011007/icon.webp"
+      ]
+    },
+    {
+      "slug": "phantom",
+      "name": "Phantom",
+      "line": "Thief — Heroes",
+      "count": 109,
+      "icons": [
+        "data/phantom/frames/crystal-throw-20031000/icon.webp",
+        "data/phantom/frames/infiltrate-20031001/icon.webp",
+        "data/phantom/frames/to-the-skies-20031203/icon.webp"
+      ]
+    },
+    {
+      "slug": "pink-bean",
+      "name": "Pink Bean",
+      "line": "Special",
+      "count": 76,
+      "icons": [
+        "data/pink-bean/frames/pink-bean-s-dignity-131000016/icon.webp",
+        "data/pink-bean/frames/pink-powerhouse-131001000/icon.webp",
+        "data/pink-bean/frames/pink-powerhouse-131001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "ren",
+      "name": "Ren",
+      "line": "Anima",
+      "count": 100,
+      "icons": [
+        "data/ren/frames/return-160021074/icon.webp",
+        "data/ren/frames/plum-blossom-sword-slice-161001000/icon.webp",
+        "data/ren/frames/serene-breeze-161001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "saitama",
+      "name": "Saitama",
+      "line": "Collab",
+      "count": 26,
+      "icons": [
+        "data/saitama/frames/hero-from-another-world-122000001/icon.webp",
+        "data/saitama/frames/double-jump-122001000/icon.webp",
+        "data/saitama/frames/normal-punch-122001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "shade",
+      "name": "Shade",
+      "line": "Fighter — Heroes",
+      "count": 107,
+      "icons": [
+        "data/shade/frames/close-call-20050286/icon.webp",
+        "data/shade/frames/fox-trot-20051284/icon.webp",
+        "data/shade/frames/swift-strike-25001000/icon.webp"
+      ]
+    },
+    {
+      "slug": "shadower",
+      "name": "Shadower",
+      "line": "Thief — Explorer",
+      "count": 111,
+      "icons": [
+        "data/shadower/frames/double-stab-4001334/icon.webp",
+        "data/shadower/frames/lucky-seven-4001344/icon.webp",
+        "data/shadower/frames/dark-sight-4001003/icon.webp"
+      ]
+    },
+    {
+      "slug": "sia-astelle",
+      "name": "Sia Astelle",
+      "line": "Shine",
+      "count": 109,
+      "icons": [
+        "data/sia-astelle/frames/return-to-oort-180001000/icon.webp",
+        "data/sia-astelle/frames/ray-182001000/icon.webp",
+        "data/sia-astelle/frames/stellar-i-antares-182001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "tanjiro",
+      "name": "Tanjiro",
+      "line": "Collab",
+      "count": 36,
+      "icons": [
+        "data/tanjiro/frames/basic-swordsmanship-121001000/icon.webp",
+        "data/tanjiro/frames/basic-swordsmanship-121001001/icon.webp",
+        "data/tanjiro/frames/basic-swordsmanship-121001002/icon.webp"
+      ]
+    },
+    {
+      "slug": "thunder-breaker",
+      "name": "Thunder Breaker",
+      "line": "Thunder Breaker — Cygnus Knights",
+      "count": 89,
+      "icons": [
+        "data/thunder-breaker/frames/lightning-punch-15001020/icon.webp",
+        "data/thunder-breaker/frames/flash-15001021/icon.webp",
+        "data/thunder-breaker/frames/lightning-elemental-15001022/icon.webp"
+      ]
+    },
+    {
+      "slug": "wild-hunter",
+      "name": "Wild Hunter",
+      "line": "Bowman — Resistance",
+      "count": 95,
+      "icons": [
+        "data/wild-hunter/frames/wild-arrow-blast-proto-33001000/icon.webp",
+        "data/wild-hunter/frames/savage-bound-33001002/icon.webp",
+        "data/wild-hunter/frames/savage-bound-33001003/icon.webp"
+      ]
+    },
+    {
+      "slug": "wind-archer",
+      "name": "Wind Archer",
+      "line": "Wind Archer — Cygnus Knights",
+      "count": 83,
+      "icons": [
+        "data/wind-archer/frames/breeze-arrow-13001020/icon.webp",
+        "data/wind-archer/frames/wind-walk-13001021/icon.webp",
+        "data/wind-archer/frames/storm-elemental-13001022/icon.webp"
+      ]
+    },
+    {
+      "slug": "xenon",
+      "name": "Xenon",
+      "line": "Thief — Resistance",
+      "count": 110,
+      "icons": [
+        "data/xenon/frames/promessa-escape-30021235/icon.webp",
+        "data/xenon/frames/liberty-boosters-30021237/icon.webp",
+        "data/xenon/frames/beam-dance-30021238/icon.webp"
+      ]
+    },
+    {
+      "slug": "yeti",
+      "name": "Yeti",
+      "line": "Special",
+      "count": 42,
+      "icons": [
+        "data/yeti/frames/yeti-charisma-135000021/icon.webp",
+        "data/yeti/frames/snack-dash-135001000/icon.webp",
+        "data/yeti/frames/snack-dash-135001001/icon.webp"
+      ]
+    },
+    {
+      "slug": "zero",
+      "name": "Zero",
+      "line": "Zero — Transcendent of Time",
+      "count": 190,
+      "icons": [
+        "data/zero/frames/ice-smash-100000099/icon.webp",
+        "data/zero/frames/skill-100000103/icon.webp",
+        "data/zero/frames/piercing-thrust-100000275/icon.webp"
+      ]
+    }
+  ],
+  "discoveries": [
+    {
+      "classSlug": "adele",
+      "className": "Adele",
+      "skill": "Aether Bloom",
+      "skillSlug": "aether-bloom-151121003",
+      "job": "4th",
+      "icon": "data/adele/frames/aether-bloom-151121003/icon.webp",
+      "layer": "effect",
+      "frame": 6,
+      "file": "data/adele/frames/aether-bloom-151121003/effect-06.webp",
+      "frameCount": 13,
+      "category": "Blade work",
+      "palette": "sky"
+    },
+    {
+      "classSlug": "hero",
+      "className": "Hero",
+      "skill": "Raging Blow",
+      "skillSlug": "raging-blow-1120017",
+      "job": "4th/Hyper",
+      "icon": "data/hero/frames/raging-blow-1120017/icon.webp",
+      "layer": "effect",
+      "frame": 7,
+      "file": "data/hero/frames/raging-blow-1120017/effect-07.webp",
+      "frameCount": 14,
+      "category": "Blade work",
+      "palette": "sunset"
+    },
+    {
+      "classSlug": "ice-lightning-arch-mage",
+      "className": "Ice/Lightning Arch Mage",
+      "skill": "Frozen Orb",
+      "skillSlug": "frozen-orb-2221012",
+      "job": "4th",
+      "icon": "data/ice-lightning-arch-mage/frames/frozen-orb-2221012/icon.webp",
+      "layer": "effect",
+      "frame": 11,
+      "file": "data/ice-lightning-arch-mage/frames/frozen-orb-2221012/effect-11.webp",
+      "frameCount": 22,
+      "category": "Spellcraft",
+      "palette": "sky"
+    },
+    {
+      "classSlug": "bishop",
+      "className": "Bishop",
+      "skill": "Shining Ray",
+      "skillSlug": "shining-ray-2311004",
+      "job": "3rd",
+      "icon": "data/bishop/frames/shining-ray-2311004/icon.webp",
+      "layer": "effect",
+      "frame": 8,
+      "file": "data/bishop/frames/shining-ray-2311004/effect-08.webp",
+      "frameCount": 16,
+      "category": "Spellcraft",
+      "palette": "cream"
+    },
+    {
+      "classSlug": "lara",
+      "className": "Lara",
+      "skill": "Eruption: Sunrise Well",
+      "skillSlug": "eruption-sunrise-well-162101009",
+      "job": "2nd",
+      "icon": "data/lara/frames/eruption-sunrise-well-162101009/icon.webp",
+      "layer": "effect",
+      "frame": 6,
+      "file": "data/lara/frames/eruption-sunrise-well-162101009/effect-06.webp",
+      "frameCount": 12,
+      "category": "Nature & spirit",
+      "palette": "mint"
+    },
+    {
+      "classSlug": "ren",
+      "className": "Ren",
+      "skill": "Final Imugi Spirit Sword: Ravenous Spirit",
+      "skillSlug": "final-imugi-spirit-sword-ravenous-spirit-161121004",
+      "job": "4th",
+      "icon": "data/ren/frames/final-imugi-spirit-sword-ravenous-spirit-161121004/icon.webp",
+      "layer": "effect",
+      "frame": 11,
+      "file": "data/ren/frames/final-imugi-spirit-sword-ravenous-spirit-161121004/effect-11.webp",
+      "frameCount": 22,
+      "category": "Blade work",
+      "palette": "rose"
+    },
+    {
+      "classSlug": "demon-slayer",
+      "className": "Demon Slayer",
+      "skill": "Demon Impact",
+      "skillSlug": "demon-impact-31121001",
+      "job": "4th/Hyper",
+      "icon": "data/demon-slayer/frames/demon-impact-31121001/icon.webp",
+      "layer": "effect",
+      "frame": 6,
+      "file": "data/demon-slayer/frames/demon-impact-31121001/effect-06.webp",
+      "frameCount": 12,
+      "category": "Power & impact",
+      "palette": "violet"
+    },
+    {
+      "classSlug": "mercedes",
+      "className": "Mercedes",
+      "skill": "Wrath of Enlil",
+      "skillSlug": "wrath-of-enlil-23121052",
+      "job": "4th",
+      "icon": "data/mercedes/frames/wrath-of-enlil-23121052/icon.webp",
+      "layer": "effect",
+      "frame": 6,
+      "file": "data/mercedes/frames/wrath-of-enlil-23121052/effect-06.webp",
+      "frameCount": 13,
+      "category": "Nature & spirit",
+      "palette": "mint"
+    }
+  ]
+}

@@ -26,6 +26,7 @@ function node(id) {
       return [];
     },
     setAttribute() {},
+    removeAttribute() {},
     addEventListener() {},
     getBoundingClientRect() {
       return { width: 960, height: 430 };
@@ -135,6 +136,12 @@ const context = {
     }
   },
 };
+context.Home = {
+  init: async () => {},
+  show: async () => {},
+  hide() {},
+  isVisible: () => false,
+};
 vm.createContext(context);
 let source = fs.readFileSync("studio.js", "utf8");
 const boot = source.lastIndexOf("\ninit().catch(");
@@ -143,6 +150,7 @@ vm.runInContext(fs.readFileSync("exporter.js", "utf8"), context);
 vm.runInContext(source, context);
 (async () => {
   await vm.runInContext("init()", context);
+  await vm.runInContext("loadClass(catalog[0].slug)", context);
   assert.equal(node("#classCount").textContent, 59);
   assert.equal(
     node("#className").textContent,

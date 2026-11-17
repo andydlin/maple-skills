@@ -83,7 +83,12 @@ w.fetch = async (url) => {
 };
 w.URL.createObjectURL = () => "blob:test";
 w.URL.revokeObjectURL = () => {};
-w.HTMLAnchorElement.prototype.click = function () {};
+w.HTMLAnchorElement.prototype.click = function () {
+  if (!this.download)
+    this.dispatchEvent(
+      new w.MouseEvent("click", { bubbles: true, cancelable: true, button: 0 }),
+    );
+};
 Object.defineProperty(w.navigator, "clipboard", {
   value: { writeText: async () => {} },
 });
@@ -97,6 +102,7 @@ const ctx = dom.getInternalVMContext();
 vm.runInContext(fs.readFileSync("exporter.js", "utf8"), ctx);
 let source = fs.readFileSync("studio.js", "utf8");
 source = source.slice(0, source.lastIndexOf("\ninit().catch("));
+vm.runInContext(fs.readFileSync("home.js", "utf8"), ctx);
 vm.runInContext(source, ctx);
 const run = (s) => vm.runInContext(s, ctx);
 const waitFor = async (fn) => {
@@ -108,6 +114,25 @@ const waitFor = async (fn) => {
 };
 (async () => {
   await run("init()");
+  assert.ok(d.body.classList.contains("home-view"));
+  assert.equal(d.querySelectorAll("#homeClassGrid .atlas-card").length, 12);
+  assert.equal(d.querySelectorAll("#discoveryGrid .discovery-card").length, 8);
+  d.querySelector("#showAllClasses").click();
+  assert.equal(d.querySelectorAll("#homeClassGrid .atlas-card").length, 59);
+  d.querySelector('#homeFamilies [data-family="Nova"]').click();
+  assert.ok(d.querySelectorAll("#homeClassGrid .atlas-card").length > 0);
+  assert.ok(d.querySelectorAll("#homeClassGrid .atlas-card").length < 59);
+  d.querySelector('#homeFamilies [data-family="all"]').click();
+  d.querySelector("#homeSearch").value = "Adele";
+  d.querySelector("#homeSearch").dispatchEvent(new w.Event("input"));
+  await run("Home.search()");
+  assert.equal(d.querySelectorAll("#homeClassGrid .atlas-card").length, 1);
+  assert.ok(
+    d.querySelector("#homeSearchResults").textContent.includes("Adele"),
+  );
+  d.querySelector("#homeClearSearch").click();
+  await run("loadClass(catalog[0].slug)");
+  assert.ok(!d.body.classList.contains("home-view"));
   assert.equal(d.querySelectorAll("#classes button").length, 59);
   assert.equal(
     d.querySelector("#className").textContent,
@@ -185,8 +210,38 @@ const waitFor = async (fn) => {
   await run("renderSkills()");
   assert.ok(d.querySelector("#skills").textContent.includes("Hero"));
   assert.ok(d.querySelectorAll("#skills button").length > 0);
+  d.querySelector("#homeNav").click();
+  await waitFor(() =>
+    d.querySelector("#personalContent").textContent.includes("Slash Blast"),
+  );
+  assert.ok(d.body.classList.contains("home-view"));
+  assert.equal(w.location.hash, "");
+  d.querySelector("#homeSearchType").value = "skills";
+  d.querySelector("#homeSearch").value = "Raging Blow";
+  await run("Home.search()");
+  assert.ok(d.querySelector("#homeSearchResults").textContent.includes("Hero"));
+  d.querySelector("#homeSearchResults a").click();
+  await waitFor(
+    () =>
+      !d.body.classList.contains("home-view") &&
+      d.querySelector("#skillName").textContent.includes("Raging Blow"),
+  );
+  w.localStorage.removeItem("mapleRecentSkills");
+  w.localStorage.removeItem("mapleLastSelection");
+  await run("favorites.clear();recentClasses=[];Home.show()");
+  assert.ok(
+    d
+      .querySelector("#personalContent")
+      .textContent.includes("Make a little room for inspiration"),
+  );
+  d.querySelector("#studioNav").click();
+  await waitFor(
+    () =>
+      !d.body.classList.contains("home-view") &&
+      d.querySelector("#className").textContent === "Adele",
+  );
   console.log(
-    "PASS: real HTML controls, corrupted storage, class/skill lists, stepping, favorites, both export dialogs, range controls, mobile browse collapse, help, global search.",
+    "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, both export dialogs, range controls, mobile browse collapse, help, global search.",
   );
   dom.window.close();
 })().catch((e) => {

@@ -361,6 +361,7 @@ async function renderSkills() {
     );
 }
 async function loadClass(slug, skillSlug) {
+  Home.hide();
   pause(false);
   framesReady = false;
   ++searchVersion;
@@ -440,7 +441,7 @@ async function loadClass(slug, skillSlug) {
   }
 }
 function updateURL() {
-  if (!current || playing) return;
+  if (!current || playing || Home.isVisible()) return;
   const u = new URL(location.href);
   u.hash = new URLSearchParams({
     class: selectedClass,
@@ -706,6 +707,7 @@ function resetView() {
   showFrame(index);
 }
 function saveSelection() {
+  if (Home.isVisible()) return;
   if (current)
     writeLocal(
       "mapleLastSelection",
@@ -716,6 +718,32 @@ function saveSelection() {
         frame: index,
       }),
     );
+  if (current) {
+    const rows = readJSON("mapleRecentSkills", []),
+      list = Array.isArray(rows) ? rows : [];
+    const next = {
+      classSlug: selectedClass,
+      className: meta.class,
+      skill: current.name,
+      skillSlug: current.slug,
+      icon: current.icon,
+      layer,
+      frame: index,
+    };
+    writeLocal(
+      "mapleRecentSkills",
+      JSON.stringify(
+        [
+          next,
+          ...list.filter(
+            (e) =>
+              e &&
+              !(e.classSlug === selectedClass && e.skillSlug === current.slug),
+          ),
+        ].slice(0, 10),
+      ),
+    );
+  }
 }
 function pause(persist = true) {
   ++playSession;
@@ -881,7 +909,8 @@ $("#focus").onclick = () => {
 $("#fullscreen").onclick = async () => {
   try {
     if (document.fullscreenElement) await document.exitFullscreen();
-    else if ($("main").requestFullscreen) await $("main").requestFullscreen();
+    else if ($("#inspector").requestFullscreen)
+      await $("#inspector").requestFullscreen();
     else $("#focus").click();
   } catch {
     toast("Full screen is unavailable. Use Focus view instead.");
@@ -1076,6 +1105,10 @@ document.addEventListener("keydown", (e) => {
     return;
   if (e.key === "/") {
     e.preventDefault();
+    if (Home.isVisible()) {
+      $("#homeSearch").focus();
+      return;
+    }
     if (
       window.matchMedia?.("(max-width:850px)").matches &&
       !document.body.classList.contains("browse-open")
@@ -1089,6 +1122,7 @@ document.addEventListener("keydown", (e) => {
     $("#help").click();
     return;
   }
+  if (Home.isVisible()) return;
   if (e.key.toLowerCase() === "r") {
     e.preventDefault();
     resetView();
@@ -1144,12 +1178,33 @@ $("#retryFrames").onclick = async () => {
   await showFrame(at);
 };
 window.addEventListener("pagehide", saveSelection);
-window.addEventListener("popstate", async () => {
+let routeVersion = 0,
+  lastRouteHash = null;
+async function routeFromURL() {
+  const token = ++routeVersion;
+  lastRouteHash = location.hash;
   const p = new URLSearchParams(location.hash.slice(1));
+  if (!p.has("class") && !p.has("skill") && p.get("view") !== "favorites") {
+    await Home.show();
+    return;
+  }
+  $("#scope").value = "class";
+  $("#kind").value = "all";
   await loadClass(p.get("class") || catalog[0]?.slug, p.get("skill"));
+  if (token !== routeVersion || Home.isVisible()) return;
   if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
     await setLayer(p.get("layer"));
+  if (token !== routeVersion) return;
   if (p.has("frame")) await showFrame(p.get("frame"));
+  if (p.get("view") === "favorites") {
+    $("#scope").value = "all";
+    $("#kind").value = "saved";
+    await renderSkills();
+  }
+}
+window.addEventListener("popstate", () => routeFromURL());
+window.addEventListener("hashchange", () => {
+  if (location.hash !== lastRouteHash) routeFromURL();
 });
 $("#sourceBtn").onclick = () => {
   $("#assetRoot").value = root;
@@ -1194,11 +1249,8 @@ async function init() {
   $("#catalogStatus").textContent =
     `${catalog.length} classes · ${catalog.reduce((n, c) => n + c.count, 0).toLocaleString()} skills`;
   renderClasses();
-  const p = new URLSearchParams(location.hash.slice(1));
-  await loadClass(p.get("class") || catalog[0]?.slug, p.get("skill"));
-  if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
-    await setLayer(p.get("layer"));
-  if (p.has("frame")) await showFrame(+p.get("frame") || 0);
+  await Home.init();
+  await routeFromURL();
 }
 new ResizeObserver(() => {
   const c = $("#canvas"),
