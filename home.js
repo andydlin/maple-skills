@@ -366,7 +366,7 @@ const Home = (() => {
     $("#studioNav").removeAttribute("aria-current");
     $("#skipLink").href = "#homePage";
     $("#skipLink").textContent = "Skip to home content";
-    document.title = "Maple Skills — Class Atlas & Animation Studio";
+    document.title = "Maple Animations — Class Atlas & Animation Studio";
     renderAtlas();
     renderDiscoveries();
     await Promise.all([renderPersonal(), search()]);
@@ -379,7 +379,7 @@ const Home = (() => {
     $("#studioNav").setAttribute("aria-current", "page");
     $("#skipLink").href = "#inspector";
     $("#skipLink").textContent = "Skip to skill preview";
-    document.title = "Maple Skills — Animation Studio";
+    document.title = "Maple Animations — Animation Studio";
   }
   return {
     init,

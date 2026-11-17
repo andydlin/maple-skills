@@ -1,4 +1,4 @@
-# Maple Skills — Animation Studio
+# Maple Animations — Asset Browser
 
 A visual reference for 59 MapleStory classes and 6,197 skill entries.
 
@@ -67,6 +67,8 @@ All 59 catalog totals were checked: 6,197 entries. Representative first and last
 
 The capture panel offers one static PNG action. Its modal supports transparent, black, and white backgrounds, included in the displayed image and clipboard/download output. Legacy export-sheet and link-copy UI has been removed.
 
-## Atlas expansion
+## Maple Animations expansion
 
-Explore now scaffolds class-owned summons, characters, mobs, NPCs, and maps. See [SITEMAP.md](SITEMAP.md) for routes and hierarchy, and [data/README.md](data/README.md) for the proposed import contract. Collection placeholders are explicit; Muse’s summons have not been imported yet.
+Working brand: Maple Animations. Explore has peer collections for Skills, Monsters, NPCs, and Map Art. Summons belong only on their skill pages; their data is not connected yet. Characters remain a scope item; full maps are blocked on layer-data access. Collab classes are included in future imports; NPC variants will be grouped with provenance preserved.
+
+See [SITEMAP.md](SITEMAP.md), [import contract](data/README.md), [proposed manifest schema](data/asset-manifest.schema.json), and [dated source inventory](data/inventory-snapshot.json). Counts outside the live skill catalog are owner-reported snapshots/estimates.

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maple Animations normalized entity manifest (proposed)",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "source",
+    "representation",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "provider",
+        "region",
+        "version"
+      ],
+      "properties": {
+        "provider": {
+          "const": "maplestory.io"
+        },
+        "region": {
+          "const": "GMS"
+        },
+        "version": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      }
+    },
+    "representation": {
+      "enum": [
+        "frames",
+        "static",
+        "link",
+        "spine"
+      ]
+    },
+    "status": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "UNIMPORTED",
+        "UNAVAILABLE"
+      ]
+    },
+    "owners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "classSlug",
+          "skillId"
+        ],
+        "properties": {
+          "classSlug": {
+            "type": "string"
+          },
+          "skillId": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skillbookVisibility": {
+      "enum": [
+        "visible",
+        "hidden",
+        "unknown"
+      ]
+    },
+    "variant": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    },
+    "spineReference": {
+      "type": "string"
+    },
+    "actions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "status",
+          "frames"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "COMPLETE",
+              "PARTIAL",
+              "UNAVAILABLE"
+            ]
+          },
+          "playback": {
+            "enum": [
+              "loop",
+              "once"
+            ]
+          },
+          "frames": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/frame"
+            }
+          },
+          "unavailableFrames": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "index",
+                "reason"
+              ],
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "sourcePath": {
+                  "type": "string"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "frame": {
+      "type": "object",
+      "required": [
+        "index",
+        "file",
+        "delay",
+        "origin"
+      ],
+      "properties": {
+        "index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delay": {
+          "type": "number",
+          "minimum": 0
+        },
+        "origin": {
+          "type": "object",
+          "required": [
+            "x",
+            "y"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "isEmpty": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "representation": {
+            "const": "link"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "linkTarget"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "representation": {
+            "const": "spine"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "spineReference"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "representation": {
+            "enum": [
+              "frames",
+              "static"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "actions"
+        ]
+      }
+    }
+  ]
+}

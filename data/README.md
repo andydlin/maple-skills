@@ -1,13 +1,30 @@
-# Future collection import contract (proposed)
+# Animated asset import contract
 
-Keep metadata on GitHub and frame images on R2, as today. This layout is proposed for Muse output; it does not require redownloading or renaming existing frames. An adapter can normalize the delivered format.
+Source: owner’s 2026-11-17 brief, maplestory.io GMS 270. This is a proposed normalized boundary for the site, not a demand to rename Muse’s downloaded files. Inspect actual manifests first and adapt them; keep original provenance and IDs. Existing class `skills.json` snapshots remain valid.
 
-- Existing: `data/{classSlug}/skills.json`.
-- Summons: proposed `data/{classSlug}/summons.json`, referencing shared summon entities by stable ID when multiple classes own the same entity.
-- Other collections: proposed `data/{characters|mobs|npcs|maps}/catalog.json` and per-entity manifests. These are not yet runtime inputs.
+## Storage and relationships
 
-Summon required fields: stable source ID, name, `classSlugs` (catalog slugs), source skill IDs when known, source version, and action groups. Each frame includes an actual R2-relative `file`, delay in milliseconds, pixel dimensions where known, and source origin `{x,y,isEmpty}`. Preserve source action names and origin coordinates. Do not invent frames, delays, or class mappings. Record unavailable actions and unresolved ownership separately. Use a schema version and source provenance.
+Reported new layout: `<section>/<entry-slug>/frames/<animation>/<frame>.webp`, with `frames.json` per entity and adjacent metadata. Preserve existing skill paths via adapters. Keep source IDs stable and opaque strings. Metadata/versioned indexes belong on GitHub; images stay on R2. Do not commit hundreds of thousands of frames or a monolithic runtime index.
 
-`examples/summon.example.json` is a documentation-only empty example; it is never loaded into the site. Replace all example identifiers with verified source data during import.
+A summon is attached by **skill ID and class**, with variants/actions beneath it. 208 unique skills / 212 class-skill pairs means skill ID alone cannot replace class-skill association. Do not make class-level summons a separate primary catalog. Example in `examples/summon.example.json` is documentation-only, not runtime input.
 
-Maps need a separate scene model: map/region IDs, canvas bounds, layer order, placements, and linked background/object resources. Do not flatten away layer positions or reuse the summon schema for maps.
+Proposed shared manifest shape (see `asset-manifest.schema.json`): entity identity/source, representation (`frames`, `static`, `link`, `spine`), completeness, actual actions and ordered frames. Each available frame has a WebP path, delay in ms, and source origin. PARTIAL actions list unavailable indices/source paths/reasons; never substitute art or silently close sequence gaps. All frame paths must resolve to the approved asset origin; reject traversal, executable URLs, malformed origins/delays and duplicate frame indices at ingestion.
+
+## Section rules
+
+- Skills: retain job tier, stats, icon/description, source visibility (`visible`, `hidden`, `unknown`), source/class/skill IDs and collaboration metadata. Hidden entries remain included, labeled and filterable once normalized.
+- Summons: owning class-skill associations, variant IDs (e.g. stationary/mobile), actual action names (`summoned`, `stand`, `move`, `attack1`, `die`, or what the source supplies), delays/origins and partial-frame reports.
+- Monsters: ingest JSONL as a build/import source, generate small browser indexes. Preserve linkTarget and resolve with cycle/depth/missing-target guards. Keep identity/stats distinct from animation target. Spine references never masquerade as zero-frame sequences. Orange Mushroom has stand/move/jump/hit1/die1; do not manufacture attack.
+- NPCs: grouped index plus source variants. Preserve each source ID, place, expression/action, and grouping evidence. Grouping does not erase or merge distinct animations. Place is optional when unknown.
+- Map Art: retain Back/Obj/Tile source set/node identity; distinguish animated frames, static tiles and Spine objects. No scene placement or full-map route implied.
+- Full maps: blocked until placement, layers, z-order/parallax and resource references can be extracted. No implementation commitment.
+
+## Shared playback and integrity
+
+Origin-composite frames without trimming away anchors. Honor source frame delay; any normalization of invalid timing must be reported. Die actions play once and hold last frame; others default loop. PARTIAL is distinct from absent, static, link, and Spine. Show unavailable actions plainly. Verify frame decode and alpha before publication; no placeholder/substitute art.
+
+## Serving and scale
+
+The brief describes private bulk storage and future custom-domain serving. The current skill app still has its existing R2 public-development asset root; this scaffold does not alter credentials, bucket permissions, DNS, CORS or endpoints. At integration, confirm which bucket/domain serves which collection. Production serving must be configured against the verified custom domain rather than assuming every new upload is publicly available. Reported storage/request estimates are planning inputs, not verified account quotas or guarantees.
+
+Use resumable background uploads and manifest validation. Do not expose R2 credentials in client code. Load indexes by section/shard and entity/action manifests on demand; do not scan ~850k files from the browser.

@@ -1,0 +1,68 @@
+{
+  "asOf": "2026-11-17T14:25:00-08:00",
+  "source": "Owner-supplied IA brief; not independently audited",
+  "provider": "maplestory.io",
+  "region": "GMS",
+  "version": "270",
+  "skills": {
+    "status": "live",
+    "classes": 59,
+    "skills": 6197,
+    "frames": 67358,
+    "effectFrames": 38809,
+    "hitFrames": 28549
+  },
+  "summons": {
+    "status": "pulling",
+    "uniqueSkills": 208,
+    "classes": 44,
+    "classSkillPairs": 212,
+    "pairsWithFrames": 211,
+    "framesOnDiskAtSnapshot": 11878,
+    "importedByThisScaffold": false
+  },
+  "monsters": {
+    "status": "index_in_progress_frames_not_started",
+    "files": 11778,
+    "estimatedFrames": 417000,
+    "conservativeFrameFloor": 334000,
+    "linkShareEstimate": [
+      0.23,
+      0.31
+    ],
+    "estimatedSpineEntities": [
+      600,
+      800
+    ]
+  },
+  "npcs": {
+    "status": "scoped_not_pulled",
+    "files": 15181,
+    "estimatedFrames": [
+      160000,
+      334000
+    ],
+    "estimatedStandFirstPassFrames": 52000
+  },
+  "mapArt": {
+    "status": "scoped_not_pulled",
+    "sourceFiles": {
+      "Back": 666,
+      "Obj": 481,
+      "Tile": 277
+    },
+    "estimatedFrames": 70000,
+    "estimatedAnimatedBackgroundElements": 3050,
+    "estimatedFrameObjects": 7300,
+    "estimatedSpineObjects": 3860,
+    "estimatedStaticTiles": 7500
+  },
+  "fullMaps": {
+    "status": "blocked_layer_data_route",
+    "files": 21854,
+    "scheduled": false
+  },
+  "characters": {
+    "status": "scope_to_define"
+  }
+}

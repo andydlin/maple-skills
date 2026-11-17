@@ -362,7 +362,6 @@ async function renderSkills() {
 async function loadClass(slug, skillSlug) {
   Atlas.hide();
   Home.hide();
-  $("#classSummons").href = "#" + new URLSearchParams({ section: "summons", class: slug });
   pause(false);
   framesReady = false;
   ++searchVersion;

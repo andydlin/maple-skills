@@ -269,29 +269,30 @@ const waitFor = async (fn) => {
   w.location.hash = "section=atlas";
   await run("routeFromURL()");
   assert.ok(d.body.classList.contains("atlas-view"));
-  assert.equal(d.querySelectorAll(".atlas-section-card").length, 6);
-  for (const section of ["characters", "mobs", "npcs", "maps"]) {
+  assert.equal(d.querySelectorAll(".atlas-section-card").length, 4);
+  for (const section of ["characters", "monsters", "npcs", "map-art", "maps"]) {
     w.location.hash = "section=" + section;
     await run("routeFromURL()");
-    assert.ok(d.querySelector("#atlasPage").textContent.includes("Planned collection"));
+    assert.ok(d.querySelector("#atlasPage").textContent.includes("No source catalog"));
   }
   w.location.hash = "section=summons";
   await run("routeFromURL()");
-  assert.equal(d.querySelectorAll(".atlas-class-grid a").length, 59);
+  assert.equal(d.querySelectorAll(".atlas-class-grid a").length, 0);
+  assert.ok(d.querySelector("#atlasPage h1").textContent.includes("Summons live with their skills"));
   w.location.hash = "section=summons&class=adele";
   await run("routeFromURL()");
-  assert.ok(d.querySelector("#atlasPage h1").textContent.includes("Adele"));
-  assert.ok(d.querySelector("#atlasPage").textContent.includes("Awaiting frame import"));
+  assert.ok(d.querySelector('#atlasPage a[href="#class=adele"]'));
+  assert.ok(d.querySelector("#atlasPage").textContent.includes("not connected here yet"));
   await run("showFrame(0)");
   assert.ok(w.location.hash.includes("section=summons"));
   d.querySelector("#studioNav").click();
   await waitFor(() => !d.body.classList.contains("atlas-view"));
   assert.ok(d.querySelector("#atlasPage").hidden);
-  assert.ok(d.querySelector("#classSummons").href.includes("class=adele"));
+  assert.equal(d.querySelector("#classSummons"), null);
   d.querySelector("#homeNav").click();
   await waitFor(() => d.body.classList.contains("home-view"));
   assert.ok(!d.body.classList.contains("atlas-view"));
-  console.log("PASS: atlas collections, all class summon routes, explicit import states, and return to Studio/home.");
+  console.log("PASS: atlas collections, skill-owned summons, explicit import and blocked states, and return to Studio/home.");
   console.log("PASS: static PNG image preview, download name, image clipboard payload, and denied clipboard fallback.");
   console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and simplified capture controls.");
   console.log(

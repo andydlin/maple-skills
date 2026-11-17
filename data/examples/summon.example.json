@@ -1,20 +1,22 @@
 {
   "schemaVersion": 1,
   "exampleOnly": true,
-  "id": "SOURCE_SUMMON_ID",
+  "id": "SOURCE_SUMMON_VARIANT_ID",
   "name": "Source summon name",
-  "classSlugs": [
-    "adele"
-  ],
-  "sourceSkillIds": [],
+  "representation": "frames",
+  "status": "UNIMPORTED",
   "source": {
-    "version": "SOURCE_VERSION",
+    "provider": "maplestory.io",
+    "region": "GMS",
+    "version": "270",
     "path": "SOURCE_PATH"
   },
-  "actions": {
-    "stand": {
-      "frames": []
+  "owners": [
+    {
+      "classSlug": "CLASS_SLUG",
+      "skillId": "SOURCE_SKILL_ID"
     }
-  },
-  "unavailableActions": []
+  ],
+  "variant": "SOURCE_VARIANT",
+  "actions": {}
 }
