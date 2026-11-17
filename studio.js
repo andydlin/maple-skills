@@ -32,6 +32,12 @@ let catalog = [],
   favorites = new Set(
     JSON.parse(localStorage.getItem("mapleFavorites") || "[]"),
   );
+let rangeStart = 0,
+  rangeEnd = 0,
+  pingDirection = 1,
+  playSession = 0,
+  framesReady = false;
+const delayOf = (f) => (Number.isFinite(f?.delay) ? Math.max(1, f.delay) : 90);
 const images = new Map();
 const classData = new Map();
 let searchVersion = 0,
@@ -386,10 +392,15 @@ async function selectSkill(s) {
 }
 async function setLayer(name) {
   pause();
+  framesReady = false;
   layer = name;
   frames =
     layers(current).find(([k]) => k === name)?.[1] || current?.fallback || [];
   index = 0;
+  rangeStart = 0;
+  rangeEnd = Math.max(0, frames.length - 1);
+  pingDirection = 1;
+  updateRangeUI();
   bounds = null;
   pan = { x: 0, y: 0 };
   ++showFrame.token;
@@ -413,7 +424,7 @@ async function setLayer(name) {
         }),
     );
   $("#timeline").max = Math.max(0, frames.length - 1);
-  $("#play").disabled = frames.length < 2;
+  $("#play").disabled = true;
   $("#prev").disabled = $("#next").disabled = !frames.length;
   $("#export").disabled = true;
   $("#duration").textContent =
@@ -469,7 +480,9 @@ async function setLayer(name) {
     maxY = Math.max(maxY, im.height - o.y);
   });
   if (Number.isFinite(minX)) bounds = { minX, minY, maxX, maxY };
-  showFrame(0);
+  framesReady = true;
+  $("#play").disabled = frames.length < 2;
+  await showFrame(0);
 }
 function originFor(f, im) {
   return f.origin && !f.origin.isEmpty
@@ -482,6 +495,14 @@ async function showFrame(i) {
     token = ++showFrame.token;
   if (!f) return;
   $("#timeline").value = index;
+  $("#frameJump").value = index + 1;
+  $("#frameJump").max = frames.length;
+  $("#frameInfo").textContent =
+    `${f.delay ?? 90} ms · origin ${f.origin?.x ?? "—"}, ${f.origin?.y ?? "—"}`;
+  $("#canvas").setAttribute(
+    "aria-label",
+    `${current?.name || "Skill"}, ${layer || "still"}, frame ${index + 1} of ${frames.length}`,
+  );
   $("#counter").textContent =
     `${String(index + 1).padStart(2, "0")} / ${frames.length}`;
   $("#time").textContent =
@@ -518,6 +539,19 @@ async function showFrame(i) {
     ctx.scale($("#flip").checked ? -scale : scale, scale);
     ctx.translate(-(b.minX + b.maxX) / 2, -(b.minY + b.maxY) / 2);
     ctx.imageSmoothingEnabled = !$("#pixel").checked;
+    if ($("#onion").checked && index > 0) {
+      try {
+        const previous = await imageFor(frames[index - 1].file);
+        if (token !== showFrame.token) {
+          ctx.restore();
+          return;
+        }
+        const po = originFor(frames[index - 1], previous);
+        ctx.globalAlpha = 0.24;
+        ctx.drawImage(previous, -po.x, -po.y);
+        ctx.globalAlpha = 1;
+      } catch {}
+    }
     ctx.drawImage(im, -o.x, -o.y);
     if ($("#origin").checked) {
       ctx.strokeStyle = "#db5314";
@@ -554,13 +588,68 @@ function resetView() {
   showFrame(index);
 }
 function pause() {
+  ++playSession;
   playing = false;
   clearTimeout(timer);
   $("#play").textContent = "▶ Play";
   $("#playState").textContent = "PAUSED";
 }
+function nextInRange(i, direction, mode, start, end, loop) {
+  if (end <= start) return { stop: true, next: start, direction };
+  if (mode === "reverse")
+    return i <= start
+      ? { stop: !loop, next: end, direction: -1 }
+      : { next: i - 1, direction: -1 };
+  if (mode === "pingpong") {
+    if (direction > 0 && i >= end) return { next: end - 1, direction: -1 };
+    if (direction < 0 && i <= start)
+      return { stop: !loop, next: start + 1, direction: 1 };
+    return { next: i + direction, direction };
+  }
+  return i >= end
+    ? { stop: !loop, next: start, direction: 1 }
+    : { next: i + 1, direction: 1 };
+}
+function updateRangeUI() {
+  $("#rangeStart").value = rangeStart + 1;
+  $("#rangeEnd").value = rangeEnd + 1;
+  for (const id of ["rangeStart", "rangeEnd"]) {
+    $("#" + id).max = Math.max(1, frames.length);
+    $("#" + id).disabled = !frames.length;
+  }
+  $("#rangeSummary").textContent = frames.length
+    ? `${rangeStart + 1}–${rangeEnd + 1} · ${rangeEnd - rangeStart + 1} frames · ${frames.slice(rangeStart, rangeEnd + 1).reduce((n, f) => n + delayOf(f), 0)} ms`
+    : "No frames";
+  for (const id of ["frameJump", "markIn", "markOut", "fullRange"])
+    $("#" + id).disabled = !frames.length;
+}
+function setRange(start, end) {
+  pause();
+  rangeStart = Math.max(
+    0,
+    Math.min(Math.trunc(Number(start)) || 0, frames.length - 1),
+  );
+  rangeEnd = Math.max(
+    rangeStart,
+    Math.min(Math.trunc(Number(end)) || 0, frames.length - 1),
+  );
+  pingDirection = 1;
+  updateRangeUI();
+}
 function play() {
-  if (frames.length < 2) return;
+  if (!framesReady || frames.length < 2 || rangeEnd <= rangeStart) {
+    if (frames.length) toast("Choose at least two frames to play.");
+    return;
+  }
+  const mode = $("#playMode").value || "forward";
+  pingDirection = 1;
+  if (
+    index < rangeStart ||
+    index > rangeEnd ||
+    (mode !== "reverse" && index === rangeEnd)
+  )
+    showFrame(mode === "reverse" ? rangeEnd : rangeStart);
+  if (mode === "reverse" && index === rangeStart) showFrame(rangeEnd);
   playing = true;
   $("#play").textContent = "Ⅱ Pause";
   $("#playState").textContent = "PLAYING";
@@ -569,16 +658,27 @@ function play() {
 function schedule() {
   clearTimeout(timer);
   if (!playing) return;
+  const session = playSession;
   timer = setTimeout(
     async () => {
-      if (index === frames.length - 1 && !$("#loop").checked) {
+      if (session !== playSession || !playing) return;
+      const step = nextInRange(
+        index,
+        pingDirection,
+        $("#playMode").value || "forward",
+        rangeStart,
+        rangeEnd,
+        $("#loop").checked,
+      );
+      if (step.stop) {
         pause();
         return;
       }
-      await showFrame((index + 1) % frames.length);
-      schedule();
+      pingDirection = step.direction;
+      await showFrame(step.next);
+      if (session === playSession) schedule();
     },
-    Math.max(1, (frames[index]?.delay || 90) / Number($("#speed").value)),
+    Math.max(1, delayOf(frames[index]) / Number($("#speed").value)),
   );
 }
 $("#play").onclick = () => (playing ? pause() : play());
@@ -597,7 +697,7 @@ $("#timeline").oninput = (e) => {
 $("#speed").onchange = () => {
   if (playing) schedule();
 };
-for (const id of ["zoom", "origin", "flip", "pixel"])
+for (const id of ["zoom", "origin", "flip", "pixel", "onion"])
   $("#" + id).onchange = () => {
     showFrame(index);
     $("#viewLabel").textContent =
@@ -615,6 +715,48 @@ $("#background").onchange = (e) => {
     green: "#00b140",
   }[e.target.value];
 };
+$("#frameJump").onchange = (e) => {
+  pause();
+  showFrame(
+    Math.max(0, Math.min(frames.length - 1, (Number(e.target.value) || 1) - 1)),
+  );
+};
+$("#playMode").onchange = () => {
+  pause();
+  pingDirection = 1;
+};
+$("#rangeStart").onchange = (e) =>
+  setRange(
+    Number(e.target.value) - 1,
+    Math.max(rangeEnd, Number(e.target.value) - 1),
+  );
+$("#rangeEnd").onchange = (e) =>
+  setRange(
+    Math.min(rangeStart, Number(e.target.value) - 1),
+    Number(e.target.value) - 1,
+  );
+$("#markIn").onclick = () => setRange(index, Math.max(index, rangeEnd));
+$("#markOut").onclick = () => setRange(Math.min(index, rangeStart), index);
+$("#fullRange").onclick = () => setRange(0, frames.length - 1);
+$("#focus").onclick = () => {
+  const focused = document.body.classList.toggle("focus-mode");
+  $("#focus").textContent = focused ? "← Show library" : "⛶ Focus view";
+  $("#focus").setAttribute("aria-pressed", !!focused);
+};
+$("#fullscreen").onclick = async () => {
+  try {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else if ($("main").requestFullscreen) await $("main").requestFullscreen();
+    else $("#focus").click();
+  } catch {
+    toast("Full screen is unavailable. Use Focus view instead.");
+  }
+};
+document.addEventListener("fullscreenchange", () => {
+  $("#fullscreen").textContent = document.fullscreenElement
+    ? "Exit full screen"
+    : "Full screen";
+});
 $("#search").oninput = $("#job").onchange = $("#kind").onchange = renderSkills;
 $("#classSearch").oninput = renderClasses;
 $("#family").onchange = renderClasses;
@@ -681,6 +823,14 @@ document.addEventListener("keydown", (e) => {
     $("#sourceDialog").open
   )
     return;
+  if (e.key.toLowerCase() === "r") {
+    e.preventDefault();
+    resetView();
+  }
+  if (e.key.toLowerCase() === "f") {
+    e.preventDefault();
+    $("#focus").click();
+  }
   if (e.code === "Space") {
     e.preventDefault();
     playing ? pause() : play();

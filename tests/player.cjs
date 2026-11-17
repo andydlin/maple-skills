@@ -153,6 +153,29 @@ vm.runInContext(source, context);
   );
   assert.equal(node("#className").textContent, "Ren");
   assert.ok(node("#skillName").textContent !== "Loading…");
+  await vm.runInContext("loadClass('hero')", context);
+  await vm.runInContext("setRange(2,7)", context);
+  assert.equal(node("#rangeStart").value, 3);
+  assert.equal(node("#rangeEnd").value, 8);
+  assert.ok(node("#rangeSummary").textContent.includes("6 frames"));
+  assert.equal(
+    vm.runInContext("nextInRange(7,1,'forward',2,7,false).stop", context),
+    true,
+  );
+  assert.equal(
+    vm.runInContext("nextInRange(2,-1,'reverse',2,7,true).next", context),
+    7,
+  );
+  assert.equal(
+    vm.runInContext("nextInRange(7,1,'pingpong',2,7,true).next", context),
+    6,
+  );
+  assert.equal(
+    vm.runInContext("nextInRange(2,-1,'pingpong',2,7,false).stop", context),
+    true,
+  );
+  await vm.runInContext("setRange(-50,9000)", context);
+  assert.equal(node("#rangeStart").value, 1);
   node("#scope").value = "all";
   node("#search").value = "Raging Blow";
   await vm.runInContext("renderSkills()", context);

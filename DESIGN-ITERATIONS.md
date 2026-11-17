@@ -17,3 +17,11 @@ Changes: explicit class/all-class search scope; lazy all-class indexing with fou
 Evaluation: automated checks index all 6,197 entries, find Raging Blow across classes, and confirm that a one-character global query asks for refinement rather than rendering thousands of buttons. Class metadata is cached; indexing does not run on initial load. Global favorites use class-qualified keys. Source review identified no need for a new backend or hosting changes. Visual review remains pending while the Mac is locked.
 
 Next: improve precise motion study, especially repeating only the frames of interest.
+
+## Round 3 — A motion-study workbench
+
+Changes: direct frame entry and per-frame delay/origin readouts; a collapsible study range with mark-in/mark-out; forward, reverse, and ping-pong playback; a previous-frame overlay; focus mode and full screen. Playback is gated until loading finishes. Playback-session tokens prevent stale asynchronous callbacks from restarting playback after a skill switch. Range controls reset on each new layer.
+
+Evaluation: deterministic player tests cover range clamping, forward stopping, reverse wrapping, ping-pong turnarounds, and a non-looping return to the start. Full-sequence scrubbing remains available outside the study range. Overlay pixels are kept out of still exports. The overlay and optional origin marker do not replace the original frame. Syntax and previous browsing regressions pass. Full-screen and touch behavior still require browser QA.
+
+Next: turn frame selection into reusable visual-reference exports.

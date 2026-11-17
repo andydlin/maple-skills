@@ -104,7 +104,13 @@
             <div class="eyebrow" id="skillJob"></div>
             <h2 id="skillName">Choose a skill</h2>
           </div>
-          <button id="favorite" aria-label="Favorite skill">☆</button>
+          <div class="heading-actions">
+            <button id="focus" title="Hide navigation for a larger preview">
+              ⛶ Focus view</button
+            ><button id="fullscreen" title="Open inspector full screen">
+              Full screen</button
+            ><button id="favorite" aria-label="Favorite skill">☆</button>
+          </div>
         </div>
         <div class="stage" id="stage">
           <div class="stage-top">
@@ -142,6 +148,25 @@
             ><label><input id="loop" type="checkbox" checked /> Loop</label>
           </div>
         </div>
+        <div class="frame-inspector">
+          <label
+            >Frame
+            <input
+              id="frameJump"
+              type="number"
+              min="1"
+              value="1"
+              aria-label="Go to frame" /></label
+          ><span id="frameInfo">Select a frame</span
+          ><label
+            >Direction
+            <select id="playMode">
+              <option value="forward">Forward</option>
+              <option value="reverse">Reverse</option>
+              <option value="pingpong">Ping-pong</option>
+            </select></label
+          >
+        </div>
         <input
           id="timeline"
           type="range"
@@ -155,6 +180,25 @@
           ><span id="duration">0 ms</span>
         </div>
         <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
+        <details class="range-panel">
+          <summary>
+            Study a frame range <span id="rangeSummary">Full animation</span>
+          </summary>
+          <div class="range-controls">
+            <label
+              >From
+              <input id="rangeStart" type="number" min="1" value="1" /></label
+            ><label
+              >To <input id="rangeEnd" type="number" min="1" value="1" /></label
+            ><button id="markIn">Set start here</button
+            ><button id="markOut">Set end here</button
+            ><button id="fullRange">Use all frames</button>
+          </div>
+          <p>
+            Playback and sprite-sheet export use this range. You can still scrub
+            through the full animation.
+          </p>
+        </details>
         <section class="tools">
           <div>
             <div class="section-label">ANIMATION LAYER</div>
@@ -181,6 +225,10 @@
           </div>
           <div>
             <div class="section-label">VIEW</div>
+            <label class="onion-label"
+              ><input id="onion" type="checkbox" /> Previous-frame
+              overlay</label
+            >
             <button id="reset" title="Reset scale and position">
               Reset view
             </button>
