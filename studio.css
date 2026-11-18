@@ -1574,3 +1574,5 @@ kbd {
 .simple-transport #still { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 8px 10px; }
 .simple-transport #counter { margin-left: 0; }
 @media(max-width:600px) { .simple-transport #still { padding-inline: 8px; } .preview-background select { max-width: 110px; padding-inline: 6px; } }
+
+.simple-transport #still { width: 44px; min-width: 44px; height: 44px; padding: 10px; }
