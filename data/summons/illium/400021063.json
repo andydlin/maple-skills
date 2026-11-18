@@ -1,0 +1,851 @@
+{
+  "sourceManifest": "illium/frames/templar-knight-400021063/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 400021063,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 466,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 497,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 590,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 602,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 606,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 501,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 513,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 508,
+          "y": 473,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 520,
+          "y": 472,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 403,
+          "y": 472,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 403,
+          "y": 470,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 414,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 424,
+          "y": 464,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 225,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 217,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 470,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 241,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 225,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 238,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 253,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 246,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/die-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 181,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 227,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 222,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 221,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 222,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 457,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 219,
+          "y": 457,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 225,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 241,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/move-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 227,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 222,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 221,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 222,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 457,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 219,
+          "y": 457,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 225,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 241,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 181,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 246,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 253,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 238,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 464,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 464,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 217,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 225,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 422,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 422,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 422,
+          "y": 402,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/templar-knight-400021063/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 422,
+          "y": 405,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,785 @@
+{
+  "sourceManifest": "corsair/frames/broadside-5221022/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "corsair",
+  "skillId": 5221022,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 162,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 133,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 207,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 261,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 260,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 261,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 244,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 179,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 294,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 157,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 288,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 164,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 98,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 97,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": -32,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 98,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 116,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 123,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 127,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/broadside-5221022/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

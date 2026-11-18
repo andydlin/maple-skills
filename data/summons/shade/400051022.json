@@ -1,0 +1,550 @@
+{
+  "sourceManifest": "shade/frames/spiritgate-400051022/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "shade",
+  "skillId": 400051022,
+  "actions": {
+    "die": [
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 356,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 558,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 356,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 356,
+          "y": 558,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 353,
+          "y": 556,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 349,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 552,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 544,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 279,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 279,
+          "y": 534,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 262,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 259,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 565,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 400,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 400,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 304,
+          "y": 483,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 278,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 233,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 234,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 234,
+          "y": 467,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 285,
+          "y": 465,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 291,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 633,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 633,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 376,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 382,
+          "y": 641,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 383,
+          "y": 642,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 383,
+          "y": 644,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 383,
+          "y": 641,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 380,
+          "y": 644,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shade/frames/spiritgate-400051022/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 382,
+          "y": 641,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,843 @@
+{
+  "sourceManifest": "battle-mage/frames/altar-of-annihilation-400021047/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "battle-mage",
+  "skillId": 400021047,
+  "actions": {
+    "source-sequence": [
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 601,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 752,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 721,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 648,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 693,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 322,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 179,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 201,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 208,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 214,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-42.webp",
+        "delay": 60,
+        "origin": {
+          "x": 224,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-43.webp",
+        "delay": 60,
+        "origin": {
+          "x": 228,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-44.webp",
+        "delay": 60,
+        "origin": {
+          "x": 229,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-45.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-46.webp",
+        "delay": 60,
+        "origin": {
+          "x": 235,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-47.webp",
+        "delay": 60,
+        "origin": {
+          "x": 239,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-48.webp",
+        "delay": 60,
+        "origin": {
+          "x": 242,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-49.webp",
+        "delay": 60,
+        "origin": {
+          "x": 241,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-50.webp",
+        "delay": 60,
+        "origin": {
+          "x": 244,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-51.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-52.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-53.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-54.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-55.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-56.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-57.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-58.webp",
+        "delay": 90,
+        "origin": {
+          "x": 166,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-59.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-60.webp",
+        "delay": 90,
+        "origin": {
+          "x": 121,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-61.webp",
+        "delay": 90,
+        "origin": {
+          "x": 116,
+          "y": 292,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-62.webp",
+        "delay": 90,
+        "origin": {
+          "x": 144,
+          "y": 310,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-63.webp",
+        "delay": 90,
+        "origin": {
+          "x": 157,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-64.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-65.webp",
+        "delay": 90,
+        "origin": {
+          "x": 166,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-66.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-67.webp",
+        "delay": 90,
+        "origin": {
+          "x": 172,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-68.webp",
+        "delay": 90,
+        "origin": {
+          "x": 174,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-69.webp",
+        "delay": 90,
+        "origin": {
+          "x": 176,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-70.webp",
+        "delay": 90,
+        "origin": {
+          "x": 178,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-71.webp",
+        "delay": 90,
+        "origin": {
+          "x": 179,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-72.webp",
+        "delay": 90,
+        "origin": {
+          "x": 181,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-73.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-74.webp",
+        "delay": 90,
+        "origin": {
+          "x": 184,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/battle-mage/frames/altar-of-annihilation-400021047/summon-75.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 75
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

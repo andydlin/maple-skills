@@ -1,0 +1,163 @@
+{
+  "sourceManifest": "beast-tamer/frames/beak-strike-400021137/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "beast-tamer",
+  "skillId": 400021137,
+  "actions": {
+    "stand": [
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 264,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 266,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 293,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 254,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 264,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 266,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 264,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 280,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/beast-tamer/frames/beak-strike-400021137/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 284,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

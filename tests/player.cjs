@@ -148,6 +148,7 @@ let source = fs.readFileSync("studio.js", "utf8");
 const boot = source.lastIndexOf("\ninit().catch(");
 if (boot >= 0) source = source.slice(0, boot);
 vm.runInContext(fs.readFileSync("exporter.js", "utf8"), context);
+vm.runInContext(fs.readFileSync("summons.js", "utf8"), context);
 vm.runInContext(source, context);
 (async () => {
   await vm.runInContext("init()", context);

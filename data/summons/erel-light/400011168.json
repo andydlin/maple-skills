@@ -1,0 +1,326 @@
+{
+  "sourceManifest": "erel-light/frames/eternal-guardian-400011168/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "erel-light",
+  "skillId": 400011168,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 301,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 301,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 301,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 301,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 301,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 408,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/eternal-guardian-400011168/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 245,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,2049 @@
+{
+  "sourceManifest": "dark-knight/frames/evil-eye-1301013/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "dark-knight",
+  "skillId": 1301013,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 56,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 61,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 209,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 229,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 271,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 229,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 263,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 270,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack2-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 272,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "attack4": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 525,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 301,
+          "y": 522,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 303,
+          "y": 511,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 298,
+          "y": 478,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 232,
+          "y": 467,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 338,
+          "y": 623,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 333,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 335,
+          "y": 630,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 290,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 292,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 290,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 489,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 314,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 629,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 630,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 632,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 633,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 338,
+          "y": 632,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 336,
+          "y": 630,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 336,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 619,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 612,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 325,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 614,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 314,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 629,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-34.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-35.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 630,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-36.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 632,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-37.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 633,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-38.webp",
+        "delay": 90,
+        "origin": {
+          "x": 338,
+          "y": 632,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-39.webp",
+        "delay": 90,
+        "origin": {
+          "x": 336,
+          "y": 630,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-40.webp",
+        "delay": 90,
+        "origin": {
+          "x": 336,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-41.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 619,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-42.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 612,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-43.webp",
+        "delay": 90,
+        "origin": {
+          "x": 325,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-44.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 614,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-45.webp",
+        "delay": 90,
+        "origin": {
+          "x": 318,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-46.webp",
+        "delay": 90,
+        "origin": {
+          "x": 309,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-47.webp",
+        "delay": 90,
+        "origin": {
+          "x": 283,
+          "y": 607,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-48.webp",
+        "delay": 90,
+        "origin": {
+          "x": 244,
+          "y": 563,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-49.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 522,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-50.webp",
+        "delay": 90,
+        "origin": {
+          "x": 262,
+          "y": 516,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-51.webp",
+        "delay": 90,
+        "origin": {
+          "x": 262,
+          "y": 505,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-52.webp",
+        "delay": 90,
+        "origin": {
+          "x": 264,
+          "y": 511,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-53.webp",
+        "delay": 90,
+        "origin": {
+          "x": 277,
+          "y": 522,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-54.webp",
+        "delay": 90,
+        "origin": {
+          "x": 202,
+          "y": 483,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-55.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 476,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/attack4-56.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 56,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 35,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 35,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 32,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 20,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 56,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 53,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/move-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 252,
+          "y": 214,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 309,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 312,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 298,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "skill2": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 312,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 410,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 381,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 309,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 317,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 312,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill2-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 307,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "skill3": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 151,
+          "y": 244,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 151,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 151,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 322,
+          "y": 371,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 333,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 343,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 345,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 342,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 341,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/skill3-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 338,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 56,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 53,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 36,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 57,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dark-knight/frames/evil-eye-1301013/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

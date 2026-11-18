@@ -1,0 +1,651 @@
+{
+  "sourceManifest": "shade/frames/hexa-spirit-frenzy-25141007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "shade",
+  "skillId": 25141007,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 529,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 529,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 534,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 534,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 541,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 544,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 545,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 554,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 548,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 544,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 531,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 529,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 518,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 524,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 543,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 549,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 558,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 549,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 564,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 517,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 462,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/stand-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 512,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 504,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 517,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 543,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 549,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 558,
+          "y": 377,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 549,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 564,
+          "y": 370,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 322,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/hexa-spirit-frenzy-25141007/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

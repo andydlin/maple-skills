@@ -1,0 +1,455 @@
+{
+  "sourceManifest": "blaze-wizard/frames/salamander-mischief-400021092/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "blaze-wizard",
+  "skillId": 400021092,
+  "actions": {
+    "die": [
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 1,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 1,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 0,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 36,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 41,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 41,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 1,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 1,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 0,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 0,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": -2,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/fly-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": -2,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "move": [
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 1,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 1,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 0,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 0,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": -2,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": -2,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 1,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 1,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 0,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 0,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": -2,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": -2,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": -7,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 24,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 20,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 20,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 21,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 21,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 21,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 20,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/salamander-mischief-400021092/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 20,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

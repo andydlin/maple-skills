@@ -1,0 +1,1115 @@
+{
+  "sourceManifest": "mercedes/frames/unfading-glory-23141501/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mercedes",
+  "skillId": 23141501,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 429,
+          "y": 569,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 441,
+          "y": 571,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 571,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 573,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 575,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 574,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 589,
+          "y": 621,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 623,
+          "y": 600,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 636,
+          "y": 600,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 643,
+          "y": 600,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 640,
+          "y": 603,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 623,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 605,
+          "y": 605,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 594,
+          "y": 596,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 574,
+          "y": 589,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 561,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 547,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 588,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 580,
+          "y": 737,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 566,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 554,
+          "y": 754,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 581,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 581,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 734,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 734,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 734,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 679,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/attack2-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 400,
+          "y": 585,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 401,
+          "y": 657,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 401,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 402,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 391,
+          "y": 583,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 379,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 353,
+          "y": 569,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 282,
+          "y": 576,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 285,
+          "y": 580,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 289,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 293,
+          "y": 583,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/die-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 296,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 401,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 401,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 401,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 402,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 406,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 406,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 410,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 410,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 400,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 383,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 376,
+          "y": 601,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 373,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 367,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 367,
+          "y": 595,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 368,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 377,
+          "y": 574,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 429,
+          "y": 574,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 489,
+          "y": 583,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 590,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 406,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 406,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 410,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 410,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/unfading-glory-23141501/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 400,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

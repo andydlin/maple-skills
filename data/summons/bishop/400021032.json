@@ -1,0 +1,644 @@
+{
+  "sourceManifest": "bishop/frames/angel-of-balance-400021032/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "bishop",
+  "skillId": 400021032,
+  "actions": {
+    "die": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/die-00.webp",
+        "delay": 360,
+        "origin": {
+          "x": 22,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 360
+      }
+    ],
+    "move": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 35,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 33,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 31,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 35,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 27,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 20,
+          "y": 259,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 280,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 208,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 229,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 315,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 265,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 284,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 295,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 303,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/skill1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 278,
+          "y": 294,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 22,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 20,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 18,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 22,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 26,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 27,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 30,
+          "y": 244,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/stand-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 26,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 33,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 23,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 27,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 115,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 114,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 113,
+          "y": 302,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 118,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 88,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "teleport": [
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 116,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 108,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 51,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/angel-of-balance-400021032/summon/teleport-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 185,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

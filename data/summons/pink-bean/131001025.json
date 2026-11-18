@@ -1,0 +1,1427 @@
+{
+  "sourceManifest": "pink-bean/frames/pink-splitter-131001025/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131001025,
+  "actions": {
+    "die": [],
+    "source-sequence": [
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 254,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 278,
+          "y": 299,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 240,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 236,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 235,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 240,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 71,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 98,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 101,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 74,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 74,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-42.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-43.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-44.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-45.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-46.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-47.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-48.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-49.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-50.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-51.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-52.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-53.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-54.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-55.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-56.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-57.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-58.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-59.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-60.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-61.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-62.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-63.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-64.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-65.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-66.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-67.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-68.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-69.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-70.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-71.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-72.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-73.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-74.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-75.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-76.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-77.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-78.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-79.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-80.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-81.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-82.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-83.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-84.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-85.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-86.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-87.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-88.webp",
+        "delay": 60,
+        "origin": {
+          "x": 39,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-89.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-90.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-91.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-92.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-93.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-94.webp",
+        "delay": 60,
+        "origin": {
+          "x": 71,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-95.webp",
+        "delay": 60,
+        "origin": {
+          "x": 98,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-96.webp",
+        "delay": 60,
+        "origin": {
+          "x": 101,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-97.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-98.webp",
+        "delay": 60,
+        "origin": {
+          "x": 74,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-99.webp",
+        "delay": 60,
+        "origin": {
+          "x": 74,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-101.webp",
+        "delay": 60,
+        "origin": {
+          "x": 23,
+          "y": 58,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-102.webp",
+        "delay": 60,
+        "origin": {
+          "x": 21,
+          "y": 61,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-103.webp",
+        "delay": 60,
+        "origin": {
+          "x": 12,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-104.webp",
+        "delay": 60,
+        "origin": {
+          "x": 16,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-105.webp",
+        "delay": 60,
+        "origin": {
+          "x": 15,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-106.webp",
+        "delay": 660,
+        "origin": {
+          "x": 14,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 660
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-107.webp",
+        "delay": 60,
+        "origin": {
+          "x": 24,
+          "y": 58,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-108.webp",
+        "delay": 60,
+        "origin": {
+          "x": 19,
+          "y": 63,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-109.webp",
+        "delay": 60,
+        "origin": {
+          "x": 13,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-110.webp",
+        "delay": 60,
+        "origin": {
+          "x": 17,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-111.webp",
+        "delay": 60,
+        "origin": {
+          "x": 17,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-112.webp",
+        "delay": 660,
+        "origin": {
+          "x": 17,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 660
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-113.webp",
+        "delay": 60,
+        "origin": {
+          "x": 22,
+          "y": 59,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-114.webp",
+        "delay": 60,
+        "origin": {
+          "x": 19,
+          "y": 61,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-115.webp",
+        "delay": 60,
+        "origin": {
+          "x": 10,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-116.webp",
+        "delay": 60,
+        "origin": {
+          "x": 14,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-117.webp",
+        "delay": 60,
+        "origin": {
+          "x": 14,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-118.webp",
+        "delay": 660,
+        "origin": {
+          "x": 15,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 660
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-119.webp",
+        "delay": 60,
+        "origin": {
+          "x": 24,
+          "y": 59,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-120.webp",
+        "delay": 60,
+        "origin": {
+          "x": 18,
+          "y": 63,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-121.webp",
+        "delay": 60,
+        "origin": {
+          "x": 11,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-122.webp",
+        "delay": 60,
+        "origin": {
+          "x": 15,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-123.webp",
+        "delay": 60,
+        "origin": {
+          "x": 13,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-124.webp",
+        "delay": 660,
+        "origin": {
+          "x": 14,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 660
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-125.webp",
+        "delay": 60,
+        "origin": {
+          "x": 22,
+          "y": 59,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-126.webp",
+        "delay": 60,
+        "origin": {
+          "x": 16,
+          "y": 64,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-127.webp",
+        "delay": 60,
+        "origin": {
+          "x": 11,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-128.webp",
+        "delay": 60,
+        "origin": {
+          "x": 15,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-129.webp",
+        "delay": 60,
+        "origin": {
+          "x": 12,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pink-splitter-131001025/summon-130.webp",
+        "delay": 660,
+        "origin": {
+          "x": 12,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 660
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 128
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

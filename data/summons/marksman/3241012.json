@@ -1,0 +1,730 @@
+{
+  "sourceManifest": "marksman/frames/hexa-frostprey-3241012/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "marksman",
+  "skillId": 3241012,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 171,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 370,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 579,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 574,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 168,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 202,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 209,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 211,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 186,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 186,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 189,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 181,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 168,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 172,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 171,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 172,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 171,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 160,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 166,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 169,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/move-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 169,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 168,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 172,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 171,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 172,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 171,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 160,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 166,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 169,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 165,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/stand-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 169,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 186,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 215,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 215,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 207,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 179,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 181,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/marksman/frames/hexa-frostprey-3241012/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

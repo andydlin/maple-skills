@@ -1,0 +1,420 @@
+{
+  "sourceManifest": "pathfinder/frames/relic-unbound-torrent-400031051/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pathfinder",
+  "skillId": 400031051,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 180,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 185,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 397,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 400,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 251,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 398,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 393,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 384,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 383,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 241,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 404,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 223,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 367,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-attack1-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 327,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 186,
+          "y": 190,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 190,
+          "y": 195,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 192,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 186,
+          "y": 190,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 190,
+          "y": 197,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 189,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 190,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 173,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 184,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 190,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 197,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-torrent-400031051/summon-summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 173,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

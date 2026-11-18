@@ -1,0 +1,422 @@
+{
+  "sourceManifest": "corsair/frames/all-aboard-5210015/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "corsair",
+  "skillId": 5210015,
+  "actions": {
+    "die": [
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 63,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 64,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 59,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 54,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 64,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 64,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 134,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 126,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 118,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 117,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 100,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/skill1-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 54,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/stand-00.webp",
+        "delay": 180,
+        "origin": {
+          "x": 54,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/stand-01.webp",
+        "delay": 180,
+        "origin": {
+          "x": 55,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/stand-02.webp",
+        "delay": 180,
+        "origin": {
+          "x": 54,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/stand-03.webp",
+        "delay": 180,
+        "origin": {
+          "x": 53,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/all-aboard-5210015/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,631 @@
+{
+  "sourceManifest": "kain/frames/fury-of-the-wild-400001012/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "kain",
+  "skillId": 400001012,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 91,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 82,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 81,
+          "y": 241,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 81,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 812,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 812,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 811,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 743,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 743,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 766,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 771,
+          "y": 399,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 743,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 759,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 760,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 762,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-16.webp",
+        "delay": 120,
+        "origin": {
+          "x": 765,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-attack1-17.webp",
+        "delay": 120,
+        "origin": {
+          "x": 767,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "die": [
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 124,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 91,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 107,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 108,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 113,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 115,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 124,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 132,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 133,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 136,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 137,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 138,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 137,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 136,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-08.webp",
+        "delay": 150,
+        "origin": {
+          "x": 133,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-fly-09.webp",
+        "delay": 150,
+        "origin": {
+          "x": 130,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 124,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 132,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 133,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 136,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 137,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 138,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 137,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 136,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-08.webp",
+        "delay": 150,
+        "origin": {
+          "x": 133,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-stand-09.webp",
+        "delay": 150,
+        "origin": {
+          "x": 130,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 177,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 200,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 212,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 210,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 214,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 218,
+          "y": 383,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 177,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 178,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kain/frames/fury-of-the-wild-400001012/summon-summoned-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 148,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

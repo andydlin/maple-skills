@@ -1,0 +1,1073 @@
+{
+  "sourceManifest": "illium/frames/ex-152001003/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 152001003,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 62,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 111,
+          "y": 195,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 155,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 187,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 92,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 88,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 79,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 93,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 99,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 103,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 72,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/move-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "special": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 233,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 226,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 248,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 252,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 244,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/special-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 32,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 173,
+          "y": 194,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 173,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 173,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 137,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 153,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 83,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 64,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/ex-152001003/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 32,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

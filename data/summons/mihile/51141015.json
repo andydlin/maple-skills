@@ -1,0 +1,673 @@
+{
+  "sourceManifest": "mihile/frames/hexa-install-shield-51141015/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mihile",
+  "skillId": 51141015,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 386,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 382,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 315,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 314,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 319,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 314,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 310,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 306,
+          "y": 365,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 257,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 257,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 257,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 256,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 256,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 258,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 259,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 260,
+          "y": 370,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 258,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 258,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 256,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 251,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 216,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 222,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 216,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 216,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 218,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 277,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 270,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 261,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 251,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 252,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 217,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 217,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 218,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 219,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mihile/frames/hexa-install-shield-51141015/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 221,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

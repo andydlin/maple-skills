@@ -1,0 +1,798 @@
+{
+  "sourceManifest": "angelic-buster/frames/archangel-60021085/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "angelic-buster",
+  "skillId": 60021085,
+  "actions": {
+    "die": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 98,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 98,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 32,
+          "y": 92,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 74,
+          "y": 163,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 73,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 75,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 77,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "skill2": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/skill2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 23,
+          "y": 4,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 28,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 37,
+          "y": 60,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 64,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 93,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 37,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 71,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 72,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 75,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 77,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 101,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 98,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/angelic-buster/frames/archangel-60021085/summon/summoned-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,587 @@
+{
+  "sourceManifest": "mechanic/frames/support-unit-h-ex-35111008/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 35111008,
+  "actions": {
+    "die": [
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 112,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 83,
+          "y": 185,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 92,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 190,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 80,
+          "y": 192,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 82,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/die-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 46,
+          "y": 195,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "heal": [
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 92,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 113,
+          "y": 159,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 121,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 123,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 125,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 72,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/heal-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 92,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 113,
+          "y": 159,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 121,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 123,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 125,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 72,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand1": [
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 92,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 113,
+          "y": 159,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 121,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 123,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 125,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 124,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 72,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/stand1-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 26,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/support-unit-h-ex-35111008/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

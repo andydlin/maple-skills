@@ -1,0 +1,623 @@
+{
+  "sourceManifest": "erel-light/frames/sentinel-rise-400011167/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "erel-light",
+  "skillId": 400011167,
+  "actions": {
+    "source-sequence": [
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 113,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 118,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 83,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 81,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 81,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 81,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 116,
+          "y": 183,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 226,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 242,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 324,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 303,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-42.webp",
+        "delay": 60,
+        "origin": {
+          "x": 279,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-43.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-44.webp",
+        "delay": 60,
+        "origin": {
+          "x": 255,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-45.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-46.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-48.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-49.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-50.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-51.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-52.webp",
+        "delay": 60,
+        "origin": {
+          "x": 123,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-53.webp",
+        "delay": 60,
+        "origin": {
+          "x": 123,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-54.webp",
+        "delay": 60,
+        "origin": {
+          "x": 123,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-55.webp",
+        "delay": 60,
+        "origin": {
+          "x": 123,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-56.webp",
+        "delay": 60,
+        "origin": {
+          "x": 119,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/sentinel-rise-400011167/summon-57.webp",
+        "delay": 60,
+        "origin": {
+          "x": 120,
+          "y": 182,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 55
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

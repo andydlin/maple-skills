@@ -1,0 +1,374 @@
+{
+  "sourceManifest": "cannoneer/frames/rolling-rainbow-5321052/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cannoneer",
+  "skillId": 5321052,
+  "actions": {
+    "die": [
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 837,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 815,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 829,
+          "y": 388,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 813,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 818,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 795,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 175,
+          "y": 305,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 846,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 849,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 846,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 849,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 143,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 305,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 155,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 160,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 178,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 277,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 293,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 293,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 293,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 435,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 846,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 826,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/rolling-rainbow-5321052/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 849,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

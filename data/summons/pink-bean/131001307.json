@@ -1,0 +1,414 @@
+{
+  "sourceManifest": "pink-bean/frames/pretty-131001307/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131001307,
+  "actions": {
+    "source-sequence": [
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 124,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 143,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 161,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 172,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 192,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 164,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 166,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 165,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 168,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 170,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 171,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 119,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 188,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 188,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 202,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-16.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-17.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-18.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-19.webp",
+        "delay": 120,
+        "origin": {
+          "x": 191,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-20.webp",
+        "delay": 120,
+        "origin": {
+          "x": 191,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-21.webp",
+        "delay": 120,
+        "origin": {
+          "x": 188,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-22.webp",
+        "delay": 120,
+        "origin": {
+          "x": 188,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-23.webp",
+        "delay": 120,
+        "origin": {
+          "x": 202,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-24.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-25.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-26.webp",
+        "delay": 120,
+        "origin": {
+          "x": 201,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-27.webp",
+        "delay": 120,
+        "origin": {
+          "x": 191,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-28.webp",
+        "delay": 120,
+        "origin": {
+          "x": 191,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 189,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 141,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 202,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 195,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-34.webp",
+        "delay": 90,
+        "origin": {
+          "x": 189,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-35.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pretty-131001307/summon-36.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 180,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 36
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

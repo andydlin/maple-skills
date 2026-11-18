@@ -1,0 +1,655 @@
+{
+  "sourceManifest": "fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "fire-poison-arch-mage",
+  "skillId": 2141014,
+  "actions": {
+    "die": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 169,
+          "y": 286,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 286,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 198,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 201,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 202,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 203,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 204,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 199,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 194,
+          "y": 280,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 103,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/die-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 103,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 127,
+          "y": 241,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 126,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 125,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 132,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 138,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 172,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 198,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 214,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 215,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 215,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 216,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 215,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 214,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 213,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 204,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 199,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 183,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-creeping-toxin-2141014/summon/summoned-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "summoned",
+      "idx": 20,
+      "reason": "bad-base64"
+    }
+  ]
+}

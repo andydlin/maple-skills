@@ -1,0 +1,1000 @@
+{
+  "sourceManifest": "mechanic/frames/mecha-carrier-400051068/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 400051068,
+  "actions": {
+    "die": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 370,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 253,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/fly-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "special": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "special2": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/special2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "subsummon": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/subsummon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 319,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 333,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 344,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 343,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 345,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 346,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 351,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 357,
+          "y": 381,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 347,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 340,
+          "y": 370,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 336,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 332,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 371,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 295,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 285,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 282,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "teleport": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 259,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 279,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 279,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 303,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 326,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 279,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 277,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "teleport2": [
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 195,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 293,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 286,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 285,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 293,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 295,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 296,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mecha-carrier-400051068/summon/teleport2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

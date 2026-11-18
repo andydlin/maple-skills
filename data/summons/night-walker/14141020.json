@@ -1,0 +1,19 @@
+{
+  "sourceManifest": "night-walker/frames/hexa-dark-omen-14141020/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "night-walker",
+  "skillId": 14141020,
+  "actions": {
+    "die": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

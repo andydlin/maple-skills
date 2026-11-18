@@ -1,0 +1,808 @@
+{
+  "sourceManifest": "fire-poison-arch-mage/frames/hexa-ifrit-2141009/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "fire-poison-arch-mage",
+  "skillId": 2141009,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 160,
+          "y": 405,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 169,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 171,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 176,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 175,
+          "y": 411,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 175,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 176,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 171,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 393,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 355,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 393,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 393,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 393,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 358,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 342,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 346,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 354,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 375,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/attack1-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "attack2": [],
+    "die": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 146,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 189,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 191,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 305,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 288,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 153,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/move-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 21,
+          "y": 435,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 146,
+          "y": 427,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 189,
+          "y": 421,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 191,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 395,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/fire-poison-arch-mage/frames/hexa-ifrit-2141009/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 153,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 12,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

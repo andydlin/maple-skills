@@ -1,0 +1,264 @@
+{
+  "sourceManifest": "luminous/frames/gate-of-light-400021005/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "luminous",
+  "skillId": 400021005,
+  "actions": {
+    "die": [
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 456,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 433,
+          "y": 704,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 425,
+          "y": 697,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 364,
+          "y": 669,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 176,
+          "y": 734,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 20,
+          "y": 772,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 448,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 443,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 456,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 451,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 456,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 451,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 447,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 447,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 176,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 364,
+          "y": 629,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 425,
+          "y": 697,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 433,
+          "y": 704,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 453,
+          "y": 719,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 548,
+          "y": 719,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 548,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/luminous/frames/gate-of-light-400021005/summon/summoned-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 539,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,651 @@
+{
+  "sourceManifest": "bishop/frames/holy-advent-archangel-2341501/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "bishop",
+  "skillId": 2341501,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 466,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 468,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 469,
+          "y": 618,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 469,
+          "y": 616,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 471,
+          "y": 616,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 472,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 474,
+          "y": 615,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 480,
+          "y": 614,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 487,
+          "y": 614,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 479,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 478,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 474,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 472,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 483,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 463,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 466,
+          "y": 553,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 468,
+          "y": 552,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 469,
+          "y": 551,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 476,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 477,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 477,
+          "y": 601,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 473,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 467,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 386,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 390,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 398,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 399,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 399,
+          "y": 526,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 399,
+          "y": 527,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 395,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 304,
+          "y": 529,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-16.webp",
+        "delay": 120,
+        "origin": {
+          "x": 240,
+          "y": 527,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/die-17.webp",
+        "delay": 120,
+        "origin": {
+          "x": 237,
+          "y": 525,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 466,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 468,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 469,
+          "y": 536,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 469,
+          "y": 535,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 471,
+          "y": 533,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 472,
+          "y": 535,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 474,
+          "y": 544,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 480,
+          "y": 529,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 487,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 493,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 479,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 478,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 474,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 472,
+          "y": 539,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 483,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/stand-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 463,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 120,
+          "y": 678,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 522,
+          "y": 678,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 547,
+          "y": 677,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 474,
+          "y": 623,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 472,
+          "y": 618,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 483,
+          "y": 599,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/holy-advent-archangel-2341501/summon/summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 465,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,761 @@
+{
+  "sourceManifest": "bishop/frames/hexa-fountain-of-vengeance-2341006/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "bishop",
+  "skillId": 2341006,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 370,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 371,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 371,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 372,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 372,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 370,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 351,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 351,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 351,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 326,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 324,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 324,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 299,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 294,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 303,
+          "y": 194,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 345,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 355,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 359,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 362,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 364,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 367,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 367,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 340,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 331,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 329,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 329,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bishop/frames/hexa-fountain-of-vengeance-2341006/summon/summoned-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 328,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

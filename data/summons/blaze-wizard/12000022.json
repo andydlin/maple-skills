@@ -1,0 +1,563 @@
+{
+  "sourceManifest": "blaze-wizard/frames/flame-elemental-12000022/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "blaze-wizard",
+  "skillId": 12000022,
+  "actions": {
+    "die": [
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 159,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 159,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/move-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 160,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/flame-elemental-12000022/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 66,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,1228 @@
+{
+  "sourceManifest": "ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "ren",
+  "skillId": 400011147,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 292,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 298,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 271,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 264,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 263,
+          "y": 371,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 296,
+          "y": 572,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 289,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 298,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 405,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 423,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 423,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 423,
+          "y": 590,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 425,
+          "y": 595,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 405,
+          "y": 575,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 322,
+          "y": 517,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 505,
+          "y": 681,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 532,
+          "y": 696,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 545,
+          "y": 710,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 558,
+          "y": 719,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 564,
+          "y": 715,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 575,
+          "y": 717,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 579,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 573,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 579,
+          "y": 692,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 575,
+          "y": 690,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 565,
+          "y": 667,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 433,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 422,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 461,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 624,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 445,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 436,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 464,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-42.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-43.webp",
+        "delay": 60,
+        "origin": {
+          "x": 433,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-44.webp",
+        "delay": 60,
+        "origin": {
+          "x": 422,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-45.webp",
+        "delay": 60,
+        "origin": {
+          "x": 461,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-46.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 624,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-47.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-48.webp",
+        "delay": 60,
+        "origin": {
+          "x": 445,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-49.webp",
+        "delay": 60,
+        "origin": {
+          "x": 436,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-50.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-51.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-52.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-53.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-54.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-55.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-56.webp",
+        "delay": 60,
+        "origin": {
+          "x": 464,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-57.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-58.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-59.webp",
+        "delay": 60,
+        "origin": {
+          "x": 433,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-60.webp",
+        "delay": 60,
+        "origin": {
+          "x": 422,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-61.webp",
+        "delay": 60,
+        "origin": {
+          "x": 461,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-62.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 624,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-63.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-64.webp",
+        "delay": 60,
+        "origin": {
+          "x": 445,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-65.webp",
+        "delay": 60,
+        "origin": {
+          "x": 436,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-66.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-67.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 638,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-68.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-69.webp",
+        "delay": 60,
+        "origin": {
+          "x": 460,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-70.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-71.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-72.webp",
+        "delay": 60,
+        "origin": {
+          "x": 464,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-73.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-74.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-75.webp",
+        "delay": 60,
+        "origin": {
+          "x": 433,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-76.webp",
+        "delay": 60,
+        "origin": {
+          "x": 548,
+          "y": 636,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-77.webp",
+        "delay": 60,
+        "origin": {
+          "x": 509,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-78.webp",
+        "delay": 60,
+        "origin": {
+          "x": 476,
+          "y": 613,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-79.webp",
+        "delay": 60,
+        "origin": {
+          "x": 464,
+          "y": 613,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-80.webp",
+        "delay": 60,
+        "origin": {
+          "x": 456,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-81.webp",
+        "delay": 60,
+        "origin": {
+          "x": 439,
+          "y": 632,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-82.webp",
+        "delay": 60,
+        "origin": {
+          "x": 419,
+          "y": 621,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-83.webp",
+        "delay": 60,
+        "origin": {
+          "x": 420,
+          "y": 611,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-84.webp",
+        "delay": 60,
+        "origin": {
+          "x": 415,
+          "y": 627,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-85.webp",
+        "delay": 60,
+        "origin": {
+          "x": 411,
+          "y": 618,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-86.webp",
+        "delay": 60,
+        "origin": {
+          "x": 411,
+          "y": 589,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-87.webp",
+        "delay": 60,
+        "origin": {
+          "x": 411,
+          "y": 590,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-88.webp",
+        "delay": 60,
+        "origin": {
+          "x": 411,
+          "y": 607,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-89.webp",
+        "delay": 60,
+        "origin": {
+          "x": 412,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-90.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 577,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-91.webp",
+        "delay": 60,
+        "origin": {
+          "x": 403,
+          "y": 518,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-92.webp",
+        "delay": 60,
+        "origin": {
+          "x": 617,
+          "y": 796,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-93.webp",
+        "delay": 60,
+        "origin": {
+          "x": 639,
+          "y": 800,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-94.webp",
+        "delay": 60,
+        "origin": {
+          "x": 598,
+          "y": 803,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-95.webp",
+        "delay": 60,
+        "origin": {
+          "x": 575,
+          "y": 803,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-96.webp",
+        "delay": 60,
+        "origin": {
+          "x": 584,
+          "y": 790,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-97.webp",
+        "delay": 60,
+        "origin": {
+          "x": 593,
+          "y": 787,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-98.webp",
+        "delay": 60,
+        "origin": {
+          "x": 600,
+          "y": 805,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-99.webp",
+        "delay": 60,
+        "origin": {
+          "x": 573,
+          "y": 789,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-100.webp",
+        "delay": 60,
+        "origin": {
+          "x": 656,
+          "y": 793,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-101.webp",
+        "delay": 60,
+        "origin": {
+          "x": 649,
+          "y": 793,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-102.webp",
+        "delay": 60,
+        "origin": {
+          "x": 635,
+          "y": 797,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-103.webp",
+        "delay": 60,
+        "origin": {
+          "x": 619,
+          "y": 781,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-104.webp",
+        "delay": 60,
+        "origin": {
+          "x": 599,
+          "y": 797,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-105.webp",
+        "delay": 60,
+        "origin": {
+          "x": 587,
+          "y": 807,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-106.webp",
+        "delay": 60,
+        "origin": {
+          "x": 593,
+          "y": 743,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-107.webp",
+        "delay": 60,
+        "origin": {
+          "x": 601,
+          "y": 744,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-108.webp",
+        "delay": 60,
+        "origin": {
+          "x": 590,
+          "y": 741,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ren/frames/final-plum-blossom-sword-thousand-blossom-flurry-400011147/summon-109.webp",
+        "delay": 60,
+        "origin": {
+          "x": 594,
+          "y": 741,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,398 @@
+{
+  "sourceManifest": "kaiser/frames/stone-dragon-61111002/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "kaiser",
+  "skillId": 61111002,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 136,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 138,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 142,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 137,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 75,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 73,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 65,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 56,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 24,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 119,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 119,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 120,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 113,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 116,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 118,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 135,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 117,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 113,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 113,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 97,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 89,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/stone-dragon-61111002/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 310,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

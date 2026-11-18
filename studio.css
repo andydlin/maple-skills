@@ -1544,3 +1544,8 @@ kbd {
   #stillDialog .still-actions > * { flex: 1; min-height: 44px; }
   .still-image { max-height: none; }
 }
+
+.summon-controls { background: #eef5eb; border: 1px solid #cfddc9; border-radius: 12px; padding: 14px 16px; margin: 0 0 14px; }
+#summonActions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+#summonStatus { color: #52655b; font-size: 11px; line-height: 1.7; margin: 10px 0 0; }
+#summonActions button[aria-pressed="true"] { background: #ffedcf; border-color: #bd4810; color: #82380f; }

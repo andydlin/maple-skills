@@ -1,0 +1,771 @@
+{
+  "sourceManifest": "aran/frames/hexa-permafrost-21141013/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "aran",
+  "skillId": 21141013,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 491,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 491,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 492,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 463,
+          "y": 493,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 507,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 463,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 467,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 467,
+          "y": 469,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 468,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 489,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 576,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/attack1-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 473,
+          "y": 485,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 480,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 455,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 455,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 455,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 385,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 383,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 487,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 484,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 483,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 478,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 485,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 85,
+          "y": 510,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 254,
+          "y": 580,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 585,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 341,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 341,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 335,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 436,
+          "y": 625,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 464,
+          "y": 626,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 461,
+          "y": 635,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 578,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 549,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 468,
+          "y": 561,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 576,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 588,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/hexa-permafrost-21141013/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 473,
+          "y": 485,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "summoned",
+      "idx": 13,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "stand",
+      "idx": 2,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "attack1",
+      "idx": 14,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "die",
+      "idx": 7,
+      "reason": "api-failed"
+    }
+  ]
+}

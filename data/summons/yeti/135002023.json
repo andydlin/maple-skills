@@ -1,0 +1,629 @@
+{
+  "sourceManifest": "yeti/frames/spirit-of-el-nath-135002023/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "yeti",
+  "skillId": 135002023,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 651,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 657,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 659,
+          "y": 763,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 659,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 665,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 672,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 671,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 675,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 693,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 689,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 693,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 666,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 666,
+          "y": 767,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 677,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 672,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 396,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 183,
+          "y": 531,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 603,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 299,
+          "y": 649,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 310,
+          "y": 657,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 335,
+          "y": 667,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 339,
+          "y": 667,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 396,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/yeti/frames/spirit-of-el-nath-135002023/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 409,
+          "y": 756,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

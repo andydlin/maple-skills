@@ -1,0 +1,886 @@
+{
+  "sourceManifest": "hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hoyoung",
+  "skillId": 164141056,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 238,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 371,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 300,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 304,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 288,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 276,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 264,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 226,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 227,
+          "y": 288,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 125,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 143,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 218,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 150,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 94,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 96,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 93,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/fly-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 94,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 96,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 93,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/move-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 94,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 96,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 93,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 125,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 143,
+          "y": 167,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 150,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-talisman-seeking-ghost-flame-164141056/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

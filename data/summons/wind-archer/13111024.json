@@ -1,0 +1,563 @@
+{
+  "sourceManifest": "wind-archer/frames/emerald-flower-13111024/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "wind-archer",
+  "skillId": 13111024,
+  "actions": {
+    "die": [
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 132,
+          "y": 225,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 176,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 175,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 176,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 143,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "hit": [
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/hit-00.webp",
+        "delay": 600,
+        "origin": {
+          "x": 93,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 600
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 80,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 163,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 163,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 156,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 288,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 150,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 148,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 144,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 117,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/emerald-flower-13111024/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

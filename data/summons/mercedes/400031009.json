@@ -1,0 +1,21 @@
+{
+  "sourceManifest": "mercedes/frames/spirit-of-elluel-400031009/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mercedes",
+  "skillId": 400031009,
+  "actions": {
+    "attack1": [],
+    "die": [],
+    "move": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 5,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

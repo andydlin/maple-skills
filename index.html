@@ -9,8 +9,8 @@
       content="Explore MapleStory animations. Study skills frame by frame and save static PNGs. Monsters, NPCs, and map art collections are in preparation."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=maple-animations-1" />
-    <link rel="stylesheet" href="home.css?v=maple-animations-1" />
+    <link rel="stylesheet" href="studio.css?v=summons-live-1" />
+    <link rel="stylesheet" href="home.css?v=summons-live-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -209,6 +209,7 @@
             ><select id="kind" aria-label="Skill type">
               <option value="all">All skills</option>
               <option value="animated">With frames</option>
+              <option value="summons">With summons</option>
               <option value="still">Without frames</option>
               <option value="saved">Favorites</option>
             </select>
@@ -256,6 +257,11 @@
             role="group"
             aria-label="Animation layer"
           ></div>
+        </div>
+        <div id="summonControls" class="summon-controls" hidden>
+          <div class="section-label">SUMMON ACTION</div>
+          <div id="summonActions" class="segments" role="group" aria-label="Summon action"></div>
+          <p id="summonStatus" role="status"></p><button id="summonRetry" hidden>Retry summon animations</button>
         </div>
         <div class="load-health" id="loadHealth" role="status"></div>
         <button id="retryFrames" hidden>Retry unavailable frames</button>
@@ -501,9 +507,10 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=maple-animations-1"></script>
-    <script src="atlas.js?v=maple-animations-1"></script>
-    <script src="home.js?v=maple-animations-1"></script>
-    <script src="studio.js?v=maple-animations-1"></script>
+    <script src="exporter.js?v=summons-live-1"></script>
+    <script src="atlas.js?v=summons-live-1"></script>
+    <script src="summons.js?v=summons-live-1"></script>
+    <script src="home.js?v=summons-live-1"></script>
+    <script src="studio.js?v=summons-live-1"></script>
   </body>
 </html>

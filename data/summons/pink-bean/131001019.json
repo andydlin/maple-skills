@@ -1,0 +1,370 @@
+{
+  "sourceManifest": "pink-bean/frames/go-pink-beans-131001019/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131001019,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 385,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 183,
+          "y": 374,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 274,
+          "y": 375,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 277,
+          "y": 371,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 277,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 279,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 279,
+          "y": 369,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 281,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 261,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 236,
+          "y": 302,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 188,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 213,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 209,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 210,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 188,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 213,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 209,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 210,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 177,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 188,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-pink-beans-131001019/summon-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 247,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

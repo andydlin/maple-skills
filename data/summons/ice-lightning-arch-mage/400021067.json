@@ -1,0 +1,475 @@
+{
+  "sourceManifest": "ice-lightning-arch-mage/frames/spirit-of-snow-400021067/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "ice-lightning-arch-mage",
+  "skillId": 400021067,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 748,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 558,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 564,
+          "y": 759,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 529,
+          "y": 777,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 776,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 545,
+          "y": 775,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 507,
+          "y": 775,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 775,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 520,
+          "y": 757,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 750,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 558,
+          "y": 755,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 545,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 507,
+          "y": 752,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 479,
+          "y": 740,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 466,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 461,
+          "y": 731,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 334,
+          "y": 685,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 750,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 542,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 558,
+          "y": 755,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 564,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 522,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 529,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 752,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 747,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 543,
+          "y": 754,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 545,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 488,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 516,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 520,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 466,
+          "y": 727,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 476,
+          "y": 738,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 523,
+          "y": 750,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 545,
+          "y": 755,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 488,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 516,
+          "y": 758,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 530,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/spirit-of-snow-400021067/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 520,
+          "y": 753,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

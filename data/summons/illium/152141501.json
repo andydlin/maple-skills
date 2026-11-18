@@ -1,0 +1,458 @@
+{
+  "sourceManifest": "illium/frames/mytocrystal-expanse-152141501/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 152141501,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 122,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 156,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 152,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 152,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 146,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 145,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 145,
+          "y": 175,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 143,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 142,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/mytocrystal-expanse-152141501/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 121,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

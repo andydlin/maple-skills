@@ -1,0 +1,374 @@
+{
+  "sourceManifest": "cannoneer/frames/max-cannon-rainbow-5341008/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cannoneer",
+  "skillId": 5341008,
+  "actions": {
+    "die": [
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 840,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 1039,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 806,
+          "y": 558,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 803,
+          "y": 485,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 722,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 716,
+          "y": 470,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 683,
+          "y": 483,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 84,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 840,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 1039,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 847,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 844,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 840,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 844,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 847,
+          "y": 558,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 844,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 840,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 844,
+          "y": 562,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 847,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 844,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": -60,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": -56,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": -54,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 84,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 103,
+          "y": 443,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 450,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 395,
+          "y": 456,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 381,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 445,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/max-cannon-rainbow-5341008/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 436,
+          "y": 462,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

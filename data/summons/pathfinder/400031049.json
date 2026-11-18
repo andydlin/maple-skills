@@ -1,0 +1,365 @@
+{
+  "sourceManifest": "pathfinder/frames/relic-unbound-burst-400031049/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pathfinder",
+  "skillId": 400031049,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 529,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 491,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 481,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 418,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 443,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 418,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 419,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 420,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 421,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 421,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 420,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 311,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 331,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 317,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 305,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 305,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 331,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 317,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 331,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 317,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 317,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 305,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 305,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 331,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 317,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-burst-400031049/summon-summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 308,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

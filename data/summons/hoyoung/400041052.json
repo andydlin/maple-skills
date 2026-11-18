@@ -1,0 +1,476 @@
+{
+  "sourceManifest": "hoyoung/frames/sage-wrath-of-gods-400041052/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hoyoung",
+  "skillId": 400041052,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 526,
+          "y": 591,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 762,
+          "y": 607,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 772,
+          "y": 640,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 778,
+          "y": 655,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 780,
+          "y": 664,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 781,
+          "y": 672,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 782,
+          "y": 679,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 783,
+          "y": 687,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 783,
+          "y": 689,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 783,
+          "y": 527,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 782,
+          "y": 533,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 775,
+          "y": 535,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 752,
+          "y": 541,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 610,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 414,
+          "y": 495,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 727,
+          "y": 887,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 722,
+          "y": 804,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 718,
+          "y": 852,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 718,
+          "y": 864,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 718,
+          "y": 867,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 721,
+          "y": 906,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 724,
+          "y": 975,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 728,
+          "y": 883,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 712,
+          "y": 801,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 717,
+          "y": 801,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 681,
+          "y": 819,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 648,
+          "y": 824,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 650,
+          "y": 772,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 656,
+          "y": 801,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack2-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 639,
+          "y": 804,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack3": [
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 628,
+          "y": 719,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 623,
+          "y": 744,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 797,
+          "y": 765,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 847,
+          "y": 772,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 853,
+          "y": 777,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 828,
+          "y": 781,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 846,
+          "y": 782,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 824,
+          "y": 778,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 833,
+          "y": 774,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 730,
+          "y": 628,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/sage-wrath-of-gods-400041052/summon/attack3-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 731,
+          "y": 599,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

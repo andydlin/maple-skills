@@ -1,0 +1,884 @@
+{
+  "sourceManifest": "ice-lightning-arch-mage/frames/thunder-sphere-2211011/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "ice-lightning-arch-mage",
+  "skillId": 2211011,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 200,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 197,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 297,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 186,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 181,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 185,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 204,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 211,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 223,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 234,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 236,
+          "y": 359,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 239,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/move-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 75,
+          "y": 185,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 113,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 116,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 114,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 84,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 104,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 186,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 204,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 223,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 359,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 234,
+          "y": 358,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 236,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 239,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/thunder-sphere-2211011/summon/summoned-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 177,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

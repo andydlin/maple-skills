@@ -1,0 +1,404 @@
+{
+  "sourceManifest": "pink-bean/frames/pink-bean-s-matryoshka-131004023/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131004023,
+  "actions": {
+    "attack1": [],
+    "source-sequence": [
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 770,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 224,
+          "y": 618,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 295,
+          "y": 603,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 313,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 322,
+          "y": 589,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 328,
+          "y": 476,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 332,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 333,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 332,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 331,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 330,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 328,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 327,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 327,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 190,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 200,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 205,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 177,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 269,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 337,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 346,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 341,
+          "y": 421,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 347,
+          "y": 428,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 357,
+          "y": 428,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 325,
+          "y": 430,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 325,
+          "y": 411,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 324,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 322,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 321,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-34.webp",
+        "delay": 90,
+        "origin": {
+          "x": 320,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/pink-bean-s-matryoshka-131004023/summon-35.webp",
+        "delay": 90,
+        "origin": {
+          "x": 322,
+          "y": 401,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 6,
+    "missingOrigin": 0,
+    "ungroupedFrames": 35
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

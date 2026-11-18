@@ -1,0 +1,541 @@
+{
+  "sourceManifest": "kaiser/frames/hexa-stone-dragon-61141014/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "kaiser",
+  "skillId": 61141014,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 191,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 188,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 178,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 282,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 282,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 288,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 303,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 312,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 310,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 311,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 310,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 175,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 176,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 175,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 188,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 174,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 282,
+          "y": 299,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 286,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 184,
+          "y": 288,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 188,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 183,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/hexa-stone-dragon-61141014/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

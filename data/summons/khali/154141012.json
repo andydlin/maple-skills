@@ -1,0 +1,662 @@
+{
+  "sourceManifest": "khali/frames/hexa-death-blossom-154141012/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "khali",
+  "skillId": 154141012,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 507,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 533,
+          "y": 436,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 536,
+          "y": 447,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 534,
+          "y": 456,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 530,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 540,
+          "y": 470,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 548,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 552,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 556,
+          "y": 477,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 559,
+          "y": 478,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 555,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 548,
+          "y": 461,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 503,
+          "y": 454,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 443,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 443,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 489,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 477,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 479,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 475,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 469,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 487,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 489,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 489,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 490,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 491,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 492,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 491,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 490,
+          "y": 348,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 491,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 494,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 494,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 494,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 495,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/stand-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 256,
+          "y": 180,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 333,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 339,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 344,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 341,
+          "y": 322,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 503,
+          "y": 454,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 497,
+          "y": 443,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 497,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 497,
+          "y": 443,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/khali/frames/hexa-death-blossom-154141012/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 493,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

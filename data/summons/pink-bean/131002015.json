@@ -1,0 +1,601 @@
+{
+  "sourceManifest": "pink-bean/frames/go-mini-beans-131002015/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131002015,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 101,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 32,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 25,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 128,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 127,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 152,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 171,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 186,
+          "y": 157,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 126,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 114,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 117,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 158,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 150,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 136,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 125,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 121,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 122,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 139,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 141,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 155,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 169,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 145,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-42.webp",
+        "delay": 90,
+        "origin": {
+          "x": 29,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-43.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-44.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-45.webp",
+        "delay": 90,
+        "origin": {
+          "x": 13,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-46.webp",
+        "delay": 90,
+        "origin": {
+          "x": -15,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-47.webp",
+        "delay": 90,
+        "origin": {
+          "x": -18,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-48.webp",
+        "delay": 90,
+        "origin": {
+          "x": -19,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-49.webp",
+        "delay": 90,
+        "origin": {
+          "x": -19,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-50.webp",
+        "delay": 90,
+        "origin": {
+          "x": -19,
+          "y": 86,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-51.webp",
+        "delay": 90,
+        "origin": {
+          "x": -19,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pink-bean/frames/go-mini-beans-131002015/summon-52.webp",
+        "delay": 90,
+        "origin": {
+          "x": -19,
+          "y": 62,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

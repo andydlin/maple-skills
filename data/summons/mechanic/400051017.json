@@ -1,0 +1,418 @@
+{
+  "sourceManifest": "mechanic/frames/mobile-missile-battery-400051017/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 400051017,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 435,
+          "y": 435,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 532,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 532,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 527,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 533,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 480,
+          "y": 447,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 444,
+          "y": 437,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 66,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 106,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": -28,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/die-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": -31,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 238,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 185,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 185,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 377,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 185,
+          "y": 385,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 387,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/mobile-missile-battery-400051017/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": -35,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,321 @@
+{
+  "sourceManifest": "pathfinder/frames/relic-unbound-deluge-400031047/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pathfinder",
+  "skillId": 400031047,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 342,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 256,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 432,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 330,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 398,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 377,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 343,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 189,
+          "y": 302,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 148,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/pathfinder/frames/relic-unbound-deluge-400031047/summon-summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

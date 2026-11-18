@@ -1,0 +1,556 @@
+{
+  "sourceManifest": "night-walker/frames/hexa-shadow-bat-14141008/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "night-walker",
+  "skillId": 14141008,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 57,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 65,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 56,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 55,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 57,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 65,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 56,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 55,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 79,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 72,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/fly-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 72,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/move-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 72,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 58,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 67,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 67,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 65,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 81,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 84,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 87,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/hexa-shadow-bat-14141008/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

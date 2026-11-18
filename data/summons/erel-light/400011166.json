@@ -1,0 +1,744 @@
+{
+  "sourceManifest": "erel-light/frames/radiant-sentinel-eternal-light-400011166/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "erel-light",
+  "skillId": 400011166,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 578,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 464,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-34.webp",
+        "delay": 90,
+        "origin": {
+          "x": 583,
+          "y": 435,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-35.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 484,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-36.webp",
+        "delay": 90,
+        "origin": {
+          "x": 538,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-37.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 499,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-38.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 499,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-39.webp",
+        "delay": 90,
+        "origin": {
+          "x": 663,
+          "y": 499,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-40.webp",
+        "delay": 90,
+        "origin": {
+          "x": 588,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-41.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-42.webp",
+        "delay": 90,
+        "origin": {
+          "x": 66,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-43.webp",
+        "delay": 90,
+        "origin": {
+          "x": 115,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-44.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-45.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-46.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-47.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-48.webp",
+        "delay": 90,
+        "origin": {
+          "x": 203,
+          "y": 553,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-49.webp",
+        "delay": 90,
+        "origin": {
+          "x": 208,
+          "y": 521,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-50.webp",
+        "delay": 90,
+        "origin": {
+          "x": 410,
+          "y": 559,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-51.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-52.webp",
+        "delay": 90,
+        "origin": {
+          "x": 563,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-53.webp",
+        "delay": 90,
+        "origin": {
+          "x": 559,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-54.webp",
+        "delay": 90,
+        "origin": {
+          "x": 502,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-55.webp",
+        "delay": 90,
+        "origin": {
+          "x": 556,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-56.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-57.webp",
+        "delay": 90,
+        "origin": {
+          "x": 556,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-58.webp",
+        "delay": 90,
+        "origin": {
+          "x": 486,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-59.webp",
+        "delay": 90,
+        "origin": {
+          "x": 556,
+          "y": 817,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-60.webp",
+        "delay": 90,
+        "origin": {
+          "x": 556,
+          "y": 825,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-61.webp",
+        "delay": 90,
+        "origin": {
+          "x": 556,
+          "y": 826,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-62.webp",
+        "delay": 90,
+        "origin": {
+          "x": 429,
+          "y": 670,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-63.webp",
+        "delay": 90,
+        "origin": {
+          "x": 328,
+          "y": 576,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-64.webp",
+        "delay": 90,
+        "origin": {
+          "x": 271,
+          "y": 563,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/erel-light/frames/radiant-sentinel-eternal-light-400011166/summon-65.webp",
+        "delay": 90,
+        "origin": {
+          "x": 268,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

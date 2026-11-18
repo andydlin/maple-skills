@@ -1,0 +1,378 @@
+{
+  "sourceManifest": "beast-tamer/frames/bro-attack-112101016/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "beast-tamer",
+  "skillId": 112101016,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/attack1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/attack1-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 48,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/attack1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 43,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/attack1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/attack1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "die": [
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "move": [
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/move-00.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/move-01.webp",
+        "delay": 180,
+        "origin": {
+          "x": 17,
+          "y": 54,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/move-02.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/move-03.webp",
+        "delay": 180,
+        "origin": {
+          "x": 19,
+          "y": 54,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-00.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-01.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-02.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-03.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-04.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-05.webp",
+        "delay": 180,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-00.webp",
+        "delay": 240,
+        "origin": {
+          "x": 28,
+          "y": 65,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 240
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 53,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 49,
+          "y": 153,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 45,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 45,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 41,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 57,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 41,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 41,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/bro-attack-112101016/summon/summoned-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 2,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

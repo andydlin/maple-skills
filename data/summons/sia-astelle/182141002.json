@@ -1,0 +1,341 @@
+{
+  "sourceManifest": "sia-astelle/frames/shine-stellar-i-antares-182141002/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182141002,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 368,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 368,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 103,
+          "y": 179,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 286,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 379,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 311,
+          "y": 367,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 289,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 286,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 104,
+          "y": 175,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 368,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 368,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 326,
+          "y": 407,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 326,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 289,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 398,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-i-antares-182141002/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 397,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

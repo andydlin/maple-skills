@@ -1,0 +1,771 @@
+{
+  "sourceManifest": "aran/frames/permafrost-21111034/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "aran",
+  "skillId": 21111034,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 405,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 405,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/attack1-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 411,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 394,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 387,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 385,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 382,
+          "y": 310,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 292,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 427,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 426,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 430,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 434,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 434,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 413,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 405,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 480,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 204,
+          "y": 534,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 276,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 274,
+          "y": 556,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 274,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 269,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 270,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 379,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 384,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 387,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 552,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 551,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 548,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 547,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 529,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 541,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 547,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 552,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 556,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/aran/frames/permafrost-21111034/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "stand",
+      "idx": 3,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "stand",
+      "idx": 11,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "attack1",
+      "idx": 6,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "attack1",
+      "idx": 7,
+      "reason": "bad-base64"
+    }
+  ]
+}

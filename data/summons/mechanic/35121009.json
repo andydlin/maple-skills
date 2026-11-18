@@ -1,0 +1,508 @@
+{
+  "sourceManifest": "mechanic/frames/bots-n-tots-35121009/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 35121009,
+  "actions": {
+    "die": [
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 85,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 100,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 84,
+          "y": 102,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 96,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 100,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/die-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 100,
+          "y": 38,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "subsummon": [
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 75,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/subsummon-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 27,
+          "y": 21,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 29,
+          "y": 21,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 31,
+          "y": 24,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 34,
+          "y": 37,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 33,
+          "y": 38,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 41,
+          "y": 62,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 37,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 74,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 40,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 39,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/bots-n-tots-35121009/summon/summoned-16.webp",
+        "delay": 120,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

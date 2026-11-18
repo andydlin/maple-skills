@@ -1,0 +1,409 @@
+{
+  "sourceManifest": "hero/frames/burning-soul-blade-400011002/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hero",
+  "skillId": 400011002,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 280,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 236,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 236,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 242,
+          "y": 297,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 294,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 228,
+          "y": 294,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 214,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 65,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 62,
+          "y": 251,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 59,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 63,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 63,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 58,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 58,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 58,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 58,
+          "y": 251,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 58,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 59,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 63,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 63,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 25,
+          "y": 173,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 179,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 64,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 66,
+          "y": 191,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 67,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 123,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 114,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hero/frames/burning-soul-blade-400011002/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 63,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

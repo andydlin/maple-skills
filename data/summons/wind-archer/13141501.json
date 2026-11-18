@@ -1,0 +1,585 @@
+{
+  "sourceManifest": "wind-archer/frames/mistral-spring-13141501/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "wind-archer",
+  "skillId": 13141501,
+  "actions": {
+    "die": [
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 297,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 352,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 335,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 314,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 291,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 292,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 295,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 306,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 285,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 271,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 240,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 246,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/die-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 244,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 365,
+          "y": 510,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 469,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 477,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 477,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 469,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 457,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 446,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 455,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 455,
+          "y": 592,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 457,
+          "y": 585,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 458,
+          "y": 593,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/skill1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 583,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 288,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 292,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 296,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 296,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 288,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 468,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 292,
+          "y": 473,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 294,
+          "y": 475,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 297,
+          "y": 478,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/wind-archer/frames/mistral-spring-13141501/summon/summoned-00.webp",
+        "delay": 180,
+        "origin": {
+          "x": 297,
+          "y": 478,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

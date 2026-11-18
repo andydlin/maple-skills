@@ -1,0 +1,574 @@
+{
+  "sourceManifest": "mechanic/frames/hexa-robo-launcher-rm7-35141006/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 35141006,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 564,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 564,
+          "y": 235,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 562,
+          "y": 209,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 559,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 559,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 568,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 567,
+          "y": 189,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 524,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 524,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 230,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 230,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 232,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 94,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 105,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 101,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 99,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 179,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 235,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 240,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 248,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 249,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 249,
+          "y": 217,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 218,
+          "y": 223,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/die-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 89,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 88,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 86,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 86,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 88,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 89,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 89,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 29,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 56,
+          "y": 37,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 60,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 88,
+          "y": 114,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-robo-launcher-rm7-35141006/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

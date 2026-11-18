@@ -1,0 +1,543 @@
+{
+  "sourceManifest": "mercedes/frames/elemental-knights-23111010/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mercedes",
+  "skillId": 23111010,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 16,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 14,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 10,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 14,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 16,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 16,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 14,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 10,
+          "y": 164,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 10,
+          "y": 162,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 7,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 4,
+          "y": 146,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/fly-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 56,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-08.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-09.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-10.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-11.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-12.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-13.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-14.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/stand-15.webp",
+        "delay": 150,
+        "origin": {
+          "x": 55,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 2,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 41,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 67,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 70,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 72,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 72,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mercedes/frames/elemental-knights-23111010/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 33,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

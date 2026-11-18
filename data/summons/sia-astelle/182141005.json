@@ -1,0 +1,451 @@
+{
+  "sourceManifest": "sia-astelle/frames/shine-stellar-ii-algol-182141005/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182141005,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 247,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 251,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 253,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 258,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 263,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 229,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 231,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 234,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 238,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 240,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 181,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 247,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 249,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 251,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 255,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 259,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 263,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 280,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 273,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 281,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 286,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 291,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/stand-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 294,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": -30,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 401,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 338,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 327,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 329,
+          "y": 420,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 347,
+          "y": 419,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 353,
+          "y": 382,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 371,
+          "y": 381,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 339,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 327,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/shine-stellar-ii-algol-182141005/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 294,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

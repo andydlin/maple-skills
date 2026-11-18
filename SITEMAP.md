@@ -8,7 +8,7 @@ Updated 2026-11-17 from the owner’s Animated MapleStory Asset Site brief (mapl
 - Explore `#section=atlas`: four peer collections.
   - Skills `#class={classSlug}` → class → skill → Effect / Hit / **Summon** → summon action → frame.
     - Summon only appears for verified associated data. It is part of its owning skill, never a sibling of Skills or a separate browser.
-    - Proposed additive detail parameters: `class`, `skill`, `track=summon`, `action`, `frame`. Existing `layer` effect/hit links stay valid. Detail summon routing is not implemented until manifests arrive.
+    - Proposed additive detail parameters: `class`, `skill`, `track=summon`, `action`, `frame`. Existing `layer` effect/hit links stay valid. Live summon routing uses `layer=summon&action={sourceAction}&frame={index}`; the proposed `track` parameter is not needed.
     - Passive/buff entries retain icon, description and stats; no fabricated animation.
   - Monsters `#section=monsters` → searchable/filterable index → monster → available action → frame.
     - Filters planned: name/ID, source stats where present, frame/static/link/Spine type, completeness.
@@ -40,8 +40,8 @@ Use one origin-aligned, per-frame-delay player across all frame collections. Tab
 
 ## Phases and implementation boundary
 
-1. **Now:** IA, brand, working collection/status routes, import contracts. Skills remain live; no new asset import is claimed.
-2. Connect summon manifests to owning skill IDs/classes; add track/action navigation and reuse player. Verify partial Burning Soul Blade variants independently.
+1. **Now:** IA, brand, collection/status routes and import contracts. Skills and skill-owned summons are live.
+2. Summons connected: 212 class-skill pairs, action navigation and shared player. Burning Soul Blade variants have 43/35 non-placeholder frames. Keep partials and missing metadata explicitly disclosed.
 3. Consume the monster JSONL index with paginated/sharded listings. Resolve links and separate Spine; then progressively connect frame manifests.
 4. NPC stand-only pass, grouping and source variants; expand to expressions. Map Art source-set navigation and static/frame/Spine types.
 5. Full Maps only after the data blocker is resolved; character scope separately defined.

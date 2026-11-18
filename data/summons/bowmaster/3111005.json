@@ -1,0 +1,583 @@
+{
+  "sourceManifest": "bowmaster/frames/phoenix-3111005/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "bowmaster",
+  "skillId": 3111005,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 127,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 115,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 114,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": null,
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 250,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 237,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 220,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 182,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 202,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 209,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 211,
+          "y": 334,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 186,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 160,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 158,
+          "y": 309,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 156,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 151,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 114,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 133,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 130,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 127,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/move-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 115,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 114,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 133,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 130,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 127,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 115,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 186,
+          "y": 335,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 215,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 215,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 207,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 150,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 132,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 130,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 127,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bowmaster/frames/phoenix-3111005/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 115,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 1,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

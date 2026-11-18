@@ -1,0 +1,407 @@
+{
+  "sourceManifest": "hoyoung/frames/talisman-warp-gate-164121006/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hoyoung",
+  "skillId": 164121006,
+  "actions": {
+    "die": [
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 226,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 211,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 193,
+          "y": 299,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 226,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 330,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 199,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 317,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 391,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 16,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 32,
+          "y": 545,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 38,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 171,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 240,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 273,
+          "y": 529,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 274,
+          "y": 529,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 274,
+          "y": 531,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 531,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 521,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 275,
+          "y": 514,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 276,
+          "y": 507,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 276,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/talisman-warp-gate-164121006/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 276,
+          "y": 355,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

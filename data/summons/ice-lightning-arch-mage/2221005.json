@@ -1,0 +1,664 @@
+{
+  "sourceManifest": "ice-lightning-arch-mage/frames/elquines-2221005/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "ice-lightning-arch-mage",
+  "skillId": 2221005,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 131,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 134,
+          "y": 282,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 136,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 144,
+          "y": 310,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 297,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 157,
+          "y": 299,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 156,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 155,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 264,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 166,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 166,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 143,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 157,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/attack1-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 205,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 207,
+          "y": 312,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 211,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 213,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 131,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 134,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 136,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 139,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 145,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 154,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 157,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 155,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 144,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/move-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 131,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 134,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 136,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 139,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 145,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 154,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 157,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 155,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 144,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/stand-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 132,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 191,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 235,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 237,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 239,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 241,
+          "y": 305,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 242,
+          "y": 308,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/elquines-2221005/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 243,
+          "y": 313,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

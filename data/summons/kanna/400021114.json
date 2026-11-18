@@ -1,0 +1,32 @@
+{
+  "sourceManifest": "kanna/frames/ghost-yaksha-great-oni-lord-s-legion-400021114/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "kanna",
+  "skillId": 400021114,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/kanna/frames/ghost-yaksha-great-oni-lord-s-legion-400021114/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 350,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,21 @@
+{
+  "sourceManifest": "pink-bean/frames/magic-show-time-131003026/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131003026,
+  "actions": {
+    "attack1": [],
+    "die": [],
+    "fly": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 5,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -39,6 +39,7 @@ let catalog = [],
   current = null,
   selectedClass = "",
   layer = "",
+  summonAction = "",
   frames = [],
   index = 0,
   playing = false,
@@ -79,7 +80,8 @@ const familyOf = (c) =>
     "Special",
     "Collab",
   ].find((f) => (c.line || "").includes(f)) || "Other";
-const frameCount = (s) => layers(s).reduce((n, [, f]) => n + f.length, 0);
+const frameCount = (s) => layers(s).reduce((n, [, f]) => n + f.length, 0) + (s?._summon?.verifiedFrames || 0);
+const hasFrames = s => frameCount(s) > 0;
 const skillKey = (slug, s) => slug + ":" + s.id + ":" + s.slug;
 async function getClassData(slug) {
   if (!classData.has(slug)) {
@@ -90,7 +92,7 @@ async function getClassData(slug) {
         if (!r.ok) throw Error(`HTTP ${r.status}`);
         const d = await r.json();
         if (!Array.isArray(d.skills)) throw Error("Invalid class catalog");
-        return d;
+        return Summons.attach(d, slug);
       })().catch((e) => {
         classData.delete(slug);
         throw e;
@@ -151,7 +153,7 @@ const layers = (s) =>
       ([k, v]) =>
         Array.isArray(v) &&
         v.some((f) => f && typeof f.file === "string") &&
-        k !== "fallback",
+        k !== "fallback" && k !== "summon",
     )
     .map(([k, v]) => [k, v.filter((f) => !f.placeholder)])
     .filter(([, v]) => v.length);
@@ -283,8 +285,9 @@ function filteredRows(rows) {
         `${s.name} ${s.id} ${s.description || ""}`.toLowerCase().includes(q)) &&
       (kind === "all" ||
         (kind === "saved" && favorites.has(skillKey(classSlug, s))) ||
-        (kind === "animated" && layers(s).length) ||
-        (kind === "still" && !layers(s).length)),
+        (kind === "summons" && s._summon) ||
+        (kind === "animated" && hasFrames(s)) ||
+        (kind === "still" && !hasFrames(s))),
   );
   const sort = $("#sort").value;
   if (sort === "name")
@@ -303,7 +306,7 @@ async function renderSkills() {
     className: meta.class,
   }));
   if (global) {
-    if ($("#search").value.trim().length < 2 && $("#kind").value !== "saved") {
+    if ($("#search").value.trim().length < 2 && !["saved", "summons"].includes($("#kind").value)) {
       $("#skills").innerHTML =
         '<div class="empty"><strong>A whole world of skills.</strong><p>Enter at least 2 characters to search all 59 classes, or choose Favorites to see saved skills.</p></div>';
       $("#resultCount").textContent = "—";
@@ -330,7 +333,7 @@ async function renderSkills() {
     ? shown
         .map(
           ({ skill: s, classSlug, className }) =>
-            `<button class="skill-card ${s === current ? "active" : ""}" aria-pressed="${s === current}" data-slug="${esc(s.slug)}" data-class="${esc(classSlug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${global ? esc(className) + " · " : ""}${esc(s.job || "Other")} · ${frameCount(s) || "No"} frames</small></span>${favorites.has(skillKey(classSlug, s)) ? '<span class="dot">★</span>' : ""}</button>`,
+            `<button class="skill-card ${s === current ? "active" : ""}" aria-pressed="${s === current}" data-slug="${esc(s.slug)}" data-class="${esc(classSlug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${global ? esc(className) + " · " : ""}${esc(s.job || "Other")} · ${frameCount(s) || "No"} frames${s._summon ? " · Summon" : ""}</small></span>${favorites.has(skillKey(classSlug, s)) ? '<span class="dot">★</span>' : ""}</button>`,
         )
         .join("")
     : '<div class="empty"><strong>No matching skills.</strong><p>Try a shorter search, a different job, or Clear to reset the filters.</p></div>';
@@ -401,7 +404,7 @@ async function loadClass(slug, skillSlug) {
     $("#classLine").textContent = data.classLine || "MapleStory";
     $("#crumb").textContent = (data.class || slug).toUpperCase();
     $("#classStats").textContent =
-      `${skills.length} skills · ${skills.filter((s) => layers(s).length).length} with frames`;
+      `${skills.length} skills · ${skills.filter(hasFrames).length} with frames${skills.some(s => s._summon) ? ` · ${skills.filter(s => s._summon).length} summons` : ""}`;
     $("#search").value = "";
     $("#job").innerHTML =
       "<option>All jobs</option>" +
@@ -443,6 +446,7 @@ function updateURL() {
     class: selectedClass,
     skill: current.slug,
     layer,
+    ...(layer === "summon" ? { action: summonAction } : {}),
     frame: index,
   }).toString();
   try {
@@ -453,6 +457,8 @@ async function selectSkill(s) {
   if (!s) return;
   pause(false);
   current = s;
+  summonAction = "";
+  $("#summonControls").hidden = true;
   $("#skillName").textContent = s.name;
   $("#mobileSelection").textContent =
     `${meta.class || selectedClass} · ${s.name}`;
@@ -461,7 +467,7 @@ async function selectSkill(s) {
   $("#skillJob").textContent = `${s.job || "OTHER"} JOB / #${s.id || "—"}`;
   $("#search").placeholder = `Search ${meta.class || "class"} skills…`;
   $("#description").textContent = s.description || "No description available.";
-  $("#availability").textContent = !layers(s).length
+  $("#availability").textContent = !hasFrames(s)
     ? "No animation frames in this dataset. This entry may be passive, icon-only, or awaiting frames."
     : "";
   $("#favorite").textContent = favorites.has(key(s)) ? "★" : "☆";
@@ -473,20 +479,60 @@ async function selectSkill(s) {
         ([k, f]) =>
           `<button data-layer="${esc(k)}">${esc(k.replace(/([a-z])([0-9])/g, "$1 $2").replace(/^./, (c) => c.toUpperCase()))} <span>${f.length}</span></button>`,
       )
-      .join("") || '<span class="muted">No animation layers</span>';
+      .join("") + (s._summon ? `<button data-layer="summon">Summon <span>${s._summon.verifiedFrames}</span></button>` : "") || '<span class="muted">No animation layers</span>';
   $("#layers")
     .querySelectorAll("button")
     .forEach((b) => (b.onclick = () => setLayer(b.dataset.layer)));
   renderSkills();
-  await setLayer(ls[0]?.[0] || "");
+  await setLayer(ls[0]?.[0] || (s._summon ? "summon" : ""));
   saveSelection();
 }
-async function setLayer(name) {
+async function setLayer(name, requestedAction) {
   pause(false);
+  const token = ++drawVersion;
+  const skill = current, classSlug = selectedClass;
   framesReady = false;
   layer = name;
-  frames =
-    layers(current).find(([k]) => k === name)?.[1] || current?.fallback || [];
+  $("#summonControls").hidden = name !== "summon";
+  if (name === "summon") {
+    frames = [];
+    $("#play").disabled = true;
+    $("#summonActions").innerHTML = "";
+    $("#summonRetry").hidden = true;
+    $("#stageMessage").textContent = "Loading summon actions";
+    $("#filmstrip").innerHTML = "";
+    $("#counter").textContent = "0 / 0";
+    $("#summonStatus").textContent = "Loading summon actions…";
+    try {
+      const data = await Summons.get(classSlug, skill.id);
+      if (token !== drawVersion || current !== skill || classSlug !== selectedClass) return;
+      const actions = Object.keys(data.actions);
+      summonAction = actions.includes(requestedAction) ? requestedAction : actions.find(a => a === "summoned" && data.actions[a].length) || actions.find(a => data.actions[a].length) || actions[0] || "";
+      frames = data.actions[summonAction] || [];
+      $("#loop").checked = !/^die\d*$/i.test(summonAction);
+      $("#playMode").value = "forward";
+      $("#summonActions").innerHTML = actions.map(a => `<button data-action="${esc(a)}" aria-pressed="${a === summonAction}" class="${a === summonAction ? "active" : ""}" ${data.actions[a].length ? "" : "disabled"}>${esc(Summons.label(a))} <span>${data.actions[a].length || "Unavailable"}</span></button>`).join("");
+      $("#summonActions").querySelectorAll("button").forEach(b => b.onclick = () => setLayer("summon", b.dataset.action));
+      const warnings = [];
+      if (data.completeness === "partial" || data.missingFrames.length) warnings.push(`PARTIAL · ${data.missingFrames.length} missing source frame(s): ${data.missingFrames.map(f => `${f.anim} #${f.idx} (${f.reason})`).join(", ")}`);
+      if (data.warnings.excludedPlaceholders) warnings.push(`${data.warnings.excludedPlaceholders} placeholder frame(s) excluded.`);
+      if (data.warnings.missingDelay) warnings.push(`${data.warnings.missingDelay} frame(s) lack valid source timing; using 90 ms.`);
+      if (data.warnings.missingOrigin) warnings.push(`${data.warnings.missingOrigin} frame(s) lack a source anchor; centered for preview.`);
+      if (data.warnings.ungroupedFrames) warnings.push("Action boundaries are unavailable for the legacy source sequence; frames remain in source order.");
+      if (/^die\d*$/i.test(summonAction)) warnings.unshift("Plays once and holds the last frame.");
+      $("#summonStatus").textContent = warnings.join(" ") || "Source timing and origins preserved.";
+    } catch (error) {
+      if (token !== drawVersion) return;
+      $("#summonStatus").textContent = error.message;
+      $("#summonRetry").hidden = false;
+      $("#stageMessage").textContent = "Summon animations unavailable. Retry to load them.";
+      return;
+    }
+  } else {
+    summonAction = "";
+    frames = layers(current).find(([k]) => k === name)?.[1] || (current?._summon ? [] : current?.fallback || []);
+    $("#loop").checked = true;
+  }
   index = 0;
   rangeStart = 0;
   rangeEnd = Math.max(0, frames.length - 1);
@@ -494,7 +540,6 @@ async function setLayer(name) {
   updateRangeUI();
   bounds = null;
   ++showFrame.token;
-  const token = ++drawVersion;
   $("#loadHealth").textContent = "";
   $("#retryFrames").hidden = true;
   $("#layers")
@@ -627,6 +672,7 @@ async function showFrame(i) {
       b.setAttribute("aria-pressed", index === j);
     });
   updateURL();
+  if (!playing) saveSelection();
   try {
     const im = await imageFor(f.file);
     if (token !== showFrame.token) return;
@@ -707,6 +753,7 @@ function saveSelection() {
         class: selectedClass,
         skill: current.slug,
         layer,
+        ...(layer === "summon" ? { action: summonAction } : {}),
         frame: index,
       }),
     );
@@ -720,6 +767,7 @@ function saveSelection() {
       skillSlug: current.slug,
       icon: current.icon,
       layer,
+      ...(layer === "summon" ? { action: summonAction } : {}),
       frame: index,
     };
     writeLocal(
@@ -956,10 +1004,10 @@ $("#still").onclick = async () => {
   if (!current || !frames[index]) { toast("Choose an available animation frame first."); return; }
   pause();
   const frame = frames[index], flipped = $("#flip").checked;
-  const name = `${selectedClass}-${current.slug}-${layer || "still"}-${String(index + 1).padStart(3, "0")}.png`;
+  const name = `${selectedClass}-${current.slug}-${layer || "still"}${summonAction ? "-" + summonAction : ""}-${String(index + 1).padStart(3, "0")}.png`;
   stillSnapshot = { frame, flipped, name };
   $("#stillBackground").value = "transparent";
-  $("#stillContext").textContent = `${current.name} · ${layer || "still"} · Frame ${index + 1}`;
+  $("#stillContext").textContent = `${current.name} · ${layer || "still"}${summonAction ? " / " + Summons.label(summonAction) : ""} · Frame ${index + 1}`;
   $("#stillDialog").showModal();
   await prepareStill();
 };
@@ -1100,11 +1148,12 @@ $("#sourceDialog form").onsubmit = (e) => {
   e.preventDefault();
   $("#connect").click();
 };
+$("#summonRetry").onclick = () => setLayer("summon", summonAction);
 $("#retryFrames").onclick = async () => {
   const at = index,
     start = rangeStart,
     end = rangeEnd;
-  await setLayer(layer);
+  await setLayer(layer, summonAction);
   setRange(start, end);
   await showFrame(at);
 };
@@ -1125,8 +1174,8 @@ async function routeFromURL() {
   $("#kind").value = "all";
   await loadClass(p.get("class") || catalog[0]?.slug, p.get("skill"));
   if (token !== routeVersion || Home.isVisible()) return;
-  if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer")))
-    await setLayer(p.get("layer"));
+  if (p.get("layer") === "summon" && current?._summon) await setLayer("summon", p.get("action"));
+  else if (p.get("layer") && layers(current).some(([k]) => k === p.get("layer"))) await setLayer(p.get("layer"));
   if (token !== routeVersion) return;
   if (p.has("frame")) await showFrame(p.get("frame"));
   if (p.get("view") === "favorites") {

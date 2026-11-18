@@ -1,0 +1,485 @@
+{
+  "sourceManifest": "adele/frames/reign-of-destruction-151111001/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "adele",
+  "skillId": 151111001,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 415,
+          "y": 305,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 377,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 334,
+          "y": 435,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 326,
+          "y": 441,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 441,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 320,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 333,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 338,
+          "y": 419,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 304,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 415,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 309,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 357,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 333,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 338,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 303,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 410,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 300,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 336,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 329,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 458,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 447,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 61,
+          "y": 453,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 450,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 508,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 299,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 301,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 373,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 314,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/reign-of-destruction-151111001/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 307,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

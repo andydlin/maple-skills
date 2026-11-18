@@ -1,0 +1,631 @@
+{
+  "sourceManifest": "marksman/frames/arrow-illusion-3221014/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "marksman",
+  "skillId": 3221014,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 438,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 416,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 401,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 422,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 420,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 362,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 280,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 271,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 292,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 293,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 144,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 60,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "hit": [
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/hit-00.webp",
+        "delay": 600,
+        "origin": {
+          "x": 159,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 600
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 235,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 249,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 232,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 213,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 239,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 251,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 233,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 242,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 224,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 206,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 201,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 215,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 436,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 414,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 241,
+          "y": 411,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 232,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 230,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 226,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 224,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 232,
+          "y": 492,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 236,
+          "y": 492,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 283,
+          "y": 473,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 302,
+          "y": 456,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 318,
+          "y": 459,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 330,
+          "y": 449,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 339,
+          "y": 452,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 344,
+          "y": 432,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 257,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 346,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/marksman/frames/arrow-illusion-3221014/summon/summoned-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 254,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

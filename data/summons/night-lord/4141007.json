@@ -1,0 +1,584 @@
+{
+  "sourceManifest": "night-lord/frames/hexa-dark-flare-4141007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "night-lord",
+  "skillId": 4141007,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 399,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 478,
+          "y": 398,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 459,
+          "y": 398,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 398,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 398,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 397,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 396,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 398,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/die-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 399,
+          "y": 322,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 480,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 483,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 491,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 494,
+          "y": 338,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 503,
+          "y": 372,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 503,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 501,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 496,
+          "y": 343,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 489,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 488,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 336,
+          "y": 570,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 340,
+          "y": 589,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 593,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 334,
+          "y": 596,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 342,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 292,
+          "y": 563,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 385,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 377,
+          "y": 493,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 462,
+          "y": 492,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 468,
+          "y": 555,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 455,
+          "y": 541,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 448,
+          "y": 556,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-lord/frames/hexa-dark-flare-4141007/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 462,
+          "y": 404,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

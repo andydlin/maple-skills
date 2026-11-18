@@ -1,0 +1,430 @@
+{
+  "sourceManifest": "demon-slayer/frames/spirit-of-rage-400011057/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "demon-slayer",
+  "skillId": 400011057,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 472,
+          "y": 980,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 522,
+          "y": 1084,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 545,
+          "y": 1095,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 570,
+          "y": 1095,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 583,
+          "y": 1095,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 589,
+          "y": 1090,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 445,
+          "y": 1078,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 438,
+          "y": 1095,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 432,
+          "y": 1070,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/die-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 420,
+          "y": 1095,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 505,
+          "y": 621,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 507,
+          "y": 629,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 497,
+          "y": 639,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 433,
+          "y": 640,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 426,
+          "y": 653,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 432,
+          "y": 662,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 678,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 690,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 698,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 699,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 699,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 372,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 376,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 375,
+          "y": 420,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 356,
+          "y": 425,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 349,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 365,
+          "y": 453,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 375,
+          "y": 476,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 376,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 375,
+          "y": 426,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 733,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 505,
+          "y": 732,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 507,
+          "y": 729,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 498,
+          "y": 780,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 491,
+          "y": 818,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/spirit-of-rage-400011057/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 796,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

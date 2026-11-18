@@ -1,0 +1,286 @@
+{
+  "sourceManifest": "sia-astelle/frames/pole-182111010/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182111010,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 290,
+          "y": 366,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 277,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 348,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 277,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 226,
+          "y": 287,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 271,
+          "y": 286,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 282,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 329,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 294,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 337,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 271,
+          "y": 325,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 270,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 305,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": -51,
+          "y": 664,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 482,
+          "y": 733,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 482,
+          "y": 490,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 443,
+          "y": 486,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 532,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 438,
+          "y": 472,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/sia-astelle/frames/pole-182111010/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 277,
+          "y": 377,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "die",
+      "idx": 0,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "die",
+      "idx": 7,
+      "reason": "api-failed"
+    }
+  ]
+}

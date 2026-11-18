@@ -1,0 +1,1162 @@
+{
+  "sourceManifest": "illium/frames/hexa-ex-152141010/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 152141010,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": -25,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": -13,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": -12,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": -12,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 116,
+          "y": 194,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 117,
+          "y": 193,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 116,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 116,
+          "y": 184,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 80,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 96,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 58,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 173,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 189,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 39,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-34.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-35.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-36.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-37.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-38.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-39.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-40.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-41.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-42.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-43.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-44.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-45.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-46.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-47.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-48.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-49.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-50.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-51.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-52.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-53.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 201,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-54.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-55.webp",
+        "delay": 90,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-56.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-57.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-58.webp",
+        "delay": 90,
+        "origin": {
+          "x": 41,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-59.webp",
+        "delay": 90,
+        "origin": {
+          "x": 37,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-60.webp",
+        "delay": 90,
+        "origin": {
+          "x": 42,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-61.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-62.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-63.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-64.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-65.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-66.webp",
+        "delay": 60,
+        "origin": {
+          "x": 47,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-67.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 189,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-68.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-69.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 199,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-70.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-71.webp",
+        "delay": 60,
+        "origin": {
+          "x": 51,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-72.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-73.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-74.webp",
+        "delay": 60,
+        "origin": {
+          "x": 105,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-75.webp",
+        "delay": 60,
+        "origin": {
+          "x": 85,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-76.webp",
+        "delay": 60,
+        "origin": {
+          "x": 81,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-77.webp",
+        "delay": 60,
+        "origin": {
+          "x": 82,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-78.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-79.webp",
+        "delay": 60,
+        "origin": {
+          "x": -25,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-80.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-81.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-82.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-83.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-84.webp",
+        "delay": 60,
+        "origin": {
+          "x": 161,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-85.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-86.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-87.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-88.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 346,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-89.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 350,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-90.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-91.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-92.webp",
+        "delay": 60,
+        "origin": {
+          "x": 101,
+          "y": 303,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-93.webp",
+        "delay": 60,
+        "origin": {
+          "x": 92,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-94.webp",
+        "delay": 60,
+        "origin": {
+          "x": 84,
+          "y": 301,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-95.webp",
+        "delay": 60,
+        "origin": {
+          "x": 8,
+          "y": 302,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-96.webp",
+        "delay": 60,
+        "origin": {
+          "x": 9,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-97.webp",
+        "delay": 60,
+        "origin": {
+          "x": 72,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-98.webp",
+        "delay": 60,
+        "origin": {
+          "x": 75,
+          "y": 302,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-99.webp",
+        "delay": 60,
+        "origin": {
+          "x": 80,
+          "y": 286,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-100.webp",
+        "delay": 60,
+        "origin": {
+          "x": 83,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-101.webp",
+        "delay": 60,
+        "origin": {
+          "x": 105,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-102.webp",
+        "delay": 60,
+        "origin": {
+          "x": 110,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-ex-152141010/summon-103.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

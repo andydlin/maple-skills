@@ -1,0 +1,453 @@
+{
+  "sourceManifest": "shadower/frames/dark-flare-4211007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "shadower",
+  "skillId": 4211007,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 452,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 452,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 453,
+          "y": 340,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 453,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 452,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 444,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 442,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 448,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 447,
+          "y": 320,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 368,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "effect": [],
+    "stand": [
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 447,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 442,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 435,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 444,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 422,
+          "y": 316,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 440,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 448,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 450,
+          "y": 328,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 451,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 452,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/shadower/frames/dark-flare-4211007/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 453,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

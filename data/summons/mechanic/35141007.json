@@ -1,0 +1,499 @@
+{
+  "sourceManifest": "mechanic/frames/hexa-rock-n-shock-35141007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 35141007,
+  "actions": {
+    "attackTriangle": [
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 51,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 85,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/attackTriangle-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 53,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 211,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 252,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 253,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 253,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 243,
+          "y": 171,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 250,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 242,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 245,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 251,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/die-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "prepare": [
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 87,
+          "y": 87,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 97,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 101,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 97,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/prepare-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 97,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 30,
+          "y": 45,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 26,
+          "y": 36,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 26,
+          "y": 31,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 41,
+          "y": 45,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/hexa-rock-n-shock-35141007/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

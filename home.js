@@ -15,6 +15,7 @@ const Home = (() => {
       class: e.classSlug,
       skill: e.skillSlug,
       ...(e.layer ? { layer: e.layer } : {}),
+      ...(e.action ? { action: e.action } : {}),
       ...(Number.isFinite(Number(e.frame))
         ? { frame: Math.max(0, Math.trunc(Number(e.frame))) }
         : {}),

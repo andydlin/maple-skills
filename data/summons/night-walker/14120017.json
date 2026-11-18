@@ -1,0 +1,358 @@
+{
+  "sourceManifest": "night-walker/frames/ravenous-bat-14120017/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "night-walker",
+  "skillId": 14120017,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 54,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 57,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 59,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/fly-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/fly-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/fly-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 26,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/fly-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/move-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 26,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 34,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 29,
+          "y": 51,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 26,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 64,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 71,
+          "y": 70,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 60,
+          "y": 69,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 37,
+          "y": 55,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/night-walker/frames/ravenous-bat-14120017/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 33,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

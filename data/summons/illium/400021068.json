@@ -1,0 +1,440 @@
+{
+  "sourceManifest": "illium/frames/crystalline-spirit-400021068/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 400021068,
+  "actions": {
+    "die": [
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 72,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 95,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 90,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 105,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 72,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 92,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 80,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 73,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 72,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 90,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 95,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 72,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 86,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 80,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 93,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 90,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 91,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 74,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 94,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 91,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 93,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 85,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 90,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/illium/frames/crystalline-spirit-400021068/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 91,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

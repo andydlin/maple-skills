@@ -1,0 +1,1079 @@
+{
+  "sourceManifest": "cannoneer/frames/call-monkey-5011007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cannoneer",
+  "skillId": 5011007,
+  "actions": {
+    "5thBFCanonBall": [],
+    "6thBarrelOfMonkeys": [],
+    "attack1": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 83,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 83,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 86,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 19,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 17,
+          "y": 83,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 17,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 83,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 15,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 24,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 24,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 26,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 24,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack2-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 24,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack3": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 46,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 54,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack3-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack4": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 14,
+          "y": 83,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 9,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 7,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 31,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 37,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 36,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/attack4-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 36,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "cannonSlam": [],
+    "die1": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 34,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 40,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die2": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 71,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 67,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 57,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 54,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 30,
+          "y": 62,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 38,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/die2-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 43,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "hit1": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/hit1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 17,
+          "y": 87,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "jump": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/jump-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 23,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "move": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "noiseWave": [],
+    "piratebless": [],
+    "rushBoom": [],
+    "slumber": [],
+    "stand": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": -36,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": -29,
+          "y": 93,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": -15,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": -7,
+          "y": 101,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 3,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 93,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 27,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 28,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 16,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/call-monkey-5011007/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 7,
+    "missingDelay": 2,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

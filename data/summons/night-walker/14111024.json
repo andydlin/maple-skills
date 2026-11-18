@@ -1,0 +1,21 @@
+{
+  "sourceManifest": "night-walker/frames/dark-servant-14111024/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "night-walker",
+  "skillId": 14111024,
+  "actions": {
+    "attack1": [],
+    "die": [],
+    "move": [],
+    "stand": [],
+    "summoned": []
+  },
+  "warnings": {
+    "excludedPlaceholders": 5,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

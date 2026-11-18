@@ -1,0 +1,603 @@
+{
+  "sourceManifest": "illium/frames/hexa-crystal-skill-deus-152141013/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 152141013,
+  "actions": {
+    "fly": [],
+    "stand": [],
+    "source-sequence": [
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 75,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 77,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 79,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 76,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 80,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 87,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 89,
+          "y": 87,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 88,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 87,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 63,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 40,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": -17,
+          "y": 197,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": -67,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": -70,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": -30,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 347,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 351,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 255,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 161,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 259,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 221,
+          "y": 281,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 242,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-34.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 87,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-35.webp",
+        "delay": 60,
+        "origin": {
+          "x": 67,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-36.webp",
+        "delay": 60,
+        "origin": {
+          "x": 59,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-37.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-38.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-39.webp",
+        "delay": 60,
+        "origin": {
+          "x": 60,
+          "y": 85,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-40.webp",
+        "delay": 60,
+        "origin": {
+          "x": 65,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-41.webp",
+        "delay": 60,
+        "origin": {
+          "x": 64,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-42.webp",
+        "delay": 60,
+        "origin": {
+          "x": 66,
+          "y": 31,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-43.webp",
+        "delay": 60,
+        "origin": {
+          "x": 47,
+          "y": 27,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-44.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-45.webp",
+        "delay": 60,
+        "origin": {
+          "x": 93,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-46.webp",
+        "delay": 60,
+        "origin": {
+          "x": 85,
+          "y": 295,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-47.webp",
+        "delay": 60,
+        "origin": {
+          "x": 28,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-48.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 161,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-49.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-50.webp",
+        "delay": 60,
+        "origin": {
+          "x": 69,
+          "y": 87,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-51.webp",
+        "delay": 60,
+        "origin": {
+          "x": 67,
+          "y": 88,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-52.webp",
+        "delay": 60,
+        "origin": {
+          "x": 55,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-53.webp",
+        "delay": 60,
+        "origin": {
+          "x": 47,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/illium/frames/hexa-crystal-skill-deus-152141013/summon-54.webp",
+        "delay": 60,
+        "origin": {
+          "x": 50,
+          "y": 66,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 53
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

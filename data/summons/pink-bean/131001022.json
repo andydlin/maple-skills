@@ -1,0 +1,502 @@
+{
+  "sourceManifest": "pink-bean/frames/twilight-of-gods-131001022/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "pink-bean",
+  "skillId": 131001022,
+  "actions": {
+    "unnamed": [
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-00.webp",
+        "delay": 30,
+        "origin": {
+          "x": 230,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-01.webp",
+        "delay": 30,
+        "origin": {
+          "x": 230,
+          "y": 380,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-02.webp",
+        "delay": 30,
+        "origin": {
+          "x": 230,
+          "y": 384,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-03.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-04.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-05.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-06.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-07.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-08.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-09.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-10.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-11.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-12.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-13.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 731,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-14.webp",
+        "delay": 30,
+        "origin": {
+          "x": 477,
+          "y": 730,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 502,
+          "y": 748,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 476,
+          "y": 748,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 599,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 592,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 573,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 503,
+          "y": 550,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 513,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 512,
+          "y": 524,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 503,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-30.webp",
+        "delay": 80,
+        "origin": {
+          "x": 504,
+          "y": 522,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-31.webp",
+        "delay": 80,
+        "origin": {
+          "x": 504,
+          "y": 523,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-32.webp",
+        "delay": 80,
+        "origin": {
+          "x": 504,
+          "y": 524,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-33.webp",
+        "delay": 80,
+        "origin": {
+          "x": 516,
+          "y": 536,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-34.webp",
+        "delay": 80,
+        "origin": {
+          "x": 518,
+          "y": 537,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-35.webp",
+        "delay": 80,
+        "origin": {
+          "x": 518,
+          "y": 696,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-36.webp",
+        "delay": 80,
+        "origin": {
+          "x": 518,
+          "y": 720,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-37.webp",
+        "delay": 80,
+        "origin": {
+          "x": 518,
+          "y": 716,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-38.webp",
+        "delay": 80,
+        "origin": {
+          "x": 518,
+          "y": 652,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-39.webp",
+        "delay": 80,
+        "origin": {
+          "x": 516,
+          "y": 661,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-40.webp",
+        "delay": 80,
+        "origin": {
+          "x": 507,
+          "y": 669,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-41.webp",
+        "delay": 80,
+        "origin": {
+          "x": 507,
+          "y": 716,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-42.webp",
+        "delay": 80,
+        "origin": {
+          "x": 507,
+          "y": 685,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 80
+      },
+      {
+        "file": "data/pink-bean/frames/twilight-of-gods-131001022/summon-43.webp",
+        "delay": 90,
+        "origin": {
+          "x": 500,
+          "y": 520,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 2,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

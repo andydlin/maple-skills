@@ -1,0 +1,791 @@
+{
+  "sourceManifest": "shade/frames/heart-grown-fonder-20051288/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "shade",
+  "skillId": 20051288,
+  "actions": {
+    "die": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 11,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 8,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "special": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 3,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 2,
+          "y": 118,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": -4,
+          "y": 113,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": -2,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 0,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": -1,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": -2,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "special2": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": -2,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 0,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 1,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 4,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/special2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand2": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand2-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand3": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 5,
+          "y": 123,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/stand3-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 6,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 13,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 17,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 18,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 20,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 21,
+          "y": 155,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 23,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 145,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 5,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/shade/frames/heart-grown-fonder-20051288/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 6,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

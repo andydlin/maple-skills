@@ -2,7 +2,7 @@ const fs = require("node:fs"),
   assert = require("node:assert/strict");
 const html = fs.readFileSync("index.html", "utf8"),
   source =
-    fs.readFileSync("studio.js", "utf8") + fs.readFileSync("home.js", "utf8") + fs.readFileSync("atlas.js", "utf8");
+    fs.readFileSync("studio.js", "utf8") + fs.readFileSync("home.js", "utf8") + fs.readFileSync("atlas.js", "utf8") + fs.readFileSync("summons.js", "utf8");
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
 assert.equal(new Set(ids).size, ids.length, "Duplicate HTML IDs");
 const referenced = [
@@ -13,8 +13,9 @@ assert.deepEqual(missing, [], "Player references missing controls");
 const scripts = [...html.matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g)].map(
   (m) => m[1].split("?")[0],
 );
-for (const file of ["exporter.js", "home.js", "studio.js"])
+for (const file of ["exporter.js", "summons.js", "home.js", "studio.js"])
   assert.ok(scripts.includes(file));
+assert.ok(scripts.indexOf("summons.js") < scripts.indexOf("studio.js"));
 assert.ok(scripts.indexOf("exporter.js") < scripts.indexOf("studio.js"));
 assert.ok(html.includes('id="stillBackground"'));
 assert.ok(!html.includes('id="sheet"'));

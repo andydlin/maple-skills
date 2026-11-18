@@ -1,0 +1,534 @@
+{
+  "sourceManifest": "mechanic/frames/doomsday-device-400051009/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 400051009,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 371,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 417,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 416,
+          "y": 167,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 417,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 416,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 416,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 317,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 310,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/attack2-00.webp",
+        "delay": 480,
+        "origin": {
+          "x": 109,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 480
+      }
+    ],
+    "die": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 110,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 105,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 145,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 150,
+          "y": 185,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 188,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 152,
+          "y": 190,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 157,
+          "y": 191,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 192,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/move-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 109,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 189,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 154,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 70,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 110,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 110,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 110,
+          "y": 151,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/doomsday-device-400051009/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

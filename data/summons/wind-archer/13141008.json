@@ -1,0 +1,521 @@
+{
+  "sourceManifest": "wind-archer/frames/anemoi-13141008/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "wind-archer",
+  "skillId": 13141008,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 118,
+          "y": 306,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 118,
+          "y": 323,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 184,
+          "y": 339,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 190,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 199,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 195,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/attack1-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 189,
+          "y": 342,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "die": [
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 119,
+          "y": 280,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 139,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/move-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-03.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-04.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 252,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-05.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-06.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/stand-07.webp",
+        "delay": 150,
+        "origin": {
+          "x": 119,
+          "y": 254,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 113,
+          "y": 244,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 139,
+          "y": 329,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 341,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 349,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 168,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/wind-archer/frames/anemoi-13141008/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,352 @@
+{
+  "sourceManifest": "sia-astelle/frames/stellar-ii-algol-182101002/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182101002,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 206,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 195,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 203,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 206,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 204,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 205,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 211,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 216,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 220,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 223,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 219,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": -86,
+          "y": 298,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 22,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 64,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 202,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 206,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 211,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 175,
+          "y": 224,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 184,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 184,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 189,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 191,
+          "y": 219,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ii-algol-182101002/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 193,
+          "y": 218,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

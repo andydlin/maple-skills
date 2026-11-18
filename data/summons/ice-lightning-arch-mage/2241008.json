@@ -1,0 +1,811 @@
+{
+  "sourceManifest": "ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "ice-lightning-arch-mage",
+  "skillId": 2241008,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 471,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 314,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 323,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 450,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 316,
+          "y": 474,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 314,
+          "y": 479,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 312,
+          "y": 484,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 317,
+          "y": 488,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 321,
+          "y": 493,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 324,
+          "y": 497,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 327,
+          "y": 500,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 217,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 224,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 215,
+          "y": 359,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 191,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 194,
+          "y": 331,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/move-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 187,
+          "y": 280,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 167,
+          "y": 260,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 212,
+          "y": 304,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 205,
+          "y": 359,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 227,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 381,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 391,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 255,
+          "y": 399,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 262,
+          "y": 406,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 267,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 272,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 266,
+          "y": 419,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 268,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 270,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 218,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/ice-lightning-arch-mage/frames/hexa-thunder-sphere-2241008/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 220,
+          "y": 363,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "move",
+      "idx": 1,
+      "reason": "corrupt-png (broken data stream when reading image file)"
+    },
+    {
+      "anim": "move",
+      "idx": 7,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "move",
+      "idx": 12,
+      "reason": "corrupt-png (unrecognized data stream contents when reading image file)"
+    },
+    {
+      "anim": "attack1",
+      "idx": 6,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "attack1",
+      "idx": 15,
+      "reason": "corrupt-png (unrecognized data stream contents when reading image file)"
+    }
+  ]
+}

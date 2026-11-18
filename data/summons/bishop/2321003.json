@@ -1,0 +1,741 @@
+{
+  "sourceManifest": "bishop/frames/bahamut-2321003/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "bishop",
+  "skillId": 2321003,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 99,
+          "y": 209,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 186,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 184,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 180,
+          "y": 224,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 175,
+          "y": 218,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 157,
+          "y": 211,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 144,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 139,
+          "y": 209,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 133,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 121,
+          "y": 211,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 107,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 344,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 345,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 332,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 335,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-15.webp",
+        "delay": 120,
+        "origin": {
+          "x": 338,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-16.webp",
+        "delay": 120,
+        "origin": {
+          "x": 339,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-17.webp",
+        "delay": 120,
+        "origin": {
+          "x": 336,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-18.webp",
+        "delay": 120,
+        "origin": {
+          "x": 339,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/attack1-19.webp",
+        "delay": 120,
+        "origin": {
+          "x": 332,
+          "y": 364,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "die": [
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 178,
+          "y": 235,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 285,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 199,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 199,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": null
+      }
+    ],
+    "fly": [
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 195,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 199,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 195,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 198,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 203,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/fly-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 199,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 99,
+          "y": 196,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 41,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 178,
+          "y": 235,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 239,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 199,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 187,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/bishop/frames/bahamut-2321003/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 199,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 11,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,484 @@
+{
+  "sourceManifest": "adele/frames/hexa-reign-of-destruction-151141015/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "adele",
+  "skillId": 151141015,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 414,
+          "y": 432,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 426,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 395,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 323,
+          "y": 421,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 306,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 369,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 332,
+          "y": 399,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 387,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 316,
+          "y": 345,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 320,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 213,
+          "y": 327,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 202,
+          "y": 321,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 414,
+          "y": 432,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 426,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 395,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 306,
+          "y": 415,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 369,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 369,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 332,
+          "y": 399,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 393,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 387,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 316,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 320,
+          "y": 417,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 299,
+          "y": 438,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 428,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 305,
+          "y": 422,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 423,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 57,
+          "y": 412,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 102,
+          "y": 421,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 100,
+          "y": 616,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 467,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 396,
+          "y": 426,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 337,
+          "y": 444,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 320,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 390,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 300,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/adele/frames/hexa-reign-of-destruction-151141015/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 308,
+          "y": 376,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "summoned",
+      "idx": 9,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "summoned",
+      "idx": 14,
+      "reason": "api-failed"
+    },
+    {
+      "anim": "die",
+      "idx": 6,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "stand",
+      "idx": 3,
+      "reason": "bad-base64"
+    }
+  ]
+}

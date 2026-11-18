@@ -1,0 +1,1445 @@
+{
+  "sourceManifest": "hoyoung/frames/scroll-tiger-of-songyu-400041050/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hoyoung",
+  "skillId": 400041050,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 591,
+          "y": 660,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 591,
+          "y": 662,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 618,
+          "y": 663,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 614,
+          "y": 664,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-31.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-32.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack1-33.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 708,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 702,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 701,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 693,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 678,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 679,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 582,
+          "y": 634,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 660,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 772,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 839,
+          "y": 688,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 876,
+          "y": 714,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 862,
+          "y": 704,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 856,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 777,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 766,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 772,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 773,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 762,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 766,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-32.webp",
+        "delay": 60,
+        "origin": {
+          "x": 767,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/attack2-33.webp",
+        "delay": 60,
+        "origin": {
+          "x": 765,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 684,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 568,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 560,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 551,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 501,
+          "y": 695,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 520,
+          "y": 681,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 534,
+          "y": 671,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 540,
+          "y": 662,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 551,
+          "y": 650,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 542,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 535,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/die-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 511,
+          "y": 526,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/stand-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 562,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 570,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 584,
+          "y": 178,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 584,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 584,
+          "y": 597,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 591,
+          "y": 605,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 615,
+          "y": 637,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 584,
+          "y": 463,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 644,
+          "y": 684,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 767,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 744,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 741,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 735,
+          "y": 706,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 723,
+          "y": 695,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 720,
+          "y": 681,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 720,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 720,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 717,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 714,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 708,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 698,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-26.webp",
+        "delay": 90,
+        "origin": {
+          "x": 691,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-27.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-28.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-29.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/hoyoung/frames/scroll-tiger-of-songyu-400041050/summon/summoned-30.webp",
+        "delay": 90,
+        "origin": {
+          "x": 595,
+          "y": 673,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

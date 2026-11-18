@@ -1,0 +1,510 @@
+{
+  "sourceManifest": "corsair/frames/hexa-scurvy-summons-5241010/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "corsair",
+  "skillId": 5241010,
+  "actions": {
+    "die": [
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 61,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 87,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 86,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 80,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 75,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/move-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 42,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 75,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 102,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 140,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 167,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 172,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 175,
+          "y": 108,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 176,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 183,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/skill1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 179,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/stand-00.webp",
+        "delay": 180,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/stand-01.webp",
+        "delay": 180,
+        "origin": {
+          "x": 61,
+          "y": 107,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/stand-02.webp",
+        "delay": 180,
+        "origin": {
+          "x": 60,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/stand-03.webp",
+        "delay": 180,
+        "origin": {
+          "x": 59,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 77,
+          "y": 156,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 76,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 74,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 71,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 71,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 66,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/corsair/frames/hexa-scurvy-summons-5241010/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 65,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

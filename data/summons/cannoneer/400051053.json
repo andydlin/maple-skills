@@ -1,0 +1,710 @@
+{
+  "sourceManifest": "cannoneer/frames/monkey-business-400051053/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cannoneer",
+  "skillId": 400051053,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-00.webp",
+        "delay": 30,
+        "origin": {
+          "x": 65,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-01.webp",
+        "delay": 30,
+        "origin": {
+          "x": 86,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 86,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 224,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 228,
+          "y": 142,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 237,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 252,
+          "y": 143,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 247,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 254,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "attack2": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 55,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 101,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 79,
+          "y": 106,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 190,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 219,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 193,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 194,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 182,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 206,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/attack2-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 50,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 131,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 130,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 69,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 69,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 401,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 402,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 401,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 84,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 101,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 235,
+          "y": 250,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 248,
+          "y": 292,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 260,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 267,
+          "y": 300,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 52,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/monkey-business-400051053/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 128,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

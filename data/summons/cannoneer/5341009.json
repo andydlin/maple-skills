@@ -1,0 +1,554 @@
+{
+  "sourceManifest": "cannoneer/frames/hexa-support-monkey-5341009/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cannoneer",
+  "skillId": 5341009,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 225,
+          "y": 125,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 223,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 228,
+          "y": 148,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 231,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 235,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 137,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 239,
+          "y": 136,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 233,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 233,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 235,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 219,
+          "y": 109,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 114,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 113,
+          "y": 127,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 113,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 113,
+          "y": 129,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/move-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 98,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 97,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 109,
+          "y": 98,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": -58,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 61,
+          "y": 200,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 97,
+          "y": 199,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 122,
+          "y": 199,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 191,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 190,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 187,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 181,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 179,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cannoneer/frames/hexa-support-monkey-5341009/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 109,
+          "y": 179,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,319 @@
+{
+  "sourceManifest": "sia-astelle/frames/stellar-i-antares-182001002/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182001002,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 140,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 153,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 164,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 146,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 74,
+          "y": 139,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 154,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 265,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 269,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 263,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 175,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 163,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 161,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 164,
+          "y": 270,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 103,
+          "y": 167,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 158,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 170,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 173,
+          "y": 266,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 175,
+          "y": 262,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 169,
+          "y": 258,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 263,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 299,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-i-antares-182001002/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 164,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -28,3 +28,7 @@ Origin-composite frames without trimming away anchors. Honor source frame delay;
 The brief describes private bulk storage and future custom-domain serving. The current skill app still has its existing R2 public-development asset root; this scaffold does not alter credentials, bucket permissions, DNS, CORS or endpoints. At integration, confirm which bucket/domain serves which collection. Production serving must be configured against the verified custom domain rather than assuming every new upload is publicly available. Reported storage/request estimates are planning inputs, not verified account quotas or guarantees.
 
 Use resumable background uploads and manifest validation. Do not expose R2 credentials in client code. Load indexes by section/shard and entity/action manifests on demand; do not scan ~850k files from the browser.
+
+## Live summon adapter
+
+`data/summons/index.json` is the audited upstream snapshot. `data/summons/{classSlug}/{skillId}.json` is the runtime adapter output: action names map directly to ordered frame arrays with full `data/` paths; `warnings`, `missingFrames`, `sourceManifest` and `completeness` preserve import limits. This intentionally adapts existing data rather than requiring the proposed generic entity schema. `tools/import-summons.cjs` regenerates the files, excludes placeholders, discloses timing/origin normalization, and groups only actions identified by source filenames. Ambiguous legacy files remain `source-sequence`; no action boundaries are invented.

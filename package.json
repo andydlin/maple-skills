@@ -5,7 +5,8 @@
   "name": "maple-skills",
   "private": true,
   "scripts": {
-    "test": "node --check atlas.js && node --check home.js && node --check studio.js && node --check exporter.js && node tests/home.cjs && node tests/contrast.cjs && node tests/markup.cjs && node tests/player.cjs && node tests/export.cjs && node tests/dom.cjs",
+    "test": "node --check summons.js && node --check atlas.js && node --check home.js && node --check studio.js && node --check exporter.js && node tests/summons.cjs && node tests/home.cjs && node tests/contrast.cjs && node tests/markup.cjs && node tests/player.cjs && node tests/export.cjs && node tests/dom.cjs",
+    "data:summons": "node tools/import-summons.cjs",
     "data:home": "node tools/build-home-catalog.cjs"
   }
 }

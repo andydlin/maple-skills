@@ -1,0 +1,695 @@
+{
+  "sourceManifest": "khali/frames/summon-chakri-154110010/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "khali",
+  "skillId": 154110010,
+  "actions": {
+    "die": [
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 41,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 41,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 35,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 35,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 8,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 8,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "special": [
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 41,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 41,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 36,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 35,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 35,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 8,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/special-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 8,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 52,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/stand-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 10,
+          "y": 36,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 25,
+          "y": 76,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 38,
+          "y": 77,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 43,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 44,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 53,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/khali/frames/summon-chakri-154110010/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 54,
+          "y": 79,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

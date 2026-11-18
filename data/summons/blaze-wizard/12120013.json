@@ -1,0 +1,820 @@
+{
+  "sourceManifest": "blaze-wizard/frames/fires-of-creation-12120013/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "blaze-wizard",
+  "skillId": 12120013,
+  "actions": {
+    "die": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 65,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 69,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 69,
+          "y": 124,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 70,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 68,
+          "y": 112,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "move": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 86,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 49,
+          "y": 92,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 53,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 48,
+          "y": 86,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 47,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 49,
+          "y": 92,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/move-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 53,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "skill1": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 45,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 188,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 191,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 209,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 196,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 195,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 180,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 178,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 179,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 192,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 198,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 206,
+          "y": 176,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 211,
+          "y": 175,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 215,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 219,
+          "y": 163,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 223,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 44,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 104,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 140,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 82,
+          "y": 138,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 83,
+          "y": 133,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-25.webp",
+        "delay": 90,
+        "origin": {
+          "x": 81,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-26.webp",
+        "delay": 120,
+        "origin": {
+          "x": 77,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-27.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-28.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-29.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-30.webp",
+        "delay": 120,
+        "origin": {
+          "x": 74,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-31.webp",
+        "delay": 120,
+        "origin": {
+          "x": 73,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-32.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill1-33.webp",
+        "delay": 120,
+        "origin": {
+          "x": 69,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "skill2": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 47,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 111,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 116,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 120,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 96,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/skill2-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 91,
+          "y": 121,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 89,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 93,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 92,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 47,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 77,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 76,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 74,
+          "y": 99,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 73,
+          "y": 96,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 75,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/blaze-wizard/frames/fires-of-creation-12120013/summon/summoned-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 69,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

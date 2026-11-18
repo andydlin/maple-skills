@@ -1,0 +1,783 @@
+{
+  "sourceManifest": "erel-light/frames/spear-of-light-181121014/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "erel-light",
+  "skillId": 181121014,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 415,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 449,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 465,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 469,
+          "y": 518,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 473,
+          "y": 523,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 475,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 470,
+          "y": 534,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 469,
+          "y": 540,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 466,
+          "y": 547,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 378,
+          "y": 572,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 379,
+          "y": 578,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 581,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 394,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 386,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 386,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 365,
+          "y": 518,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 358,
+          "y": 523,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 367,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 387,
+          "y": 534,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 361,
+          "y": 540,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 359,
+          "y": 547,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 367,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 563,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 366,
+          "y": 533,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 319,
+          "y": 489,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/die-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 316,
+          "y": 491,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 388,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 394,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 386,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 386,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 348,
+          "y": 518,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 349,
+          "y": 523,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 350,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 364,
+          "y": 534,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 360,
+          "y": 540,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 359,
+          "y": 547,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 369,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 378,
+          "y": 572,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 379,
+          "y": 578,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/stand-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 581,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 207,
+          "y": 603,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 261,
+          "y": 617,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 276,
+          "y": 619,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 276,
+          "y": 619,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 619,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 289,
+          "y": 618,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 278,
+          "y": 616,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 610,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 604,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 389,
+          "y": 602,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 408,
+          "y": 594,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 417,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 417,
+          "y": 581,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 417,
+          "y": 578,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 415,
+          "y": 570,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 554,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 382,
+          "y": 560,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 387,
+          "y": 566,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 572,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 578,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/erel-light/frames/spear-of-light-181121014/summon/summoned-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 391,
+          "y": 581,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

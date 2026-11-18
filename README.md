@@ -69,6 +69,14 @@ The capture panel offers one static PNG action. Its modal supports transparent, 
 
 ## Maple Animations expansion
 
-Working brand: Maple Animations. Explore has peer collections for Skills, Monsters, NPCs, and Map Art. Summons belong only on their skill pages; their data is not connected yet. Characters remain a scope item; full maps are blocked on layer-data access. Collab classes are included in future imports; NPC variants will be grouped with provenance preserved.
+Working brand: Maple Animations. Explore has peer collections for Skills, Monsters, NPCs, and Map Art. Summons are connected on their skill pages: select Summon beside Effect/Hit, then choose an action. The class skill list marks summon entries and offers a With summons filter. Characters remain a scope item; full maps are blocked on layer-data access. Collab classes are included in future imports; NPC variants will be grouped with provenance preserved.
 
 See [SITEMAP.md](SITEMAP.md), [import contract](data/README.md), [proposed manifest schema](data/asset-manifest.schema.json), and [dated source inventory](data/inventory-snapshot.json). Counts outside the live skill catalog are owner-reported snapshots/estimates.
+
+## Summon integration
+
+212 class-skill pairs across 44 classes are connected from the audited R2 index snapshot. Normalized per-skill metadata lives in `data/summons/`; WebP files stay in R2. The lightweight index loads once, and each skill manifest loads only when opening Summon. Action/frame deep links use `layer=summon&action=stand&frame=0`; workbench history preserves the action. The existing static PNG modal includes the selected action in its context and filename.
+
+Death actions default to play once, hold last frame; other actions loop. Placeholder art is excluded. Missing source frames are listed as PARTIAL. Missing timing uses an explicitly disclosed 90ms preview delay; missing origins are disclosed and centered. Legacy filenames without action boundaries remain an honest Source sequence rather than guessed Stand/Attack splits. Source fallbacks are not offered when real summon data is attached.
+
+Refresh metadata with `npm run data:summons` (uses curl for the source endpoint), or `node tools/import-summons.cjs /path/to/audit-cache` using the saved source index and manifests. Tests cover every imported owner/count/path, action playback and death completion, partials, PNG output context, deep links, retry, and stale requests. Canvas encoding/browser layout are mocked in DOM tests; rendered review remains blocked while the Mac is locked and browser access is disabled.

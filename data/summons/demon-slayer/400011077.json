@@ -1,0 +1,785 @@
+{
+  "sourceManifest": "demon-slayer/frames/orthrus-400011077/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "demon-slayer",
+  "skillId": 400011077,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 165,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 204,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 204,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 204,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 313,
+          "y": 428,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 321,
+          "y": 438,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 330,
+          "y": 427,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 444,
+          "y": 439,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 443,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 737,
+          "y": 440,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 737,
+          "y": 408,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 765,
+          "y": 409,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 766,
+          "y": 430,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 768,
+          "y": 447,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 771,
+          "y": 421,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 748,
+          "y": 416,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 748,
+          "y": 388,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 690,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 218,
+          "y": 319,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/attack1-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 209,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-00.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-01.webp",
+        "delay": 70,
+        "origin": {
+          "x": 175,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-02.webp",
+        "delay": 70,
+        "origin": {
+          "x": 158,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-03.webp",
+        "delay": 70,
+        "origin": {
+          "x": 154,
+          "y": 212,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-04.webp",
+        "delay": 70,
+        "origin": {
+          "x": 158,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-05.webp",
+        "delay": 70,
+        "origin": {
+          "x": 161,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-06.webp",
+        "delay": 70,
+        "origin": {
+          "x": 163,
+          "y": 171,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-07.webp",
+        "delay": 70,
+        "origin": {
+          "x": 161,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-08.webp",
+        "delay": 70,
+        "origin": {
+          "x": 160,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-09.webp",
+        "delay": 70,
+        "origin": {
+          "x": 156,
+          "y": 172,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-10.webp",
+        "delay": 70,
+        "origin": {
+          "x": 156,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/die-11.webp",
+        "delay": 70,
+        "origin": {
+          "x": 150,
+          "y": 174,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      }
+    ],
+    "move": [
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-00.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-01.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-02.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-03.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-04.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-05.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-06.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-07.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-08.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 213,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-09.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 211,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-10.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/move-11.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-00.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-01.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 207,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-02.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-03.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-04.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-05.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 210,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-06.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-07.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 217,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-08.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 206,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-09.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-10.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/stand-11.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 208,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-00.webp",
+        "delay": 70,
+        "origin": {
+          "x": 215,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-01.webp",
+        "delay": 70,
+        "origin": {
+          "x": 282,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-02.webp",
+        "delay": 70,
+        "origin": {
+          "x": 212,
+          "y": 225,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-03.webp",
+        "delay": 70,
+        "origin": {
+          "x": 152,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-04.webp",
+        "delay": 70,
+        "origin": {
+          "x": 192,
+          "y": 215,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-05.webp",
+        "delay": 70,
+        "origin": {
+          "x": 210,
+          "y": 237,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-06.webp",
+        "delay": 70,
+        "origin": {
+          "x": 225,
+          "y": 232,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-07.webp",
+        "delay": 70,
+        "origin": {
+          "x": 222,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-08.webp",
+        "delay": 70,
+        "origin": {
+          "x": 228,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-09.webp",
+        "delay": 70,
+        "origin": {
+          "x": 216,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-10.webp",
+        "delay": 70,
+        "origin": {
+          "x": 212,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/demon-slayer/frames/orthrus-400011077/summon/summoned-11.webp",
+        "delay": 70,
+        "origin": {
+          "x": 147,
+          "y": 209,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,353 @@
+{
+  "sourceManifest": "hoyoung/frames/hexa-scroll-star-vortex-164141059/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "hoyoung",
+  "skillId": 164141059,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 570,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 509,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 511,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 506,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 499,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 491,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 485,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 485,
+          "y": 284,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 482,
+          "y": 283,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 129,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/die-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 115,
+          "y": 78,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 517,
+          "y": 326,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 510,
+          "y": 315,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 509,
+          "y": 354,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 571,
+          "y": 368,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 531,
+          "y": 389,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 491,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 494,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 304,
+          "y": 515,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 346,
+          "y": 567,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 490,
+          "y": 557,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 501,
+          "y": 517,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 509,
+          "y": 507,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 511,
+          "y": 433,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 530,
+          "y": 420,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 500,
+          "y": 390,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 491,
+          "y": 378,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/hoyoung/frames/hexa-scroll-star-vortex-164141059/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 494,
+          "y": 362,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

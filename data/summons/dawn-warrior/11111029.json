@@ -1,0 +1,287 @@
+{
+  "sourceManifest": "dawn-warrior/frames/cosmic-shower-11111029/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "dawn-warrior",
+  "skillId": 11111029,
+  "actions": {
+    "attack1": [],
+    "die": [
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 388,
+          "y": 275,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 379,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/stand-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 379,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 388,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 276,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/dawn-warrior/frames/cosmic-shower-11111029/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 393,
+          "y": 278,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

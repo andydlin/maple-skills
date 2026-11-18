@@ -1,0 +1,628 @@
+{
+  "sourceManifest": "mechanic/frames/giant-robot-sg-88-35121003/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "mechanic",
+  "skillId": 35121003,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 441,
+          "y": 431,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 438,
+          "y": 400,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 672,
+          "y": 430,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 664,
+          "y": 611,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 657,
+          "y": 668,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 656,
+          "y": 679,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 654,
+          "y": 722,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 654,
+          "y": 721,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 653,
+          "y": 711,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 649,
+          "y": 714,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 642,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 651,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 650,
+          "y": 734,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 648,
+          "y": 741,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 652,
+          "y": 751,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 649,
+          "y": 763,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 649,
+          "y": 311,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 650,
+          "y": 291,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 645,
+          "y": 272,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 448,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 407,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/attack1-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 407,
+          "y": 261,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [],
+    "stand": [
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/stand-00.webp",
+        "delay": 30,
+        "origin": {
+          "x": 196,
+          "y": 420,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 30
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 127,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 128,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 129,
+          "y": 236,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 130,
+          "y": 240,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 131,
+          "y": 244,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 148,
+          "y": 296,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 162,
+          "y": 336,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 159,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 157,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 156,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 156,
+          "y": 332,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 156,
+          "y": 333,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 190,
+          "y": 352,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 191,
+          "y": 356,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 192,
+          "y": 357,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 193,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 194,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 195,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 360,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 361,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 511,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 598,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 600,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 257,
+          "y": 616,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-24.webp",
+        "delay": 60,
+        "origin": {
+          "x": 287,
+          "y": 602,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-25.webp",
+        "delay": 60,
+        "origin": {
+          "x": 238,
+          "y": 612,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-26.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 477,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-27.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 527,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-28.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 550,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-29.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-30.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 586,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/mechanic/frames/giant-robot-sg-88-35121003/summon/summoned-31.webp",
+        "delay": 60,
+        "origin": {
+          "x": 196,
+          "y": 420,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

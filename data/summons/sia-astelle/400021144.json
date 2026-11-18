@@ -1,0 +1,326 @@
+{
+  "sourceManifest": "sia-astelle/frames/stellar-xi-sirius-400021144/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 400021144,
+  "actions": {
+    "source-sequence": [
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 303,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 249,
+          "y": 542,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 404,
+          "y": 587,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 534,
+          "y": 561,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 658,
+          "y": 585,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 687,
+          "y": 655,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 390,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 401,
+          "y": 782,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 412,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-10.webp",
+        "delay": 120,
+        "origin": {
+          "x": 408,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-11.webp",
+        "delay": 120,
+        "origin": {
+          "x": 417,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-12.webp",
+        "delay": 120,
+        "origin": {
+          "x": 425,
+          "y": 782,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-13.webp",
+        "delay": 120,
+        "origin": {
+          "x": 423,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-14.webp",
+        "delay": 120,
+        "origin": {
+          "x": 426,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 343,
+          "y": 655,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 323,
+          "y": 600,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 257,
+          "y": 556,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 200,
+          "y": 501,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 159,
+          "y": 429,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 78,
+          "y": 353,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-22.webp",
+        "delay": 120,
+        "origin": {
+          "x": 390,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-23.webp",
+        "delay": 120,
+        "origin": {
+          "x": 401,
+          "y": 782,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-24.webp",
+        "delay": 120,
+        "origin": {
+          "x": 412,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-25.webp",
+        "delay": 120,
+        "origin": {
+          "x": 408,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-26.webp",
+        "delay": 120,
+        "origin": {
+          "x": 417,
+          "y": 725,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-27.webp",
+        "delay": 120,
+        "origin": {
+          "x": 425,
+          "y": 782,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-28.webp",
+        "delay": 120,
+        "origin": {
+          "x": 423,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-xi-sirius-400021144/summon-29.webp",
+        "delay": 120,
+        "origin": {
+          "x": 426,
+          "y": 718,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 28
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

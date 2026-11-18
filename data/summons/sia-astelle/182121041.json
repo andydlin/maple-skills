@@ -1,0 +1,517 @@
+{
+  "sourceManifest": "sia-astelle/frames/stellar-ix-canopus-182121041/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "sia-astelle",
+  "skillId": 182121041,
+  "actions": {
+    "die": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 351,
+          "y": 610,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 323,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 319,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 308,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 291,
+          "y": 573,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 288,
+          "y": 572,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 285,
+          "y": 584,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 373,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 350,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 348,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 344,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/stand-09.webp",
+        "delay": 120,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 142,
+          "y": 403,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 216,
+          "y": 519,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 290,
+          "y": 570,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 308,
+          "y": 582,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 325,
+          "y": 601,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 342,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 364,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 358,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 351,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 351,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 352,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-12.webp",
+        "delay": 90,
+        "origin": {
+          "x": 355,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-13.webp",
+        "delay": 90,
+        "origin": {
+          "x": 357,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-14.webp",
+        "delay": 90,
+        "origin": {
+          "x": 360,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-15.webp",
+        "delay": 90,
+        "origin": {
+          "x": 362,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-16.webp",
+        "delay": 90,
+        "origin": {
+          "x": 355,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-17.webp",
+        "delay": 90,
+        "origin": {
+          "x": 357,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-18.webp",
+        "delay": 90,
+        "origin": {
+          "x": 359,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-19.webp",
+        "delay": 90,
+        "origin": {
+          "x": 361,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-20.webp",
+        "delay": 90,
+        "origin": {
+          "x": 361,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-21.webp",
+        "delay": 90,
+        "origin": {
+          "x": 362,
+          "y": 700,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-22.webp",
+        "delay": 90,
+        "origin": {
+          "x": 374,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-23.webp",
+        "delay": 90,
+        "origin": {
+          "x": 376,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/sia-astelle/frames/stellar-ix-canopus-182121041/summon/summoned-24.webp",
+        "delay": 90,
+        "origin": {
+          "x": 373,
+          "y": 620,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "partial",
+  "missingFrames": [
+    {
+      "anim": "die",
+      "idx": 2,
+      "reason": "bad-base64"
+    },
+    {
+      "anim": "die",
+      "idx": 3,
+      "reason": "bad-base64"
+    }
+  ]
+}

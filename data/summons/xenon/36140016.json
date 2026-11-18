@@ -1,0 +1,732 @@
+{
+  "sourceManifest": "xenon/frames/hexa-beam-dance-36140016/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "xenon",
+  "skillId": 36140016,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 36,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 40,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 67,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 119,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 141,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 147,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 149,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 72,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 71,
+          "y": 165,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 71,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 68,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-16.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-17.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-18.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-19.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-20.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-21.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-22.webp",
+        "delay": 60,
+        "origin": {
+          "x": 40,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/attack1-23.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 40,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/die-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "move": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/move-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 27,
+          "y": 34,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand2": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 52,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 50,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 50,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 48,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 50,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/stand2-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 73,
+          "y": 52,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 49,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 45,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 48,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 46,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 40,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/xenon/frames/hexa-beam-dance-36140016/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 42,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 0,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

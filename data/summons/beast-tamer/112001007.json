@@ -1,0 +1,299 @@
+{
+  "sourceManifest": "beast-tamer/frames/lil-fort-112001007/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "beast-tamer",
+  "skillId": 112001007,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 16,
+          "y": 61,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": 89,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 44,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 78,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 82,
+          "y": 81,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 88,
+          "y": 101,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 88,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/attack1-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 90,
+          "y": 73,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "die": [
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-00.webp",
+        "delay": 120,
+        "origin": {
+          "x": 23,
+          "y": 59,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-01.webp",
+        "delay": 300,
+        "origin": {
+          "x": 24,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 300
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 25,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 25,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 25,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 19,
+          "y": 25,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-06.webp",
+        "delay": 120,
+        "origin": {
+          "x": 74,
+          "y": 103,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-07.webp",
+        "delay": 120,
+        "origin": {
+          "x": 52,
+          "y": 80,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/die-08.webp",
+        "delay": 120,
+        "origin": {
+          "x": 43,
+          "y": 82,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/stand-00.webp",
+        "delay": 150,
+        "origin": {
+          "x": 89,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/stand-01.webp",
+        "delay": 150,
+        "origin": {
+          "x": 44,
+          "y": 135,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/stand-02.webp",
+        "delay": 150,
+        "origin": {
+          "x": 78,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 150
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/summoned-01.webp",
+        "delay": 120,
+        "origin": {
+          "x": -31,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/summoned-02.webp",
+        "delay": 120,
+        "origin": {
+          "x": -9,
+          "y": 117,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/summoned-03.webp",
+        "delay": 120,
+        "origin": {
+          "x": 4,
+          "y": 94,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/summoned-04.webp",
+        "delay": 120,
+        "origin": {
+          "x": 21,
+          "y": 49,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      },
+      {
+        "file": "data/beast-tamer/frames/lil-fort-112001007/summon/summoned-05.webp",
+        "delay": 120,
+        "origin": {
+          "x": 18,
+          "y": 52,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 120
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

@@ -1,0 +1,644 @@
+{
+  "sourceManifest": "cadena/frames/apocalypse-cannon-400041033/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "cadena",
+  "skillId": 400041033,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 331,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 327,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 321,
+          "y": 220,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 329,
+          "y": 221,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 327,
+          "y": 228,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 327,
+          "y": 216,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 318,
+          "y": 229,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/attack1-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 331,
+          "y": 224,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "die": [],
+    "skill1": [
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 214,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 210,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 434,
+          "y": 234,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 456,
+          "y": 241,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 440,
+          "y": 292,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 444,
+          "y": 324,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 467,
+          "y": 318,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 444,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 440,
+          "y": 257,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 399,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill1-10.webp",
+        "delay": 180,
+        "origin": {
+          "x": 399,
+          "y": 186,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 180
+      }
+    ],
+    "skill2": [
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 216,
+          "y": 181,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 266,
+          "y": 205,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 316,
+          "y": 204,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 371,
+          "y": 238,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 348,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill2-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 377,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "skill3": [
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-00.webp",
+        "delay": 60,
+        "origin": {
+          "x": 410,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 371,
+          "y": 219,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 384,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 392,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 373,
+          "y": 243,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 374,
+          "y": 290,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 348,
+          "y": 289,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 343,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 274,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 347,
+          "y": 277,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 325,
+          "y": 279,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 330,
+          "y": 271,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/skill3-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 336,
+          "y": 267,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ],
+    "stand": [],
+    "summoned": [
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": -71,
+          "y": 150,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 136,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 177,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 246,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 244,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 248,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 197,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 207,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 212,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 214,
+          "y": 245,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 214,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 266,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 271,
+          "y": 253,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 275,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-14.webp",
+        "delay": 60,
+        "origin": {
+          "x": 278,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/cadena/frames/apocalypse-cannon-400041033/summon/summoned-15.webp",
+        "delay": 60,
+        "origin": {
+          "x": 278,
+          "y": 177,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 2,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

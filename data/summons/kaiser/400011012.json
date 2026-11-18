@@ -1,0 +1,508 @@
+{
+  "sourceManifest": "kaiser/frames/nova-guardians-400011012/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "kaiser",
+  "skillId": 400011012,
+  "actions": {
+    "attack1": [
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 132,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 132,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 254,
+          "y": 224,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 322,
+          "y": 223,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 351,
+          "y": 214,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 371,
+          "y": 181,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 309,
+          "y": 293,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 385,
+          "y": 273,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 430,
+          "y": 249,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/attack1-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 452,
+          "y": 268,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "die": [
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 256,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 344,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 392,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 418,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 439,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 160,
+          "y": 455,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 162,
+          "y": 460,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 465,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-08.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 470,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-09.webp",
+        "delay": 90,
+        "origin": {
+          "x": 151,
+          "y": 476,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-10.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 481,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/die-11.webp",
+        "delay": 90,
+        "origin": {
+          "x": 147,
+          "y": 487,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "stand": [
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-00.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-01.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-02.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 167,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-03.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 166,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-04.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 167,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-05.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 168,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-06.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 169,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/stand-07.webp",
+        "delay": 90,
+        "origin": {
+          "x": 149,
+          "y": 170,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 90
+      }
+    ],
+    "summoned": [
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-01.webp",
+        "delay": 60,
+        "origin": {
+          "x": 43,
+          "y": 565,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-02.webp",
+        "delay": 60,
+        "origin": {
+          "x": 143,
+          "y": 538,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-03.webp",
+        "delay": 60,
+        "origin": {
+          "x": 147,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-04.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-05.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-06.webp",
+        "delay": 60,
+        "origin": {
+          "x": 152,
+          "y": 528,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-07.webp",
+        "delay": 60,
+        "origin": {
+          "x": 160,
+          "y": 521,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-08.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 513,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-09.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 508,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-10.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 515,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-11.webp",
+        "delay": 60,
+        "origin": {
+          "x": 151,
+          "y": 525,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-12.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 513,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      },
+      {
+        "file": "data/kaiser/frames/nova-guardians-400011012/summon/summoned-13.webp",
+        "delay": 60,
+        "origin": {
+          "x": 149,
+          "y": 516,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 60
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 1,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 0
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}

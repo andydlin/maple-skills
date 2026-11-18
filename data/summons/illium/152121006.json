@@ -1,0 +1,483 @@
+{
+  "sourceManifest": "illium/frames/crystal-skill-deus-152121006/frames.json",
+  "sourceVersion": "GMS 270",
+  "class": "illium",
+  "skillId": 152121006,
+  "actions": {
+    "die": [],
+    "fly": [],
+    "stand": [],
+    "source-sequence": [
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-00.webp",
+        "delay": 70,
+        "origin": {
+          "x": 74,
+          "y": 91,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-01.webp",
+        "delay": 70,
+        "origin": {
+          "x": 76,
+          "y": 105,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-02.webp",
+        "delay": 70,
+        "origin": {
+          "x": 77,
+          "y": 95,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-03.webp",
+        "delay": 70,
+        "origin": {
+          "x": 79,
+          "y": 110,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-04.webp",
+        "delay": 70,
+        "origin": {
+          "x": 76,
+          "y": 115,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-05.webp",
+        "delay": 70,
+        "origin": {
+          "x": 48,
+          "y": 84,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-06.webp",
+        "delay": 70,
+        "origin": {
+          "x": 36,
+          "y": 39,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-07.webp",
+        "delay": 70,
+        "origin": {
+          "x": 35,
+          "y": 38,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-08.webp",
+        "delay": 70,
+        "origin": {
+          "x": 33,
+          "y": 35,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-09.webp",
+        "delay": 70,
+        "origin": {
+          "x": 30,
+          "y": 33,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-10.webp",
+        "delay": 70,
+        "origin": {
+          "x": 32,
+          "y": 35,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-11.webp",
+        "delay": 70,
+        "origin": {
+          "x": 35,
+          "y": 38,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-14.webp",
+        "delay": 70,
+        "origin": {
+          "x": 36,
+          "y": 39,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-15.webp",
+        "delay": 70,
+        "origin": {
+          "x": 42,
+          "y": 56,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-16.webp",
+        "delay": 70,
+        "origin": {
+          "x": 63,
+          "y": 100,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-17.webp",
+        "delay": 70,
+        "origin": {
+          "x": 108,
+          "y": 158,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-18.webp",
+        "delay": 70,
+        "origin": {
+          "x": 177,
+          "y": 202,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-19.webp",
+        "delay": 70,
+        "origin": {
+          "x": 193,
+          "y": 219,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-20.webp",
+        "delay": 70,
+        "origin": {
+          "x": 191,
+          "y": 217,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-21.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-22.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-23.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-24.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-25.webp",
+        "delay": 70,
+        "origin": {
+          "x": 192,
+          "y": 230,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-26.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-27.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 222,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-28.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-29.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 231,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-30.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 233,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-31.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 226,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-32.webp",
+        "delay": 70,
+        "origin": {
+          "x": 221,
+          "y": 227,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-34.webp",
+        "delay": 70,
+        "origin": {
+          "x": 170,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-35.webp",
+        "delay": 70,
+        "origin": {
+          "x": 170,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-36.webp",
+        "delay": 70,
+        "origin": {
+          "x": 170,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-37.webp",
+        "delay": 70,
+        "origin": {
+          "x": 190,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-38.webp",
+        "delay": 70,
+        "origin": {
+          "x": 182,
+          "y": 134,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-39.webp",
+        "delay": 70,
+        "origin": {
+          "x": 187,
+          "y": 132,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-40.webp",
+        "delay": 70,
+        "origin": {
+          "x": 201,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-41.webp",
+        "delay": 70,
+        "origin": {
+          "x": 198,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-42.webp",
+        "delay": 70,
+        "origin": {
+          "x": 198,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-43.webp",
+        "delay": 70,
+        "origin": {
+          "x": 194,
+          "y": 126,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      },
+      {
+        "file": "data/illium/frames/crystal-skill-deus-152121006/summon-44.webp",
+        "delay": 70,
+        "origin": {
+          "x": 185,
+          "y": 122,
+          "isEmpty": false
+        },
+        "placeholder": false,
+        "sourceDelay": 70
+      }
+    ]
+  },
+  "warnings": {
+    "excludedPlaceholders": 3,
+    "missingDelay": 0,
+    "missingOrigin": 0,
+    "ungroupedFrames": 42
+  },
+  "completeness": "complete",
+  "missingFrames": []
+}
