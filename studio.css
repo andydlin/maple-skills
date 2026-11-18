@@ -1590,4 +1590,3 @@ html.browse-modal-open, body.browse-open { overflow: hidden; }
 #browseDialog .library-top h1 { font-size: 23px; }
 #browseDialog .library-top p { margin: 8px 0; }
 #browseDialog .sort-row, #browseDialog .list-label { flex-shrink: 0; }
-
