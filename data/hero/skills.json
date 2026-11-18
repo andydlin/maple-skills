@@ -1,25 +1,26 @@
 {
   "class": "Hero",
-  "classLine": "Warrior \u2014 Explorer",
+  "classLine": "Warrior — Explorer",
   "game": "MapleStory",
   "version": "GMS 270",
-  "source": "maplestory.io (GMS 270) \u2014 skillbook API (jobs 100/110/111/112/114/40001) + raw WZ API; Burning Soul Blade stills from Maple Editors (2019)",
-  "generated": "2026-11-15",
+  "source": "maplestory.io (GMS 270) — skillbook API (jobs 100/110/111/112/114/40001) + raw WZ API; Burning Soul Blade stills from Maple Editors (2019)",
+  "generated": "2026-11-17",
   "counts": {
     "skills": 83,
-    "withFrames": 40,
+    "withFrames": 42,
     "effectFrames": 520,
     "hitFrames": 270,
     "effectFramesUnique": 520,
     "hitFramesUnique": 259,
-    "note": "effectFrames/hitFrames count shared-frame references once per entry (Spirit Calibur 1141501 references 1141500's 11 hit frames); the Unique counts deduplicate by file path."
+    "note": "effectFrames/hitFrames count shared-frame references once per entry (Spirit Calibur 1141501 references 1141500's 11 hit frames); the Unique counts deduplicate by file path.",
+    "summonFrames": 78
   },
   "notes": [
     "Frames listed with placeholder=true are 1x1 timing placeholders in the source WZ data; the player skips them.",
     "Sword Illusion effect0 (65 frames) is a blank timing sequence in the WZ and is omitted; its slash/explosion frames live under sub-attacks 400011125/400011126.",
-    "HEXA Raging Blow has its own effect/hit frames in GMS 270 (job 114 skillbook: 1141000 17 effect + 6 hit, 1141001 16 effect + 6 hit), distinct from Raging Blow (1121008) frames \u2014 corrected 2026-11-15; the earlier \"shares 1121008 frames\" claim was wrong.",
+    "HEXA Raging Blow has its own effect/hit frames in GMS 270 (job 114 skillbook: 1141000 17 effect + 6 hit, 1141001 16 effect + 6 hit), distinct from Raging Blow (1121008) frames — corrected 2026-11-15; the earlier \"shares 1121008 frames\" claim was wrong.",
     "Spirit Calibur 1141501 shares all 11 hit frames with Spirit Calibur 1141500 (identical pixels, delays and origins); they are stored once and referenced, not duplicated.",
-    "Burning Soul Blade summon images could not be fetched from maplestory.io (HTTP 500); its 2 Maple Editors 2019 stills are shown as labelled fallbacks and the summon animation is pending."
+    "Burning Soul Blade's summon animation (43 frames moving, 35 frames stationary) is served from Cloudflare R2; its 2 Maple Editors 2019 stills remain in the data as reference."
   ],
   "skills": [
     {
@@ -5501,8 +5502,8 @@
       "job": "5th",
       "description": "Conjures a burning soul blade to fight at your side. Unaffected by attack reflection. Use the skill key with the down arrow key to summon it in a fixed state.\nWith Action Customization enabled, you can immediately summon in a fixed state by pressing its skill key again, without the use of the arrow keys.\nRight-click to toggle Action Customization ON/OFF",
       "masterLevel": null,
-      "status": "PARTIAL",
-      "note": "WZ summon image payloads unreachable on maplestory.io (HTTP 500 / OutOfMemoryException / hangs, 4 attempts 2026-11-14); icons from skillbook; 2 fallback frames from Maple Editors 2019; summon delay/origin metadata saved in work/bsb-summon-metadata.json.",
+      "status": "complete",
+      "note": "Summon animation frames pulled from maplestory.io (GMS 270) and served from Cloudflare R2; 2 fallback stills from Maple Editors 2019 remain in the data.",
       "sourcePath": "Skill/40001.img/skill/400011001",
       "icon": "data/hero/frames/burning-soul-blade-400011001/icon.webp",
       "effect": [],
@@ -5524,7 +5525,449 @@
         "attack1": 8,
         "die": 8
       },
-      "summonFrames": 43
+      "summonFrames": 43,
+      "summonAnimations": {
+        "summoned": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-00.webp",
+            "delay": 90,
+            "origin": {
+              "x": -22,
+              "y": 173,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-01.webp",
+            "delay": 90,
+            "origin": {
+              "x": 11,
+              "y": 179,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-02.webp",
+            "delay": 90,
+            "origin": {
+              "x": 17,
+              "y": 188,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-03.webp",
+            "delay": 90,
+            "origin": {
+              "x": 19,
+              "y": 191,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-04.webp",
+            "delay": 90,
+            "origin": {
+              "x": 20,
+              "y": 193,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-05.webp",
+            "delay": 90,
+            "origin": {
+              "x": 112,
+              "y": 246,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-06.webp",
+            "delay": 90,
+            "origin": {
+              "x": 113,
+              "y": 254,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-07.webp",
+            "delay": 90,
+            "origin": {
+              "x": 111,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-08.webp",
+            "delay": 90,
+            "origin": {
+              "x": 76,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-09.webp",
+            "delay": 90,
+            "origin": {
+              "x": 67,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/summoned-10.webp",
+            "delay": 90,
+            "origin": {
+              "x": 16,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "stand": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-00.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 237,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-01.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 242,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-02.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-03.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 251,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-04.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 255,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-05.webp",
+            "delay": 120,
+            "origin": {
+              "x": 12,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-06.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/stand-07.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "move": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-00.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 237,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-01.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 242,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-02.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-03.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 251,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-04.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 255,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-05.webp",
+            "delay": 120,
+            "origin": {
+              "x": 12,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-06.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/move-07.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "attack1": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-00.webp",
+            "delay": 60,
+            "origin": {
+              "x": 64,
+              "y": 185,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-01.webp",
+            "delay": 60,
+            "origin": {
+              "x": 65,
+              "y": 153,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-02.webp",
+            "delay": 60,
+            "origin": {
+              "x": 468,
+              "y": 147,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-03.webp",
+            "delay": 60,
+            "origin": {
+              "x": 465,
+              "y": 142,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-04.webp",
+            "delay": 60,
+            "origin": {
+              "x": 434,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-05.webp",
+            "delay": 60,
+            "origin": {
+              "x": 417,
+              "y": 261,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-06.webp",
+            "delay": 30,
+            "origin": {
+              "x": 352,
+              "y": 247,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/attack1-07.webp",
+            "delay": 30,
+            "origin": {
+              "x": 318,
+              "y": 222,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "die": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-00.webp",
+            "delay": 120,
+            "origin": {
+              "x": 11,
+              "y": 236,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-01.webp",
+            "delay": 120,
+            "origin": {
+              "x": 18,
+              "y": 242,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-02.webp",
+            "delay": 120,
+            "origin": {
+              "x": 13,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-03.webp",
+            "delay": 120,
+            "origin": {
+              "x": 15,
+              "y": 251,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-04.webp",
+            "delay": 120,
+            "origin": {
+              "x": 13,
+              "y": 255,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-05.webp",
+            "delay": 120,
+            "origin": {
+              "x": 12,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-06.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011001/summon/die-07.webp",
+            "delay": 120,
+            "origin": {
+              "x": 16,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ]
+      }
     },
     {
       "id": 400011002,
@@ -5533,8 +5976,8 @@
       "job": "5th",
       "description": "Conjures a burning soul blade to fight at your side. Unaffected by attack reflection. Use the skill key with the down arrow key to summon it in a fixed state.\nWith Action Customization enabled, you can immediately summon in a fixed state by pressing its skill key again, without the use of the arrow keys.\nRight-click to toggle Action Customization ON/OFF",
       "masterLevel": null,
-      "status": "PARTIAL",
-      "note": "WZ summon image payloads unreachable on maplestory.io (HTTP 500 / OutOfMemoryException / hangs, 4 attempts 2026-11-14); icons from skillbook; 2 fallback frames from Maple Editors 2019; summon delay/origin metadata saved in work/bsb-summon-metadata.json.",
+      "status": "complete",
+      "note": "Summon animation frames pulled from maplestory.io (GMS 270) and served from Cloudflare R2; 2 fallback stills from Maple Editors 2019 remain in the data.",
       "sourcePath": "Skill/40001.img/skill/400011002",
       "icon": "data/hero/frames/burning-soul-blade-400011002/icon.webp",
       "effect": [],
@@ -5555,7 +5998,367 @@
         "attack1": 8,
         "die": 8
       },
-      "summonFrames": 35
+      "summonFrames": 35,
+      "summonAnimations": {
+        "summoned": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-00.webp",
+            "delay": 90,
+            "origin": {
+              "x": 25,
+              "y": 173,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-01.webp",
+            "delay": 90,
+            "origin": {
+              "x": 58,
+              "y": 179,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-02.webp",
+            "delay": 90,
+            "origin": {
+              "x": 64,
+              "y": 188,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-03.webp",
+            "delay": 90,
+            "origin": {
+              "x": 66,
+              "y": 191,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-04.webp",
+            "delay": 90,
+            "origin": {
+              "x": 67,
+              "y": 193,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-05.webp",
+            "delay": 90,
+            "origin": {
+              "x": 159,
+              "y": 246,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-06.webp",
+            "delay": 90,
+            "origin": {
+              "x": 160,
+              "y": 254,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-07.webp",
+            "delay": 90,
+            "origin": {
+              "x": 158,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-08.webp",
+            "delay": 90,
+            "origin": {
+              "x": 123,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-09.webp",
+            "delay": 90,
+            "origin": {
+              "x": 114,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/summoned-10.webp",
+            "delay": 90,
+            "origin": {
+              "x": 63,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "stand": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-00.webp",
+            "delay": 120,
+            "origin": {
+              "x": 58,
+              "y": 237,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-01.webp",
+            "delay": 120,
+            "origin": {
+              "x": 58,
+              "y": 242,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-02.webp",
+            "delay": 120,
+            "origin": {
+              "x": 58,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-03.webp",
+            "delay": 120,
+            "origin": {
+              "x": 58,
+              "y": 251,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-04.webp",
+            "delay": 120,
+            "origin": {
+              "x": 58,
+              "y": 255,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-05.webp",
+            "delay": 120,
+            "origin": {
+              "x": 59,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-06.webp",
+            "delay": 120,
+            "origin": {
+              "x": 63,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/stand-07.webp",
+            "delay": 120,
+            "origin": {
+              "x": 63,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "attack1": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-00.webp",
+            "delay": 90,
+            "origin": {
+              "x": 153,
+              "y": 275,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-01.webp",
+            "delay": 90,
+            "origin": {
+              "x": 220,
+              "y": 280,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-02.webp",
+            "delay": 90,
+            "origin": {
+              "x": 236,
+              "y": 285,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-03.webp",
+            "delay": 90,
+            "origin": {
+              "x": 236,
+              "y": 295,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-04.webp",
+            "delay": 90,
+            "origin": {
+              "x": 242,
+              "y": 297,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-05.webp",
+            "delay": 90,
+            "origin": {
+              "x": 243,
+              "y": 294,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-06.webp",
+            "delay": 90,
+            "origin": {
+              "x": 228,
+              "y": 294,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/attack1-07.webp",
+            "delay": 90,
+            "origin": {
+              "x": 214,
+              "y": 283,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ],
+        "die": [
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-00.webp",
+            "delay": 90,
+            "origin": {
+              "x": 58,
+              "y": 236,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-01.webp",
+            "delay": 90,
+            "origin": {
+              "x": 65,
+              "y": 242,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-02.webp",
+            "delay": 90,
+            "origin": {
+              "x": 60,
+              "y": 258,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-03.webp",
+            "delay": 90,
+            "origin": {
+              "x": 62,
+              "y": 251,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-04.webp",
+            "delay": 90,
+            "origin": {
+              "x": 60,
+              "y": 255,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-05.webp",
+            "delay": 90,
+            "origin": {
+              "x": 59,
+              "y": 262,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-06.webp",
+            "delay": 90,
+            "origin": {
+              "x": 63,
+              "y": 269,
+              "isEmpty": false
+            },
+            "placeholder": false
+          },
+          {
+            "file": "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev/hero/frames/burning-soul-blade-400011002/summon/die-07.webp",
+            "delay": 90,
+            "origin": {
+              "x": 63,
+              "y": 274,
+              "isEmpty": false
+            },
+            "placeholder": false
+          }
+        ]
+      }
     },
     {
       "id": 400011027,
@@ -6016,7 +6819,7 @@
       "description": "Slice forward faster than the eye can see using a combo orb. Sword Illusion is unaffected by attack reflection.",
       "masterLevel": null,
       "status": "complete",
-      "note": "effect0 (65 frames) is a blank timing sequence in the WZ (1x1 frames, delay 1320, empty origin); omitted \u2014 maplestory.io skillbook also omits it. Sub-attacks 400011125/400011126 carry the slash/explosion frames.",
+      "note": "effect0 (65 frames) is a blank timing sequence in the WZ (1x1 frames, delay 1320, empty origin); omitted — maplestory.io skillbook also omits it. Sub-attacks 400011125/400011126 carry the slash/explosion frames.",
       "sourcePath": "Skill/40001.img/skill/400011124",
       "icon": "data/hero/frames/sword-illusion-400011124/icon.webp",
       "effect": [
@@ -6553,7 +7356,7 @@
       "description": "HEXA core: boosts Raging Blow.",
       "masterLevel": null,
       "status": "complete (passive core, no frames)",
-      "note": "HEXA Raging Blow is the 6th-job enhancement of Raging Blow; its visuals are the HEXA Raging Blow skill entries in this file (job 114 skillbook: 1141000 with 17 effect + 6 hit frames, 1141001 with 16 effect + 6 hit frames), which have their own effect/hit frames in GMS 270, distinct from Raging Blow 1121008's frames. This boost core itself (Skill/40000.img/skill/400004008) has icon/common/info only, no effect/hit layers. CORRECTION 2026-11-15: the earlier note claiming HEXA Raging Blow shares 1121008's frames was wrong \u2014 job 114 had not been pulled; the Maple Editors 18-frame set that matched 1121008's count was 1121008's frames, not HEXA's.",
+      "note": "HEXA Raging Blow is the 6th-job enhancement of Raging Blow; its visuals are the HEXA Raging Blow skill entries in this file (job 114 skillbook: 1141000 with 17 effect + 6 hit frames, 1141001 with 16 effect + 6 hit frames), which have their own effect/hit frames in GMS 270, distinct from Raging Blow 1121008's frames. This boost core itself (Skill/40000.img/skill/400004008) has icon/common/info only, no effect/hit layers. CORRECTION 2026-11-15: the earlier note claiming HEXA Raging Blow shares 1121008's frames was wrong — job 114 had not been pulled; the Maple Editors 18-frame set that matched 1121008's count was 1121008's frames, not HEXA's.",
       "sourcePath": "Skill/40000.img/skill/400004008",
       "icon": null,
       "effect": [],
