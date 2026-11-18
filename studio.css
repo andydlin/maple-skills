@@ -299,8 +299,8 @@ h1 {
 }
 .skill-card img,
 .icon-placeholder {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
   image-rendering: pixelated;
   flex-shrink: 0;
@@ -1547,3 +1547,10 @@ kbd {
 .preview-background { margin-left: auto; display: flex; align-items: center; gap: 8px; color: #596d74; font-size: 11px; }
 .preview-background select { min-height: 40px; padding: 8px 10px; background: #fffef9; border: 1px solid var(--line); border-radius: 8px; }
 @media(max-width:600px) { .simple-transport { flex-wrap: nowrap; gap: 8px; } .preview-background > span { display: none; } .preview-background select { max-width: 128px; } }
+
+.keyboard-hints { display: none; }
+@media (min-width: 1000px) and (hover: hover) and (pointer: fine) {
+  .keyboard-hints { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 18px; margin: 8px 0 0; color: #596d74; font-size: 11px; }
+  .keyboard-hints span { display: inline-flex; align-items: center; gap: 5px; }
+  .keyboard-hints kbd { padding: 3px 6px; background: #fffef9; border: 1px solid #d2ded7; border-radius: 4px; font-family: inherit; font-size: 10px; box-shadow: 0 1px 0 #d2ded7; }
+}

@@ -352,8 +352,8 @@
 }
 .saved-skill > img,
 .saved-placeholder {
-  width: 29px;
-  height: 29px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
   image-rendering: pixelated;
   flex-shrink: 0;
@@ -527,6 +527,7 @@
 }
 .atlas-card-bottom {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 5px;
@@ -537,21 +538,9 @@
   color: #5e7060;
   white-space: nowrap;
 }
-.skill-icon-stack {
-  display: flex;
-  align-items: center;
-}
-.skill-icon-stack img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-  image-rendering: pixelated;
-  border-radius: 4px;
-  background: #f4f6ec;
-  border: 1px solid #e0e8d6;
-  margin-left: -4px;
-  box-shadow: -1px 0 0 #fffef9;
-}
+/* Skill art is authored at 32px; keep native pixels instead of shrinking it. */
+.skill-icon-stack { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+.skill-icon-stack img { width: 32px; height: 32px; flex: 0 0 32px; object-fit: contain; image-rendering: pixelated; border: 0; border-radius: 0; background: transparent; margin: 0; box-shadow: none; }
 .atlas-expand {
   display: flex;
   justify-content: center;
@@ -882,10 +871,6 @@
   }
   .atlas-card-bottom > span:first-child {
     font-size: 10px;
-  }
-  .skill-icon-stack img {
-    width: 23px;
-    height: 23px;
   }
   .home-section-heading {
     gap: 12px;

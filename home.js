@@ -169,7 +169,7 @@ const Home = (() => {
       visible
         .map(
           (c) =>
-            `<a class="atlas-card" href="${classURL(c.slug)}" data-open-studio><div class="atlas-card-top"><span class="atlas-family">${esc(familyOf(c))}</span><span aria-hidden="true">↗</span></div><h3>${esc(c.name)}</h3><div class="atlas-card-bottom"><span>${c.count} skills</span><span class="skill-icon-stack" aria-hidden="true">${c.icons.map((icon) => `<img src="${esc(asset(icon))}" alt="" loading="lazy" crossorigin="anonymous">`).join("")}</span></div></a>`,
+            `<a class="atlas-card" href="${classURL(c.slug)}" data-open-studio><div class="atlas-card-top"><span class="atlas-family">${esc(familyOf(c))}</span><span aria-hidden="true">↗</span></div><h3>${esc(c.name)}</h3><div class="atlas-card-bottom"><span>${c.count} skills</span><span class="skill-icon-stack" aria-hidden="true">${c.icons.map((icon) => `<img src="${esc(asset(icon))}" width="32" height="32" alt="" loading="lazy" crossorigin="anonymous">`).join("")}</span></div></a>`,
         )
         .join("") ||
       '<div class="home-empty"><strong>No classes found.</strong><p>Try a shorter name or choose All classes.</p></div>';
@@ -255,7 +255,7 @@ const Home = (() => {
     }
   }
   const savedLink = (e) =>
-    `<a href="${entryURL(e)}" data-open-studio class="saved-skill">${e.icon ? `<img src="${esc(asset(e.icon))}" alt="" loading="lazy" crossorigin="anonymous">` : '<span class="saved-placeholder" aria-hidden="true">✦</span>'}<span><strong>${esc(e.skill)}</strong><small>${esc(e.className)}</small></span><span class="saved-arrow" aria-hidden="true">↗</span></a>`;
+    `<a href="${entryURL(e)}" data-open-studio class="saved-skill">${e.icon ? `<img src="${esc(asset(e.icon))}" width="32" height="32" alt="" loading="lazy" crossorigin="anonymous">` : '<span class="saved-placeholder" aria-hidden="true">✦</span>'}<span><strong>${esc(e.skill)}</strong><small>${esc(e.className)}</small></span><span class="saved-arrow" aria-hidden="true">↗</span></a>`;
   async function renderPersonal() {
     const token = ++personalToken;
     let recent = validatedRecents();
