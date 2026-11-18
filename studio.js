@@ -670,7 +670,7 @@ async function showFrame(i) {
     const fit = Math.min(
         (c.width - 100 * dpr) / Math.max(1, b.maxX - b.minX),
         (c.height - 100 * dpr) / Math.max(1, b.maxY - b.minY),
-        2 * dpr,
+        dpr,
       );
     const scale = fit;
     ctx.save();

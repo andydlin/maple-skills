@@ -140,6 +140,9 @@ header {
   font-size: 11px;
 }
 .workspace {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
   display: grid;
   grid-template-columns: 210px 300px minmax(0, 1fr);
   height: calc(100dvh - 76px);
@@ -1553,4 +1556,9 @@ kbd {
   .keyboard-hints { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 18px; margin: 8px 0 0; color: #596d74; font-size: 11px; }
   .keyboard-hints span { display: inline-flex; align-items: center; gap: 5px; }
   .keyboard-hints kbd { padding: 3px 6px; background: #fffef9; border: 1px solid #d2ded7; border-radius: 4px; font-family: inherit; font-size: 10px; box-shadow: 0 1px 0 #d2ded7; }
+}
+
+/* Keep the three-column studio comfortable on ultrawide displays. */
+@media (min-width: 1181px) {
+  .workspace { grid-template-columns: 210px 300px minmax(0, 1fr); }
 }
