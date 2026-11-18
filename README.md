@@ -29,7 +29,7 @@ A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-or
 - Play/pause at source timing, select frames from the filmstrip directly below the animation, or scrub the timeline. Keyboard stepping remains available without on-screen step buttons. The preview fits automatically with crisp pixels and source-origin alignment.
 - Only the background dropdown remains from appearance settings. Stage labels, technical timing/origin readouts, frame-number inputs, speed/direction/loop controls, ranges, zoom, and overlays have been removed from the interface. Death actions still play once automatically; other actions loop.
 - View/copy a static PNG, choose transparent/black/white, or download the current frame at original resolution.
-- On mobile, a sticky browse control opens the library when needed. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
+- On mobile, a sticky Browse control opens a full-screen native dialog with Classes/Skills panels, a fixed Close button, scroll locking, and Escape support. Selecting a skill dismisses it; panels are restored to the desktop columns on close or a desktop resize. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
 
 The site root opens a combined home page: a primary Class Atlas and search, a compact personal workbench, and a lower discovery gallery. The atlas starts with 12 cards and expands to all 59, so discovery stays easy to reach. Search supports class names or skills. Recent and favorite links open the inspector directly; a new visitor gets a compact getting-started prompt.
 

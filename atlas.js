@@ -14,6 +14,7 @@ const Atlas = (() => {
     $("#exploreNav").removeAttribute("aria-current");
   }
   function show(section = "atlas", classSlug) {
+    closeBrowser();
     Home.hide();
     pause(false);
     ++loadVersion; ++drawVersion; ++showFrame.token; ++searchVersion;

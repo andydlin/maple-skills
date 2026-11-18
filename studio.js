@@ -208,10 +208,37 @@ function imageFor(file) {
   images.set(url, p);
   return p;
 }
-function closeBrowser() {
+let browseAnchors = [];
+function restoreBrowser() {
+  for (const { panel, marker } of browseAnchors) marker.replaceWith(panel);
+  browseAnchors = [];
   document.body.classList.remove("browse-open");
-  $("#browseToggle").setAttribute("aria-expanded", false);
-  $("#browseToggle").textContent = "☰ Browse classes & skills";
+  document.documentElement.classList.remove("browse-modal-open");
+  $("#browseToggle").setAttribute("aria-expanded", "false");
+}
+function closeBrowser() {
+  if ($("#browseDialog").open) $("#browseDialog").close();
+  restoreBrowser();
+}
+function setBrowsePanel(name) {
+  $("#browseDialog").dataset.panel = name;
+  $("#browseClassesTab").setAttribute("aria-pressed", name === "classes");
+  $("#browseSkillsTab").setAttribute("aria-pressed", name === "skills");
+}
+function openBrowser() {
+  if ($("#browseDialog").open) return;
+  pause();
+  browseAnchors = ["#classBrowser", "#skillBrowser"].map(selector => {
+    const panel = $(selector), marker = document.createComment("Browser panel position");
+    panel.replaceWith(marker);
+    $("#browsePanels").append(panel);
+    return { panel, marker };
+  });
+  setBrowsePanel("classes");
+  document.body.classList.add("browse-open");
+  document.documentElement.classList.add("browse-modal-open");
+  $("#browseToggle").setAttribute("aria-expanded", "true");
+  $("#browseDialog").showModal();
 }
 function navigateClass(slug, skillSlug) {
   const u = new URL(location.href);
@@ -247,6 +274,7 @@ function renderClasses() {
         (b.onclick = () => {
           $("#scope").value = "class";
           navigateClass(b.dataset.class);
+          if ($("#browseDialog").open) setBrowsePanel("skills");
         }),
     );
   const recent = recentClasses
@@ -269,6 +297,7 @@ function renderClasses() {
         (b.onclick = () => {
           $("#scope").value = "class";
           navigateClass(b.dataset.class);
+          if ($("#browseDialog").open) setBrowsePanel("skills");
         }),
     );
 }
@@ -893,6 +922,7 @@ document.addEventListener("keydown", (e) => {
     /INPUT|SELECT|TEXTAREA|BUTTON/.test(e.target.tagName) ||
     $("#sourceDialog").open ||
     $("#stillDialog").open ||
+    $("#browseDialog").open ||
     $("#helpDialog").open
   )
     return;
@@ -935,13 +965,13 @@ new IntersectionObserver((e) => {
 }).observe($("#stage"));
 $("#help").onclick = () => $("#helpDialog").showModal();
 $("#helpClose").onclick = () => $("#helpDialog").close();
-$("#browseToggle").onclick = () => {
-  const open = document.body.classList.toggle("browse-open");
-  $("#browseToggle").setAttribute("aria-expanded", !!open);
-  $("#browseToggle").textContent = open
-    ? "↑ Close browser"
-    : "☰ Browse classes & skills";
-};
+$("#browseToggle").onclick = openBrowser;
+$("#browseClose").onclick = closeBrowser;
+$("#browseClassesTab").onclick = () => setBrowsePanel("classes");
+$("#browseSkillsTab").onclick = () => setBrowsePanel("skills");
+$("#browseDialog").addEventListener("close", () => { if (!$("#browseDialog").open) restoreBrowser(); });
+$("#browseDialog").addEventListener("cancel", e => { e.preventDefault(); closeBrowser(); });
+window.matchMedia?.("(max-width:850px)").addEventListener?.("change", e => { if (!e.matches) closeBrowser(); });
 $("#sourceCancel").onclick = () => $("#sourceDialog").close();
 $("#sourceDialog form").onsubmit = (e) => {
   e.preventDefault();

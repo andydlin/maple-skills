@@ -9,8 +9,8 @@
       content="Explore MapleStory animations. Study skills frame by frame and save static PNGs. Monsters, NPCs, and map art collections are in preparation."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=copy-icon-1" />
-    <link rel="stylesheet" href="home.css?v=copy-icon-1" />
+    <link rel="stylesheet" href="studio.css?v=mobile-browser-1" />
+    <link rel="stylesheet" href="home.css?v=mobile-browser-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -152,7 +152,8 @@
       <button
         id="browseToggle"
         aria-expanded="false"
-        aria-controls="classBrowser skillBrowser"
+        aria-controls="browseDialog"
+        aria-haspopup="dialog"
       >
         ☰ Browse classes &amp; skills</button
       ><span id="mobileSelection">Loading library…</span>
@@ -332,6 +333,14 @@
         </div>
       </form>
     </dialog>
+    <dialog id="browseDialog" aria-labelledby="browseTitle" data-panel="classes">
+      <div class="browse-dialog-header"><h2 id="browseTitle">Browse classes &amp; skills</h2><button id="browseClose" type="button" aria-label="Close class and skill browser" autofocus>✕ Close</button></div>
+      <div class="browse-panel-switch" role="group" aria-label="Browse by">
+        <button id="browseClassesTab" type="button" aria-pressed="true" aria-controls="classBrowser">Classes</button>
+        <button id="browseSkillsTab" type="button" aria-pressed="false" aria-controls="skillBrowser">Skills</button>
+      </div>
+      <div id="browsePanels" class="browse-panels"></div>
+    </dialog>
     <dialog id="stillDialog" aria-labelledby="stillTitle">
       <div class="still-header"><h2 id="stillTitle">Your static frame</h2><button id="stillClose" type="button" aria-label="Close static frame preview" autofocus>✕ Close</button></div>
       <div class="still-content">
@@ -378,10 +387,10 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=copy-icon-1"></script>
-    <script src="atlas.js?v=copy-icon-1"></script>
-    <script src="summons.js?v=copy-icon-1"></script>
-    <script src="home.js?v=copy-icon-1"></script>
-    <script src="studio.js?v=copy-icon-1"></script>
+    <script src="exporter.js?v=mobile-browser-1"></script>
+    <script src="atlas.js?v=mobile-browser-1"></script>
+    <script src="summons.js?v=mobile-browser-1"></script>
+    <script src="home.js?v=mobile-browser-1"></script>
+    <script src="studio.js?v=mobile-browser-1"></script>
   </body>
 </html>

@@ -190,12 +190,36 @@ const waitFor = async (fn) => {
   await waitFor(() => d.querySelector("#counter").textContent.startsWith("02"));
   for (const id of ["favorite", "focus", "fullscreen"]) assert.equal(d.getElementById(id), null);
   d.querySelector("#browseToggle").click();
+  assert.ok(d.querySelector("#browseDialog").open);
+  assert.equal(d.querySelector("#classBrowser").parentElement.id, "browsePanels");
+  assert.equal(d.querySelector("#skillBrowser").parentElement.id, "browsePanels");
+  assert.ok(d.documentElement.classList.contains("browse-modal-open"));
+  d.querySelector('#classes [data-class="adele"]').click();
+  await waitFor(() => d.querySelector("#className").textContent === "Adele");
+  assert.equal(d.querySelector("#browseDialog").dataset.panel, "skills");
+  d.querySelector("#browseClassesTab").click();
+  assert.equal(d.querySelector("#browseDialog").dataset.panel, "classes");
+  d.querySelector("#browseClose").click();
+  assert.ok(!d.querySelector("#browseDialog").open);
+  assert.ok(!d.documentElement.classList.contains("browse-modal-open"));
+  assert.equal(d.querySelector(".workspace").firstElementChild.id, "classBrowser");
+  assert.equal(d.querySelector("#classBrowser").nextElementSibling.id, "skillBrowser");
+  await run("loadClass('hero')");
+  d.querySelector("#browseToggle").click();
+  d.querySelector("#browseDialog").dispatchEvent(new w.Event("cancel", { cancelable: true }));
+  assert.ok(!d.querySelector("#browseDialog").open);
+  assert.equal(d.querySelector("#skillBrowser").parentElement.className, "workspace");
+  d.querySelector("#browseToggle").click();
+  d.querySelector("#browseSkillsTab").click();
   assert.ok(d.body.classList.contains("browse-open"));
   d.querySelector('[data-slug="slash-blast-1001005"]').click();
   await waitFor(
     () => d.querySelector("#skillName").textContent === "Slash Blast",
   );
   assert.ok(!d.body.classList.contains("browse-open"));
+  assert.ok(!d.querySelector("#browseDialog").open);
+  assert.equal(d.querySelector("#skillBrowser").parentElement.className, "workspace");
+  console.log("PASS: full-screen browser panel ownership, class-to-skill switch, Close/Escape, skill selection, scroll lock and desktop restoration.");
   await waitFor(() => !d.querySelector("#play").disabled);
   d.querySelector("#help").click();
   assert.ok(d.querySelector("#helpDialog").open);
