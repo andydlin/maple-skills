@@ -23,11 +23,12 @@ WebP frame assets remain in the existing Cloudflare R2 bucket, `maple-skills-fra
 
 ## Experience
 
-A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-orange colors. The animation stage has independent transparency, dark, light, and green backgrounds.
+A bright, MapleStory-inspired workspace uses warm cream, sky, mint, and maple-orange colors. The animation stage offers transparent, black, and white backgrounds.
 
 - Browse class families and recent classes; search within one class or all 59. Filter by job, frame availability, or favorites and sort by name or frame count. The all-class index loads on demand and is cached for the session.
-- Study frames at their source timing. Step, scrub, jump to a frame, or loop a selected range forward, backward, or in ping-pong mode. Inspect per-frame origins and delays; overlay the previous frame; zoom, mirror, or open focus/full-screen views.
-- Export transparent stills or origin-aligned sprite sheets, labeled contact sheets, and timing/origin JSON. Choose output scale, columns, and padding and review dimensions before downloading. Sheet exports use the study range. Preview backgrounds, origin markers, and the previous-frame overlay stay out of PNGs.
+- Play/pause at source timing, select frames from the filmstrip directly below the animation, or scrub the timeline. Keyboard stepping remains available without on-screen step buttons. The preview fits automatically with crisp pixels and source-origin alignment.
+- Only the background dropdown remains from appearance settings. Stage labels, technical timing/origin readouts, frame-number inputs, speed/direction/loop controls, ranges, zoom, and overlays have been removed from the interface. Death actions still play once automatically; other actions loop.
+- View/copy a static PNG, choose transparent/black/white, or download the current frame at original resolution.
 - On mobile, a sticky browse control opens the library when needed. Favorites, recent classes, the last selection, and the stage background are stored in the browser. Unavailable frames are labeled and can be retried.
 
 The site root opens a combined home page: a primary Class Atlas and search, a compact personal workbench, and a lower discovery gallery. The atlas starts with 12 cards and expands to all 59, so discovery stays easy to reach. Search supports class names or skills. Recent and favorite links open the inspector directly; a new visitor gets a compact getting-started prompt.
@@ -61,7 +62,7 @@ npm ci
 npm test
 ```
 
-The suite checks control IDs against the real HTML, player and search state, frame-range behavior, export geometry and transparency, contact-sheet labeling, size limits, contrast tokens, and actual DOM interactions with dialogs and navigation. DOM tests simulate image loading and canvas operations; they are not visual rendering or PNG-decoding tests.
+The suite checks control IDs against the real HTML, player and search state, source-timed playback and automatic death completion, export geometry and transparency, contact-sheet labeling, size limits, contrast tokens, and actual DOM interactions with dialogs and navigation. DOM tests simulate image loading and canvas operations; they are not visual rendering or PNG-decoding tests.
 
 All 59 catalog totals were checked: 6,197 entries. Representative first and last frame URLs across every class were checked: 118/118 successful. Earlier Hero playback and a single-frame PNG download were tested in Chrome; that PNG was verified as RGBA with alpha. Visual browser QA for the five new rounds is still pending because the Mac was locked during implementation.
 

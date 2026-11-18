@@ -51,9 +51,7 @@ let catalog = [],
     readLocal("mapleAssetRoot", null) ??
     "https://pub-5005fc41413846b383b14fe2d3cb7abc.r2.dev",
   favorites = new Set(asStrings(readJSON("mapleFavorites", [])));
-let rangeStart = 0,
-  rangeEnd = 0,
-  pingDirection = 1,
+let loopPlayback = true,
   playSession = 0,
   framesReady = false;
 const delayOf = (f) => (Number.isFinite(f?.delay) ? Math.max(1, f.delay) : 90);
@@ -372,8 +370,7 @@ async function loadClass(slug, skillSlug) {
   selectedClass = slug;
   current = null;
   frames = [];
-  updateRangeUI();
-  $("#prev").disabled = $("#next").disabled = true;
+  updateCaptureUI();
   ++drawVersion;
   ++showFrame.token;
   $("#play").disabled = true;
@@ -509,8 +506,7 @@ async function setLayer(name, requestedAction) {
       const actions = Object.keys(data.actions);
       summonAction = actions.includes(requestedAction) ? requestedAction : actions.find(a => a === "summoned" && data.actions[a].length) || actions.find(a => data.actions[a].length) || actions[0] || "";
       frames = data.actions[summonAction] || [];
-      $("#loop").checked = !/^die\d*$/i.test(summonAction);
-      $("#playMode").value = "forward";
+      loopPlayback = !/^die\d*$/i.test(summonAction);
       $("#summonActions").innerHTML = actions.map(a => `<button data-action="${esc(a)}" aria-pressed="${a === summonAction}" class="${a === summonAction ? "active" : ""}" ${data.actions[a].length ? "" : "disabled"}>${esc(Summons.label(a))} <span>${data.actions[a].length || "Unavailable"}</span></button>`).join("");
       $("#summonActions").querySelectorAll("button").forEach(b => b.onclick = () => setLayer("summon", b.dataset.action));
       const warnings = [];
@@ -531,13 +527,10 @@ async function setLayer(name, requestedAction) {
   } else {
     summonAction = "";
     frames = layers(current).find(([k]) => k === name)?.[1] || (current?._summon ? [] : current?.fallback || []);
-    $("#loop").checked = true;
+    loopPlayback = true;
   }
   index = 0;
-  rangeStart = 0;
-  rangeEnd = Math.max(0, frames.length - 1);
-  pingDirection = 1;
-  updateRangeUI();
+  updateCaptureUI();
   bounds = null;
   ++showFrame.token;
   $("#loadHealth").textContent = "";
@@ -551,7 +544,7 @@ async function setLayer(name, requestedAction) {
   $("#filmstrip").innerHTML = frames
     .map(
       (f, i) =>
-        `<button class="frame" data-frame="${i}" aria-label="Frame ${i + 1}"><img loading="lazy" src="${esc(asset(f.file))}" alt=""><span>${String(i + 1).padStart(2, "0")} · ${f.delay || 0}ms</span></button>`,
+        `<button class="frame" data-frame="${i}" aria-label="Frame ${i + 1}"><img loading="lazy" src="${esc(asset(f.file))}" alt=""><span>${String(i + 1).padStart(2, "0")}</span></button>`,
     )
     .join("");
   $("#filmstrip")
@@ -565,18 +558,13 @@ async function setLayer(name, requestedAction) {
     );
   $("#timeline").max = Math.max(0, frames.length - 1);
   $("#play").disabled = true;
-  $("#prev").disabled = $("#next").disabled = !frames.length;
-  $("#duration").textContent =
-    frames.reduce((n, f) => n + delayOf(f), 0) + " ms";
   if (!frames.length) {
     $("#canvas")
       .getContext("2d")
       .clearRect(0, 0, $("#canvas").width, $("#canvas").height);
     $("#stageMessage").textContent =
       "No animation frames available for this skill.";
-    $("#frameSize").textContent = "";
     $("#counter").textContent = "0 / 0";
-    $("#time").textContent = "0 ms";
     $("#timeline").value = 0;
     return;
   }
@@ -650,21 +638,13 @@ async function showFrame(i) {
   if (!f) return;
   $("#timeline").value = index;
   $("#timeline").setAttribute("aria-valuetext", `Frame ${index + 1} of ${frames.length}`);
-  $("#first").disabled = $("#prev").disabled = index === 0;
-  $("#last").disabled = $("#next").disabled = index === frames.length - 1;
-  $("#frameJump").value = index + 1;
-  $("#frameJump").max = frames.length;
   updateCaptureUI();
-  $("#frameInfo").textContent =
-    `${f.delay ?? 90} ms · origin ${f.origin?.x ?? "—"}, ${f.origin?.y ?? "—"}`;
   $("#canvas").setAttribute(
     "aria-label",
     `${current?.name || "Skill"}, ${layer || "still"}, frame ${index + 1} of ${frames.length}`,
   );
   $("#counter").textContent =
     `${String(index + 1).padStart(2, "0")} / ${frames.length}`;
-  $("#time").textContent =
-    frames.slice(0, index).reduce((n, f) => n + delayOf(f), 0) + " ms";
   $("#filmstrip")
     .querySelectorAll("button")
     .forEach((b, j) => {
@@ -676,14 +656,6 @@ async function showFrame(i) {
   try {
     const im = await imageFor(f.file);
     if (token !== showFrame.token) return;
-    let previousImage = null;
-    const previousFrame = frames[index - 1];
-    if ($("#onion").checked && previousFrame) {
-      try {
-        previousImage = await imageFor(previousFrame.file);
-      } catch {}
-      if (token !== showFrame.token) return;
-    }
     const c = $("#canvas"),
       ctx = c.getContext("2d"),
       dpr = window.devicePixelRatio || 1,
@@ -699,36 +671,16 @@ async function showFrame(i) {
         (c.width - 100 * dpr) / Math.max(1, b.maxX - b.minX),
         (c.height - 100 * dpr) / Math.max(1, b.maxY - b.minY),
         2 * dpr,
-      ),
-      scale = $("#zoom").value === "fit" ? fit : Number($("#zoom").value) * dpr;
+      );
+    const scale = fit;
     ctx.save();
     ctx.translate(c.width / 2, c.height / 2);
-    ctx.scale($("#flip").checked ? -scale : scale, scale);
+    ctx.scale(scale, scale);
     ctx.translate(-(b.minX + b.maxX) / 2, -(b.minY + b.maxY) / 2);
-    ctx.imageSmoothingEnabled = !$("#pixel").checked;
-    if (previousImage) {
-      const po = originFor(previousFrame, previousImage);
-      ctx.globalAlpha = 0.24;
-      ctx.drawImage(previousImage, -po.x, -po.y);
-      ctx.globalAlpha = 1;
-    }
+    ctx.imageSmoothingEnabled = false;
     ctx.drawImage(im, -o.x, -o.y);
-    if ($("#origin").checked) {
-      ctx.strokeStyle = "#db5314";
-      ctx.lineWidth = 1.5 / scale;
-      ctx.beginPath();
-      ctx.moveTo(-12 / scale, 0);
-      ctx.lineTo(12 / scale, 0);
-      ctx.moveTo(0, -12 / scale);
-      ctx.lineTo(0, 12 / scale);
-      ctx.stroke();
-    }
     ctx.restore();
     $("#stageMessage").textContent = "";
-    $("#stageLabel").textContent = layer
-      ? layer.toUpperCase() + " / FRAME PREVIEW"
-      : "STILL REFERENCE";
-    $("#frameSize").textContent = `${im.width} × ${im.height} PX`;
   } catch (e) {
     if (token !== showFrame.token) return;
     $("#canvas")
@@ -739,11 +691,6 @@ async function showFrame(i) {
   }
 }
 showFrame.token = 0;
-function resetView() {
-  $("#zoom").value = "fit";
-  $("#viewLabel").textContent = "Fit to view";
-  showFrame(index);
-}
 function saveSelection() {
   if (Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   if (current)
@@ -789,172 +736,54 @@ function pause(persist = true) {
   ++playSession;
   playing = false;
   clearTimeout(timer);
-  $("#play").textContent = "▶ Play";
-  $("#playState").textContent = "PAUSED";
+  $("#play").textContent = "Play";
+  $("#play").setAttribute("aria-pressed", "false");
   if (persist) {
     updateURL();
     saveSelection();
   }
-}
-function nextInRange(i, direction, mode, start, end, loop) {
-  if (end <= start) return { stop: true, next: start, direction };
-  if (mode === "reverse")
-    return i <= start
-      ? { stop: !loop, next: end, direction: -1 }
-      : { next: i - 1, direction: -1 };
-  if (mode === "pingpong") {
-    if (direction > 0 && i >= end) return { next: end - 1, direction: -1 };
-    if (direction < 0 && i <= start)
-      return { stop: !loop, next: start + 1, direction: 1 };
-    return { next: i + direction, direction };
-  }
-  return i >= end
-    ? { stop: !loop, next: start, direction: 1 }
-    : { next: i + 1, direction: 1 };
 }
 function updateCaptureUI() {
   $("#captureContext").textContent = frames.length
     ? `Frame ${index + 1} of ${frames.length} · Original resolution`
     : "No animation frames available for export.";
 }
-function updateRangeUI() {
-  updateCaptureUI();
-  $("#rangeStart").value = rangeStart + 1;
-  $("#rangeEnd").value = rangeEnd + 1;
-  for (const id of ["rangeStart", "rangeEnd"]) {
-    $("#" + id).max = Math.max(1, frames.length);
-    $("#" + id).disabled = !frames.length;
-  }
-  $("#rangeSummary").textContent = frames.length
-    ? `${rangeStart + 1}–${rangeEnd + 1} · ${rangeEnd - rangeStart + 1} frame${rangeEnd === rangeStart ? "" : "s"} · ${frames.slice(rangeStart, rangeEnd + 1).reduce((n, f) => n + delayOf(f), 0)} ms`
-    : "No frames";
-  $("#filmstrip").querySelectorAll("button").forEach((button, i) => {
-    button.classList.toggle("outside-range", i < rangeStart || i > rangeEnd);
-    button.classList.toggle("range-edge", (rangeStart > 0 || rangeEnd < frames.length - 1) && (i === rangeStart || i === rangeEnd));
-  });
-  $("#first").disabled = $("#prev").disabled = !frames.length || index === 0;
-  $("#last").disabled = $("#next").disabled = !frames.length || index === frames.length - 1;
-  for (const id of ["frameJump", "markIn", "markOut", "fullRange"])
-    $("#" + id).disabled = !frames.length;
-}
-function setRange(start, end) {
-  pause();
-  rangeStart = Math.max(
-    0,
-    Math.min(Math.trunc(Number(start)) || 0, frames.length - 1),
-  );
-  rangeEnd = Math.max(
-    rangeStart,
-    Math.min(Math.trunc(Number(end)) || 0, frames.length - 1),
-  );
-  pingDirection = 1;
-  updateRangeUI();
-}
 function play() {
-  if (!framesReady || frames.length < 2 || rangeEnd <= rangeStart) {
-    if (frames.length) toast("Choose at least two frames to play.");
-    return;
-  }
-  const mode = $("#playMode").value || "forward";
-  pingDirection = 1;
-  if (
-    index < rangeStart ||
-    index > rangeEnd ||
-    (mode !== "reverse" && index === rangeEnd)
-  )
-    showFrame(mode === "reverse" ? rangeEnd : rangeStart);
-  if (mode === "reverse" && index === rangeStart) showFrame(rangeEnd);
+  if (!framesReady || frames.length < 2) return;
+  if (index >= frames.length - 1) showFrame(0);
   playing = true;
-  $("#play").textContent = "Ⅱ Pause";
-  $("#playState").textContent = "PLAYING";
+  $("#play").textContent = "Pause";
+  $("#play").setAttribute("aria-pressed", "true");
   schedule();
 }
 function schedule() {
   clearTimeout(timer);
   if (!playing) return;
   const session = playSession;
-  timer = setTimeout(
-    async () => {
-      if (session !== playSession || !playing) return;
-      const step = nextInRange(
-        index,
-        pingDirection,
-        $("#playMode").value || "forward",
-        rangeStart,
-        rangeEnd,
-        $("#loop").checked,
-      );
-      if (step.stop) {
-        pause();
-        return;
-      }
-      pingDirection = step.direction;
-      await showFrame(step.next);
-      if (session === playSession) schedule();
-    },
-    Math.max(1, delayOf(frames[index]) / Number($("#speed").value)),
-  );
+  timer = setTimeout(async () => {
+    if (session !== playSession || !playing) return;
+    let next = index + 1;
+    if (next >= frames.length) {
+      if (!loopPlayback) { pause(); return; }
+      next = 0;
+    }
+    await showFrame(next);
+    if (session === playSession) schedule();
+  }, delayOf(frames[index]));
 }
-$("#play").onclick = () => (playing ? pause() : play());
-$("#prev").onclick = () => {
-  pause();
-  showFrame(index - 1);
-};
-$("#next").onclick = () => {
-  pause();
-  showFrame(index + 1);
-};
-$("#first").onclick = () => { pause(); showFrame(0); };
-$("#last").onclick = () => { pause(); showFrame(frames.length - 1); };
-$("#timeline").oninput = (e) => {
-  pause();
-  showFrame(+e.target.value);
-};
-$("#speed").onchange = () => {
-  if (playing) schedule();
-};
-for (const id of ["zoom", "origin", "flip", "pixel", "onion"])
-  $("#" + id).onchange = () => {
-    showFrame(index);
-    $("#viewLabel").textContent =
-      $("#zoom").value === "fit"
-        ? "Fit to view"
-        : Number($("#zoom").value) * 100 + "% scale";
-  };
+$("#play").onclick = () => playing ? pause() : play();
+$("#timeline").oninput = e => { pause(); showFrame(+e.target.value); };
 $("#background").onchange = (e) => {
   writeLocal("mapleBackground", e.target.value);
   const s = $("#stage");
   s.style.backgroundImage = e.target.value === "checker" ? "" : "none";
   s.style.backgroundColor = {
     checker: "#f1f5f4",
-    dark: "#101210",
-    light: "#fffdf4",
+    dark: "#000000",
+    light: "#ffffff",
     green: "#00b140",
   }[e.target.value];
 };
-$("#frameJump").onchange = (e) => {
-  pause();
-  showFrame(
-    Math.max(0, Math.min(frames.length - 1, (Number(e.target.value) || 1) - 1)),
-  );
-};
-$("#playMode").onchange = () => {
-  pause();
-  pingDirection = 1;
-};
-$("#rangeStart").onchange = (e) =>
-  setRange(
-    Number(e.target.value) - 1,
-    Math.max(rangeEnd, Number(e.target.value) - 1),
-  );
-$("#rangeEnd").onchange = (e) =>
-  setRange(
-    Math.min(rangeStart, Number(e.target.value) - 1),
-    Number(e.target.value) - 1,
-  );
-$("#markIn").onclick = () => setRange(index, Math.max(index, rangeEnd));
-$("#markOut").onclick = () => setRange(Math.min(index, rangeStart), index);
-$("#fullRange").onclick = () => setRange(0, frames.length - 1);
 $("#focus").onclick = () => {
   const focused = document.body.classList.toggle("focus-mode");
   $("#focus").textContent = focused ? "← Show library" : "⛶ Focus view";
@@ -1003,7 +832,7 @@ let stillBlob = null, stillURL = null, stillVersion = 0, stillSnapshot = null;
 $("#still").onclick = async () => {
   if (!current || !frames[index]) { toast("Choose an available animation frame first."); return; }
   pause();
-  const frame = frames[index], flipped = $("#flip").checked;
+  const frame = frames[index], flipped = false;
   const name = `${selectedClass}-${current.slug}-${layer || "still"}${summonAction ? "-" + summonAction : ""}-${String(index + 1).padStart(3, "0")}.png`;
   stillSnapshot = { frame, flipped, name };
   $("#stillBackground").value = "transparent";
@@ -1105,12 +934,7 @@ document.addEventListener("keydown", (e) => {
   }
   if (Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   if (e.key === "Home" || e.key === "End") {
-    e.preventDefault();
-    $(e.key === "Home" ? "#first" : "#last").click();
-  }
-  if (e.key.toLowerCase() === "r") {
-    e.preventDefault();
-    resetView();
+    e.preventDefault(); pause(); showFrame(e.key === "Home" ? 0 : frames.length - 1);
   }
   if (e.key.toLowerCase() === "f") {
     e.preventDefault();
@@ -1120,14 +944,8 @@ document.addEventListener("keydown", (e) => {
     e.preventDefault();
     playing ? pause() : play();
   }
-  if (e.key === "ArrowLeft") {
-    e.preventDefault();
-    $("#prev").click();
-  }
-  if (e.key === "ArrowRight") {
-    e.preventDefault();
-    $("#next").click();
-  }
+  if (e.key === "ArrowLeft") { e.preventDefault(); pause(); showFrame(index - 1); }
+  if (e.key === "ArrowRight") { e.preventDefault(); pause(); showFrame(index + 1); }
 });
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) pause();
@@ -1151,11 +969,8 @@ $("#sourceDialog form").onsubmit = (e) => {
 };
 $("#summonRetry").onclick = () => setLayer("summon", summonAction);
 $("#retryFrames").onclick = async () => {
-  const at = index,
-    start = rangeStart,
-    end = rangeEnd;
+  const at = index;
   await setLayer(layer, summonAction);
-  setRange(start, end);
   await showFrame(at);
 };
 window.addEventListener("pagehide", saveSelection);
@@ -1243,10 +1058,8 @@ new ResizeObserver(() => {
   c.height = Math.round(r.height * d);
   if (frames.length) showFrame(index);
 }).observe($("#stage"));
-$("#stage").ondblclick = resetView;
-$("#reset").onclick = resetView;
 const savedBackground = readLocal("mapleBackground", "checker");
-if (["checker", "dark", "light", "green"].includes(savedBackground)) {
+if (["checker", "dark", "light"].includes(savedBackground)) {
   $("#background").value = savedBackground;
   $("#background").onchange({ target: $("#background") });
 }

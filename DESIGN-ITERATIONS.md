@@ -52,3 +52,10 @@ Final automated integration review uses the actual HTML through jsdom, with imag
 3. **Capture workflow.** Moved exports above secondary settings and description, added explicit still/sheet scope, collapsed appearance controls by default, and corrected frame sharing during playback by pausing before copying the current URL. Evaluation: choosing and saving a still now form one continuous workflow; export zoom independence is explained.
 
 Validation: full existing suite plus DOM checks for boundaries, range feedback, capture context, removed pointer handlers, and exact sharing during playback. Rendered browser review could not run: Mac locked and browser access disabled. Layout conclusions are based on source review and responsive rules, not screenshots.
+
+
+## Studio simplification (2026-11-18)
+
+Owner-directed simplification: remove all labels from inside the animation container; place filmstrip directly beneath it; retain Play/Pause, a simple frame counter, scrubber, background dropdown and PNG flow. Remove step buttons, frame-number input, timing/origin readouts (including thumbnail ms), speed/direction/loop controls, study ranges and appearance settings. Fit, crisp pixels and source-origin alignment are automatic. Source timing remains intact; death actions play once automatically. Loading/error status lives outside the animation container. Keyboard stepping remains available without visible buttons.
+
+Validation: full suite passes, including actual DOM checks that the stage contains only canvas, filmstrip is its next sibling, removed IDs are absent, background changes work, filmstrip/scrub selection works, and summon death playback/PNG/retry/navigation remain intact. Attached PDF inspected for the prior layout; its render had source font/artifact issues, so no claim of live rendered browser QA is made.

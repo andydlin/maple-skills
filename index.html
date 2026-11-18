@@ -9,8 +9,8 @@
       content="Explore MapleStory animations. Study skills frame by frame and save static PNGs. Monsters, NPCs, and map art collections are in preparation."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=png-surface-1" />
-    <link rel="stylesheet" href="home.css?v=png-surface-1" />
+    <link rel="stylesheet" href="studio.css?v=simple-studio-1" />
+    <link rel="stylesheet" href="home.css?v=simple-studio-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -265,97 +265,23 @@
         </div>
         <div class="load-health" id="loadHealth" role="status"></div>
         <button id="retryFrames" hidden>Retry unavailable frames</button>
+        <div id="stageMessage" class="preview-status" role="status"></div>
         <div class="stage" id="stage">
-          <div class="stage-top">
-            <span class="pill" id="stageLabel">FRAME PREVIEW</span
-            ><span class="pill" id="frameSize"></span>
-          </div>
-          <canvas
-            id="canvas"
-            width="1200"
-            height="650"
-            aria-label="Skill animation preview"
-            role="img"
-          ></canvas>
-          <div id="stageMessage" role="status"></div>
-          <div class="stage-bottom">
-            <span>✛ <span id="viewLabel">Fit to view</span></span
-            ><span id="playState">PAUSED</span>
-          </div>
+          <canvas id="canvas" width="1200" height="650" aria-label="Skill animation preview" role="img"></canvas>
         </div>
-        <div class="transport">
-          <button id="play" class="primary" disabled>▶ Play</button
-          ><button id="first" aria-label="First frame" title="First frame (Home)">|‹</button
-          ><button id="prev" aria-label="Previous frame" title="Previous frame (left arrow)">‹</button
-          ><button id="next" aria-label="Next frame" title="Next frame (right arrow)">›</button
-          ><button id="last" aria-label="Last frame" title="Last frame (End)">›|</button
-          ><span id="counter">0 / 0</span>
-          <div class="transport-end">
-            <label
-              >Speed
-              <select id="speed">
-                <option value="0.25">0.25×</option>
-                <option value="0.5">0.5×</option>
-                <option value="1" selected>1×</option>
-                <option value="1.5">1.5×</option>
-                <option value="2">2×</option>
-                <option value="4">4×</option>
-              </select></label
-            ><label><input id="loop" type="checkbox" checked /> Loop</label>
-          </div>
-        </div>
-        <div class="frame-inspector">
-          <label
-            >Frame
-            <input
-              id="frameJump"
-              type="number"
-              min="1"
-              value="1"
-              aria-label="Go to frame" /></label
-          ><span id="frameInfo">Select a frame</span
-          ><label
-            >Direction
-            <select id="playMode">
-              <option value="forward">Forward</option>
-              <option value="reverse">Reverse</option>
-              <option value="pingpong">Ping-pong</option>
-            </select></label
-          >
-        </div>
-        <input
-          id="timeline"
-          type="range"
-          min="0"
-          max="0"
-          value="0"
-          aria-label="Frame timeline"
-        />
-        <div class="timeline-meta">
-          <span id="time">0 ms</span><span>Space to play · ← → to step</span
-          ><span id="duration">0 ms</span>
-        </div>
-        <div class="filmstrip-heading"><strong>Frames</strong><span>Click a still to inspect it</span></div>
         <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
-        <details class="range-panel">
-          <summary>
-            Study a frame range <span id="rangeSummary">Full animation</span>
-          </summary>
-          <div class="range-controls">
-            <label
-              >From
-              <input id="rangeStart" type="number" min="1" value="1" /></label
-            ><label
-              >To <input id="rangeEnd" type="number" min="1" value="1" /></label
-            ><button id="markIn">Set start here</button
-            ><button id="markOut">Set end here</button
-            ><button id="fullRange">Use all frames</button>
-          </div>
-          <p>
-            Playback uses this range. You can still scrub
-            through the full animation.
-          </p>
-        </details>
+        <div class="transport simple-transport">
+          <button id="play" class="primary" disabled>Play</button>
+          <span id="counter">0 / 0</span>
+          <label class="preview-background"><span>Background</span>
+            <select id="background" aria-label="Preview background">
+              <option value="checker">Transparent</option>
+              <option value="dark">Black</option>
+              <option value="light">White</option>
+            </select>
+          </label>
+        </div>
+        <input id="timeline" type="range" min="0" max="0" value="0" aria-label="Frame timeline" />
         <section class="capture-panel" aria-label="Save frames">
           <div><div class="section-label">TAKE IT WITH YOU</div><h3>Save the perfect moment</h3><p id="captureContext">Choose a frame to save.</p></div>
           <div class="export">
@@ -363,45 +289,6 @@
             <small>Original-resolution PNG · copy or save</small>
           </div>
         </section>
-        <details class="preview-settings">
-          <summary>Preview appearance <span>Background, scale &amp; overlays</span></summary>
-        <section class="tools">
-          <div>
-            <div class="section-label">BACKGROUND</div>
-            <select id="background" aria-label="Preview background">
-              <option value="checker">Transparency</option>
-              <option value="dark">Dark</option>
-              <option value="light">Light</option>
-              <option value="green">Green screen</option>
-            </select>
-          </div>
-          <div>
-            <div class="section-label">SCALE</div>
-            <select id="zoom" aria-label="Preview scale">
-              <option value="fit">Fit</option>
-              <option value="0.5">50%</option>
-              <option value="1">100%</option>
-              <option value="2">200%</option>
-              <option value="4">400%</option>
-            </select>
-          </div>
-          <div>
-            <div class="section-label">VIEW</div>
-            <label class="onion-label"
-              ><input id="onion" type="checkbox" /> Previous-frame
-              overlay</label
-            >
-            <button id="reset" title="Fit animation to preview">
-              Reset view
-            </button>
-            <label><input id="origin" type="checkbox" /> Origin</label>
-            <label><input id="flip" type="checkbox" /> Flip</label
-            ><label
-              ><input id="pixel" type="checkbox" checked /> Crisp pixels</label
-            >
-          </div>
-        </section>
-        </details>
         <section class="details">
           <div>
             <div class="section-label">ABOUT THIS SKILL</div>
@@ -488,10 +375,6 @@
           <dd>Focus view / show library</dd>
         </div>
         <div>
-          <dt><kbd>R</kbd></dt>
-          <dd>Fit animation to preview</dd>
-        </div>
-        <div>
           <dt><kbd>/</kbd></dt>
           <dd>Search skills</dd>
         </div>
@@ -501,16 +384,16 @@
         </div>
       </dl>
       <p>
-        Double-click the preview to fit the full animation. Export
+        The preview fits automatically. Open
         a static PNG to copy or save your selected frame.
       </p>
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=png-surface-1"></script>
-    <script src="atlas.js?v=png-surface-1"></script>
-    <script src="summons.js?v=png-surface-1"></script>
-    <script src="home.js?v=png-surface-1"></script>
-    <script src="studio.js?v=png-surface-1"></script>
+    <script src="exporter.js?v=simple-studio-1"></script>
+    <script src="atlas.js?v=simple-studio-1"></script>
+    <script src="summons.js?v=simple-studio-1"></script>
+    <script src="home.js?v=simple-studio-1"></script>
+    <script src="studio.js?v=simple-studio-1"></script>
   </body>
 </html>

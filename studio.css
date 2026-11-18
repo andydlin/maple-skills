@@ -441,20 +441,8 @@ main {
   font-size: 8px;
   letter-spacing: 1.5px;
 }
-#stageMessage {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  pointer-events: none;
-  color: #425e64;
-  padding: 60px;
-  text-align: center;
-  line-height: 1.8;
-}
-#stageMessage:not(:empty) {
-  background: #f4f9f7e8;
-}
+#stageMessage { position: static; color: #425e64; font-size: 12px; line-height: 1.7; margin-bottom: 10px; }
+#stageMessage:empty { display: none; }
 .transport {
   display: flex;
   align-items: center;
@@ -1552,3 +1540,10 @@ kbd {
 
 .still-image[data-background="black"] { background: #000; }
 .still-image[data-background="white"] { background: #fff; }
+
+/* The animation leads; frame selection is directly beneath it. */
+#stage + .filmstrip { margin: 12px 0 0; }
+.simple-transport { margin-top: 12px; gap: 12px; }
+.preview-background { margin-left: auto; display: flex; align-items: center; gap: 8px; color: #596d74; font-size: 11px; }
+.preview-background select { min-height: 40px; padding: 8px 10px; background: #fffef9; border: 1px solid var(--line); border-radius: 8px; }
+@media(max-width:600px) { .simple-transport { flex-wrap: nowrap; gap: 8px; } .preview-background > span { display: none; } .preview-background select { max-width: 128px; } }

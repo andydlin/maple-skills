@@ -166,7 +166,7 @@ const waitFor = async (fn) => {
   await run("playing=true;showFrame(1)");
   assert.equal(historyWrites, before);
   await run("playing=false;showFrame(0)");
-  d.querySelector("#next").click();
+  d.querySelector('#filmstrip [data-frame="1"]').click();
   await waitFor(() => d.querySelector("#counter").textContent.startsWith("02"));
   d.querySelector("#favorite").click();
   assert.equal(
@@ -181,10 +181,6 @@ const waitFor = async (fn) => {
   );
   assert.ok(!d.body.classList.contains("browse-open"));
   await waitFor(() => !d.querySelector("#play").disabled);
-  d.querySelector("#markOut").click();
-  assert.ok(d.querySelector("#rangeSummary").textContent.includes("1 frame"));
-  d.querySelector("#fullRange").click();
-  assert.ok(d.querySelector("#rangeSummary").textContent.includes("11 frames"));
   d.querySelector("#help").click();
   assert.ok(d.querySelector("#helpDialog").open);
   d.querySelector("#helpClose").click();
@@ -226,19 +222,20 @@ const waitFor = async (fn) => {
   );
   await run("loadClass('hero', 'raging-blow-1120017')");
   await run("showFrame(0)");
-  assert.ok(d.querySelector("#first").disabled);
-  assert.ok(d.querySelector("#prev").disabled);
-  d.querySelector("#last").click();
-  await waitFor(() => run("index === frames.length - 1"));
-  assert.ok(d.querySelector("#last").disabled);
-  assert.ok(d.querySelector("#next").disabled);
-  d.querySelector("#first").click();
-  await run("setRange(1, 3)");
-  assert.ok(d.querySelector("#filmstrip button").classList.contains("outside-range"));
-  assert.equal(d.querySelectorAll("#filmstrip .range-edge").length, 2);
+  assert.equal(d.querySelector("#stage").nextElementSibling.id, "filmstrip");
+  assert.equal(d.querySelector("#stage").children.length, 1);
+  assert.equal(d.querySelector("#stage").firstElementChild.id, "canvas");
+  for (const id of ["first", "prev", "next", "last", "frameJump", "frameInfo", "loop", "speed", "playMode", "rangeStart", "rangeEnd", "origin", "zoom", "pixel", "onion", "flip", "time", "duration", "stageLabel", "frameSize", "playState", "viewLabel"]) assert.equal(d.getElementById(id), null);
+  assert.ok(!d.querySelector("#filmstrip").textContent.includes("ms"));
+  d.querySelector("#background").value = "dark";
+  d.querySelector("#background").dispatchEvent(new w.Event("change"));
+  assert.equal(d.querySelector("#stage").style.backgroundColor, "rgb(0, 0, 0)");
+  d.querySelector("#timeline").value = 2;
+  d.querySelector("#timeline").dispatchEvent(new w.Event("input"));
+  assert.equal(run("index"), 2);
   assert.ok(d.querySelector("#captureContext").textContent.includes("Original resolution"));
   assert.ok(d.querySelector("#stage").onpointerdown == null);
-  assert.ok(!d.querySelector(".preview-settings").open);
+  assert.equal(d.querySelector(".preview-settings"), null);
   w.ClipboardItem = class { constructor(data) { this.data = data; } };
   let copiedImage;
   w.navigator.clipboard.write = async items => { copiedImage = items[0]; };
@@ -276,10 +273,10 @@ const waitFor = async (fn) => {
   d.querySelector('[data-action="stand"]').click();
   await waitFor(() => run("summonAction === 'stand' && framesReady"));
   assert.equal(run("frames.length"), 8);
-  assert.ok(d.querySelector("#loop").checked);
+  assert.ok(run("loopPlayback"));
   d.querySelector('[data-action="die"]').click();
   await waitFor(() => run("summonAction === 'die' && framesReady"));
-  assert.ok(!d.querySelector("#loop").checked);
+  assert.ok(!run("loopPlayback"));
   await run("frames=frames.map(f=>({...f,delay:1}));play()");
   await waitFor(() => run("!playing"));
   assert.equal(run("index"), 7);
@@ -353,9 +350,9 @@ const waitFor = async (fn) => {
   assert.ok(!d.body.classList.contains("atlas-view"));
   console.log("PASS: atlas collections, skill-owned summons, explicit import and blocked states, and return to Studio/home.");
   console.log("PASS: static PNG image preview, download name, image clipboard payload, and denied clipboard fallback.");
-  console.log("PASS: Studio boundary controls, range feedback, capture scope, removed panning, and simplified capture controls.");
+  console.log("PASS: simplified Studio hierarchy, removed controls and overlays, background selection, filmstrip selection, scrubber, and PNG capture.");
   console.log(
-    "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, stepping, favorites, range controls, mobile browse collapse, help, global search.",
+    "PASS: home hierarchy, atlas filtering, search, home/studio routing, workbench, real HTML controls, corrupted storage, class/skill lists, filmstrip selection, favorites, mobile browse collapse, help, global search.",
   );
   dom.window.close();
 })().catch((e) => {

@@ -36,7 +36,7 @@ Updated 2026-11-17 from the owner’s Animated MapleStory Asset Site brief (mapl
 
 ## Player contract
 
-Use one origin-aligned, per-frame-delay player across all frame collections. Tabs show only actual actions and frame counts. Scrub/step/pause, speed, filmstrip, delay/counter, fit/mirror, and PNG modal are shared. Default die actions (`die`, `die1`, etc.) to play once and hold the final frame; other actions loop. Static assets need no fake timeline. Source-corrupt frames are PARTIAL and name their affected indices/files. Missing attack means “No attack animation exists,” not an invented sequence or relabeled jump.
+Use one origin-aligned, per-frame-delay player across all frame collections. Tabs show only actual actions and frame counts. The simplified shared UI is animation, filmstrip immediately beneath, Play/Pause, frame counter, background dropdown, scrubber, and PNG modal. Fit/crisp pixels are automatic; there are no visible step, speed, direction, loop, range, zoom, origin, or overlay controls. Default die actions (`die`, `die1`, etc.) to play once and hold the final frame; other actions loop. Static assets need no fake timeline. Source-corrupt frames are PARTIAL and name their affected indices/files. Missing attack means “No attack animation exists,” not an invented sequence or relabeled jump.
 
 ## Phases and implementation boundary
 
