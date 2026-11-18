@@ -83,3 +83,5 @@ Death actions default to play once, hold last frame; other actions loop. Placeho
 Refresh metadata with `npm run data:summons` (uses curl for the source endpoint), or `node tools/import-summons.cjs /path/to/audit-cache` using the saved source index and manifests. Tests cover every imported owner/count/path, action playback and death completion, partials, PNG output context, deep links, retry, and stale requests. Canvas encoding/browser layout are mocked in DOM tests; rendered review remains blocked while the Mac is locked and browser access is disabled.
 
 The Studio workspace is centered and capped at 1440 CSS pixels while preserving its desktop three-column layout. Canvas frames fit down to the available stage but never scale above 1x native CSS size; high-DPI backing resolution is preserved.
+
+In the mobile browser, each entire panel scrolls as one surface: class/skill heading, search, filters and results move together. Only the modal header and Classes/Skills switch remain fixed; lists have no nested scroll region.
