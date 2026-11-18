@@ -154,6 +154,9 @@ const waitFor = async (fn) => {
   assert.equal(d.querySelector("#counter").textContent, "13 / 40");
   await run("loadClass('hero')");
   assert.equal(d.querySelectorAll("#skills button").length, 83);
+  const jobHeaders = [...d.querySelectorAll("#skills .skill-job-heading")].map(h => h.textContent);
+  assert.ok(jobHeaders.includes("1st Job") && jobHeaders.includes("2nd Job"));
+  assert.equal(new Set(jobHeaders).size, jobHeaders.length);
   assert.equal(d.querySelector("#sheet"), null);
   assert.ok(paint.length);
   let historyWrites = 0;

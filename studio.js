@@ -288,10 +288,15 @@ function filteredRows(rows) {
         (kind === "still" && !hasFrames(s))),
   );
   const sort = $("#sort").value;
-  if (sort === "name")
-    result.sort((a, b) => a.skill.name.localeCompare(b.skill.name));
-  if (sort === "frames")
-    result.sort((a, b) => frameCount(b.skill) - frameCount(a.skill));
+  const tiers = ["Beginner", "1st", "2nd", "3rd", "4th", "Alpha/Beta", "Alpha", "Beta", "4th/Hyper", "Hyper", "5th", "5th (Common)", "6th", "Other"];
+  const rank = job => { const i = tiers.indexOf(job || "Other"); return i < 0 ? tiers.length : i; };
+  result.sort((a, b) => {
+    const group = rank(a.skill.job) - rank(b.skill.job) || (a.skill.job || "Other").localeCompare(b.skill.job || "Other");
+    if (group) return group;
+    if (sort === "name") return a.skill.name.localeCompare(b.skill.name);
+    if (sort === "frames") return frameCount(b.skill) - frameCount(a.skill);
+    return 0;
+  });
   return result;
 }
 async function renderSkills() {
@@ -327,11 +332,16 @@ async function renderSkills() {
         : global
           ? "Results include the class name. Select one to open its preview."
           : "";
+  let previousJob = null;
   $("#skills").innerHTML = shown.length
     ? shown
         .map(
-          ({ skill: s, classSlug, className }) =>
-            `<button class="skill-card ${s === current ? "active" : ""}" aria-pressed="${s === current}" data-slug="${esc(s.slug)}" data-class="${esc(classSlug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" width="32" height="32" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${global ? esc(className) + " · " : ""}${esc(s.job || "Other")} · ${frameCount(s) || "No"} frames${s._summon ? " · Summon" : ""}</small></span>${favorites.has(skillKey(classSlug, s)) ? '<span class="dot">★</span>' : ""}</button>`,
+          ({ skill: s, classSlug, className }) => {
+            const job = s.job || "Other";
+            const header = previousJob !== job ? `<h3 class="skill-job-heading">${esc(/^[1-6](st|nd|rd|th)$/.test(job) ? job + " Job" : job)}</h3>` : "";
+            previousJob = job;
+            return header + `<button class="skill-card ${s === current ? "active" : ""}" aria-pressed="${s === current}" data-slug="${esc(s.slug)}" data-class="${esc(classSlug)}">${s.icon ? `<img loading="lazy" src="${esc(asset(s.icon))}" width="32" height="32" alt="">` : '<span class="icon-placeholder">✦</span>'}<span><strong>${esc(s.name)}</strong><small>${global ? esc(className) + " · " : ""}${esc(s.job || "Other")} · ${frameCount(s) || "No"} frames${s._summon ? " · Summon" : ""}</small></span>${favorites.has(skillKey(classSlug, s)) ? '<span class="dot">★</span>' : ""}</button>`;
+          },
         )
         .join("")
     : '<div class="empty"><strong>No matching skills.</strong><p>Try a shorter search, a different job, or Clear to reset the filters.</p></div>';
