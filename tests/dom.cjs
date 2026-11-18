@@ -159,6 +159,23 @@ const waitFor = async (fn) => {
   assert.equal(new Set(jobHeaders).size, jobHeaders.length);
   assert.equal(d.querySelector("#sheet"), null);
   assert.ok(paint.length);
+  const strip = d.querySelector("#filmstrip");
+  Object.defineProperty(strip, "clientWidth", { configurable: true, value: 200 });
+  strip.getBoundingClientRect = () => ({ left: 100, right: 300, width: 200 });
+  strip.querySelectorAll("button").forEach((button, i) => {
+    button.getBoundingClientRect = () => ({ left: 100 + i * 84 - strip.scrollLeft, right: 176 + i * 84 - strip.scrollLeft });
+  });
+  await run("playing=true;showFrame(5)");
+  assert.equal(strip.scrollLeft, 304);
+  await run("showFrame(6)");
+  assert.equal(strip.scrollLeft, 388);
+  await run("showFrame(5)");
+  assert.equal(strip.scrollLeft, 388, "Visible frames should not move the strip");
+  await run("showFrame(0)");
+  assert.equal(strip.scrollLeft, 0, "Following should reset when playback loops");
+  await run("playing=false");
+  Object.defineProperty(strip, "clientWidth", { configurable: true, value: 0 });
+  console.log("PASS: filmstrip follows playback horizontally, keeps visible frames steady, and returns at loop start.");
   let historyWrites = 0;
   const originalReplace = w.history.replaceState.bind(w.history);
   w.history.replaceState = (...args) => {

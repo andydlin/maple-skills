@@ -639,6 +639,16 @@ function originFor(f, im) {
     ? f.origin
     : { x: im.width / 2, y: im.height / 2 };
 }
+function followFrame(button) {
+  const strip = $("#filmstrip");
+  if (!strip.clientWidth) return;
+  const viewport = strip.getBoundingClientRect();
+  const frame = button.getBoundingClientRect();
+  const left = viewport.left + strip.clientLeft + 8;
+  const right = viewport.left + strip.clientLeft + strip.clientWidth - 8;
+  if (frame.left < left) strip.scrollLeft = Math.max(0, strip.scrollLeft - (left - frame.left));
+  else if (frame.right > right) strip.scrollLeft += frame.right - right;
+}
 async function showFrame(i) {
   index = Math.max(0, Math.min(Math.trunc(Number(i)) || 0, frames.length - 1));
   const f = frames[index],
@@ -658,6 +668,7 @@ async function showFrame(i) {
     .forEach((b, j) => {
       b.classList.toggle("active", index === j);
       b.setAttribute("aria-pressed", index === j);
+      if (index === j) followFrame(b);
     });
   updateURL();
   if (!playing) saveSelection();
