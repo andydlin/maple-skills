@@ -145,27 +145,8 @@ const asset = (p) =>
     ? p
     : (root ? root.replace(/\/$/, "") + "/" : "") +
       (root ? p.replace(/^data\//, "") : p).replace(/^\.\//, "");
-const SUMMON_ORDER = ["summoned", "stand", "move", "attack1", "die"];
-const SUMMON_LABELS = { summoned: "Summoned", stand: "Stand", move: "Move", attack1: "Attack", die: "Die" };
-const summonAnims = (s) => {
-  const sa = (s && s.summonAnimations) || {};
-  return Object.keys(sa)
-    .sort((a, b) => {
-      const ia = SUMMON_ORDER.indexOf(a),
-        ib = SUMMON_ORDER.indexOf(b);
-      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
-    })
-    .filter((a) => (sa[a] || []).some((f) => !f.placeholder));
-};
-const summonFramesFor = (s, anim) =>
-  (((s && s.summonAnimations) || {})[anim] || []).filter(
-    (f) => !f.placeholder,
-  );
-const summonTotal = (s) =>
-  summonAnims(s).reduce((n, a) => n + summonFramesFor(s, a).length, 0);
-let summonAnim = "";
-const layers = (s) => {
-  const list = Object.entries(s || {})
+const layers = (s) =>
+  Object.entries(s || {})
     .filter(
       ([k, v]) =>
         Array.isArray(v) &&
@@ -174,16 +155,6 @@ const layers = (s) => {
     )
     .map(([k, v]) => [k, v.filter((f) => !f.placeholder)])
     .filter(([, v]) => v.length);
-  // A summon is one layer in the player, but its animations (summoned,
-  // stand, move, attack, die) play separately — setLayer picks the
-  // current animation's frames instead of this combined list.
-  if (summonTotal(s))
-    list.push([
-      "summon",
-      summonAnims(s).flatMap((a) => summonFramesFor(s, a)),
-    ]);
-  return list;
-};
 const key = (s) => selectedClass + ":" + s.id + ":" + s.slug;
 const toast = (t) => {
   $("#toast").textContent = t;
@@ -461,7 +432,6 @@ async function loadClass(slug, skillSlug) {
       "Could not load this class. Check the asset source and try again.";
     $("#play").disabled = true;
     $("#layers").innerHTML = "";
-    renderSummonAnims();
     $("#filmstrip").innerHTML = "";
     $("#counter").textContent = "0 / 0";
   }
@@ -515,16 +485,8 @@ async function setLayer(name) {
   pause(false);
   framesReady = false;
   layer = name;
-  if (name === "summon") {
-    const anims = summonAnims(current);
-    if (!summonAnim || !anims.includes(summonAnim))
-      summonAnim = anims.includes("stand") ? "stand" : anims[0];
-    frames = summonFramesFor(current, summonAnim);
-  } else {
-    frames =
-      layers(current).find(([k]) => k === name)?.[1] || current?.fallback || [];
-  }
-  renderSummonAnims();
+  frames =
+    layers(current).find(([k]) => k === name)?.[1] || current?.fallback || [];
   index = 0;
   rangeStart = 0;
   rangeEnd = Math.max(0, frames.length - 1);
@@ -630,37 +592,6 @@ async function setLayer(name) {
   framesReady = loaded.some((r) => r.status === "fulfilled");
   $("#play").disabled = frames.length < 2 || !framesReady;
   await showFrame(0);
-}
-function renderSummonAnims() {
-  const anims = current ? summonAnims(current) : [];
-  const bar = $("#summonToolbar");
-  bar.hidden = !(layer === "summon" && anims.length);
-  $("#summonAnims").innerHTML = anims
-    .map(
-      (a) =>
-        `<button data-summon-anim="${esc(a)}" class="${a === summonAnim ? "active" : ""}" aria-pressed="${a === summonAnim}">${esc(SUMMON_LABELS[a] || a)} <span>${summonFramesFor(current, a).length}</span></button>`,
-    )
-    .join("");
-  $("#summonAnims")
-    .querySelectorAll("button")
-    .forEach((b) => (b.onclick = () => setSummonAnim(b.dataset.summonAnim)));
-  // A summon's Die animation plays once and stops, like the Orange
-  // Mushroom prototype; every other animation loops. The Loop checkbox
-  // is switched off and locked while Die is showing, and restored when
-  // leaving it — a Loop choice the viewer made themselves is untouched.
-  const loopBox = $("#loop");
-  if (layer === "summon" && summonAnim === "die") {
-    loopBox.checked = false;
-    loopBox.disabled = true;
-  } else if (loopBox.disabled) {
-    loopBox.disabled = false;
-    loopBox.checked = true;
-  }
-}
-function setSummonAnim(anim) {
-  if (!current || layer !== "summon") return;
-  summonAnim = anim;
-  setLayer("summon");
 }
 function originFor(f, im) {
   return f.origin && !f.origin.isEmpty
