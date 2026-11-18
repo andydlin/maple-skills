@@ -278,7 +278,7 @@ const Home = (() => {
         .slice(0, 3);
     if (!recent.length && !saved.length && !classes.length) {
       $("#personalContent").innerHTML =
-        `<div class="personal-welcome"><span aria-hidden="true">☆</span><div><strong>Make a little room for inspiration.</strong><p>Star a skill in the studio. Your favorites and recent work will appear here.</p></div><a href="${classURL(catalog[0].slug)}" data-open-studio>Start with ${esc(catalog[0].name)} ↗</a></div>`;
+        `<div class="personal-welcome"><span aria-hidden="true">☆</span><div><strong>Your next frame starts here.</strong><p>Open a skill in Studio. Your recent work will appear here.</p></div><a href="${classURL(catalog[0].slug)}" data-open-studio>Start with ${esc(catalog[0].name)} ↗</a></div>`;
     } else {
       $("#personalContent").innerHTML =
         `<div class="workbench-tile"><div class="workbench-label">↻ CONTINUE EXPLORING</div>${recent[0] ? savedLink(recent[0]) : `<p class="workbench-hint">Choose a class to start your next study.</p>`}</div><div class="workbench-tile"><div class="workbench-label">☆ SAVED INSPIRATION <span>${favorites.size}</span></div>${saved.length ? saved.slice(0, 2).map(savedLink).join("") : '<p class="workbench-hint">Star a skill to keep it close.</p>'}${favorites.size ? '<a class="workbench-more" href="#view=favorites" data-open-studio>View all favorites ↗</a>' : ""}</div><div class="workbench-tile"><div class="workbench-label">RECENT CLASS VISITS</div><div class="recent-home-classes">${classes.map((c) => `<a href="${classURL(c.slug)}" data-open-studio>${esc(c.name)} <span>↗</span></a>`).join("") || '<p class="workbench-hint">Your next visit starts a trail.</p>'}</div></div>`;
@@ -359,8 +359,6 @@ const Home = (() => {
     cancelSearch();
     document.body.classList.add("home-view");
     document.body.classList.remove("focus-mode");
-    $("#focus").textContent = "Focus view";
-    $("#focus").setAttribute("aria-pressed", false);
     closeBrowser();
     $("#homePage").hidden = false;
     $("#homeNav").setAttribute("aria-current", "page");

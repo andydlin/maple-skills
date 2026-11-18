@@ -477,8 +477,6 @@ async function selectSkill(s) {
   $("#availability").textContent = !hasFrames(s)
     ? "No animation frames in this dataset. This entry may be passive, icon-only, or awaiting frames."
     : "";
-  $("#favorite").textContent = favorites.has(key(s)) ? "★" : "☆";
-  $("#favorite").setAttribute("aria-pressed", favorites.has(key(s)));
   const ls = layers(s);
   $("#layers").innerHTML =
     ls
@@ -794,26 +792,6 @@ $("#background").onchange = (e) => {
     green: "#00b140",
   }[e.target.value];
 };
-$("#focus").onclick = () => {
-  const focused = document.body.classList.toggle("focus-mode");
-  $("#focus").textContent = focused ? "← Show library" : "⛶ Focus view";
-  $("#focus").setAttribute("aria-pressed", !!focused);
-};
-$("#fullscreen").onclick = async () => {
-  try {
-    if (document.fullscreenElement) await document.exitFullscreen();
-    else if ($("#inspector").requestFullscreen)
-      await $("#inspector").requestFullscreen();
-    else $("#focus").click();
-  } catch {
-    toast("Full screen is unavailable. Use Focus view instead.");
-  }
-};
-document.addEventListener("fullscreenchange", () => {
-  $("#fullscreen").textContent = document.fullscreenElement
-    ? "Exit full screen"
-    : "Full screen";
-});
 $("#search").oninput = $("#job").onchange = $("#kind").onchange = renderSkills;
 $("#classSearch").oninput = renderClasses;
 $("#family").onchange = renderClasses;
@@ -828,15 +806,6 @@ $("#clearFilters").onclick = () => {
   $("#sort").value = "job";
   renderSkills();
   $("#search").focus();
-};
-$("#favorite").onclick = () => {
-  if (!current) return;
-  const k = key(current);
-  favorites.has(k) ? favorites.delete(k) : favorites.add(k);
-  writeLocal("mapleFavorites", JSON.stringify([...favorites]));
-  $("#favorite").textContent = favorites.has(k) ? "★" : "☆";
-  $("#favorite").setAttribute("aria-pressed", favorites.has(k));
-  renderSkills();
 };
 let stillBlob = null, stillURL = null, stillVersion = 0, stillSnapshot = null;
 $("#still").onclick = async () => {
@@ -945,10 +914,6 @@ document.addEventListener("keydown", (e) => {
   if (Home.isVisible() || document.body.classList.contains("atlas-view")) return;
   if (e.key === "Home" || e.key === "End") {
     e.preventDefault(); pause(); showFrame(e.key === "Home" ? 0 : frames.length - 1);
-  }
-  if (e.key.toLowerCase() === "f") {
-    e.preventDefault();
-    $("#focus").click();
   }
   if (e.code === "Space") {
     e.preventDefault();

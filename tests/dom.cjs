@@ -171,11 +171,7 @@ const waitFor = async (fn) => {
   await run("playing=false;showFrame(0)");
   d.querySelector('#filmstrip [data-frame="1"]').click();
   await waitFor(() => d.querySelector("#counter").textContent.startsWith("02"));
-  d.querySelector("#favorite").click();
-  assert.equal(
-    d.querySelector("#favorite").getAttribute("aria-pressed"),
-    "true",
-  );
+  for (const id of ["favorite", "focus", "fullscreen"]) assert.equal(d.getElementById(id), null);
   d.querySelector("#browseToggle").click();
   assert.ok(d.body.classList.contains("browse-open"));
   d.querySelector('[data-slug="slash-blast-1001005"]').click();
@@ -215,7 +211,7 @@ const waitFor = async (fn) => {
   assert.ok(
     d
       .querySelector("#personalContent")
-      .textContent.includes("Make a little room for inspiration"),
+      .textContent.includes("Your next frame starts here"),
   );
   d.querySelector("#studioNav").click();
   await waitFor(
