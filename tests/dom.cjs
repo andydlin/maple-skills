@@ -249,7 +249,10 @@ const waitFor = async (fn) => {
   d.querySelector("#timeline").value = 2;
   d.querySelector("#timeline").dispatchEvent(new w.Event("input"));
   assert.equal(run("index"), 2);
-  assert.ok(d.querySelector("#captureContext").textContent.includes("Original resolution"));
+  assert.equal(d.querySelector(".capture-panel"), null);
+  assert.equal(d.querySelector("#play").nextElementSibling.id, "still");
+  assert.equal(d.querySelector("#play").textContent, "");
+  assert.equal(d.querySelector("#play").getAttribute("aria-label"), "Play animation");
   assert.ok(d.querySelector("#stage").onpointerdown == null);
   assert.equal(d.querySelector(".preview-settings"), null);
   w.ClipboardItem = class { constructor(data) { this.data = data; } };
@@ -294,6 +297,7 @@ const waitFor = async (fn) => {
   await waitFor(() => run("summonAction === 'die' && framesReady"));
   assert.ok(!run("loopPlayback"));
   await run("frames=frames.map(f=>({...f,delay:1}));play()");
+  assert.equal(d.querySelector("#play").getAttribute("aria-label"), "Pause animation");
   await waitFor(() => run("!playing"));
   assert.equal(run("index"), 7);
   await d.querySelector("#still").onclick();

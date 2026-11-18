@@ -1566,3 +1566,11 @@ kbd {
 .skill-job-heading { display: flex; align-items: center; gap: 10px; margin: 18px 10px 6px; color: #596d74; font-size: 10px; line-height: 1.4; font-weight: 700; letter-spacing: .7px; text-transform: uppercase; }
 .skill-job-heading:first-child { margin-top: 8px; }
 .skill-job-heading::after { content: ""; height: 1px; flex: 1; background: #d8e3dd; }
+
+.simple-transport #play { display: inline-grid; place-items: center; width: 44px; min-width: 44px; height: 44px; padding: 10px; }
+#play .pause-shape { display: none; }
+#play[aria-pressed="true"] .play-shape { display: none; }
+#play[aria-pressed="true"] .pause-shape { display: initial; }
+.simple-transport #still { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 8px 10px; }
+.simple-transport #counter { margin-left: 0; }
+@media(max-width:600px) { .simple-transport #still { padding-inline: 8px; } .preview-background select { max-width: 110px; padding-inline: 6px; } }

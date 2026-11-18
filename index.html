@@ -9,8 +9,8 @@
       content="Explore MapleStory animations. Study skills frame by frame and save static PNGs. Monsters, NPCs, and map art collections are in preparation."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=follow-frame-1" />
-    <link rel="stylesheet" href="home.css?v=follow-frame-1" />
+    <link rel="stylesheet" href="studio.css?v=compact-actions-1" />
+    <link rel="stylesheet" href="home.css?v=compact-actions-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -265,7 +265,8 @@
         </div>
         <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
         <div class="transport simple-transport">
-          <button id="play" class="primary" disabled>Play</button>
+          <button id="play" class="primary" type="button" aria-label="Play animation" aria-pressed="false" title="Play" disabled><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path class="play-shape" d="M7 4v16l13-8Z"/><g class="pause-shape"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></g></svg></button>
+          <button id="still" type="button" aria-label="Copy frame: open PNG view" title="Open PNG view to copy or save"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg>Copy</button>
           <span id="counter">0 / 0</span>
           <label class="preview-background"><span>Background</span>
             <select id="background" aria-label="Preview background">
@@ -280,13 +281,6 @@
           <span><kbd>Space</kbd> Play / pause</span>
           <span><kbd>←</kbd> <kbd>→</kbd> Previous / next frame</span>
         </div>
-        <section class="capture-panel" aria-label="Save frames">
-          <div><div class="section-label">TAKE IT WITH YOU</div><h3>Save the perfect moment</h3><p id="captureContext">Choose a frame to save.</p></div>
-          <div class="export">
-            <button id="still" type="button">▧ View / copy static PNG</button>
-            <small>Original-resolution PNG · copy or save</small>
-          </div>
-        </section>
         <section class="details">
           <div>
             <div class="section-label">ABOUT THIS SKILL</div>
@@ -384,10 +378,10 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=follow-frame-1"></script>
-    <script src="atlas.js?v=follow-frame-1"></script>
-    <script src="summons.js?v=follow-frame-1"></script>
-    <script src="home.js?v=follow-frame-1"></script>
-    <script src="studio.js?v=follow-frame-1"></script>
+    <script src="exporter.js?v=compact-actions-1"></script>
+    <script src="atlas.js?v=compact-actions-1"></script>
+    <script src="summons.js?v=compact-actions-1"></script>
+    <script src="home.js?v=compact-actions-1"></script>
+    <script src="studio.js?v=compact-actions-1"></script>
   </body>
 </html>

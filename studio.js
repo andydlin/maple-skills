@@ -380,7 +380,6 @@ async function loadClass(slug, skillSlug) {
   selectedClass = slug;
   current = null;
   frames = [];
-  updateCaptureUI();
   ++drawVersion;
   ++showFrame.token;
   $("#play").disabled = true;
@@ -538,7 +537,6 @@ async function setLayer(name, requestedAction) {
     loopPlayback = true;
   }
   index = 0;
-  updateCaptureUI();
   bounds = null;
   ++showFrame.token;
   $("#loadHealth").textContent = "";
@@ -656,7 +654,6 @@ async function showFrame(i) {
   if (!f) return;
   $("#timeline").value = index;
   $("#timeline").setAttribute("aria-valuetext", `Frame ${index + 1} of ${frames.length}`);
-  updateCaptureUI();
   $("#canvas").setAttribute(
     "aria-label",
     `${current?.name || "Skill"}, ${layer || "still"}, frame ${index + 1} of ${frames.length}`,
@@ -755,23 +752,20 @@ function pause(persist = true) {
   ++playSession;
   playing = false;
   clearTimeout(timer);
-  $("#play").textContent = "Play";
+  $("#play").setAttribute("aria-label", "Play animation");
+  $("#play").title = "Play";
   $("#play").setAttribute("aria-pressed", "false");
   if (persist) {
     updateURL();
     saveSelection();
   }
 }
-function updateCaptureUI() {
-  $("#captureContext").textContent = frames.length
-    ? `Frame ${index + 1} of ${frames.length} · Original resolution`
-    : "No animation frames available for export.";
-}
 function play() {
   if (!framesReady || frames.length < 2) return;
   if (index >= frames.length - 1) showFrame(0);
   playing = true;
-  $("#play").textContent = "Pause";
+  $("#play").setAttribute("aria-label", "Pause animation");
+  $("#play").title = "Pause";
   $("#play").setAttribute("aria-pressed", "true");
   schedule();
 }
