@@ -1015,6 +1015,7 @@ async function prepareStill() {
   if (!stillSnapshot) return;
   const { frame, flipped, name } = stillSnapshot;
   const background = $("#stillBackground").value;
+  $(".still-image").dataset.background = background;
   const token = ++stillVersion;
   stillBlob = null;
   if (stillURL) URL.revokeObjectURL(stillURL);

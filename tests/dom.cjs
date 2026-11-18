@@ -251,6 +251,7 @@ const waitFor = async (fn) => {
     const before = paint.length;
     d.querySelector("#stillBackground").value = background;
     await d.querySelector("#stillBackground").onchange();
+    assert.equal(d.querySelector(".still-image").dataset.background, background);
     assert.ok(!d.querySelector("#stillImage").hidden);
     const fills = paint.slice(before).filter(item => item && item.fill);
     if (background !== "transparent") {

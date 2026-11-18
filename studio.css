@@ -1549,3 +1549,6 @@ kbd {
 #summonActions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 #summonStatus { color: #52655b; font-size: 11px; line-height: 1.7; margin: 10px 0 0; }
 #summonActions button[aria-pressed="true"] { background: #ffedcf; border-color: #bd4810; color: #82380f; }
+
+.still-image[data-background="black"] { background: #000; }
+.still-image[data-background="white"] { background: #fff; }
