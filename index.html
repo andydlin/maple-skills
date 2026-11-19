@@ -9,8 +9,8 @@
       content="Explore MapleStory animations. Study skills frame by frame and save static PNGs. Monsters, NPCs, and map art collections are in preparation."
     />
     <meta name="theme-color" content="#eef7f5" />
-    <link rel="stylesheet" href="studio.css?v=browse-scroll-1" />
-    <link rel="stylesheet" href="home.css?v=browse-scroll-1" />
+    <link rel="stylesheet" href="studio.css?v=scrubber-order-1" />
+    <link rel="stylesheet" href="home.css?v=scrubber-order-1" />
   </head>
   <body class="home-view">
     <a id="skipLink" class="skip-link" href="#inspector"
@@ -265,6 +265,7 @@
           <canvas id="canvas" width="1200" height="650" aria-label="Skill animation preview" role="img"></canvas>
         </div>
         <div class="filmstrip" id="filmstrip" aria-label="Frames"></div>
+        <input id="timeline" type="range" min="0" max="0" value="0" aria-label="Frame timeline" />
         <div class="transport simple-transport">
           <button id="play" class="primary" type="button" aria-label="Play animation" aria-pressed="false" title="Play" disabled><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path class="play-shape" d="M7 4v16l13-8Z"/><g class="pause-shape"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></g></svg></button>
           <button id="still" type="button" aria-label="Copy frame: open PNG view" title="Open PNG view to copy or save"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg></button>
@@ -277,7 +278,6 @@
             </select>
           </label>
         </div>
-        <input id="timeline" type="range" min="0" max="0" value="0" aria-label="Frame timeline" />
         <div class="keyboard-hints" aria-label="Keyboard shortcuts">
           <span><kbd>Space</kbd> Play / pause</span>
           <span><kbd>←</kbd> <kbd>→</kbd> Previous / next frame</span>
@@ -387,10 +387,10 @@
       <button id="helpClose" class="primary">Got it</button>
     </dialog>
     <div id="toast" role="status"></div>
-    <script src="exporter.js?v=browse-scroll-1"></script>
-    <script src="atlas.js?v=browse-scroll-1"></script>
-    <script src="summons.js?v=browse-scroll-1"></script>
-    <script src="home.js?v=browse-scroll-1"></script>
-    <script src="studio.js?v=browse-scroll-1"></script>
+    <script src="exporter.js?v=scrubber-order-1"></script>
+    <script src="atlas.js?v=scrubber-order-1"></script>
+    <script src="summons.js?v=scrubber-order-1"></script>
+    <script src="home.js?v=scrubber-order-1"></script>
+    <script src="studio.js?v=scrubber-order-1"></script>
   </body>
 </html>
